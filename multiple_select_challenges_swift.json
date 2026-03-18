@@ -18,5 +18,448 @@
     ],
     "difficulty": "Easy",
     "explanation": "let, var, func, guard, and switch are Swift keywords. def is used in languages like Python and Ruby."
+  },
+  {
+    "question": "Which of the following are valid ways to unwrap an optional in Swift?",
+    "options": [
+      "if let binding",
+      "guard let binding",
+      "Forced unwrapping with !",
+      "Nil coalescing operator ??",
+      "Optional chaining with ?",
+      "The unwrap() function"
+    ],
+    "correctAnswers": [
+      "if let binding",
+      "guard let binding",
+      "Forced unwrapping with !",
+      "Nil coalescing operator ??",
+      "Optional chaining with ?"
+    ],
+    "difficulty": "Easy",
+    "explanation": "Swift provides five ways to handle optionals: if let (conditional binding), guard let (early exit binding), forced unwrap ! (crashes if nil), nil coalescing ?? (default value), and optional chaining ? (short-circuits to nil). There is no built-in unwrap() function."
+  },
+  {
+    "question": "Which of the following are true about Swift protocols?",
+    "options": [
+      "A type can conform to multiple protocols",
+      "Protocols can have default implementations via extensions",
+      "Protocols can require stored properties",
+      "Protocols can inherit from other protocols",
+      "Protocols can define initializers"
+    ],
+    "correctAnswers": [
+      "A type can conform to multiple protocols",
+      "Protocols can have default implementations via extensions",
+      "Protocols can require stored properties",
+      "Protocols can inherit from other protocols",
+      "Protocols can define initializers"
+    ],
+    "difficulty": "Medium",
+    "explanation": "All five are correct. Swift protocols support multiple conformance, default implementations via protocol extensions, property requirements (stored or computed), protocol inheritance, and init requirements. Protocol extensions are the backbone of protocol-oriented programming."
+  },
+  {
+    "question": "Which of the following are value types in Swift?",
+    "options": [
+      "struct",
+      "enum",
+      "class",
+      "Int",
+      "String",
+      "Array"
+    ],
+    "correctAnswers": [
+      "struct",
+      "enum",
+      "Int",
+      "String",
+      "Array"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Structs, enums, Int, String, and Array are value types in Swift — they are copied on assignment. class is a reference type. Array and String are implemented as structs in the Swift standard library."
+  },
+  {
+    "question": "Which of the following are valid Swift enum features?",
+    "options": [
+      "Associated values",
+      "Raw values",
+      "Methods and computed properties",
+      "Protocol conformance",
+      "Stored instance properties",
+      "Recursive cases with indirect"
+    ],
+    "correctAnswers": [
+      "Associated values",
+      "Raw values",
+      "Methods and computed properties",
+      "Protocol conformance",
+      "Recursive cases with indirect"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Swift enums support associated values, raw values, methods, computed properties, protocol conformance, and indirect recursive cases. They cannot have stored instance properties (only static stored properties or computed instance properties)."
+  },
+  {
+    "question": "Which of the following are true about Swift closures?",
+    "options": [
+      "They can capture and store references to variables from their enclosing scope",
+      "Trailing closure syntax allows the last closure argument to be outside parentheses",
+      "Closures marked @escaping may outlive the function that passed them",
+      "Non-escaping closures are always retained indefinitely",
+      "Autoclosures wrap an expression in a closure automatically"
+    ],
+    "correctAnswers": [
+      "They can capture and store references to variables from their enclosing scope",
+      "Trailing closure syntax allows the last closure argument to be outside parentheses",
+      "Closures marked @escaping may outlive the function that passed them",
+      "Autoclosures wrap an expression in a closure automatically"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Closures capture values, support trailing syntax, and @escaping enables use beyond the function's lifetime. @autoclosure wraps expressions automatically. Non-escaping closures (the default) are called within the function's lifetime and NOT retained beyond it."
+  },
+  {
+    "question": "Which of the following are Swift property wrappers used in SwiftUI?",
+    "options": [
+      "@State",
+      "@Binding",
+      "@ObservedObject",
+      "@EnvironmentObject",
+      "@Published",
+      "@Static"
+    ],
+    "correctAnswers": [
+      "@State",
+      "@Binding",
+      "@ObservedObject",
+      "@EnvironmentObject",
+      "@Published"
+    ],
+    "difficulty": "Medium",
+    "explanation": "@State (local view state), @Binding (two-way binding), @ObservedObject (external ObservableObject), @EnvironmentObject (dependency injection), and @Published (ObservableObject property publisher) are all SwiftUI/Combine property wrappers. @Static does not exist."
+  },
+  {
+    "question": "Which of the following are true about Swift's `async`/`await` concurrency model?",
+    "options": [
+      "async functions can be called with await",
+      "await suspends the current task without blocking the thread",
+      "async functions always run on a background thread",
+      "Task { } creates a new unstructured concurrency task",
+      "async let allows concurrent execution of independent async operations"
+    ],
+    "correctAnswers": [
+      "async functions can be called with await",
+      "await suspends the current task without blocking the thread",
+      "Task { } creates a new unstructured concurrency task",
+      "async let allows concurrent execution of independent async operations"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Swift concurrency: async/await allows suspension without blocking, Task creates unstructured tasks, and async let enables concurrent async bindings. async functions do NOT always run on a background thread — actors and @MainActor control threading."
+  },
+  {
+    "question": "Which of the following are true about Swift `actors`?",
+    "options": [
+      "Actors protect their mutable state from concurrent access",
+      "Methods on actors must be called with await from outside the actor",
+      "The @MainActor attribute ensures code runs on the main thread",
+      "Actors use locks internally just like traditional mutual exclusion",
+      "Multiple tasks can access actor state simultaneously without waiting"
+    ],
+    "correctAnswers": [
+      "Actors protect their mutable state from concurrent access",
+      "Methods on actors must be called with await from outside the actor",
+      "The @MainActor attribute ensures code runs on the main thread"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Actors serialize access to their mutable state. Callers from outside must use await. @MainActor is a global actor ensuring main-thread execution. Actors do not use traditional locks — they use Swift's cooperative threading model. Only one task at a time can access actor state."
+  },
+  {
+    "question": "Which of the following are features of Swift generics?",
+    "options": [
+      "Generic functions with type parameters",
+      "Generic types (structs, classes, enums)",
+      "Type constraints with where clauses",
+      "Protocol as a generic type parameter directly (before Swift 5.7)",
+      "Opaque types with some keyword"
+    ],
+    "correctAnswers": [
+      "Generic functions with type parameters",
+      "Generic types (structs, classes, enums)",
+      "Type constraints with where clauses",
+      "Opaque types with some keyword"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Swift generics include generic functions, generic types, where clause constraints, and opaque types (some Protocol). Before Swift 5.7, protocols with associated types could not be used directly as generic parameters — you needed generics or type erasure. Swift 5.7 introduced existential `any` syntax."
+  },
+  {
+    "question": "Which of the following correctly describe the `Combine` framework in Swift?",
+    "options": [
+      "It provides a publisher-subscriber model for asynchronous events",
+      "Publishers emit values over time",
+      "Subscribers receive values from publishers",
+      "All Combine operations execute on the main thread by default",
+      "Operators like map, filter, and flatMap can transform publisher output"
+    ],
+    "correctAnswers": [
+      "It provides a publisher-subscriber model for asynchronous events",
+      "Publishers emit values over time",
+      "Subscribers receive values from publishers",
+      "Operators like map, filter, and flatMap can transform publisher output"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Combine is Apple's reactive framework. Publishers emit a sequence of values; subscribers receive them. Operators transform the pipeline. Combine does NOT default to the main thread — receive(on:) must be used to explicitly deliver values on the main thread."
+  },
+  {
+    "question": "Which of the following are true about the `@Published` property wrapper in Swift?",
+    "options": [
+      "It creates a Combine publisher that emits when the property changes",
+      "It can only be used inside a class conforming to ObservableObject",
+      "Subscribers are notified before the property value changes",
+      "It can be used with any Swift type",
+      "SwiftUI views observing an ObservableObject automatically re-render when @Published properties change"
+    ],
+    "correctAnswers": [
+      "It creates a Combine publisher that emits when the property changes",
+      "It can only be used inside a class conforming to ObservableObject",
+      "SwiftUI views observing an ObservableObject automatically re-render when @Published properties change"
+    ],
+    "difficulty": "Hard",
+    "explanation": "@Published synthesizes a publisher for the property. It is intended for use in ObservableObject classes. Notifications are sent before the value changes (willSet semantics). It can be used with any type, but only makes sense in an ObservableObject context for SwiftUI reactivity."
+  },
+  {
+    "question": "Which of the following are differences between a Swift `class` and a `struct`?",
+    "options": [
+      "Classes are reference types; structs are value types",
+      "Classes support inheritance; structs do not",
+      "Structs automatically get a memberwise initializer",
+      "Classes require manual implementation of Equatable by default",
+      "Structs can inherit from other structs"
+    ],
+    "correctAnswers": [
+      "Classes are reference types; structs are value types",
+      "Classes support inheritance; structs do not",
+      "Structs automatically get a memberwise initializer",
+      "Classes require manual implementation of Equatable by default"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Classes are reference types and support inheritance. Structs are value types, receive a free memberwise initializer, and do not support inheritance. Classes do not get automatic Equatable conformance. Structs cannot inherit from other structs."
+  },
+  {
+    "question": "Which of the following are true about Swift's `guard` statement?",
+    "options": [
+      "It is used for early exit from a function, loop, or conditional",
+      "Variables bound in a guard let are available after the guard block",
+      "The else branch of guard must exit the current scope",
+      "Guard can only be used at the top level of a function",
+      "It helps reduce pyramid of doom nested conditionals"
+    ],
+    "correctAnswers": [
+      "It is used for early exit from a function, loop, or conditional",
+      "Variables bound in a guard let are available after the guard block",
+      "The else branch of guard must exit the current scope",
+      "It helps reduce pyramid of doom nested conditionals"
+    ],
+    "difficulty": "Medium",
+    "explanation": "guard provides early exit and binds values available in the rest of the scope (unlike if let). The else must transfer control (return, throw, break, continue, or fatalError). guard can be used inside functions, loops, and closures — not just at the top level."
+  },
+  {
+    "question": "Which of the following are valid ways to achieve concurrency in Swift?",
+    "options": [
+      "Grand Central Dispatch (GCD)",
+      "OperationQueue",
+      "Swift Concurrency (async/await)",
+      "Thread (manual thread management)",
+      "RunLoop",
+      "SwiftConcurrent (third-party package)"
+    ],
+    "correctAnswers": [
+      "Grand Central Dispatch (GCD)",
+      "OperationQueue",
+      "Swift Concurrency (async/await)",
+      "Thread (manual thread management)"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Swift supports GCD (DispatchQueue), OperationQueue, Swift Concurrency (async/await, actors, tasks), and low-level Thread. RunLoop manages event loops but is not a concurrency primitive. SwiftConcurrent is not a real package."
+  },
+  {
+    "question": "Which of the following are true about Swift's `Codable` protocol?",
+    "options": [
+      "Codable is a type alias for Encodable & Decodable",
+      "Swift can synthesize Codable conformance automatically for eligible types",
+      "CodingKeys enum is used to customize property-to-key mapping",
+      "Codable can only encode/decode JSON",
+      "decode(_:from:) is a method on JSONDecoder"
+    ],
+    "correctAnswers": [
+      "Codable is a type alias for Encodable & Decodable",
+      "Swift can synthesize Codable conformance automatically for eligible types",
+      "CodingKeys enum is used to customize property-to-key mapping",
+      "decode(_:from:) is a method on JSONDecoder"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Codable = Encodable & Decodable. The compiler auto-synthesizes conformance when all stored properties are also Codable. CodingKeys customizes the mapping. Codable is encoder-agnostic (JSONEncoder, PropertyListEncoder, etc.) — not limited to JSON."
+  },
+  {
+    "question": "Which of the following are true about Swift's memory management with ARC?",
+    "options": [
+      "ARC automatically tracks and manages the reference count of class instances",
+      "Strong references increase the reference count",
+      "weak references do not prevent deallocation and are automatically set to nil",
+      "unowned references are safe to use after the referenced object is deallocated",
+      "Retain cycles can be broken with weak or unowned references"
+    ],
+    "correctAnswers": [
+      "ARC automatically tracks and manages the reference count of class instances",
+      "Strong references increase the reference count",
+      "weak references do not prevent deallocation and are automatically set to nil",
+      "Retain cycles can be broken with weak or unowned references"
+    ],
+    "difficulty": "Medium",
+    "explanation": "ARC manages class instance lifetimes via reference counting. Strong refs retain objects. weak refs (optional) become nil when the object deallocates. unowned refs are non-optional and crash if accessed after deallocation — they are NOT safe to use after deallocation. Retain cycles are broken via weak/unowned."
+  },
+  {
+    "question": "Which of the following SwiftUI property wrappers are used for state management across views?",
+    "options": [
+      "@State",
+      "@Binding",
+      "@ObservedObject",
+      "@EnvironmentObject",
+      "@StateObject",
+      "@AppStorage"
+    ],
+    "correctAnswers": [
+      "@State",
+      "@Binding",
+      "@ObservedObject",
+      "@EnvironmentObject",
+      "@StateObject",
+      "@AppStorage"
+    ],
+    "difficulty": "Medium",
+    "explanation": "All six are SwiftUI state management property wrappers: @State (local value), @Binding (two-way to parent), @ObservedObject (external ref type), @EnvironmentObject (injected object), @StateObject (owned ObservableObject), and @AppStorage (persisted UserDefaults-backed state)."
+  },
+  {
+    "question": "Which of the following are true about Swift's `Result` type?",
+    "options": [
+      "Result<Success, Failure> is a generic enum",
+      "It has .success and .failure cases",
+      "The Failure type must conform to Error",
+      "It was introduced in Swift 5.0",
+      "It replaces Swift's throws mechanism entirely"
+    ],
+    "correctAnswers": [
+      "Result<Success, Failure> is a generic enum",
+      "It has .success and .failure cases",
+      "The Failure type must conform to Error",
+      "It was introduced in Swift 5.0"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Result is a generic enum with .success(Value) and .failure(Error) cases. The Failure type must conform to Error. It was added in Swift 5.0 as part of SE-0235. It complements (not replaces) the throws mechanism — both are valid error-handling approaches."
+  },
+  {
+    "question": "Which of the following are true about the `some` keyword in Swift (opaque types)?",
+    "options": [
+      "some hides the concrete type behind a protocol interface",
+      "A function returning some View can return different concrete types on different code paths",
+      "some was introduced in Swift 5.1",
+      "It is used extensively in SwiftUI for view composition",
+      "some and any serve identical purposes"
+    ],
+    "correctAnswers": [
+      "some hides the concrete type behind a protocol interface",
+      "some was introduced in Swift 5.1",
+      "It is used extensively in SwiftUI for view composition"
+    ],
+    "difficulty": "Hard",
+    "explanation": "some creates an opaque type that hides the concrete return type but preserves type identity — the caller cannot see the type, but it is always the same concrete type. A function using some must always return the same concrete type. any (Swift 5.7) is different — it is an existential and can hold any conforming type at runtime."
+  },
+  {
+    "question": "Which of the following are true about Swift's `withCheckedContinuation` and `withCheckedThrowingContinuation`?",
+    "options": [
+      "They bridge callback-based APIs to Swift async/await",
+      "They must resume exactly once",
+      "withCheckedThrowingContinuation allows throwing an error",
+      "They can be resumed from any thread",
+      "They automatically handle multiple resumes safely"
+    ],
+    "correctAnswers": [
+      "They bridge callback-based APIs to Swift async/await",
+      "They must resume exactly once",
+      "withCheckedThrowingContinuation allows throwing an error",
+      "They can be resumed from any thread"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Checked continuations wrap callback-based async code for use with async/await. They must be resumed exactly once — the checked variants detect over/under-resume in debug builds. The throwing variant allows resuming with an error. Resuming from any thread is valid. They do NOT automatically handle multiple resumes — that is an error."
+  },
+  {
+    "question": "Which of the following are true about Swift's `TaskGroup`?",
+    "options": [
+      "It enables spawning multiple concurrent child tasks",
+      "All child tasks must complete before the group returns",
+      "Results can be collected as child tasks finish",
+      "Child task failures automatically cancel the whole group with ThrowingTaskGroup",
+      "TaskGroups can be created outside of a structured concurrency context"
+    ],
+    "correctAnswers": [
+      "It enables spawning multiple concurrent child tasks",
+      "All child tasks must complete before the group returns",
+      "Results can be collected as child tasks finish",
+      "Child task failures automatically cancel the whole group with ThrowingTaskGroup"
+    ],
+    "difficulty": "Hard",
+    "explanation": "TaskGroup (via withTaskGroup/withThrowingTaskGroup) enables structured parallelism. All child tasks complete before the enclosing function returns. Results are collected via async for-await iteration. ThrowingTaskGroup cancels remaining tasks on first throw. TaskGroups must be used within a structured concurrency context."
+  },
+  {
+    "question": "Which of the following are true about Swift's `@discardableResult` attribute?",
+    "options": [
+      "It suppresses the unused result compiler warning",
+      "It is applied to functions that return a value",
+      "It makes the return value optional to use",
+      "It prevents the function from returning a value",
+      "It is commonly used on builder and fluent API methods"
+    ],
+    "correctAnswers": [
+      "It suppresses the unused result compiler warning",
+      "It is applied to functions that return a value",
+      "It makes the return value optional to use",
+      "It is commonly used on builder and fluent API methods"
+    ],
+    "difficulty": "Medium",
+    "explanation": "@discardableResult tells the compiler not to warn when a function's return value is ignored. It is applied to non-void functions. The caller may choose to use or discard the result. It is common in fluent/builder APIs. It does NOT prevent the function from returning a value."
+  },
+  {
+    "question": "Which of the following are differences between `@StateObject` and `@ObservedObject` in SwiftUI?",
+    "options": [
+      "@StateObject creates and owns the object; @ObservedObject receives an externally-owned object",
+      "@StateObject persists the object across view re-renders; @ObservedObject may be recreated",
+      "@ObservedObject should be used when the parent view passes the object down",
+      "@StateObject can be used with any type; @ObservedObject requires ObservableObject",
+      "Both require the wrapped type to conform to ObservableObject"
+    ],
+    "correctAnswers": [
+      "@StateObject creates and owns the object; @ObservedObject receives an externally-owned object",
+      "@StateObject persists the object across view re-renders; @ObservedObject may be recreated",
+      "@ObservedObject should be used when the parent view passes the object down",
+      "Both require the wrapped type to conform to ObservableObject"
+    ],
+    "difficulty": "Hard",
+    "explanation": "@StateObject is for view-owned ObservableObjects that survive re-renders. @ObservedObject wraps externally-provided objects. Both require ObservableObject conformance. @StateObject is not for any type — only ObservableObject. Using @ObservedObject for an object created in the view body causes recreation on every re-render."
+  },
+  {
+    "question": "Which of the following are valid Swift error handling mechanisms?",
+    "options": [
+      "do-try-catch",
+      "try? (optional try)",
+      "try! (forced try)",
+      "Result type",
+      "defer statement",
+      "NSException"
+    ],
+    "correctAnswers": [
+      "do-try-catch",
+      "try? (optional try)",
+      "try! (forced try)",
+      "Result type"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Swift's error handling includes do-try-catch, try? (converts to optional), try! (force-unwrap, crashes on error), and the Result<Success, Failure> type. defer executes cleanup code but is not an error handling mechanism. NSException is an Objective-C exception mechanism, not idiomatic Swift error handling."
   }
 ]
