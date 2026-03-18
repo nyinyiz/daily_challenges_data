@@ -9,7 +9,7 @@
     ],
     "correctAnswer": "SwiftUI",
     "explanation": "SwiftUI is Apple's modern framework for building user interfaces declaratively across all Apple platforms.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Which type of method is called when a view is about to appear in UIKit?",
@@ -21,7 +21,7 @@
     ],
     "correctAnswer": "viewWillAppear(_:)",
     "explanation": "viewWillAppear(_:) is called just before the view becomes visible, allowing final preparations before the view is displayed.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What framework provides low-level graphics rendering in iOS?",
@@ -33,7 +33,7 @@
     ],
     "correctAnswer": "Metal",
     "explanation": "Metal is a low-level, low-overhead hardware-accelerated graphics and compute API developed by Apple.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What is the primary way to handle network requests in iOS?",
@@ -45,7 +45,7 @@
     ],
     "correctAnswer": "URLSession",
     "explanation": "URLSession is the modern Apple framework for handling network requests and downloads.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is used to create background tasks in iOS?",
@@ -57,7 +57,7 @@
     ],
     "correctAnswer": "Background Tasks Framework",
     "explanation": "The Background Tasks Framework allows apps to schedule and manage background work efficiently.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which framework is used for location services in iOS?",
@@ -69,7 +69,7 @@
     ],
     "correctAnswer": "Core Location",
     "explanation": "Core Location provides services for determining a device's geographic location, altitude, orientation, and more.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which framework provides push notification services in iOS?",
@@ -81,7 +81,7 @@
     ],
     "correctAnswer": "User Notifications",
     "explanation": "The User Notifications framework handles the delivery and handling of local and remote notifications.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is used to create custom drawing in iOS?",
@@ -93,7 +93,7 @@
     ],
     "correctAnswer": "Core Graphics",
     "explanation": "Core Graphics provides low-level drawing capabilities for creating custom graphics and rendering.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which framework is used for machine learning in iOS?",
@@ -105,7 +105,7 @@
     ],
     "correctAnswer": "CoreML",
     "explanation": "CoreML is Apple's framework for integrating machine learning models into iOS applications.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which method is called when a view controller is loaded into memory?",
@@ -117,7 +117,7 @@
     ],
     "correctAnswer": "viewDidLoad()",
     "explanation": "viewDidLoad() is called after the view controller's view is loaded into memory, typically used for initial setup.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What is the purpose of the App Transport Security (ATS) in iOS?",
@@ -129,7 +129,7 @@
     ],
     "correctAnswer": "To enforce secure network connections",
     "explanation": "ATS requires apps to use secure network connections (HTTPS) by default, improving network security.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which framework provides audio and video capabilities in iOS?",
@@ -141,7 +141,7 @@
     ],
     "correctAnswer": "AVFoundation",
     "explanation": "AVFoundation is the comprehensive framework for working with time-based audiovisual media on iOS.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is used to store small amounts of persistent data in iOS?",
@@ -153,7 +153,7 @@
     ],
     "correctAnswer": "UserDefaults",
     "explanation": "UserDefaults is used to store small amounts of user preferences and settings persistently.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What is the primary purpose of the Keychain Services in iOS?",
@@ -165,7 +165,7 @@
     ],
     "correctAnswer": "Secure Data Storage",
     "explanation": "Keychain Services provides a secure way to store sensitive information like passwords and cryptographic keys.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is used to create animations in SwiftUI?",
@@ -177,7 +177,7 @@
     ],
     "correctAnswer": ".animation() modifier",
     "explanation": "The .animation() modifier in SwiftUI allows for easy and declarative animation of view changes.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which framework is used for creating augmented reality experiences in iOS?",
@@ -189,7 +189,7 @@
     ],
     "correctAnswer": "ARKit",
     "explanation": "ARKit is Apple's framework for creating immersive augmented reality experiences on iOS devices.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the primary way to handle memory warnings in iOS?",
@@ -201,7 +201,7 @@
     ],
     "correctAnswer": "UIApplicationDidReceiveMemoryWarning",
     "explanation": "The UIApplicationDidReceiveMemoryWarning notification helps apps respond to low memory conditions by releasing unnecessary resources.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which framework provides accessibility features in iOS?",
@@ -213,7 +213,7 @@
     ],
     "correctAnswer": "UIAccessibility",
     "explanation": "UIAccessibility provides a set of methods and properties to make iOS apps more accessible to users with disabilities.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is used to create and manage threads in iOS?",
@@ -225,7 +225,7 @@
     ],
     "correctAnswer": "Grand Central Dispatch",
     "explanation": "Grand Central Dispatch (GCD) provides a modern way to manage concurrent tasks and threads in iOS applications.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which protocol is used to implement data source methods in UITableView?",
@@ -237,7 +237,7 @@
     ],
     "correctAnswer": "UITableViewDataSource",
     "explanation": "UITableViewDataSource provides methods for populating a table view with data and managing table view rows.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the primary purpose of the Instruments tool in Xcode?",
@@ -249,7 +249,7 @@
     ],
     "correctAnswer": "Performance Profiling",
     "explanation": "Instruments is a powerful profiling and tracing tool used to analyze app performance, memory usage, and other system-level metrics.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which method is used to present a view controller modally in iOS?",
@@ -261,7 +261,7 @@
     ],
     "correctAnswer": "presentViewController(_:animated:completion:)",
     "explanation": "The presentViewController method is used to present a view controller modally, allowing for temporary display of another view.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What is the primary way to handle user input in iOS?",
@@ -273,7 +273,7 @@
     ],
     "correctAnswer": "Gesture Recognizers",
     "explanation": "Gesture Recognizers are used to handle various user input gestures like taps, swipes, and pinches in iOS applications.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which framework is used for creating animations in iOS?",
@@ -285,7 +285,7 @@
     ],
     "correctAnswer": "Core Animation",
     "explanation": "Core Animation is the primary framework for creating smooth and efficient animations in iOS applications.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the primary method for persisting complex data models in iOS?",
@@ -297,7 +297,7 @@
     ],
     "correctAnswer": "Core Data",
     "explanation": "Core Data is Apple's framework for managing and persisting complex data models in iOS applications.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which design pattern is commonly used for communication between objects in iOS?",
@@ -309,7 +309,7 @@
     ],
     "correctAnswer": "Observer Pattern",
     "explanation": "The Observer pattern is widely used in iOS for handling events and notifications between objects.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which protocol is used to make an object observable in Combine?",
@@ -321,7 +321,7 @@
     ],
     "correctAnswer": "ObservableObject",
     "explanation": "ObservableObject protocol is used to create objects that can be observed for changes in Combine.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which framework is used for image and video processing with filters?",
@@ -333,7 +333,7 @@
     ],
     "correctAnswer": "Core Image",
     "explanation": "Core Image provides a powerful framework for applying filters and effects to images and video frames.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the main class for managing the app's life cycle events?",
@@ -345,7 +345,7 @@
     ],
     "correctAnswer": "UIApplication",
     "explanation": "UIApplication is the centralized control point for iOS apps, managing app lifecycle and handling system events.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which framework provides haptic feedback capabilities?",
@@ -357,7 +357,7 @@
     ],
     "correctAnswer": "Core Haptics",
     "explanation": "Core Haptics allows creating custom haptic patterns and controlling the Taptic Engine for tactile feedback.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What is used to share data between app extensions and the main app?",
@@ -369,7 +369,7 @@
     ],
     "correctAnswer": "App Groups",
     "explanation": "App Groups enable data sharing between an app and its extensions through a shared container.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which class is used to manage collection view layouts?",
@@ -381,7 +381,7 @@
     ],
     "correctAnswer": "UICollectionViewFlowLayout",
     "explanation": "UICollectionViewFlowLayout is the concrete layout class that organizes items into a grid with optional headers and footers.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What framework provides speech recognition capabilities?",
@@ -393,7 +393,7 @@
     ],
     "correctAnswer": "Speech",
     "explanation": "The Speech framework provides APIs for performing speech recognition on audio content.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which notification is posted when the app enters the background?",
@@ -405,7 +405,7 @@
     ],
     "correctAnswer": "UIApplicationDidEnterBackground",
     "explanation": "UIApplicationDidEnterBackground notification is posted when the app transitions from foreground to background state.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What is used to detect faces and objects in images?",
@@ -417,7 +417,7 @@
     ],
     "correctAnswer": "Vision",
     "explanation": "Vision framework provides high-level image analysis capabilities including face detection, object tracking, and text recognition.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which protocol must a UIView subclass implement to support Interface Builder?",
@@ -429,7 +429,7 @@
     ],
     "correctAnswer": "NSCoding",
     "explanation": "NSCoding protocol is required for views to be properly archived and unarchived by Interface Builder.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What manages the presentation of alerts and action sheets?",
@@ -441,7 +441,7 @@
     ],
     "correctAnswer": "UIAlertController",
     "explanation": "UIAlertController is the modern way to present alerts and action sheets, replacing the deprecated UIAlertView and UIActionSheet.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "In SwiftUI, which view is used to display a scrollable, vertically-stacked list of rows?",

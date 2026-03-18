@@ -17,5 +17,446 @@
     ],
     "difficulty": "Easy",
     "explanation": "val, var, fun, and when are Kotlin keywords. def is used in languages like Python and Ruby, while switch is used in languages like Java and C++."
+  },
+  {
+    "question": "Which of the following are valid Kotlin coroutine builders?",
+    "options": [
+      "launch",
+      "async",
+      "runBlocking",
+      "coroutine",
+      "withContext",
+      "spawn"
+    ],
+    "correctAnswers": [
+      "launch",
+      "async",
+      "runBlocking",
+      "withContext"
+    ],
+    "difficulty": "Medium",
+    "explanation": "launch, async, runBlocking, and withContext are coroutine builders/scope changers from kotlinx.coroutines. coroutine and spawn are not Kotlin coroutine builders."
+  },
+  {
+    "question": "Which of the following are true about Kotlin data classes?",
+    "options": [
+      "They automatically generate equals() and hashCode()",
+      "They generate a copy() function",
+      "They support inheritance by default",
+      "They generate componentN() functions for destructuring",
+      "They always require all properties to be mutable"
+    ],
+    "correctAnswers": [
+      "They automatically generate equals() and hashCode()",
+      "They generate a copy() function",
+      "They generate componentN() functions for destructuring"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Data classes auto-generate equals(), hashCode(), toString(), copy(), and componentN() functions. They cannot be open (no default inheritance support). Properties can be val (immutable) or var (mutable)."
+  },
+  {
+    "question": "Which of the following are Kotlin scope functions?",
+    "options": [
+      "let",
+      "run",
+      "apply",
+      "also",
+      "with",
+      "use"
+    ],
+    "correctAnswers": [
+      "let",
+      "run",
+      "apply",
+      "also",
+      "with"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The five Kotlin scope functions are let, run, apply, also, and with. The use function is an extension for Closeable resources (auto-closing), not a scope function."
+  },
+  {
+    "question": "Which of the following are valid ways to handle null safety in Kotlin?",
+    "options": [
+      "Using the safe call operator ?.",
+      "Using the Elvis operator ?:",
+      "Using the not-null assertion operator !!",
+      "Using a null check with if/else",
+      "Using the as? safe cast operator"
+    ],
+    "correctAnswers": [
+      "Using the safe call operator ?.",
+      "Using the Elvis operator ?:",
+      "Using the not-null assertion operator !!",
+      "Using a null check with if/else",
+      "Using the as? safe cast operator"
+    ],
+    "difficulty": "Easy",
+    "explanation": "All five are valid Kotlin null safety mechanisms. ?. avoids NPE on nullable receivers, ?: provides defaults, !! asserts non-null (throws if null), if/else performs explicit null checks, and as? safely casts (returning null on failure)."
+  },
+  {
+    "question": "Which of the following are true about Kotlin's `sealed` classes?",
+    "options": [
+      "All subclasses must be in the same package",
+      "They restrict the class hierarchy to a known set of subclasses",
+      "They can be used in exhaustive when expressions without an else branch",
+      "They support unlimited inheritance from any module",
+      "Subclasses can themselves be data classes or object declarations"
+    ],
+    "correctAnswers": [
+      "All subclasses must be in the same package",
+      "They restrict the class hierarchy to a known set of subclasses",
+      "They can be used in exhaustive when expressions without an else branch",
+      "Subclasses can themselves be data classes or object declarations"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Since Kotlin 1.5, sealed class subclasses must be in the same package (previously the same file). They enable exhaustive when without else. Subclasses can be data classes, objects, or regular classes. They do NOT allow unlimited inheritance from any module."
+  },
+  {
+    "question": "Which of the following are true about Kotlin extension functions?",
+    "options": [
+      "They add new functionality to a class without modifying its source code",
+      "They can access private members of the receiver class",
+      "They are resolved statically at compile time",
+      "They override member functions of the same name",
+      "They can be declared at the top level of a Kotlin file"
+    ],
+    "correctAnswers": [
+      "They add new functionality to a class without modifying its source code",
+      "They are resolved statically at compile time",
+      "They can be declared at the top level of a Kotlin file"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Extension functions appear to add methods to a class but cannot access private members. They are resolved statically (not via virtual dispatch), so they do not override member functions — if a member function with the same signature exists, the member always wins."
+  },
+  {
+    "question": "Which of the following are valid Kotlin collection types?",
+    "options": [
+      "List",
+      "MutableList",
+      "Set",
+      "Map",
+      "Array",
+      "Queue"
+    ],
+    "correctAnswers": [
+      "List",
+      "MutableList",
+      "Set",
+      "Map",
+      "Array"
+    ],
+    "difficulty": "Easy",
+    "explanation": "Kotlin's standard collections include List/MutableList, Set/MutableSet, Map/MutableMap, and Array. Queue is a Java interface available in Kotlin via Java interop, but it is not a first-class Kotlin collection type in the standard library."
+  },
+  {
+    "question": "Which of the following are valid coroutine dispatchers in Kotlin?",
+    "options": [
+      "Dispatchers.Main",
+      "Dispatchers.IO",
+      "Dispatchers.Default",
+      "Dispatchers.Unconfined",
+      "Dispatchers.Background",
+      "Dispatchers.Network"
+    ],
+    "correctAnswers": [
+      "Dispatchers.Main",
+      "Dispatchers.IO",
+      "Dispatchers.Default",
+      "Dispatchers.Unconfined"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The four standard coroutine dispatchers are Main (UI thread), IO (I/O-optimized thread pool), Default (CPU-intensive thread pool), and Unconfined (no specific thread). Dispatchers.Background and Dispatchers.Network do not exist."
+  },
+  {
+    "question": "Which of the following are features of Kotlin generics?",
+    "options": [
+      "Declaration-site variance with in and out modifiers",
+      "Use-site variance (type projections)",
+      "Reified type parameters with inline functions",
+      "Runtime generic type information without inline",
+      "Star projection (*)"
+    ],
+    "correctAnswers": [
+      "Declaration-site variance with in and out modifiers",
+      "Use-site variance (type projections)",
+      "Reified type parameters with inline functions",
+      "Star projection (*)"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Kotlin generics support declaration-site variance (out for covariance, in for contravariance), use-site variance (type projections), reified type parameters (with inline), and star projections. Generic type information is erased at runtime unless reified with an inline function."
+  },
+  {
+    "question": "Which of the following are true about Kotlin Flow?",
+    "options": [
+      "Flow is cold by default — it only runs when collected",
+      "SharedFlow is a hot stream that can have multiple collectors",
+      "StateFlow always holds a current value",
+      "Flow is identical to RxJava Observable",
+      "Flow supports operators like map, filter, and transform"
+    ],
+    "correctAnswers": [
+      "Flow is cold by default — it only runs when collected",
+      "SharedFlow is a hot stream that can have multiple collectors",
+      "StateFlow always holds a current value",
+      "Flow supports operators like map, filter, and transform"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Cold Flow only executes when a terminal operator (like collect()) is called. SharedFlow is a hot multi-collector stream. StateFlow is a StateHolder that always has a value. Flow is inspired by RxJava but is not identical. Flow supports rich operators."
+  },
+  {
+    "question": "Which of the following are true about Kotlin's `inline` functions?",
+    "options": [
+      "They copy the function body to the call site at compile time",
+      "They allow reified type parameters",
+      "They reduce overhead for higher-order functions with lambda parameters",
+      "They always make code run faster regardless of context",
+      "noinline can mark specific lambda parameters to not be inlined"
+    ],
+    "correctAnswers": [
+      "They copy the function body to the call site at compile time",
+      "They allow reified type parameters",
+      "They reduce overhead for higher-order functions with lambda parameters",
+      "noinline can mark specific lambda parameters to not be inlined"
+    ],
+    "difficulty": "Hard",
+    "explanation": "inline copies the function and lambda bodies to the call site, enabling reified generics and avoiding Function object allocation. noinline prevents specific lambdas from being inlined. Inlining does not always improve performance — for large functions it increases bytecode size."
+  },
+  {
+    "question": "Which of the following are valid ways to create a coroutine scope in Kotlin?",
+    "options": [
+      "CoroutineScope()",
+      "viewModelScope",
+      "lifecycleScope",
+      "GlobalScope",
+      "threadScope()"
+    ],
+    "correctAnswers": [
+      "CoroutineScope()",
+      "viewModelScope",
+      "lifecycleScope",
+      "GlobalScope"
+    ],
+    "difficulty": "Medium",
+    "explanation": "CoroutineScope() creates a custom scope. viewModelScope (Android ViewModel) and lifecycleScope (Android Lifecycle) are lifecycle-aware scopes. GlobalScope is the application-wide scope (generally discouraged). threadScope() does not exist."
+  },
+  {
+    "question": "Which of the following correctly describe Kotlin's `object` keyword?",
+    "options": [
+      "It creates a singleton instance",
+      "It can be used to create anonymous objects",
+      "It can declare a companion object inside a class",
+      "It allows creating multiple instances via a constructor",
+      "It replaces Java's static nested classes"
+    ],
+    "correctAnswers": [
+      "It creates a singleton instance",
+      "It can be used to create anonymous objects",
+      "It can declare a companion object inside a class",
+      "It replaces Java's static nested classes"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The object keyword creates singletons (object declarations), anonymous objects (object expressions), and companion objects. Companion objects replace Java static members. An object declaration cannot have a constructor — it is a single instance by definition."
+  },
+  {
+    "question": "Which of the following collection operations are available on Kotlin's `Sequence`?",
+    "options": [
+      "map",
+      "filter",
+      "toList",
+      "asSequence",
+      "add",
+      "first"
+    ],
+    "correctAnswers": [
+      "map",
+      "filter",
+      "toList",
+      "asSequence",
+      "first"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Sequences support lazy intermediate operations like map, filter, and take, plus terminal operations like toList(), first(), and count(). asSequence() converts a collection to a sequence. add() is a mutation method for MutableList, not a Sequence operation."
+  },
+  {
+    "question": "Which of the following are true about Kotlin's `lateinit` modifier?",
+    "options": [
+      "It can only be used with var properties",
+      "It is valid for non-null types only",
+      "It can be used with primitive types like Int",
+      "You can check if it has been initialized using ::property.isInitialized",
+      "It is commonly used with dependency injection"
+    ],
+    "correctAnswers": [
+      "It can only be used with var properties",
+      "It is valid for non-null types only",
+      "You can check if it has been initialized using ::property.isInitialized",
+      "It is commonly used with dependency injection"
+    ],
+    "difficulty": "Medium",
+    "explanation": "lateinit works only with var (not val) and non-null reference types. It cannot be used with primitives (Int, Double, etc.) — use lazy instead. ::property.isInitialized checks initialization status. It is widely used in DI frameworks like Hilt/Dagger."
+  },
+  {
+    "question": "Which of the following are valid Kotlin higher-order function operations on collections?",
+    "options": [
+      "map",
+      "flatMap",
+      "fold",
+      "reduce",
+      "sortedBy",
+      "push"
+    ],
+    "correctAnswers": [
+      "map",
+      "flatMap",
+      "fold",
+      "reduce",
+      "sortedBy"
+    ],
+    "difficulty": "Easy",
+    "explanation": "map, flatMap, fold, reduce, and sortedBy are all standard Kotlin collection higher-order functions. push is a stack operation concept not present as a standard Kotlin collection function."
+  },
+  {
+    "question": "Which of the following are true about Kotlin's `when` expression?",
+    "options": [
+      "It can be used as both a statement and an expression",
+      "It can check ranges with in",
+      "It can check types with is",
+      "It always requires an else branch",
+      "It can have multiple conditions in a single branch"
+    ],
+    "correctAnswers": [
+      "It can be used as both a statement and an expression",
+      "It can check ranges with in",
+      "It can check types with is",
+      "It can have multiple conditions in a single branch"
+    ],
+    "difficulty": "Medium",
+    "explanation": "when is versatile: it works as a statement or expression, supports range checks (in 1..10), type checks (is String), and comma-separated multi-conditions. The else branch is only mandatory when used as an expression and not all cases are covered (e.g., non-sealed types)."
+  },
+  {
+    "question": "Which of the following are true about structured concurrency in Kotlin coroutines?",
+    "options": [
+      "A parent coroutine waits for all children to complete",
+      "Cancelling a parent coroutine cancels all child coroutines",
+      "Child coroutine failures propagate to the parent",
+      "Coroutines launched in GlobalScope are part of structured concurrency",
+      "CoroutineScope defines the structured concurrency boundary"
+    ],
+    "correctAnswers": [
+      "A parent coroutine waits for all children to complete",
+      "Cancelling a parent coroutine cancels all child coroutines",
+      "Child coroutine failures propagate to the parent",
+      "CoroutineScope defines the structured concurrency boundary"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Structured concurrency ensures a parent scope waits for all children, cascades cancellation, and propagates failures. GlobalScope breaks structured concurrency by escaping the parent scope — it is explicitly discouraged for production use."
+  },
+  {
+    "question": "Which of the following are valid Kotlin visibility modifiers?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "internal",
+      "package-private",
+      "module"
+    ],
+    "correctAnswers": [
+      "public",
+      "private",
+      "protected",
+      "internal"
+    ],
+    "difficulty": "Easy",
+    "explanation": "Kotlin has four visibility modifiers: public (default), private, protected, and internal (module-level visibility). package-private is a Java concept that Kotlin does not have. module is not a visibility modifier."
+  },
+  {
+    "question": "Which of the following are characteristics of Kotlin's `StateFlow`?",
+    "options": [
+      "It is a hot stream",
+      "It always holds a current value",
+      "New collectors immediately receive the last emitted value",
+      "It can emit null values",
+      "It requires explicit completion"
+    ],
+    "correctAnswers": [
+      "It is a hot stream",
+      "It always holds a current value",
+      "New collectors immediately receive the last emitted value"
+    ],
+    "difficulty": "Hard",
+    "explanation": "StateFlow is hot (active regardless of collectors) and always holds a current value. New collectors receive the latest value upon subscription (replay = 1). StateFlow does NOT allow null as a value and never completes — it is designed to model state that always exists."
+  },
+  {
+    "question": "Which of the following are true about Kotlin's type system?",
+    "options": [
+      "Kotlin distinguishes between nullable (T?) and non-nullable (T) types",
+      "Nothing is a subtype of every type",
+      "Any is the supertype of all non-nullable types",
+      "Any? is the supertype of all Kotlin types including nullable",
+      "Unit is the same as Java's void"
+    ],
+    "correctAnswers": [
+      "Kotlin distinguishes between nullable (T?) and non-nullable (T) types",
+      "Nothing is a subtype of every type",
+      "Any is the supertype of all non-nullable types",
+      "Any? is the supertype of all Kotlin types including nullable",
+      "Unit is the same as Java's void"
+    ],
+    "difficulty": "Hard",
+    "explanation": "All five statements are correct: Kotlin's type system separates nullable/non-nullable; Nothing is at the bottom of the hierarchy; Any and Any? are at the top; Unit maps to Java's void but is a real type in Kotlin."
+  },
+  {
+    "question": "Which of the following are valid use cases for Kotlin's `companion object`?",
+    "options": [
+      "Defining factory methods for the class",
+      "Holding constants associated with the class",
+      "Implementing interfaces on behalf of the class",
+      "Allowing multiple instances to be created",
+      "Using @JvmStatic for Java interoperability"
+    ],
+    "correctAnswers": [
+      "Defining factory methods for the class",
+      "Holding constants associated with the class",
+      "Implementing interfaces on behalf of the class",
+      "Using @JvmStatic for Java interoperability"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Companion objects can define factory methods (like MyClass.create()), hold constants, implement interfaces, and use @JvmStatic to expose static methods for Java. A companion object is a single instance — it does not allow creating multiple instances."
+  },
+  {
+    "question": "Which of the following are true about Kotlin's `suspend` functions?",
+    "options": [
+      "They can only be called from another suspend function or a coroutine builder",
+      "They may pause execution without blocking the underlying thread",
+      "They always run on a background thread",
+      "They can call regular (non-suspend) functions",
+      "They use CPS (Continuation Passing Style) transformation at compile time"
+    ],
+    "correctAnswers": [
+      "They can only be called from another suspend function or a coroutine builder",
+      "They may pause execution without blocking the underlying thread",
+      "They can call regular (non-suspend) functions",
+      "They use CPS (Continuation Passing Style) transformation at compile time"
+    ],
+    "difficulty": "Hard",
+    "explanation": "suspend functions must be called from a coroutine context. They can suspend (yield the thread) without blocking. They can call normal functions freely. The Kotlin compiler transforms them using CPS. They do NOT always run on a background thread — the dispatcher determines the thread."
+  },
+  {
+    "question": "Which of the following are true about Kotlin's `interface`?",
+    "options": [
+      "A class can implement multiple interfaces",
+      "Interfaces can have default method implementations",
+      "Interfaces can have abstract properties",
+      "Interfaces can have constructors with parameters",
+      "Interfaces can hold state via backing fields"
+    ],
+    "correctAnswers": [
+      "A class can implement multiple interfaces",
+      "Interfaces can have default method implementations",
+      "Interfaces can have abstract properties"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Kotlin interfaces support multiple implementation, default method bodies, and abstract property declarations. However, interfaces cannot have constructors with parameters and cannot store state via backing fields (properties in interfaces are abstract or computed)."
   }
 ]
