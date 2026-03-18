@@ -562,6 +562,305 @@
     "correctAnswer": "clickable",
     "explanation": "The 'clickable' modifier makes a Composable respond to click gestures.",
     "difficulty": "Easy"
+  },
+  {
+    "question": "Which annotation is used to mark a class as an entry point for Hilt dependency injection?",
+    "options": [
+      "@HiltAndroidApp",
+      "@InjectApp",
+      "@HiltEntry",
+      "@AndroidEntryPoint"
+    ],
+    "correctAnswer": "@HiltAndroidApp",
+    "explanation": "@HiltAndroidApp must be applied to the Application class to trigger Hilt's code generation and set up the dependency injection container.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which annotation is used to inject dependencies into Android components such as Activities with Hilt?",
+    "options": [
+      "@HiltAndroidApp",
+      "@AndroidEntryPoint",
+      "@Inject",
+      "@HiltViewModel"
+    ],
+    "correctAnswer": "@AndroidEntryPoint",
+    "explanation": "@AndroidEntryPoint enables Hilt injection in Android components like Activities, Fragments, and Services.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Hilt annotation is used to inject a ViewModel with dependency injection support?",
+    "options": [
+      "@ViewModelInject",
+      "@HiltViewModel",
+      "@InjectViewModel",
+      "@ViewModel"
+    ],
+    "correctAnswer": "@HiltViewModel",
+    "explanation": "@HiltViewModel is used to annotate a ViewModel class so that Hilt can provide its dependencies.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the primary purpose of the Paging 3 library in Android?",
+    "options": [
+      "To manage navigation between screens",
+      "To load large data sets efficiently from a data source in pages",
+      "To cache images in a RecyclerView",
+      "To animate list items"
+    ],
+    "correctAnswer": "To load large data sets efficiently from a data source in pages",
+    "explanation": "Paging 3 provides APIs to load data in chunks (pages) from local or network sources, helping avoid loading too much data at once.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which class must be extended to implement a Paging 3 data source from a network or database?",
+    "options": [
+      "DataSource",
+      "PagingSource",
+      "PagedListAdapter",
+      "RemoteMediator"
+    ],
+    "correctAnswer": "PagingSource",
+    "explanation": "PagingSource is the base class for defining how pages of data are loaded, supporting both local and remote sources.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which method must be overridden in a RecyclerView.Adapter to bind data to a ViewHolder?",
+    "options": [
+      "onCreateViewHolder()",
+      "onBindViewHolder()",
+      "getItemCount()",
+      "onAttachedToRecyclerView()"
+    ],
+    "correctAnswer": "onBindViewHolder()",
+    "explanation": "onBindViewHolder() is called to display the data at a specified position and is where you bind the data to the ViewHolder's views.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the minimum number of methods that must be implemented in a custom RecyclerView.Adapter?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "3",
+    "explanation": "A RecyclerView.Adapter requires implementing onCreateViewHolder(), onBindViewHolder(), and getItemCount().",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Compose API animates the appearance and disappearance of composables?",
+    "options": [
+      "AnimateVisibility",
+      "AnimatedVisibility",
+      "FadeInOut",
+      "VisibilityAnimation"
+    ],
+    "correctAnswer": "AnimatedVisibility",
+    "explanation": "AnimatedVisibility is a Compose API that animates the visibility of its content when it enters or leaves the composition.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the purpose of 'derivedStateOf' in Jetpack Compose?",
+    "options": [
+      "To create mutable state",
+      "To remember a value across recompositions",
+      "To compute state that depends on other state and avoid unnecessary recompositions",
+      "To collect a Flow as state"
+    ],
+    "correctAnswer": "To compute state that depends on other state and avoid unnecessary recompositions",
+    "explanation": "derivedStateOf creates a State object whose value is derived from other state objects and only triggers recomposition when the derived value changes.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Compose effect is used to run cleanup code when a composable leaves the composition?",
+    "options": [
+      "LaunchedEffect",
+      "SideEffect",
+      "DisposableEffect",
+      "rememberCoroutineScope"
+    ],
+    "correctAnswer": "DisposableEffect",
+    "explanation": "DisposableEffect runs code when the composable enters composition and provides an onDispose block that runs when the composable leaves.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Compose component provides the basic Material Design visual layout structure with slots for top bar, bottom bar, and content?",
+    "options": [
+      "Surface",
+      "Scaffold",
+      "Box",
+      "MaterialTheme"
+    ],
+    "correctAnswer": "Scaffold",
+    "explanation": "Scaffold implements the basic Material Design visual layout structure and provides slots for TopAppBar, BottomBar, FloatingActionButton, and content.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Espresso method is used to find a view by its resource ID in Android UI tests?",
+    "options": [
+      "onView(withText())",
+      "onView(withId())",
+      "findViewBy()",
+      "viewById()"
+    ],
+    "correctAnswer": "onView(withId())",
+    "explanation": "onView(withId(R.id.myView)) is the standard Espresso approach to locate a UI element by its resource ID.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which annotation in JUnit 4 marks a method to be executed before each test?",
+    "options": [
+      "@BeforeClass",
+      "@Before",
+      "@Setup",
+      "@Init"
+    ],
+    "correctAnswer": "@Before",
+    "explanation": "@Before marks a method that runs before each individual test method in JUnit 4, typically used for test setup.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which library is used for mocking in Kotlin unit tests on Android?",
+    "options": [
+      "Mockito",
+      "MockK",
+      "EasyMock",
+      "PowerMock"
+    ],
+    "correctAnswer": "MockK",
+    "explanation": "MockK is a mocking library designed specifically for Kotlin that provides idiomatic Kotlin DSL for creating and verifying mocks.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which testing framework allows Android tests to run on a JVM without a physical device or emulator?",
+    "options": [
+      "Espresso",
+      "UI Automator",
+      "Robolectric",
+      "Firebase Test Lab"
+    ],
+    "correctAnswer": "Robolectric",
+    "explanation": "Robolectric simulates the Android environment on the JVM, allowing Android unit tests to run locally without a device or emulator.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Kotlin Flow type is designed to hold and emit the current state and is hot by nature?",
+    "options": [
+      "Flow",
+      "SharedFlow",
+      "StateFlow",
+      "ChannelFlow"
+    ],
+    "correctAnswer": "StateFlow",
+    "explanation": "StateFlow is a hot flow that always holds a current value and emits it to new collectors immediately upon subscription.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Compose extension function collects a Flow or StateFlow as Compose State?",
+    "options": [
+      "observeAsState()",
+      "collectAsState()",
+      "flowAsState()",
+      "stateOf()"
+    ],
+    "correctAnswer": "collectAsState()",
+    "explanation": "collectAsState() is a Compose extension that collects a Flow and represents it as Compose State, triggering recomposition on new emissions.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the primary purpose of ProGuard/R8 in Android builds?",
+    "options": [
+      "To compress image resources",
+      "To shrink, obfuscate, and optimize the APK",
+      "To sign the release APK",
+      "To manage Gradle dependencies"
+    ],
+    "correctAnswer": "To shrink, obfuscate, and optimize the APK",
+    "explanation": "ProGuard/R8 removes unused code, renames classes and methods to shorter names, and optimizes bytecode to reduce APK size and make reverse engineering harder.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Android security feature provides hardware-backed storage for cryptographic keys?",
+    "options": [
+      "SharedPreferences encryption",
+      "Android Keystore System",
+      "Room encryption",
+      "DataStore security"
+    ],
+    "correctAnswer": "Android Keystore System",
+    "explanation": "The Android Keystore System allows apps to store cryptographic keys in a container that is hardware-backed and makes them harder to extract from the device.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Jetpack library provides a consistent API for camera functionality across Android devices?",
+    "options": [
+      "Camera2",
+      "CameraX",
+      "MediaCamera",
+      "CameraCompat"
+    ],
+    "correctAnswer": "CameraX",
+    "explanation": "CameraX is a Jetpack library that simplifies camera development by providing a consistent and easy-to-use API built on top of Camera2.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which element in the Android Manifest is used to declare a deep link URI for an Activity?",
+    "options": [
+      "<deep-link>",
+      "<uri-handler>",
+      "<data> inside <intent-filter>",
+      "<link> inside <activity>"
+    ],
+    "correctAnswer": "<data> inside <intent-filter>",
+    "explanation": "Deep links are declared by adding a <data> element with the URI scheme inside an <intent-filter> in the activity's manifest entry.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which class must be extended to create a home screen AppWidget in Android?",
+    "options": [
+      "AppWidgetManager",
+      "AppWidgetProvider",
+      "RemoteViews",
+      "WidgetService"
+    ],
+    "correctAnswer": "AppWidgetProvider",
+    "explanation": "AppWidgetProvider is a convenience class built on BroadcastReceiver that handles AppWidget update broadcasts.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Jetpack DataStore variant stores typed objects defined with Protocol Buffers?",
+    "options": [
+      "Preferences DataStore",
+      "Proto DataStore",
+      "Room DataStore",
+      "Typed DataStore"
+    ],
+    "correctAnswer": "Proto DataStore",
+    "explanation": "Proto DataStore uses Protocol Buffers to define a schema for strongly-typed data objects, as opposed to Preferences DataStore which stores key-value pairs.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which method must be overridden when creating a custom View in Android?",
+    "options": [
+      "onLayout()",
+      "onDraw()",
+      "onMeasure()",
+      "onAttach()"
+    ],
+    "correctAnswer": "onDraw()",
+    "explanation": "onDraw(Canvas) is the primary method to override in a custom View to draw the view's content using the provided Canvas.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which XML attribute is used to provide a text description of a UI element for accessibility tools like TalkBack?",
+    "options": [
+      "android:hint",
+      "android:description",
+      "android:contentDescription",
+      "android:accessibilityLabel"
+    ],
+    "correctAnswer": "android:contentDescription",
+    "explanation": "android:contentDescription provides a textual description of a view for accessibility services like TalkBack to read aloud to users.",
+    "difficulty": "Easy"
   }
 ]
-

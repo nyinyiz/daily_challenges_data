@@ -442,5 +442,305 @@
     "correctAnswer": "UIAlertController",
     "explanation": "UIAlertController is the modern way to present alerts and action sheets, replacing the deprecated UIAlertView and UIActionSheet.",
     "difficulty": "easy"
+  },
+  {
+    "question": "In SwiftUI, which view is used to display a scrollable, vertically-stacked list of rows?",
+    "options": [
+      "ScrollView",
+      "VStack",
+      "List",
+      "LazyVStack"
+    ],
+    "correctAnswer": "List",
+    "explanation": "List is a SwiftUI container that presents rows of data arranged in a single column, with built-in support for selection, swipe actions, and editing.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which SwiftUI view, introduced in iOS 16, replaces NavigationView for managing a navigation hierarchy?",
+    "options": [
+      "NavigationView",
+      "NavigationStack",
+      "NavigationController",
+      "NavHost"
+    ],
+    "correctAnswer": "NavigationStack",
+    "explanation": "NavigationStack, introduced in iOS 16, replaces NavigationView and provides a stack-based navigation model with programmatic navigation via a path binding.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which property wrapper should you use in SwiftUI to create and own an ObservableObject instance within a view?",
+    "options": [
+      "@ObservedObject",
+      "@StateObject",
+      "@EnvironmentObject",
+      "@Published"
+    ],
+    "correctAnswer": "@StateObject",
+    "explanation": "@StateObject creates and owns the ObservableObject for the lifetime of the view, ensuring the object is not recreated on view re-renders, unlike @ObservedObject.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which SwiftUI property wrapper injects a shared ObservableObject from the environment into a view?",
+    "options": [
+      "@State",
+      "@Binding",
+      "@EnvironmentObject",
+      "@ObservedObject"
+    ],
+    "correctAnswer": "@EnvironmentObject",
+    "explanation": "@EnvironmentObject retrieves an ObservableObject injected into the environment via .environmentObject() modifier, allowing sharing across many views without explicit passing.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the purpose of the @ViewBuilder attribute in SwiftUI?",
+    "options": [
+      "To mark a function that returns a single View type",
+      "To allow a function or closure to return multiple views using DSL syntax",
+      "To lazily load views on demand",
+      "To apply modifiers to views automatically"
+    ],
+    "correctAnswer": "To allow a function or closure to return multiple views using DSL syntax",
+    "explanation": "@ViewBuilder is a result builder that lets you compose multiple child views inside a closure, enabling the declarative multi-view syntax used throughout SwiftUI.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In SwiftUI, which protocol allows a child view to communicate data upward to an ancestor view?",
+    "options": [
+      "EnvironmentKey",
+      "PreferenceKey",
+      "BindingKey",
+      "AnchorKey"
+    ],
+    "correctAnswer": "PreferenceKey",
+    "explanation": "PreferenceKey allows child views to propagate values up the view hierarchy. The ancestor reads the collected values using .onPreferenceChange() or .backgroundPreferenceValue().",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Core Data class is used to specify criteria for retrieving objects from a persistent store?",
+    "options": [
+      "NSPredicate",
+      "NSFetchRequest",
+      "NSEntityDescription",
+      "NSFetchedResultsController"
+    ],
+    "correctAnswer": "NSFetchRequest",
+    "explanation": "NSFetchRequest describes a search for objects in a Core Data persistent store. You configure it with an entity name, predicate, sort descriptors, and fetch limit before executing it.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the role of NSManagedObjectContext in Core Data?",
+    "options": [
+      "It manages the persistent store file on disk",
+      "It acts as an in-memory scratchpad for creating, reading, updating, and deleting managed objects",
+      "It describes the schema of the data model",
+      "It coordinates background fetch operations"
+    ],
+    "correctAnswer": "It acts as an in-memory scratchpad for creating, reading, updating, and deleting managed objects",
+    "explanation": "NSManagedObjectContext is the primary object you interact with in Core Data. It tracks changes to managed objects in memory and coordinates saving those changes to the persistent store.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which class is used to filter Core Data fetch results based on specific conditions?",
+    "options": [
+      "NSExpression",
+      "NSPredicate",
+      "NSQueryFilter",
+      "NSFetchFilter"
+    ],
+    "correctAnswer": "NSPredicate",
+    "explanation": "NSPredicate defines logical conditions to filter Core Data fetch results. You assign it to NSFetchRequest.predicate to retrieve only objects matching the specified criteria.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What keyword must precede a function call to suspend the current task and wait for an async function's result?",
+    "options": [
+      "async",
+      "await",
+      "suspend",
+      "yield"
+    ],
+    "correctAnswer": "await",
+    "explanation": "The await keyword suspends the current async context at the call site, allowing the runtime to run other work, and resumes when the async function returns its result.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concurrency type creates an unstructured task to run async work from a synchronous context?",
+    "options": [
+      "Thread",
+      "DispatchWorkItem",
+      "Task",
+      "Operation"
+    ],
+    "correctAnswer": "Task",
+    "explanation": "Task creates an unstructured unit of asynchronous work. It can be created from synchronous code to bridge into Swift's structured concurrency model and supports cancellation.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does the @MainActor attribute guarantee about code it annotates?",
+    "options": [
+      "It runs the code on a background thread",
+      "It ensures the code runs on the main thread",
+      "It prevents the code from being cancelled",
+      "It marks the code as thread-safe for any thread"
+    ],
+    "correctAnswer": "It ensures the code runs on the main thread",
+    "explanation": "@MainActor is a global actor that guarantees annotated code executes on the main thread. It is commonly used for UI updates and conforms to the actor isolation model of Swift concurrency.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Combine, what type is returned by sink(receiveValue:) and must be retained to keep the subscription alive?",
+    "options": [
+      "Subscription",
+      "Cancellable",
+      "AnyCancellable",
+      "Publisher"
+    ],
+    "correctAnswer": "AnyCancellable",
+    "explanation": "AnyCancellable is a type-erased cancellable object returned by operators like sink. Storing it in a property or Set<AnyCancellable> keeps the subscription alive; releasing it cancels the subscription.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Combine operator delays delivery of output elements when the upstream publisher emits values too rapidly, waiting for a pause in emissions?",
+    "options": [
+      "throttle",
+      "debounce",
+      "delay",
+      "buffer"
+    ],
+    "correctAnswer": "debounce",
+    "explanation": "debounce(for:scheduler:) waits for a specified idle period after the last upstream emission before forwarding the element downstream, useful for search-field text input.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which URLSession method, introduced in iOS 15, fetches a URL's data using Swift's async/await concurrency model?",
+    "options": [
+      "dataTask(with:completionHandler:)",
+      "data(from:delegate:)",
+      "fetchData(for:)",
+      "asyncData(from:)"
+    ],
+    "correctAnswer": "data(from:delegate:)",
+    "explanation": "URLSession.data(from:delegate:) is the async/await counterpart to dataTask. It suspends the current task while fetching, throws on failure, and returns (Data, URLResponse) on success.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which class is used to decode JSON data into Swift Codable types?",
+    "options": [
+      "JSONSerialization",
+      "JSONDecoder",
+      "PropertyListDecoder",
+      "NSJSONDecoder"
+    ],
+    "correctAnswer": "JSONDecoder",
+    "explanation": "JSONDecoder converts JSON-encoded Data into instances of types conforming to the Decodable protocol. You can customize key decoding strategies and date decoding strategies on the decoder instance.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which GCD call is used to dispatch a block to the main queue for a UI update from a background thread?",
+    "options": [
+      "DispatchQueue.global().async { }",
+      "DispatchQueue.main.async { }",
+      "DispatchQueue.main.sync { }",
+      "OperationQueue.main.addOperation { }"
+    ],
+    "correctAnswer": "DispatchQueue.main.async { }",
+    "explanation": "DispatchQueue.main.async schedules a block asynchronously on the main queue (the UI thread). Using .sync on the main queue from the main thread causes a deadlock.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the key difference between DispatchQueue.async and DispatchQueue.sync?",
+    "options": [
+      "async executes immediately; sync waits for the queue to be idle",
+      "async returns immediately to the caller; sync blocks the caller until the block finishes",
+      "sync is used for main queue; async is used for global queues",
+      "async is thread-safe; sync is not"
+    ],
+    "correctAnswer": "async returns immediately to the caller; sync blocks the caller until the block finishes",
+    "explanation": "With async the calling thread continues executing while the block is scheduled for later. With sync the calling thread blocks until the submitted block completes execution on the target queue.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which XCTest method is used to test asynchronous code by waiting for a condition to be fulfilled?",
+    "options": [
+      "XCTAssertAsync()",
+      "wait(for:timeout:)",
+      "waitForAsync()",
+      "fulfillExpectation()"
+    ],
+    "correctAnswer": "wait(for:timeout:)",
+    "explanation": "wait(for:timeout:) blocks the test until all provided XCTestExpectation objects are fulfilled or the timeout elapses, enabling testing of asynchronous callbacks and notifications.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is a retain cycle in iOS memory management?",
+    "options": [
+      "A loop in which ARC retains objects indefinitely because they hold strong references to each other",
+      "A technique for recycling memory pages",
+      "A performance optimization that pre-retains frequently used objects",
+      "A bug where deinit is called too many times"
+    ],
+    "correctAnswer": "A loop in which ARC retains objects indefinitely because they hold strong references to each other",
+    "explanation": "A retain cycle occurs when two or more objects hold strong references to each other, preventing ARC from ever reducing their reference count to zero. Break cycles with weak or unowned references.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "When is it appropriate to use unowned instead of weak for a capture list entry in a closure?",
+    "options": [
+      "When the captured object may become nil before the closure executes",
+      "When the captured object is guaranteed to outlive the closure",
+      "When you want the closure to retain the object strongly",
+      "When the closure is marked @escaping"
+    ],
+    "correctAnswer": "When the captured object is guaranteed to outlive the closure",
+    "explanation": "unowned does not keep a strong reference and does not become nil automatically. It should only be used when you can guarantee the referenced object will not be deallocated before the closure runs, otherwise it causes a crash.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "How should you specify text sizes in iOS to support Dynamic Type?",
+    "options": [
+      "Use fixed point sizes such as UIFont.systemFont(ofSize: 17)",
+      "Use text styles such as UIFont.preferredFont(forTextStyle: .body)",
+      "Use UIFontDescriptor with a fixed size",
+      "Use CGFloat constants defined per device"
+    ],
+    "correctAnswer": "Use text styles such as UIFont.preferredFont(forTextStyle: .body)",
+    "explanation": "UIFont.preferredFont(forTextStyle:) returns fonts that automatically scale with the user's preferred text size (Dynamic Type). Fixed sizes ignore the user's accessibility setting.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which SwiftUI modifier sets the VoiceOver accessibility label for a view?",
+    "options": [
+      ".accessibilityHint()",
+      ".accessibilityLabel()",
+      ".accessibilityValue()",
+      ".accessibilityIdentifier()"
+    ],
+    "correctAnswer": ".accessibilityLabel()",
+    "explanation": ".accessibilityLabel() provides the string VoiceOver reads when the user focuses the element. Use .accessibilityHint() for additional usage guidance and .accessibilityValue() for the current value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which delegate method in UISceneDelegate is called when the scene moves to the foreground and becomes interactive?",
+    "options": [
+      "sceneDidBecomeActive(_:)",
+      "sceneWillEnterForeground(_:)",
+      "sceneDidAppear(_:)",
+      "scene(_:willConnectTo:options:)"
+    ],
+    "correctAnswer": "sceneDidBecomeActive(_:)",
+    "explanation": "sceneDidBecomeActive(_:) is called after the scene transitions to the active state, meaning it is in the foreground and receiving events. It is the scene-based equivalent of applicationDidBecomeActive.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the purpose of the @main attribute in a Swift iOS application?",
+    "options": [
+      "It marks the main thread entry point for GCD",
+      "It designates the type that provides the application's entry point, replacing UIApplicationMain()",
+      "It declares the main bundle identifier",
+      "It identifies the principal class in Info.plist"
+    ],
+    "correctAnswer": "It designates the type that provides the application's entry point, replacing UIApplicationMain()",
+    "explanation": "@main designates a type as the top-level entry point of a Swift program. For iOS apps it replaces the @UIApplicationMain attribute and the call to UIApplicationMain() in main.swift.",
+    "difficulty": "Hard"
   }
 ]

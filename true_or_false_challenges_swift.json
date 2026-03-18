@@ -190,5 +190,155 @@
     "correctAnswer": true,
     "explanation": "@frozen indicates that a type's layout will not change in future versions, which can improve performance in certain scenarios.",
     "difficulty": "hard"
+  },
+  {
+    "question": "Swift enums can conform to protocols.",
+    "correctAnswer": true,
+    "explanation": "Swift enums are fully fledged types and can conform to protocols, including providing computed properties and method implementations.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Swift supports function overloading, allowing multiple functions with the same name but different parameter types.",
+    "correctAnswer": true,
+    "explanation": "Swift allows defining multiple functions with the same name as long as their parameter labels, types, or return types differ.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In Swift, an actor is a reference type.",
+    "correctAnswer": true,
+    "explanation": "Actors in Swift are reference types, similar to classes, but they protect their mutable state by ensuring only one task accesses that state at a time.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The @frozen attribute on a Swift enum allows the compiler to skip exhaustiveness checking for switch statements.",
+    "correctAnswer": true,
+    "explanation": "@frozen tells the compiler the enum's cases will never change, enabling optimizations and allowing exhaustive switches without a default case in library evolution mode.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The willSet and didSet property observers fire when a lazy property is first accessed.",
+    "correctAnswer": false,
+    "explanation": "willSet and didSet do not fire for lazy properties. Lazy properties cannot have property observers because they are not stored in the same way as regular stored properties.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "All Swift types, including classes, are value types.",
+    "correctAnswer": false,
+    "explanation": "Swift has both value types (structs, enums, tuples) and reference types (classes, closures, actors). Classes are reference types.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swift arrays use copy-on-write semantics, so copying is only performed when the copy is mutated.",
+    "correctAnswer": true,
+    "explanation": "Swift arrays (and other collection types) implement copy-on-write: the underlying storage is shared until one of the copies is mutated, at which point a copy is made.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In Swift, String is a value type.",
+    "correctAnswer": true,
+    "explanation": "Swift's String is a struct and therefore a value type. Assignments create independent copies with copy-on-write optimization.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swift 5.5 introduced structured concurrency with async/await and task groups.",
+    "correctAnswer": true,
+    "explanation": "Swift 5.5 added structured concurrency including async/await, actors, Task, and TaskGroup, providing a safe and readable way to write concurrent code.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Protocol extensions in Swift can have stored properties.",
+    "correctAnswer": false,
+    "explanation": "Protocol extensions cannot define stored properties. They can only add computed properties and method implementations as default behavior.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The @discardableResult attribute suppresses the 'result of call is unused' compiler warning.",
+    "correctAnswer": true,
+    "explanation": "@discardableResult allows callers to ignore the return value of a function without receiving a compiler warning.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "@autoclosure in Swift wraps an expression into a closure that is only evaluated when the closure is called.",
+    "correctAnswer": true,
+    "explanation": "@autoclosure automatically creates a closure from an expression passed as an argument, allowing lazy evaluation of the expression.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "@inlinable makes a function's body available to the optimizer across module boundaries.",
+    "correctAnswer": true,
+    "explanation": "@inlinable exposes a function's implementation to the Swift compiler when building other modules, enabling cross-module inlining and optimization.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A where clause can be used in a Swift for-in loop to filter elements during iteration.",
+    "correctAnswer": true,
+    "explanation": "Swift's for-in loop supports a where clause that acts as a filter, only executing the loop body for elements that satisfy the condition.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Swift generics allow writing a single function or type that works with multiple concrete types.",
+    "correctAnswer": true,
+    "explanation": "Generics enable writing flexible, reusable functions and types that work with any type satisfying specified requirements.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A Swift async function can be called from synchronous code without any special syntax.",
+    "correctAnswer": false,
+    "explanation": "Async functions must be called with the await keyword and can only be called from an async context or a Task.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Swift's TaskGroup allows running multiple async tasks in parallel and collecting their results.",
+    "correctAnswer": true,
+    "explanation": "TaskGroup provides structured concurrency for launching multiple child tasks in parallel and waiting for all their results.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Swift, a generic type parameter can be constrained to conform to multiple protocols using the & operator.",
+    "correctAnswer": true,
+    "explanation": "Swift allows composing protocol constraints with & (e.g., T: Codable & Equatable), requiring a type to conform to all listed protocols.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Swift enums can have associated values of different types for each case.",
+    "correctAnswer": true,
+    "explanation": "Each enum case in Swift can have its own associated values with distinct types, making enums highly expressive for modeling data.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A Swift class marked as 'final' can be subclassed.",
+    "correctAnswer": false,
+    "explanation": "The 'final' keyword prevents a class from being subclassed and prevents methods and properties from being overridden.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swift's Sendable protocol is used to mark types that are safe to share across concurrency domains.",
+    "correctAnswer": true,
+    "explanation": "Sendable is a marker protocol that indicates a type's values can be safely shared across concurrent tasks without data races.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Swift, computed properties can be defined on extensions of existing types.",
+    "correctAnswer": true,
+    "explanation": "Extensions in Swift can add computed properties (but not stored properties) to existing types, including types from the standard library.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Swift's KeyPath type can be used to reference a property without accessing its value.",
+    "correctAnswer": true,
+    "explanation": "KeyPath provides a type-safe reference to a property of a type, which can be later applied to an instance to get or set the value.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An unowned reference in Swift will cause a crash if accessed after the referenced object is deallocated.",
+    "correctAnswer": true,
+    "explanation": "Unlike weak references which become nil, unowned references are non-optional and accessing them after deallocation results in a runtime crash.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swift's 'some' keyword is used to return an opaque type that hides the concrete type while preserving type identity.",
+    "correctAnswer": true,
+    "explanation": "Opaque types (declared with 'some') hide the concrete return type from the caller while preserving type information for the compiler, enabling protocol return types.",
+    "difficulty": "hard"
   }
 ]
