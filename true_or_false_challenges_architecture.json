@@ -1,0 +1,248 @@
+[
+  {
+    "question": "In MVVM, the ViewModel should hold a direct reference to the View in order to update the UI.",
+    "correctAnswer": false,
+    "explanation": "The ViewModel must never hold a direct reference to the View (e.g., an Activity or Fragment). Doing so causes memory leaks, especially across configuration changes. Instead, the View observes data exposed by the ViewModel (e.g., LiveData or StateFlow) and updates itself reactively.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Clean Architecture, inner layers (such as the Domain layer) are allowed to depend on outer layers (such as the Data layer).",
+    "correctAnswer": false,
+    "explanation": "Clean Architecture enforces the Dependency Rule: source code dependencies must point inward only. The Domain layer is the innermost layer and must not depend on the Data or Presentation layers. Outer layers depend on the inner ones, not the reverse.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Repository pattern abstracts the data source from the domain layer, acting as a single source of truth.",
+    "correctAnswer": true,
+    "explanation": "The Repository pattern provides a clean API over multiple data sources (remote API, local database, cache). The domain layer only interacts with the Repository interface, remaining unaware of where data originates. This establishes the Repository as the single source of truth for that data.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Singleton pattern is always an anti-pattern and should never be used in mobile development.",
+    "correctAnswer": false,
+    "explanation": "The Singleton pattern is a legitimate design pattern for managing shared, stateless resources such as a logger, configuration manager, or thread pool. It becomes an anti-pattern when overused, when it holds mutable global state, or when it makes code difficult to test. Used judiciously, it is acceptable.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "MVI (Model-View-Intent) uses unidirectional data flow.",
+    "correctAnswer": true,
+    "explanation": "MVI is specifically designed around unidirectional data flow. The View dispatches Intents (user actions), which pass through a reducer/processor to produce a new Model (State), which the View renders. Data flows in one direction only, making state changes predictable and traceable.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Dependency Injection reduces testability by introducing additional layers of abstraction.",
+    "correctAnswer": false,
+    "explanation": "Dependency Injection actually increases testability. By injecting dependencies through constructors or interfaces, you can substitute real implementations with mocks or fakes during testing. Without DI, classes create their own dependencies internally, making it impossible to isolate them for unit tests.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Circular dependencies between modules are acceptable in Clean Architecture as long as they are kept within the same layer.",
+    "correctAnswer": false,
+    "explanation": "Circular dependencies violate the Acyclic Dependencies Principle (ADP), which is fundamental to Clean Architecture. Even within the same layer, circular dependencies prevent independent compilation and testing, create tight coupling, and make the dependency graph harder to reason about.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Domain layer in a Clean Architecture mobile app should have no Android or iOS framework dependencies.",
+    "correctAnswer": true,
+    "explanation": "The Domain layer contains pure business logic and should be completely platform-agnostic. Keeping it free of Android/iOS SDK dependencies ensures that use cases and domain models can be unit-tested with plain JVM or Swift runners, and the logic remains portable and independent of platform lifecycle changes.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Use cases (Interactors) in Clean Architecture contain business logic.",
+    "correctAnswer": true,
+    "explanation": "Use cases (also called Interactors) are the primary carriers of application-specific business rules in Clean Architecture. Each use case represents a distinct user interaction or system action and orchestrates the flow of data between the Presentation and Data layers through the Domain layer.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Observer pattern creates tight coupling between the subject and its observers.",
+    "correctAnswer": false,
+    "explanation": "The Observer pattern promotes loose coupling. The Subject only knows about the Observer interface, not any concrete implementation. Observers register and unregister themselves dynamically. This allows the subject to broadcast changes to any number of observers without knowing their specific types.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Factory pattern creates objects without requiring the client to specify the exact concrete class.",
+    "correctAnswer": true,
+    "explanation": "The Factory pattern (Factory Method or Abstract Factory) delegates object creation to a factory method or class. The client depends only on the abstract product interface, not on concrete classes. This decouples object creation from usage and makes it easy to swap or extend implementations.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "VIPER stands for View, Interactor, Presenter, Entity, Router.",
+    "correctAnswer": true,
+    "explanation": "VIPER is an acronym where: View displays UI and forwards interactions, Interactor contains business logic (use cases), Presenter formats data for the View, Entity represents data models, and Router handles navigation between screens. This pattern enforces strict separation of concerns on iOS.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A Repository can only have a single data source.",
+    "correctAnswer": false,
+    "explanation": "A Repository typically coordinates multiple data sources — commonly a remote source (e.g., REST API) and a local source (e.g., database or cache). The Repository decides which source to use (e.g., return cached data if available, otherwise fetch from network) and acts as the single source of truth for the domain.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In MVVM, the View is permitted to directly modify the Model.",
+    "correctAnswer": false,
+    "explanation": "In MVVM, the View should not interact with the Model directly. The View interacts only with the ViewModel (through data binding or observers and actions). The ViewModel communicates with the Model (domain/data layer). This strict separation prevents the View from containing business or data logic.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "All reactive streams are lazy — they never emit items until a subscriber subscribes.",
+    "correctAnswer": false,
+    "explanation": "This is false for hot (active) streams. Cold observables are lazy and start producing items only when subscribed. Hot observables (e.g., Subjects, SharedFlow, event buses, UI event streams) emit items regardless of whether there are active subscribers. New subscribers to a hot stream may miss previously emitted items.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Modularization of a mobile project can reduce build times by enabling incremental and parallel compilation.",
+    "correctAnswer": true,
+    "explanation": "When a project is modularized, build systems like Gradle or Xcode only recompile modules that have changed (incremental builds). Modules with no interdependency can also be compiled in parallel. This significantly reduces build times in large projects compared to a single monolithic module.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Feature modules in a modularized app can freely depend on each other without any negative architectural consequences.",
+    "correctAnswer": false,
+    "explanation": "Unrestricted inter-feature dependencies create tight coupling between features, making independent deployment, testing, and development impossible. It also risks circular dependencies. Best practice is to have feature modules depend only on shared/core modules (data, domain, UI library) and not on each other.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Interface Segregation Principle recommends creating one large interface that covers all possible client needs.",
+    "correctAnswer": false,
+    "explanation": "The Interface Segregation Principle (ISP) is the opposite: it states that clients should not be forced to depend on methods they do not use. Fat interfaces should be split into smaller, role-specific interfaces. Implementing classes then only need to implement the methods relevant to their role.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Single Responsibility Principle (SRP) states that a class should have only one reason to change.",
+    "correctAnswer": true,
+    "explanation": "SRP, introduced by Robert C. Martin, states that every class or module should have responsibility over a single part of the functionality and that responsibility should be entirely encapsulated within it. 'Reason to change' maps to a specific actor or stakeholder whose requirements drive changes to that class.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the Liskov Substitution Principle, a subclass can strengthen the preconditions of its parent class's methods.",
+    "correctAnswer": false,
+    "explanation": "LSP requires that subclasses honor the contract of their parent class. Strengthening preconditions (requiring more from callers) or weakening postconditions (guaranteeing less) violates the substitutability contract. Code using the parent type must work correctly with any subtype without modification.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Open/Closed Principle states that a class should be open for modification and closed for extension.",
+    "correctAnswer": false,
+    "explanation": "The Open/Closed Principle states the opposite: a class should be open for extension but closed for modification. This means you should be able to add new behavior (by extending or implementing abstractions) without changing existing, tested code. Modifying existing code risks introducing bugs.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In event-driven architecture, an Event Bus decouples publishers from subscribers by allowing communication without direct references.",
+    "correctAnswer": true,
+    "explanation": "An Event Bus acts as an intermediary message broker. Publishers post events to the bus without knowing who (if anyone) is listening. Subscribers register for specific event types and are notified when matching events arrive. This decoupling enables flexible, loosely-coupled communication across components.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In MVP architecture, the Presenter directly renders UI components such as setting text on a TextView.",
+    "correctAnswer": false,
+    "explanation": "In MVP, the Presenter must not have direct access to or manipulate UI components. Instead, it communicates with the View through a defined interface (contract). The View implements this interface and is responsible for the actual UI rendering. This keeps the Presenter free from Android/iOS UI framework dependencies and fully unit-testable.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Domain Events in Domain-Driven Design are mutable objects that can be updated after they are raised.",
+    "correctAnswer": false,
+    "explanation": "Domain Events represent facts about something that already happened in the domain and must be immutable. Once raised, a Domain Event should not be altered. Immutability ensures the integrity of the event record and allows it to be safely shared across bounded contexts or persisted to an event store.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Decorator pattern allows behavior to be added to an object dynamically at runtime without modifying its class.",
+    "correctAnswer": true,
+    "explanation": "The Decorator pattern wraps an existing object with a new object that implements the same interface, adding or modifying behavior transparently. Decorators can be stacked and composed at runtime, offering more flexibility than static subclassing for extending object behavior.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In an offline-first architecture, the network layer is the primary source of truth for the UI.",
+    "correctAnswer": false,
+    "explanation": "In offline-first architecture, the local database (cache) is the primary source of truth. The UI always reads from the local store. Network responses are written to the local store, which in turn triggers UI updates. This ensures the app remains functional with no or poor network connectivity.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Constructor Injection makes a class's dependencies explicit and visible from its public interface.",
+    "correctAnswer": true,
+    "explanation": "When dependencies are passed through a constructor, any developer reading the class signature immediately sees what the class needs to function. This explicitness aids in understanding, refactoring, and testing the class, as opposed to field injection or Service Locator where dependencies are hidden inside the class body.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the MVC pattern, the Model is allowed to directly update the View.",
+    "correctAnswer": false,
+    "explanation": "In the classic separation of concerns for MVC, the Model should not directly update the View. The Model notifies observers (often the Controller or through an observer interface), and the View reads updated data. Allowing the Model to directly reference and manipulate the View creates tight coupling and violates separation of concerns.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A Value Object in Domain-Driven Design is defined by its identity, not its attributes.",
+    "correctAnswer": false,
+    "explanation": "This describes an Entity, not a Value Object. A Value Object is defined entirely by its attributes — two Value Objects with identical attributes are considered equal. Value Objects have no conceptual identity and are typically immutable. Examples include Money, Address, and DateRange.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Strategy design pattern allows you to select an algorithm's implementation at runtime.",
+    "correctAnswer": true,
+    "explanation": "The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. The context holds a reference to a strategy interface, and the concrete strategy can be swapped at runtime. Common examples include sorting algorithms, payment processors, and compression strategies.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Clean Architecture, the Use Case layer depends on the Data layer to retrieve data.",
+    "correctAnswer": false,
+    "explanation": "In Clean Architecture, the Use Case (Domain) layer depends only on abstractions — specifically Repository interfaces — defined within the Domain layer itself. The concrete Repository implementations reside in the Data layer and depend on the Domain interfaces, not the reverse. This follows the Dependency Inversion Principle.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Facade pattern can be used to simplify the interface to a complex library or subsystem in a mobile app.",
+    "correctAnswer": true,
+    "explanation": "The Facade pattern provides a unified, simplified entry point to a complex subsystem. In mobile development, a common example is wrapping a networking library, authentication service, and caching layer behind a single DataFacade class, so the rest of the app only calls simple high-level methods.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In reactive programming, a Subject is both an observable and an observer.",
+    "correctAnswer": true,
+    "explanation": "A Subject implements both the Observable and Observer (Subscriber) interfaces. This means it can receive items (as an observer) and also emit items to its own subscribers (as an observable). This dual nature makes Subjects useful as bridges or event channels between different parts of a reactive pipeline.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Separation of Concerns means grouping all code for a single screen into one large file for simplicity.",
+    "correctAnswer": false,
+    "explanation": "Separation of Concerns means dividing a program into distinct sections, each addressing a specific concern (e.g., UI rendering, business logic, data access). Grouping unrelated responsibilities into one large file violates this principle, making the code harder to understand, test, and maintain.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In SOLID, the Dependency Inversion Principle requires that concrete classes, not abstractions, be the basis of inter-module dependencies.",
+    "correctAnswer": false,
+    "explanation": "DIP requires the opposite: both high-level and low-level modules should depend on abstractions (interfaces or abstract classes), not on concrete implementations. Depending on concretions creates tight coupling, making the system rigid and difficult to test or extend.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Modularization can help enforce architectural boundaries by making illegal dependencies fail at compile time.",
+    "correctAnswer": true,
+    "explanation": "When features or layers are separated into distinct modules, any dependency that violates architecture rules (e.g., Domain module depending on the Data module) will result in a compile-time error since the module simply does not have access to the other module's code. This is stronger enforcement than code conventions alone.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Builder pattern is particularly useful when an object requires many optional parameters.",
+    "correctAnswer": true,
+    "explanation": "The Builder pattern solves the 'telescoping constructor' problem, where multiple constructors are needed to cover all combinations of optional parameters. With a Builder, callers set only the parameters they need using a fluent API, then call build() to get the configured object, improving readability and reducing error.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In DDD, an Aggregate Root is the only entry point through which external objects may interact with the Aggregate.",
+    "correctAnswer": true,
+    "explanation": "The Aggregate Root is the gatekeeper of the Aggregate's consistency. External objects must reference or modify the Aggregate only through the root entity, never directly accessing internal entities or value objects. This ensures business invariants within the Aggregate are always maintained.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Using an IoC (Inversion of Control) container always makes an app slower at startup due to reflection.",
+    "correctAnswer": false,
+    "explanation": "Not all IoC containers rely on runtime reflection. For example, Dagger (Android) generates dependency injection code at compile time, adding no runtime overhead. Hilt (built on Dagger) also uses compile-time code generation. Frameworks that do use reflection (like Koin in some configurations) may have minimal, often negligible startup costs.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In MVI architecture, the State object should be immutable.",
+    "correctAnswer": true,
+    "explanation": "In MVI, the State object is a pure, immutable data class. When a new state needs to be produced, a new instance is created (often using data class copy() in Kotlin). Immutability ensures predictability, makes state changes explicit and traceable, and prevents unintended mutations from multiple sources.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The Repository pattern prevents the domain layer from ever caching data locally.",
+    "correctAnswer": false,
+    "explanation": "The Repository pattern does not prevent local caching — in fact, managing caching is one of its primary responsibilities. A Repository typically coordinates between a remote data source and a local cache, deciding when to serve cached data and when to fetch fresh data, all transparently to the domain layer.",
+    "difficulty": "medium"
+  }
+]

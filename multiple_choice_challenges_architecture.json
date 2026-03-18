@@ -1,0 +1,494 @@
+[
+  {
+    "question": "In MVVM architecture, what is the primary responsibility of the ViewModel?",
+    "options": [
+      "Rendering UI components directly",
+      "Exposing data streams and handling UI logic without holding a reference to the View",
+      "Managing database operations and network calls directly",
+      "Routing between screens"
+    ],
+    "correctAnswer": "Exposing data streams and handling UI logic without holding a reference to the View",
+    "explanation": "The ViewModel in MVVM acts as an intermediary between the Model and the View. It exposes observable data (e.g., LiveData, StateFlow) and handles presentation logic, but it must not hold a direct reference to the View to avoid memory leaks and maintain testability.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which layer in Clean Architecture is allowed to depend on all other layers?",
+    "options": [
+      "Domain layer",
+      "Data layer",
+      "Presentation layer",
+      "No layer can depend on all others"
+    ],
+    "correctAnswer": "No layer can depend on all others",
+    "explanation": "Clean Architecture enforces the Dependency Rule: dependencies must point inward. The outer layers (Presentation, Data) depend on the inner Domain layer, but the Domain layer must not depend on any outer layer. No single layer is permitted to depend on all others.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does the 'S' in SOLID stand for, and what does it mean?",
+    "options": [
+      "Substitution — a class should be replaceable by its subclass",
+      "Single Responsibility — a class should have only one reason to change",
+      "Segregation — interfaces should be split by client needs",
+      "Stability — modules should depend on stable abstractions"
+    ],
+    "correctAnswer": "Single Responsibility — a class should have only one reason to change",
+    "explanation": "The Single Responsibility Principle (SRP) states that a class or module should have one, and only one, reason to change. This means each class should encapsulate a single concern or functionality, making the codebase easier to maintain and test.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In the MVI (Model-View-Intent) pattern, what role does 'Intent' play?",
+    "options": [
+      "It directly mutates the application state",
+      "It represents user actions or events that trigger state changes",
+      "It is equivalent to Android's Intent class for navigation",
+      "It renders the current UI state"
+    ],
+    "correctAnswer": "It represents user actions or events that trigger state changes",
+    "explanation": "In MVI, 'Intent' represents the user's intention — a discrete action or event such as a button click or form submission. Intents are fed into a reducer or processor that transforms the current state into a new state, enabling strict unidirectional data flow.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which SOLID principle does the following violate? A high-level OrderService directly instantiates a MySQLDatabase object.",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Liskov Substitution Principle"
+    ],
+    "correctAnswer": "Dependency Inversion Principle",
+    "explanation": "The Dependency Inversion Principle states that high-level modules should not depend on low-level modules; both should depend on abstractions. Directly instantiating MySQLDatabase inside OrderService creates a hard dependency on a concrete implementation rather than an interface.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In VIPER architecture, what is the role of the Interactor?",
+    "options": [
+      "Managing navigation and routing between screens",
+      "Containing business logic and use cases",
+      "Binding data to the UI",
+      "Persisting data to local storage"
+    ],
+    "correctAnswer": "Containing business logic and use cases",
+    "explanation": "In VIPER (View, Interactor, Presenter, Entity, Router), the Interactor contains all business logic and use cases. It fetches, processes, and manipulates data (Entities) and communicates results back to the Presenter. It is the equivalent of a Use Case in Clean Architecture.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the primary benefit of using the Repository pattern in mobile development?",
+    "options": [
+      "It speeds up UI rendering by caching drawables",
+      "It abstracts the data source from the domain layer, acting as a single source of truth",
+      "It enforces strict type safety across the data layer",
+      "It eliminates the need for a local database"
+    ],
+    "correctAnswer": "It abstracts the data source from the domain layer, acting as a single source of truth",
+    "explanation": "The Repository pattern decouples the domain layer from data sources (remote API, local database, cache). The domain layer only interacts with the Repository interface, unaware of where data actually comes from. This makes swapping data sources easy and improves testability.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which of the following best describes Constructor Injection in Dependency Injection?",
+    "options": [
+      "Dependencies are assigned through public fields after object creation",
+      "Dependencies are provided via setter methods",
+      "Dependencies are passed as parameters when the object is instantiated",
+      "A service locator resolves dependencies at runtime"
+    ],
+    "correctAnswer": "Dependencies are passed as parameters when the object is instantiated",
+    "explanation": "Constructor Injection is the practice of providing an object's dependencies through its constructor parameters. This makes dependencies explicit, ensures the object is always in a valid state, and simplifies testing by allowing mock dependencies to be injected directly.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Clean Architecture, which layer should contain the Use Cases (Interactors)?",
+    "options": [
+      "Presentation layer",
+      "Data layer",
+      "Domain layer",
+      "Infrastructure layer"
+    ],
+    "correctAnswer": "Domain layer",
+    "explanation": "Use Cases (also called Interactors) live in the Domain layer, which is the innermost layer of Clean Architecture. This layer contains pure business logic and has no dependencies on frameworks, databases, or UI, making it highly portable and testable.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What distinguishes an Observable (cold) stream from a Subject (hot) stream in reactive programming?",
+    "options": [
+      "Cold streams emit values only when subscribed; hot streams emit regardless of subscribers",
+      "Hot streams are more memory-efficient than cold streams",
+      "Cold streams share the same sequence across all subscribers",
+      "Subjects cannot be subscribed to by multiple observers"
+    ],
+    "correctAnswer": "Cold streams emit values only when subscribed; hot streams emit regardless of subscribers",
+    "explanation": "A cold observable starts emitting items only when a subscriber subscribes, and each subscriber gets its own independent sequence. A hot observable (like a Subject) emits items regardless of whether anyone is subscribed, sharing the same sequence among all active subscribers.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "The Open/Closed Principle states that software entities should be:",
+    "options": [
+      "Open for modification and closed for extension",
+      "Open for extension and closed for modification",
+      "Open for both extension and modification",
+      "Closed for both extension and modification"
+    ],
+    "correctAnswer": "Open for extension and closed for modification",
+    "explanation": "The Open/Closed Principle (OCP) requires that a class, module, or function should be open for extension (new behavior can be added) but closed for modification (existing code should not be changed). This is typically achieved through abstraction and polymorphism.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In MVP architecture, who is responsible for handling the user's interaction and updating the View?",
+    "options": [
+      "Model",
+      "View",
+      "Presenter",
+      "Controller"
+    ],
+    "correctAnswer": "Presenter",
+    "explanation": "In MVP (Model-View-Presenter), the Presenter acts as the middle layer. It receives input from the View (via an interface), processes it using the Model, and then instructs the View to update itself. The View is kept passive and contains no business logic.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which design pattern ensures that only one instance of a class is created throughout the application lifecycle?",
+    "options": [
+      "Factory",
+      "Builder",
+      "Singleton",
+      "Prototype"
+    ],
+    "correctAnswer": "Singleton",
+    "explanation": "The Singleton pattern restricts a class to a single instance and provides a global access point to it. Common use cases include shared resources like a database connection pool, configuration manager, or logging service.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the Liskov Substitution Principle (LSP)?",
+    "options": [
+      "Derived classes must be fully substitutable for their base classes without altering correctness",
+      "Interfaces should be as small and specific as possible",
+      "Classes should depend on abstractions, not concretions",
+      "Each class should have only one reason to change"
+    ],
+    "correctAnswer": "Derived classes must be fully substitutable for their base classes without altering correctness",
+    "explanation": "LSP states that objects of a superclass should be replaceable with objects of a subclass without breaking the application. A subclass must honor the contract of its parent class — it should not strengthen preconditions or weaken postconditions.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Unidirectional Data Flow (UDF), which sequence correctly describes the flow?",
+    "options": [
+      "View → State → Event → Effect",
+      "Event → State → View → Effect",
+      "View → Event → State → View (re-render)",
+      "State → Event → View → Reducer"
+    ],
+    "correctAnswer": "View → Event → State → View (re-render)",
+    "explanation": "In UDF, the View dispatches an Event (user action), which is processed by a reducer/logic to produce a new State. The View then observes the State and re-renders accordingly. This strict one-way flow makes state changes predictable and traceable.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What problem does the Facade design pattern solve?",
+    "options": [
+      "Ensuring only one object instance exists",
+      "Providing a simplified interface to a complex subsystem",
+      "Allowing incompatible interfaces to work together",
+      "Dynamically adding responsibilities to an object"
+    ],
+    "correctAnswer": "Providing a simplified interface to a complex subsystem",
+    "explanation": "The Facade pattern provides a unified, simplified interface to a complex set of subsystems. It hides the complexity of the subsystem from clients, reducing coupling and making the subsystem easier to use. An example is a networking facade that wraps multiple HTTP, caching, and retry libraries.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which modularization strategy separates code by technical layers (e.g., a shared 'data' module, a shared 'domain' module)?",
+    "options": [
+      "Feature modularization",
+      "Layer modularization",
+      "Horizontal modularization",
+      "Micro-service modularization"
+    ],
+    "correctAnswer": "Layer modularization",
+    "explanation": "Layer modularization splits a codebase into modules by architectural layer (e.g., :data, :domain, :presentation). Feature modularization, by contrast, splits by product feature (e.g., :login, :profile). Each strategy has trade-offs; many large apps combine both.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Domain-Driven Design (DDD), what is a Value Object?",
+    "options": [
+      "An object with a unique identity tracked across its lifecycle",
+      "An immutable object defined entirely by its attributes, with no conceptual identity",
+      "A service that performs domain operations",
+      "A collection of related entities with a defined boundary"
+    ],
+    "correctAnswer": "An immutable object defined entirely by its attributes, with no conceptual identity",
+    "explanation": "A Value Object in DDD is defined by its attributes rather than a unique identity. Two Value Objects with the same attributes are considered equal. They are typically immutable (e.g., Money, Address, Color). This contrasts with Entities, which have a distinct lifecycle identity.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "The Interface Segregation Principle (ISP) recommends:",
+    "options": [
+      "Combining multiple interfaces into one for ease of use",
+      "Clients should not be forced to depend on methods they do not use",
+      "All public methods of a class should be exposed through a single interface",
+      "Interfaces should only be used for dependency injection"
+    ],
+    "correctAnswer": "Clients should not be forced to depend on methods they do not use",
+    "explanation": "ISP states that an interface should be fine-grained and specific so that implementing classes are not forced to provide implementations for methods they do not need. Fat interfaces should be broken into smaller, role-specific interfaces.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the key difference between the Strategy and State design patterns?",
+    "options": [
+      "Strategy focuses on changing algorithm based on client choice; State changes behavior based on internal state transitions",
+      "Strategy is a structural pattern; State is a behavioral pattern",
+      "State allows multiple algorithms; Strategy only allows one",
+      "There is no practical difference; they are interchangeable"
+    ],
+    "correctAnswer": "Strategy focuses on changing algorithm based on client choice; State changes behavior based on internal state transitions",
+    "explanation": "Both patterns use composition and delegation, but their intent differs. Strategy lets the client choose which algorithm to use (e.g., different sorting strategies). State encapsulates state-dependent behavior and transitions between states, where the object itself changes behavior as its internal state changes.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In an offline-first architecture, what is the recommended approach for displaying data while a network request is in-flight?",
+    "options": [
+      "Block the UI until the network request completes",
+      "Show only cached data and never refresh from the network",
+      "Show cached data immediately, then update when fresh data arrives",
+      "Delete cached data before making the network request"
+    ],
+    "correctAnswer": "Show cached data immediately, then update when fresh data arrives",
+    "explanation": "Offline-first architecture prioritizes local cache as the primary data source. Data is served immediately from cache (fast, works offline), and a background network request fetches fresh data. When the response arrives, the cache is updated and the UI reflects the new state.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which component in VIPER is solely responsible for navigation and routing?",
+    "options": [
+      "Presenter",
+      "Interactor",
+      "Entity",
+      "Router"
+    ],
+    "correctAnswer": "Router",
+    "explanation": "In VIPER, the Router (also called Wireframe) handles all navigation logic, including screen transitions and module creation. This strict separation ensures that neither the Presenter nor the View contains navigation code, improving testability and modularity.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is an Aggregate in Domain-Driven Design?",
+    "options": [
+      "A database table that consolidates multiple entities",
+      "A cluster of domain objects treated as a single unit with a root entity governing access",
+      "A service that aggregates results from multiple repositories",
+      "A DTO that combines data from multiple sources"
+    ],
+    "correctAnswer": "A cluster of domain objects treated as a single unit with a root entity governing access",
+    "explanation": "An Aggregate is a cluster of Entities and Value Objects with clear boundaries. It has an Aggregate Root — the only entry point for outside objects to interact with the aggregate. This ensures consistency rules (invariants) are maintained within the boundary.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of the following correctly describes the Observer design pattern?",
+    "options": [
+      "A class delegates object creation to subclasses",
+      "An object maintains a list of dependents and notifies them of state changes",
+      "A single instance is shared across the entire application",
+      "An interface is used to decouple the algorithm from the context"
+    ],
+    "correctAnswer": "An object maintains a list of dependents and notifies them of state changes",
+    "explanation": "The Observer pattern defines a one-to-many dependency. When the Subject (Observable) changes state, all registered Observers are notified and updated automatically. It is the foundation of reactive programming and is used in LiveData, EventBus, and RxJava.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the Service Locator pattern, and what is its main criticism compared to Constructor Injection?",
+    "options": [
+      "It provides dependencies via a global registry; the main criticism is that dependencies are hidden and not explicit",
+      "It is always superior to Constructor Injection for mobile development",
+      "It injects dependencies through interfaces; it is criticized for being too verbose",
+      "It resolves dependencies at compile time; it is criticized for being inflexible at runtime"
+    ],
+    "correctAnswer": "It provides dependencies via a global registry; the main criticism is that dependencies are hidden and not explicit",
+    "explanation": "A Service Locator acts as a global registry from which objects pull their dependencies. The key criticism is that dependencies become implicit — you cannot tell from a class's signature what it depends on. This makes testing harder (requires configuring the locator) and hides coupling.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In the Builder design pattern, what problem does it primarily solve?",
+    "options": [
+      "Preventing multiple instances of the same class",
+      "Constructing complex objects step-by-step, separating construction from representation",
+      "Providing a family of related objects without specifying concrete classes",
+      "Translating one interface into another that clients expect"
+    ],
+    "correctAnswer": "Constructing complex objects step-by-step, separating construction from representation",
+    "explanation": "The Builder pattern is used when an object requires many parameters or a complex construction sequence. It lets you construct the object incrementally using method chaining or step methods, and only produce the final object when build() is called. This avoids telescoping constructors.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "How does the Decorator pattern differ from subclassing?",
+    "options": [
+      "Decorator modifies the base class directly; subclassing creates a new class",
+      "Decorator adds behavior dynamically at runtime by wrapping objects; subclassing adds behavior statically at compile time",
+      "Decorator is a creational pattern; subclassing is a structural pattern",
+      "Decorator can only remove behavior; subclassing can only add it"
+    ],
+    "correctAnswer": "Decorator adds behavior dynamically at runtime by wrapping objects; subclassing adds behavior statically at compile time",
+    "explanation": "The Decorator pattern wraps an object with another object that implements the same interface, adding or modifying behavior without altering the original class. Unlike subclassing, decorators can be stacked and applied dynamically at runtime, offering more flexibility.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the main advantage of feature modularization in large mobile apps?",
+    "options": [
+      "It eliminates the need for dependency injection",
+      "It allows parallel development, faster incremental builds, and enforced boundaries between features",
+      "It reduces the total number of source files in the project",
+      "It ensures all features share the same ViewModel lifecycle"
+    ],
+    "correctAnswer": "It allows parallel development, faster incremental builds, and enforced boundaries between features",
+    "explanation": "Feature modularization splits a large app into independent feature modules. This enables teams to work in parallel with less merge conflicts, Gradle/Xcode only recompiles changed modules (faster builds), and module boundaries enforce separation of concerns at a structural level.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In reactive programming, what is a BehaviorSubject?",
+    "options": [
+      "A subject that only emits items to subscribers who joined before the first emission",
+      "A subject that replays all historical emissions to new subscribers",
+      "A subject that emits the most recent item to new subscribers and then continues with new emissions",
+      "A subject that never retains any previously emitted items"
+    ],
+    "correctAnswer": "A subject that emits the most recent item to new subscribers and then continues with new emissions",
+    "explanation": "A BehaviorSubject (or StateFlow in Kotlin) stores the most recently emitted item. When a new subscriber subscribes, it immediately receives this latest value. This makes it ideal for representing ongoing state like UI state, user session, or connectivity status.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which architectural pattern is characterized by having the Controller update both the Model and the View?",
+    "options": [
+      "MVP",
+      "MVVM",
+      "MVC",
+      "MVI"
+    ],
+    "correctAnswer": "MVC",
+    "explanation": "In MVC (Model-View-Controller), the Controller handles user input, updates the Model, and may also update the View directly. The View can also observe the Model directly. This bidirectional flow is a key distinction from MVP and MVVM, where communication is more strictly mediated.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In event-driven architecture, what is the publish/subscribe (pub/sub) pattern?",
+    "options": [
+      "A pattern where producers send messages directly to specific consumers",
+      "A pattern where producers publish events to a channel and consumers subscribe to receive events independently",
+      "A pattern where a single consumer processes all events in a queue",
+      "A pattern where consumers request data from producers on demand"
+    ],
+    "correctAnswer": "A pattern where producers publish events to a channel and consumers subscribe to receive events independently",
+    "explanation": "In pub/sub, publishers emit events to a topic or channel without knowledge of who (if anyone) is listening. Subscribers register interest in specific topics and receive events asynchronously. This decouples producers from consumers, enabling scalable event-driven systems.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does the Dependency Inversion Principle (DIP) require about the direction of dependencies?",
+    "options": [
+      "High-level modules should depend directly on low-level modules for performance",
+      "Both high-level and low-level modules should depend on abstractions",
+      "Low-level modules should depend on high-level modules",
+      "Only low-level modules need to depend on abstractions"
+    ],
+    "correctAnswer": "Both high-level and low-level modules should depend on abstractions",
+    "explanation": "DIP has two parts: (1) High-level modules should not depend on low-level modules — both should depend on abstractions (interfaces). (2) Abstractions should not depend on details; details (concrete implementations) should depend on abstractions. This inverts the traditional dependency direction.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Why does the Domain layer in Clean Architecture typically have no Android or iOS framework dependencies?",
+    "options": [
+      "Because platform SDKs are too large to import into the domain layer",
+      "To ensure the business logic is portable, independently testable, and not tied to any platform lifecycle",
+      "Because domain logic always runs on a separate server",
+      "Because frameworks like Retrofit and Room are only available in the data layer"
+    ],
+    "correctAnswer": "To ensure the business logic is portable, independently testable, and not tied to any platform lifecycle",
+    "explanation": "The Domain layer contains pure business logic that should be platform-agnostic. By excluding Android/iOS framework dependencies, use cases and domain models can be unit-tested with plain JVM/Swift test runners (no emulator needed) and can even be shared across platforms.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which sync strategy in offline-first architecture writes data locally first and then synchronizes with the server in the background?",
+    "options": [
+      "Cache-aside",
+      "Write-through",
+      "Write-behind (write-back)",
+      "Read-through"
+    ],
+    "correctAnswer": "Write-behind (write-back)",
+    "explanation": "Write-behind caching means the application writes data to the local cache immediately (fast, works offline) and the synchronization to the remote server happens asynchronously in the background. This improves perceived performance but requires conflict resolution strategies.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In the Factory Method pattern, how is object creation decoupled from the client?",
+    "options": [
+      "The client calls a static constructor on the concrete class",
+      "A separate factory class or method handles instantiation, with the client only knowing the abstract type",
+      "The object builds itself using a fluent builder interface",
+      "The client uses reflection to instantiate the correct subclass"
+    ],
+    "correctAnswer": "A separate factory class or method handles instantiation, with the client only knowing the abstract type",
+    "explanation": "The Factory Method pattern defines an interface for creating objects but lets subclasses or factory methods decide which concrete class to instantiate. The client depends only on the abstract product interface, not on any specific implementation, reducing coupling.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is a Domain Event in Domain-Driven Design?",
+    "options": [
+      "An Android lifecycle event that triggers a use case",
+      "A record of something significant that happened in the domain, used to communicate between bounded contexts",
+      "A network event that triggers a data refresh",
+      "An error thrown by the domain layer when validation fails"
+    ],
+    "correctAnswer": "A record of something significant that happened in the domain, used to communicate between bounded contexts",
+    "explanation": "A Domain Event captures something that happened in the business domain (e.g., OrderPlaced, PaymentReceived). Other parts of the system (or bounded contexts) can react to these events without direct coupling. They are immutable records of facts, not commands.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of the following best explains why architecture patterns improve testability?",
+    "options": [
+      "They reduce the number of classes, making tests shorter",
+      "They enforce strict separation of concerns, enabling each layer to be tested in isolation with mock dependencies",
+      "They eliminate the need for integration tests",
+      "They ensure all code runs on the main thread, simplifying test setup"
+    ],
+    "correctAnswer": "They enforce strict separation of concerns, enabling each layer to be tested in isolation with mock dependencies",
+    "explanation": "Good architecture separates concerns so that business logic, UI logic, and data access are isolated. With clear boundaries and dependency injection, each layer can be tested independently using mocks or fakes for its dependencies — no need for a real device, database, or network.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In MVI, what is the purpose of 'Side Effects' (also called Effects or Single Events)?",
+    "options": [
+      "They represent the persistent UI state rendered by the View",
+      "They are one-time events that should not be part of the persisted state, such as navigation or showing a toast",
+      "They mutate the Model directly from the View",
+      "They are errors produced by the Reducer"
+    ],
+    "correctAnswer": "They are one-time events that should not be part of the persisted state, such as navigation or showing a toast",
+    "explanation": "In MVI, Side Effects (or Effects) represent events that should happen exactly once and should not be stored in state — for example, navigating to a new screen, showing a Snackbar, or playing a sound. Storing such events in State would cause them to re-trigger on re-subscription.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is a key disadvantage of circular dependencies between modules?",
+    "options": [
+      "They increase app startup time by 10% on average",
+      "They make it impossible to build or test one module without building the other, breaking independent compilation",
+      "They are only a problem in dynamic feature modules",
+      "They prevent the use of constructor injection"
+    ],
+    "correctAnswer": "They make it impossible to build or test one module without building the other, breaking independent compilation",
+    "explanation": "Circular dependencies (Module A depends on Module B and B depends on A) break the acyclic dependency principle. They prevent independent compilation and testing of modules, increase coupling, and can cause issues with dependency injection frameworks that rely on the dependency graph being a DAG.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In MVVM, if the ViewModel needs to trigger a one-time navigation event, what is a recommended approach to avoid re-triggering on state restoration?",
+    "options": [
+      "Store the navigation destination directly in the StateFlow",
+      "Use a SharedFlow with replay=0 or a wrapper like SingleLiveEvent to emit one-time events",
+      "Call the navigation method directly from the ViewModel using an Activity context",
+      "Post the navigation event on a static global variable"
+    ],
+    "correctAnswer": "Use a SharedFlow with replay=0 or a wrapper like SingleLiveEvent to emit one-time events",
+    "explanation": "Regular StateFlow or LiveData re-emits the latest value to new collectors/observers, which would re-trigger navigation after rotation. SharedFlow with replay=0 (or SingleLiveEvent) ensures the event is consumed exactly once, preventing unintended re-navigation on reconfiguration.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which of the following is a characteristic of a well-defined Bounded Context in DDD?",
+    "options": [
+      "It shares its data model freely with all other bounded contexts",
+      "It has a clear linguistic boundary where a ubiquitous language is consistently applied and models are not shared across boundaries",
+      "It must correspond exactly to one microservice",
+      "It depends on a global domain model shared across the entire system"
+    ],
+    "correctAnswer": "It has a clear linguistic boundary where a ubiquitous language is consistently applied and models are not shared across boundaries",
+    "explanation": "A Bounded Context defines the scope within which a particular domain model applies. The same term (e.g., 'User') may mean different things in different Bounded Contexts. Within a context, the ubiquitous language is consistent. Contexts communicate via well-defined contracts (e.g., Domain Events, anti-corruption layers).",
+    "difficulty": "Hard"
+  }
+]
