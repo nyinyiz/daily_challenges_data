@@ -1,0 +1,363 @@
+[
+  {
+    "question": "Which of the following are valid Flutter widget lifecycle methods on a State object?",
+    "options": [
+      "initState()",
+      "didUpdateWidget()",
+      "dispose()",
+      "onDestroy()",
+      "onPause()",
+      "deactivate()"
+    ],
+    "correctAnswers": ["initState()", "didUpdateWidget()", "dispose()", "deactivate()"],
+    "difficulty": "Medium",
+    "explanation": "State lifecycle methods include initState(), didChangeDependencies(), build(), didUpdateWidget(), deactivate(), and dispose(). onDestroy() and onPause() are Android Activity lifecycle callbacks, not Flutter State methods."
+  },
+  {
+    "question": "Which of the following statements are true about Dart null safety?",
+    "options": [
+      "Variables are non-nullable by default",
+      "You can use the ! operator to assert a nullable value is non-null",
+      "The ?? operator provides a fallback when a value is null",
+      "Nullable and non-nullable types are identical at runtime",
+      "The ?. operator safely accesses a property on a nullable object"
+    ],
+    "correctAnswers": [
+      "Variables are non-nullable by default",
+      "You can use the ! operator to assert a nullable value is non-null",
+      "The ?? operator provides a fallback when a value is null",
+      "The ?. operator safely accesses a property on a nullable object"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Dart's sound null safety makes types non-nullable by default. The !, ??, and ?. operators are core null-safety tools. Nullable and non-nullable types ARE distinct at compile time and the type system distinguishes them."
+  },
+  {
+    "question": "Which of the following are valid Riverpod provider types?",
+    "options": [
+      "Provider",
+      "StateProvider",
+      "FutureProvider",
+      "StreamProvider",
+      "ListProvider",
+      "ChangeNotifierProvider"
+    ],
+    "correctAnswers": [
+      "Provider",
+      "StateProvider",
+      "FutureProvider",
+      "StreamProvider",
+      "ChangeNotifierProvider"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Riverpod offers Provider (read-only), StateProvider (simple state), FutureProvider (async one-shot), StreamProvider (async stream), and ChangeNotifierProvider (ChangeNotifier-based). ListProvider does not exist in Riverpod."
+  },
+  {
+    "question": "Which of the following widget types in Flutter are layout widgets?",
+    "options": [
+      "Row",
+      "Column",
+      "Stack",
+      "GestureDetector",
+      "Expanded",
+      "Text"
+    ],
+    "correctAnswers": ["Row", "Column", "Stack", "Expanded"],
+    "difficulty": "Easy",
+    "explanation": "Row, Column, Stack, and Expanded are layout widgets that arrange or size their children. GestureDetector handles input detection, and Text renders text content — they are not primarily layout widgets."
+  },
+  {
+    "question": "Which of the following are valid key types in Flutter?",
+    "options": [
+      "GlobalKey",
+      "ValueKey",
+      "UniqueKey",
+      "ObjectKey",
+      "StaticKey",
+      "PageKey"
+    ],
+    "correctAnswers": ["GlobalKey", "ValueKey", "UniqueKey", "ObjectKey"],
+    "difficulty": "Medium",
+    "explanation": "Flutter's key types include GlobalKey, LocalKey subtypes (ValueKey, UniqueKey, ObjectKey, and PageStorageKey). StaticKey and PageKey do not exist in the Flutter framework."
+  },
+  {
+    "question": "Which of the following can cause a StatefulWidget to rebuild?",
+    "options": [
+      "Calling setState()",
+      "A parent widget rebuilding",
+      "An InheritedWidget dependency changing",
+      "The Dart VM performing garbage collection",
+      "didUpdateWidget() being called"
+    ],
+    "correctAnswers": [
+      "Calling setState()",
+      "A parent widget rebuilding",
+      "An InheritedWidget dependency changing"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Rebuilds are triggered by setState(), parent rebuilds (that create a new widget instance), or changes to InheritedWidget dependencies. Garbage collection and didUpdateWidget() itself do not trigger rebuilds directly — didUpdateWidget() is a lifecycle callback that precedes a rebuild already scheduled."
+  },
+  {
+    "question": "Which of the following are true about Flutter's `const` widgets?",
+    "options": [
+      "They are instantiated at compile time",
+      "They are always re-created on every rebuild",
+      "They are skipped during the rebuild process if their configuration hasn't changed",
+      "They can accept non-const arguments",
+      "They reduce widget tree rebuild overhead"
+    ],
+    "correctAnswers": [
+      "They are instantiated at compile time",
+      "They are skipped during the rebuild process if their configuration hasn't changed",
+      "They reduce widget tree rebuild overhead"
+    ],
+    "difficulty": "Medium",
+    "explanation": "const widgets are compile-time constants that Flutter can canonicalize and skip rebuilding. They cannot accept non-const arguments and are not re-created on every rebuild — that defeats their purpose."
+  },
+  {
+    "question": "Which of the following are Flutter build modes?",
+    "options": [
+      "Debug",
+      "Profile",
+      "Release",
+      "Staging",
+      "Test"
+    ],
+    "correctAnswers": ["Debug", "Profile", "Release"],
+    "difficulty": "Easy",
+    "explanation": "Flutter has three build modes: Debug (JIT, hot reload, assertions enabled), Profile (AOT-like, profiling hooks enabled), and Release (AOT, fully optimized). Staging and Test are not Flutter build modes."
+  },
+  {
+    "question": "Which of the following are features of Flutter's `Navigator 2.0` (Router API) compared to Navigator 1.0?",
+    "options": [
+      "Declarative route configuration based on app state",
+      "Support for deep linking and URL synchronization on web",
+      "Uses MaterialPageRoute exclusively",
+      "Allows full control of the back stack",
+      "Only works on mobile platforms"
+    ],
+    "correctAnswers": [
+      "Declarative route configuration based on app state",
+      "Support for deep linking and URL synchronization on web",
+      "Allows full control of the back stack"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Navigator 2.0 introduces a declarative Router/RouteInformationParser/RouterDelegate API that enables deep linking, URL sync on web, and programmatic back-stack management. It is not limited to MaterialPageRoute or mobile platforms."
+  },
+  {
+    "question": "Which of the following are valid Dart Stream types?",
+    "options": [
+      "Single-subscription Stream",
+      "Broadcast Stream",
+      "Buffered Stream",
+      "Lazy Stream",
+      "async* Stream"
+    ],
+    "correctAnswers": [
+      "Single-subscription Stream",
+      "Broadcast Stream",
+      "async* Stream"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Dart has single-subscription streams (one listener, buffered until listened) and broadcast streams (multiple listeners, no buffering). async* generator functions create streams. Buffered Stream and Lazy Stream are not official Dart stream type names."
+  },
+  {
+    "question": "Which of the following are responsibilities of `BuildContext`?",
+    "options": [
+      "Looking up InheritedWidget ancestors",
+      "Showing SnackBars and Dialogs via Scaffold.of(context)",
+      "Holding mutable widget state",
+      "Accessing the current Theme",
+      "Navigating to a new route"
+    ],
+    "correctAnswers": [
+      "Looking up InheritedWidget ancestors",
+      "Showing SnackBars and Dialogs via Scaffold.of(context)",
+      "Accessing the current Theme",
+      "Navigating to a new route"
+    ],
+    "difficulty": "Medium",
+    "explanation": "BuildContext is a handle to the widget's position in the tree. It is used to look up ancestors (InheritedWidgets, Scaffold, Theme), show overlays, and navigate. State (mutable data) is held by the State object, not the context."
+  },
+  {
+    "question": "Which of the following widgets from Flutter support scroll behavior?",
+    "options": [
+      "ListView",
+      "GridView",
+      "SingleChildScrollView",
+      "Column",
+      "CustomScrollView"
+    ],
+    "correctAnswers": [
+      "ListView",
+      "GridView",
+      "SingleChildScrollView",
+      "CustomScrollView"
+    ],
+    "difficulty": "Easy",
+    "explanation": "ListView, GridView, SingleChildScrollView, and CustomScrollView are all scrollable widgets. Column is a layout widget that does not scroll by default; if its children overflow, it will show a render overflow error."
+  },
+  {
+    "question": "Which of the following are true about Flutter Platform Channels?",
+    "options": [
+      "MethodChannel is used for request-response style communication",
+      "EventChannel is used for streaming events from native to Flutter",
+      "BasicMessageChannel supports arbitrary message codecs",
+      "Platform channel calls are synchronous by default",
+      "They can be used to access sensors and native APIs"
+    ],
+    "correctAnswers": [
+      "MethodChannel is used for request-response style communication",
+      "EventChannel is used for streaming events from native to Flutter",
+      "BasicMessageChannel supports arbitrary message codecs",
+      "They can be used to access sensors and native APIs"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Platform channels are always asynchronous, not synchronous. MethodChannel handles RPC-style calls, EventChannel handles persistent streams (e.g., sensor data), and BasicMessageChannel supports custom codecs. All are used to access native platform APIs."
+  },
+  {
+    "question": "Which of the following correctly describe the difference between `final` and `const` in Dart?",
+    "options": [
+      "const values must be known at compile time",
+      "final values can be assigned at runtime",
+      "const objects are deeply immutable",
+      "final and const are interchangeable",
+      "final can be used for class instance variables; const can only be used for top-level or static variables"
+    ],
+    "correctAnswers": [
+      "const values must be known at compile time",
+      "final values can be assigned at runtime",
+      "const objects are deeply immutable",
+      "final can be used for class instance variables; const can only be used for top-level or static variables"
+    ],
+    "difficulty": "Medium",
+    "explanation": "const requires compile-time constants and produces deeply immutable objects (all nested objects are also const). final allows runtime assignment and is shallowly immutable. Instance variables cannot be const (only static or top-level can), but they can be final."
+  },
+  {
+    "question": "Which of the following are true about Flutter's `FutureBuilder`?",
+    "options": [
+      "It rebuilds when the Future completes",
+      "It can show different UI for loading, success, and error states",
+      "It creates a new Future on every rebuild if not cached",
+      "It works with Streams instead of Futures",
+      "The snapshot's connectionState can be waiting, active, or done"
+    ],
+    "correctAnswers": [
+      "It rebuilds when the Future completes",
+      "It can show different UI for loading, success, and error states",
+      "It creates a new Future on every rebuild if not cached",
+      "The snapshot's connectionState can be waiting, active, or done"
+    ],
+    "difficulty": "Medium",
+    "explanation": "FutureBuilder rebuilds on Future completion and exposes AsyncSnapshot with connectionState (none, waiting, active, done) and data/error. If the Future is not stored in state, a new one is created on each parent rebuild — a common bug. StreamBuilder (not FutureBuilder) handles Streams."
+  },
+  {
+    "question": "Which of the following testing types are supported by the Flutter testing framework?",
+    "options": [
+      "Unit tests",
+      "Widget tests",
+      "Integration tests",
+      "Screenshot tests",
+      "Network tests"
+    ],
+    "correctAnswers": [
+      "Unit tests",
+      "Widget tests",
+      "Integration tests"
+    ],
+    "difficulty": "Easy",
+    "explanation": "Flutter's official testing documentation describes three levels: unit tests (logic/class testing), widget tests (widget rendering in a simulated environment), and integration tests (full app on a device/emulator). Screenshot and network tests are not distinct official test types."
+  },
+  {
+    "question": "Which of the following are characteristics of Dart isolates?",
+    "options": [
+      "They have their own memory heap",
+      "They communicate via message passing",
+      "They share global variables with the main isolate",
+      "They can achieve true parallel execution",
+      "They are the Dart equivalent of OS threads"
+    ],
+    "correctAnswers": [
+      "They have their own memory heap",
+      "They communicate via message passing",
+      "They can achieve true parallel execution"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Dart isolates each have their own memory heap (no shared memory), communicate only via messages (through SendPort/ReceivePort), and run in parallel on separate CPU cores. They do NOT share global variables. While conceptually similar to threads, they are safer due to no shared mutable state."
+  },
+  {
+    "question": "Which of the following are valid state management solutions commonly used in Flutter?",
+    "options": [
+      "setState",
+      "Provider",
+      "Riverpod",
+      "Bloc",
+      "Redux",
+      "DataBinding"
+    ],
+    "correctAnswers": [
+      "setState",
+      "Provider",
+      "Riverpod",
+      "Bloc",
+      "Redux"
+    ],
+    "difficulty": "Easy",
+    "explanation": "setState (built-in), Provider, Riverpod, BLoC, and Redux are all valid Flutter state management approaches documented on pub.dev and flutter.dev. DataBinding is an Android-specific UI binding framework, not a Flutter state management solution."
+  },
+  {
+    "question": "Which of the following are true about `AnimationController` in Flutter?",
+    "options": [
+      "It requires a TickerProvider (vsync) parameter",
+      "It must be disposed in the dispose() method",
+      "It automatically disposes itself when the widget is removed",
+      "It generates values between 0.0 and 1.0 by default",
+      "It can be used to play, reverse, and loop animations"
+    ],
+    "correctAnswers": [
+      "It requires a TickerProvider (vsync) parameter",
+      "It must be disposed in the dispose() method",
+      "It generates values between 0.0 and 1.0 by default",
+      "It can be used to play, reverse, and loop animations"
+    ],
+    "difficulty": "Medium",
+    "explanation": "AnimationController needs a TickerProvider for vsync, must be manually disposed to avoid memory leaks, generates values from lowerBound (0.0) to upperBound (1.0) by default, and exposes forward(), reverse(), repeat(), and stop() methods. It does NOT self-dispose."
+  },
+  {
+    "question": "Which of the following properties or files are part of `pubspec.yaml` in a Flutter project?",
+    "options": [
+      "name",
+      "version",
+      "dependencies",
+      "flutter: assets:",
+      "AndroidManifest.xml",
+      "sdk: flutter"
+    ],
+    "correctAnswers": [
+      "name",
+      "version",
+      "dependencies",
+      "flutter: assets:",
+      "sdk: flutter"
+    ],
+    "difficulty": "Easy",
+    "explanation": "pubspec.yaml contains the package name, version, SDK environment constraints (sdk: flutter), dependencies, dev_dependencies, and a flutter section for assets and fonts. AndroidManifest.xml is a native Android file, not part of pubspec.yaml."
+  },
+  {
+    "question": "Which of the following are correct statements about the `Scaffold` widget in Flutter?",
+    "options": [
+      "It provides an appBar slot for a top application bar",
+      "It provides a floatingActionButton slot",
+      "It can display a drawer for side navigation",
+      "It is required for all Flutter screens",
+      "It manages the bottom navigation bar"
+    ],
+    "correctAnswers": [
+      "It provides an appBar slot for a top application bar",
+      "It provides a floatingActionButton slot",
+      "It can display a drawer for side navigation",
+      "It manages the bottom navigation bar"
+    ],
+    "difficulty": "Easy",
+    "explanation": "Scaffold provides slots for appBar, body, floatingActionButton, drawer, endDrawer, bottomNavigationBar, bottomSheet, and snackBars. It is NOT required for all screens — you can build screens without it, though it is the conventional Material Design container."
+  }
+]

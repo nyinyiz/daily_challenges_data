@@ -214,5 +214,155 @@
     "correctAnswer": false,
     "explanation": "UIStackView is a non-rendering view that only manages the layout of its arranged subviews using Auto Layout constraints.",
     "difficulty": "medium"
+  },
+  {
+    "question": "SwiftUI views are structs.",
+    "correctAnswer": true,
+    "explanation": "SwiftUI views are value types (structs) rather than classes. This design choice supports efficient diffing and recomposition of the view hierarchy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "viewDidLoad() is called only once per UIViewController instance creation.",
+    "correctAnswer": true,
+    "explanation": "viewDidLoad() is called after the view has been loaded into memory for the first time and is only called once per view controller instance lifecycle.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "UITableView has been deprecated in favor of UICollectionView.",
+    "correctAnswer": false,
+    "explanation": "UITableView has not been deprecated. Both UITableView and UICollectionView are still valid choices in UIKit, though UICollectionView gained list layout support in iOS 14.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Core Data is thread-safe by default.",
+    "correctAnswer": false,
+    "explanation": "Core Data is not thread-safe. NSManagedObjectContext must be used on the thread or queue it was created on, and separate contexts are needed for background operations.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "WKWebView replaces the deprecated UIWebView for displaying web content in iOS apps.",
+    "correctAnswer": true,
+    "explanation": "UIWebView was deprecated in iOS 8 and removed from iOS 14. WKWebView is the recommended replacement, offering better performance and security.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "TestFlight beta distribution requires an App Store Connect account.",
+    "correctAnswer": true,
+    "explanation": "TestFlight is Apple's beta testing platform and is fully integrated with App Store Connect, requiring an account to distribute builds.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Apple's Combine framework can be used together with UIKit.",
+    "correctAnswer": true,
+    "explanation": "Combine works with any Swift code, including UIKit. Developers can use Combine publishers to drive UIKit updates alongside SwiftUI.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "UIStackView uses Auto Layout constraints internally to arrange its views.",
+    "correctAnswer": true,
+    "explanation": "UIStackView is a non-rendering view that creates and manages Auto Layout constraints for its arranged subviews automatically.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "App Store review is required before external testers can access a build via TestFlight.",
+    "correctAnswer": true,
+    "explanation": "External TestFlight builds must pass a review by Apple before they can be distributed to external testers, though internal testers can access builds without review.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Swift Package Manager can be used to add third-party dependencies to an Xcode project.",
+    "correctAnswer": true,
+    "explanation": "Swift Package Manager (SPM) is integrated into Xcode and can be used to add, update, and remove package dependencies directly from within the IDE.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "SceneDelegate is required in all iOS 13+ applications.",
+    "correctAnswer": false,
+    "explanation": "SceneDelegate is not required. Apps can opt out of the scene-based lifecycle by removing the scene manifest from Info.plist and reverting to the traditional AppDelegate-only lifecycle.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "UI updates in iOS must be performed on the main thread.",
+    "correctAnswer": true,
+    "explanation": "UIKit is not thread-safe, and all UI updates must be dispatched to the main thread. Performing UI changes on background threads can lead to undefined behavior and crashes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Codable protocol in Swift works with both JSON and Property List encoders/decoders.",
+    "correctAnswer": true,
+    "explanation": "Codable types can be used with JSONEncoder/JSONDecoder for JSON and PropertyListEncoder/PropertyListDecoder for property lists without any changes to the model.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Background fetch in iOS runs on a precise schedule as configured by the app.",
+    "correctAnswer": false,
+    "explanation": "Background fetch timing is determined by the operating system based on usage patterns and battery life. Apps cannot set an exact interval; iOS decides when to invoke background fetch.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "The @StateObject property wrapper in SwiftUI creates and owns the lifecycle of an ObservableObject.",
+    "correctAnswer": true,
+    "explanation": "@StateObject creates an ObservableObject and owns it for the lifetime of the view, while @ObservedObject receives an already-created object from outside.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In SwiftUI, NavigationView has been replaced by NavigationStack in iOS 16+.",
+    "correctAnswer": true,
+    "explanation": "NavigationStack and NavigationSplitView were introduced in iOS 16 as replacements for NavigationView, offering more control over the navigation path.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "UIView's layoutSubviews() is guaranteed to be called only once per view's lifetime.",
+    "correctAnswer": false,
+    "explanation": "layoutSubviews() is called multiple times throughout a view's lifetime, including during rotation, size changes, and whenever setNeedsLayout() is called.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In SwiftUI, @Environment is used to read values from the environment passed down through the view hierarchy.",
+    "correctAnswer": true,
+    "explanation": "@Environment reads a value from the SwiftUI environment, which is a dictionary of values passed implicitly through the view tree.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Instruments is a performance analysis tool included with Xcode.",
+    "correctAnswer": true,
+    "explanation": "Instruments is Apple's profiling and performance analysis tool built into Xcode, used to detect memory leaks, CPU usage, and other performance issues.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A SwiftUI List view requires explicitly calling reloadData() to refresh its content.",
+    "correctAnswer": false,
+    "explanation": "SwiftUI's List is declarative and automatically updates its content when the underlying state or data source changes, unlike UITableView's reloadData().",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Combine framework's sink subscriber can receive both values and completion events.",
+    "correctAnswer": true,
+    "explanation": "The sink subscriber has two closures: receiveCompletion for handling the finished or failure event, and receiveValue for handling emitted values.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In iOS, XCTest is the framework used for writing unit and UI tests.",
+    "correctAnswer": true,
+    "explanation": "XCTest is Apple's testing framework integrated with Xcode, supporting unit tests (XCTestCase) and UI tests (XCUIApplication).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "SwiftUI previews require a connected device or simulator to render.",
+    "correctAnswer": false,
+    "explanation": "SwiftUI previews render directly within Xcode using a canvas without needing a connected device or running simulator.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Grand Central Dispatch (GCD) allows executing tasks concurrently on different queues.",
+    "correctAnswer": true,
+    "explanation": "GCD provides a C-level API for submitting work to dispatch queues that run concurrently on system-managed thread pools.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In iOS, the App Transport Security (ATS) policy blocks plain HTTP connections by default.",
+    "correctAnswer": true,
+    "explanation": "ATS enforces HTTPS connections by default since iOS 9. Plain HTTP requests are blocked unless an exception is added to the app's Info.plist.",
+    "difficulty": "medium"
   }
 ]

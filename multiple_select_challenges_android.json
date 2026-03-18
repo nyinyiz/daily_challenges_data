@@ -184,5 +184,379 @@
     ],
     "difficulty": "Easy",
     "explanation": "android:layout_width, android:layout_height, android:layout_margin, and android:padding are valid Android layout attributes. ios:layout_width and ios:padding are not valid."
+  },
+  {
+    "question": "Which of the following are valid Jetpack Compose layout composables?",
+    "options": [
+      "Column",
+      "Row",
+      "Box",
+      "LinearLayout",
+      "ConstraintLayout (Compose)",
+      "FrameLayout"
+    ],
+    "correctAnswers": [
+      "Column",
+      "Row",
+      "Box",
+      "ConstraintLayout (Compose)"
+    ],
+    "difficulty": "Medium",
+    "explanation": "In Jetpack Compose, Column, Row, Box, and ConstraintLayout (from the compose-constraintlayout library) are layout composables. LinearLayout and FrameLayout are View-based XML layout classes, not Compose composables."
+  },
+  {
+    "question": "Which of the following are valid Kotlin coroutine dispatchers available in Android?",
+    "options": [
+      "Dispatchers.Main",
+      "Dispatchers.IO",
+      "Dispatchers.Default",
+      "Dispatchers.Unconfined",
+      "Dispatchers.Background",
+      "Dispatchers.Network"
+    ],
+    "correctAnswers": [
+      "Dispatchers.Main",
+      "Dispatchers.IO",
+      "Dispatchers.Default",
+      "Dispatchers.Unconfined"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Kotlin coroutines provide Dispatchers.Main (UI thread), Dispatchers.IO (I/O operations), Dispatchers.Default (CPU-intensive work), and Dispatchers.Unconfined (not confined to any thread). Dispatchers.Background and Dispatchers.Network do not exist."
+  },
+  {
+    "question": "Which of the following are valid Room database annotations?",
+    "options": [
+      "@Entity",
+      "@Dao",
+      "@Database",
+      "@Query",
+      "@Table",
+      "@Repository"
+    ],
+    "correctAnswers": [
+      "@Entity",
+      "@Dao",
+      "@Database",
+      "@Query"
+    ],
+    "difficulty": "Medium",
+    "explanation": "@Entity marks a class as a database table, @Dao marks a data access object interface, @Database marks the Room database class, and @Query is used for custom SQL queries. @Table and @Repository are not Room annotations (@Table is JPA, @Repository is Spring)."
+  },
+  {
+    "question": "Which of the following are true about ViewModel in Android?",
+    "options": [
+      "ViewModel survives configuration changes",
+      "ViewModel is destroyed when the associated UI is permanently gone",
+      "ViewModel can hold a reference to a Context safely",
+      "ViewModel is part of Android Jetpack",
+      "ViewModel is recreated on every screen rotation"
+    ],
+    "correctAnswers": [
+      "ViewModel survives configuration changes",
+      "ViewModel is destroyed when the associated UI is permanently gone",
+      "ViewModel is part of Android Jetpack"
+    ],
+    "difficulty": "Hard",
+    "explanation": "ViewModel survives configuration changes such as screen rotations and is destroyed only when the associated Activity/Fragment is permanently finished. It is part of Android Jetpack. Holding a reference to a Context (especially Activity context) in ViewModel can cause memory leaks. ViewModel is not recreated on screen rotation — that is its key purpose."
+  },
+  {
+    "question": "Which of the following are valid Android testing frameworks or libraries?",
+    "options": [
+      "JUnit 4",
+      "Espresso",
+      "Mockito",
+      "XCTest",
+      "Robolectric",
+      "Quick/Nimble"
+    ],
+    "correctAnswers": [
+      "JUnit 4",
+      "Espresso",
+      "Mockito",
+      "Robolectric"
+    ],
+    "difficulty": "Medium",
+    "explanation": "JUnit 4, Espresso (UI testing), Mockito (mocking), and Robolectric (running Android tests on the JVM) are all valid Android testing tools. XCTest and Quick/Nimble are iOS testing frameworks."
+  },
+  {
+    "question": "Which of the following are valid WorkManager constraints?",
+    "options": [
+      "NetworkType.CONNECTED",
+      "NetworkType.METERED",
+      "BatteryNotLow",
+      "StorageNotLow",
+      "DeviceAsleep",
+      "ScreenOn"
+    ],
+    "correctAnswers": [
+      "NetworkType.CONNECTED",
+      "NetworkType.METERED",
+      "BatteryNotLow",
+      "StorageNotLow"
+    ],
+    "difficulty": "Hard",
+    "explanation": "WorkManager Constraints support NetworkType values (including CONNECTED and METERED), BatteryNotLow, StorageNotLow, as well as ChargingRequired and DeviceIdle. DeviceAsleep and ScreenOn are not valid WorkManager constraint types."
+  },
+  {
+    "question": "Which of the following are true about Hilt dependency injection in Android?",
+    "options": [
+      "Hilt is built on top of Dagger",
+      "@HiltAndroidApp must be applied to the Application class",
+      "@Inject is used to request dependencies",
+      "Hilt requires manual component creation like plain Dagger",
+      "@AndroidEntryPoint is used on Activities and Fragments"
+    ],
+    "correctAnswers": [
+      "Hilt is built on top of Dagger",
+      "@HiltAndroidApp must be applied to the Application class",
+      "@Inject is used to request dependencies",
+      "@AndroidEntryPoint is used on Activities and Fragments"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Hilt is built on top of Dagger and simplifies DI by generating components automatically. @HiltAndroidApp is required on the Application class, @AndroidEntryPoint on Android components like Activities/Fragments, and @Inject for dependency injection. Unlike plain Dagger, Hilt does not require manual component creation."
+  },
+  {
+    "question": "Which of the following are valid RecyclerView components?",
+    "options": [
+      "RecyclerView.Adapter",
+      "RecyclerView.ViewHolder",
+      "RecyclerView.LayoutManager",
+      "RecyclerView.ItemDecoration",
+      "RecyclerView.Controller",
+      "RecyclerView.DataSource"
+    ],
+    "correctAnswers": [
+      "RecyclerView.Adapter",
+      "RecyclerView.ViewHolder",
+      "RecyclerView.LayoutManager",
+      "RecyclerView.ItemDecoration"
+    ],
+    "difficulty": "Medium",
+    "explanation": "RecyclerView requires an Adapter (to bind data), ViewHolder (to cache item views), and a LayoutManager (to position items). ItemDecoration is used to add dividers or spacing. RecyclerView.Controller and RecyclerView.DataSource do not exist in the Android framework."
+  },
+  {
+    "question": "Which of the following are best practices for handling network requests in Android?",
+    "options": [
+      "Perform network calls on a background thread",
+      "Use Retrofit for type-safe HTTP calls",
+      "Perform network calls on the main thread for simplicity",
+      "Handle network errors and exceptions gracefully",
+      "Use OkHttp as an HTTP client"
+    ],
+    "correctAnswers": [
+      "Perform network calls on a background thread",
+      "Use Retrofit for type-safe HTTP calls",
+      "Handle network errors and exceptions gracefully",
+      "Use OkHttp as an HTTP client"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Network requests must be performed off the main thread to avoid blocking the UI (Android enforces this with NetworkOnMainThreadException). Retrofit provides type-safe HTTP calls, OkHttp is a widely used HTTP client, and proper error handling is essential. Performing network calls on the main thread will crash the app."
+  },
+  {
+    "question": "Which of the following are valid Jetpack DataStore types?",
+    "options": [
+      "Preferences DataStore",
+      "Proto DataStore",
+      "SQL DataStore",
+      "File DataStore",
+      "Encrypted DataStore"
+    ],
+    "correctAnswers": [
+      "Preferences DataStore",
+      "Proto DataStore"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Jetpack DataStore provides two implementations: Preferences DataStore (stores key-value pairs without a predefined schema) and Proto DataStore (stores typed objects using Protocol Buffers). SQL DataStore, File DataStore, and Encrypted DataStore are not official DataStore types."
+  },
+  {
+    "question": "Which of the following are valid Gradle configuration blocks in an Android build.gradle file?",
+    "options": [
+      "android {}",
+      "dependencies {}",
+      "buildTypes {}",
+      "productFlavors {}",
+      "lifecycle {}",
+      "viewModel {}"
+    ],
+    "correctAnswers": [
+      "android {}",
+      "dependencies {}",
+      "buildTypes {}",
+      "productFlavors {}"
+    ],
+    "difficulty": "Medium",
+    "explanation": "android {}, dependencies {}, buildTypes {}, and productFlavors {} are all valid top-level or nested Gradle configuration blocks in an Android build.gradle file. lifecycle {} and viewModel {} are not Gradle DSL blocks."
+  },
+  {
+    "question": "Which of the following are valid ProGuard/R8 directives?",
+    "options": [
+      "-keep",
+      "-dontwarn",
+      "-keepclassmembers",
+      "-obfuscate",
+      "-dontoptimize",
+      "-removecode"
+    ],
+    "correctAnswers": [
+      "-keep",
+      "-dontwarn",
+      "-keepclassmembers",
+      "-dontoptimize"
+    ],
+    "difficulty": "Hard",
+    "explanation": "-keep prevents classes/members from being removed or renamed, -dontwarn suppresses warnings for specified classes, -keepclassmembers keeps specified members of classes, and -dontoptimize disables optimization. -obfuscate and -removecode are not valid ProGuard/R8 directives."
+  },
+  {
+    "question": "Which of the following are Android accessibility features or APIs?",
+    "options": [
+      "TalkBack",
+      "ContentDescription",
+      "AccessibilityService",
+      "VoiceOver",
+      "ImportantForAccessibility",
+      "AccessibilityInspector"
+    ],
+    "correctAnswers": [
+      "TalkBack",
+      "ContentDescription",
+      "AccessibilityService",
+      "ImportantForAccessibility"
+    ],
+    "difficulty": "Medium",
+    "explanation": "TalkBack is Android's built-in screen reader, ContentDescription provides text descriptions for views, AccessibilityService is the API for building accessibility services, and ImportantForAccessibility controls how a view is exposed to accessibility services. VoiceOver is Apple's iOS screen reader, and AccessibilityInspector is an Xcode tool."
+  },
+  {
+    "question": "Which of the following are valid Android animation APIs?",
+    "options": [
+      "ObjectAnimator",
+      "ValueAnimator",
+      "AnimatorSet",
+      "TransitionManager",
+      "UIViewAnimate",
+      "SpringAnimation"
+    ],
+    "correctAnswers": [
+      "ObjectAnimator",
+      "ValueAnimator",
+      "AnimatorSet",
+      "TransitionManager",
+      "SpringAnimation"
+    ],
+    "difficulty": "Hard",
+    "explanation": "ObjectAnimator, ValueAnimator, AnimatorSet, TransitionManager, and SpringAnimation (from the DynamicAnimation library) are all valid Android animation APIs. UIViewAnimate is a UIKit animation method from iOS."
+  },
+  {
+    "question": "Which of the following are Kotlin features commonly used in Android development?",
+    "options": [
+      "Extension functions",
+      "Data classes",
+      "Sealed classes",
+      "Protocols",
+      "Null safety",
+      "Typealias"
+    ],
+    "correctAnswers": [
+      "Extension functions",
+      "Data classes",
+      "Sealed classes",
+      "Null safety",
+      "Typealias"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Extension functions, data classes, sealed classes, null safety (?/!! operators), and typealias are all Kotlin language features widely used in Android development. Protocols are a Swift concept; Kotlin uses interfaces instead."
+  },
+  {
+    "question": "Which of the following are valid Jetpack Compose state management APIs?",
+    "options": [
+      "remember {}",
+      "mutableStateOf()",
+      "rememberSaveable {}",
+      "LiveData.observe()",
+      "by viewModels()",
+      "StateFlow"
+    ],
+    "correctAnswers": [
+      "remember {}",
+      "mutableStateOf()",
+      "rememberSaveable {}",
+      "StateFlow"
+    ],
+    "difficulty": "Hard",
+    "explanation": "remember {}, mutableStateOf(), rememberSaveable {}, and StateFlow (collected with collectAsState()) are valid Compose state management APIs. LiveData.observe() is a View-based API and by viewModels() is a property delegate for obtaining a ViewModel, not a state management API itself."
+  },
+  {
+    "question": "Which of the following are valid coroutine scope builders in Kotlin?",
+    "options": [
+      "coroutineScope {}",
+      "supervisorScope {}",
+      "runBlocking {}",
+      "launch {}",
+      "withContext {}",
+      "asyncScope {}"
+    ],
+    "correctAnswers": [
+      "coroutineScope {}",
+      "supervisorScope {}",
+      "runBlocking {}",
+      "withContext {}"
+    ],
+    "difficulty": "Hard",
+    "explanation": "coroutineScope {} creates a scope and suspends until all children complete, supervisorScope {} does the same but child failures don't cancel siblings, runBlocking {} bridges blocking and coroutine worlds, and withContext {} switches dispatcher. launch {} is a coroutine builder, not a scope builder. asyncScope {} does not exist."
+  },
+  {
+    "question": "Which of the following are valid Room database relationship annotations?",
+    "options": [
+      "@ForeignKey",
+      "@Relation",
+      "@Embedded",
+      "@OneToMany",
+      "@ManyToMany",
+      "@Junction"
+    ],
+    "correctAnswers": [
+      "@ForeignKey",
+      "@Relation",
+      "@Embedded",
+      "@Junction"
+    ],
+    "difficulty": "Hard",
+    "explanation": "@ForeignKey defines foreign key constraints, @Relation is used in POJOs to define relationships between entities, @Embedded embeds an object's fields into the parent table, and @Junction is used for many-to-many relationships via a junction table. @OneToMany and @ManyToMany are JPA annotations, not Room annotations."
+  },
+  {
+    "question": "Which of the following are valid Android Gradle plugin configuration options in the android {} block?",
+    "options": [
+      "compileSdk",
+      "minSdk",
+      "targetSdk",
+      "versionCode",
+      "bundleId",
+      "applicationId"
+    ],
+    "correctAnswers": [
+      "compileSdk",
+      "minSdk",
+      "targetSdk",
+      "versionCode",
+      "applicationId"
+    ],
+    "difficulty": "Medium",
+    "explanation": "compileSdk, minSdk, targetSdk, versionCode, and applicationId are all valid configuration options within the android {} or defaultConfig {} block in a build.gradle file. bundleId is the iOS equivalent of applicationId in Xcode, not an Android Gradle option."
+  },
+  {
+    "question": "Which of the following are valid ways to observe LiveData in Android?",
+    "options": [
+      "liveData.observe(viewLifecycleOwner) { ... }",
+      "liveData.observeForever { ... }",
+      "liveData.collect { ... }",
+      "liveData.value",
+      "liveData.subscribe { ... }"
+    ],
+    "correctAnswers": [
+      "liveData.observe(viewLifecycleOwner) { ... }",
+      "liveData.observeForever { ... }",
+      "liveData.value"
+    ],
+    "difficulty": "Hard",
+    "explanation": "LiveData can be observed with observe() (lifecycle-aware), observeForever() (not lifecycle-aware, must be manually removed), or its current value accessed via liveData.value. collect {} is for Kotlin Flow, and subscribe {} is for RxJava Observables — neither is a LiveData API."
   }
 ]

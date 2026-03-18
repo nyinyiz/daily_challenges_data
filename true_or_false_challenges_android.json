@@ -98,7 +98,7 @@
   {
     "question": "Jetpack Compose is the modern UI toolkit for Android.",
     "correctAnswer": true,
-    "explanation": "Compose is Android\u2019s modern declarative UI toolkit.",
+    "explanation": "Compose is Android’s modern declarative UI toolkit.",
     "difficulty": "easy"
   },
   {
@@ -297,6 +297,156 @@
     "question": "ViewModel's `viewModelScope` gets automatically cancelled when the associated `Activity` is destroyed.",
     "correctAnswer": false,
     "explanation": "`viewModelScope` is tied to the `ViewModel`, not the `Activity`. It is only cleared when the ViewModel is cleared.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Jetpack Compose, recomposition is triggered when any state in the app changes.",
+    "correctAnswer": false,
+    "explanation": "Recomposition is only triggered when state that is actually read (accessed) by a composable changes, not any state in the app.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "`LaunchedEffect(Unit)` runs its block only once when the composable enters the composition.",
+    "correctAnswer": true,
+    "explanation": "`Unit` is a stable key that never changes, so `LaunchedEffect(Unit)` only executes its block once per composition entry.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "A `ViewModel` survives process death and restores state automatically.",
+    "correctAnswer": false,
+    "explanation": "`ViewModel` survives configuration changes (like rotation) but is destroyed on process death. Use `SavedStateHandle` to persist state across process death.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Room runs database operations on the main thread by default.",
+    "correctAnswer": false,
+    "explanation": "Room throws an exception if you attempt to run database operations on the main thread unless you explicitly call `allowMainThreadQueries()`, which is strongly discouraged.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "WorkManager guarantees the execution order of chained work requests.",
+    "correctAnswer": true,
+    "explanation": "WorkManager chains ensure that subsequent workers only start after previous ones in the chain have completed successfully.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "`StateFlow` can be created without an initial value.",
+    "correctAnswer": false,
+    "explanation": "`StateFlow` always requires an initial value upon creation because it always holds and emits a current state.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Hilt requires the `@AndroidEntryPoint` annotation on the `Application` class.",
+    "correctAnswer": false,
+    "explanation": "Hilt requires the `@HiltAndroidApp` annotation on the `Application` class. `@AndroidEntryPoint` is used on Activities, Fragments, and other Android components.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Jetpack DataStore is not thread-safe and requires manual synchronization.",
+    "correctAnswer": false,
+    "explanation": "DataStore uses Kotlin Coroutines and Flows to ensure data is stored asynchronously and safely, making it thread-safe by design.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Fragment back stack is managed by `FragmentManager`.",
+    "correctAnswer": true,
+    "explanation": "`FragmentManager` is responsible for managing the fragment back stack and handling fragment transactions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The order in which you apply `Modifier`s in Jetpack Compose does not affect the final UI.",
+    "correctAnswer": false,
+    "explanation": "Modifier order matters in Compose. For example, applying `padding` before `background` vs after produces different visual results.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Android 12 (API 31) and above require the `SCHEDULE_EXACT_ALARM` permission to schedule exact alarms.",
+    "correctAnswer": true,
+    "explanation": "Starting with Android 12, apps must declare and be granted the `SCHEDULE_EXACT_ALARM` permission to use exact alarms via `AlarmManager`.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "ProGuard and R8 are the same tool in modern Android development.",
+    "correctAnswer": false,
+    "explanation": "R8 is a replacement for ProGuard in modern Android builds. R8 performs shrinking, obfuscation, and optimization in a single step and is the default shrinker in Android Gradle Plugin 3.4+.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "`LiveData` is lifecycle-aware and only delivers updates to active observers.",
+    "correctAnswer": true,
+    "explanation": "`LiveData` observes the lifecycle of its owner and only delivers updates when the observer is in an active lifecycle state (STARTED or RESUMED).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Kotlin Coroutines are a core language feature built into the Kotlin compiler.",
+    "correctAnswer": false,
+    "explanation": "Kotlin Coroutines are implemented as a library (`kotlinx.coroutines`), not a built-in language feature. The compiler supports only the `suspend` keyword.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Kotlin, `RecyclerView.ViewHolder` inner classes must be declared as `static`.",
+    "correctAnswer": false,
+    "explanation": "The `static` nested class requirement is a Java pattern to avoid implicit references to the outer class. In Kotlin, inner classes do not implicitly hold outer class references unless declared with the `inner` keyword.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "`ConstraintLayout` can position and size views without any nested view groups.",
+    "correctAnswer": true,
+    "explanation": "`ConstraintLayout` allows complex layouts with zero nesting by expressing all constraints in a flat hierarchy, improving performance.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "In Kotlin versions before 1.5, sealed class subclasses must be defined in the same file as the sealed class.",
+    "correctAnswer": true,
+    "explanation": "Prior to Kotlin 1.5, all direct subclasses of a sealed class had to be declared in the same file. Kotlin 1.5 introduced sealed interfaces and relaxed this restriction.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Navigation Safe Args generates type-safe direction and argument classes for Jetpack Navigation.",
+    "correctAnswer": true,
+    "explanation": "The Safe Args Gradle plugin generates `Directions` and `Args` classes at compile time, providing type-safe navigation and argument passing.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "`BroadcastReceiver.onReceive()` is a good place to start long-running background operations.",
+    "correctAnswer": false,
+    "explanation": "`BroadcastReceiver.onReceive()` runs on the main thread and has a short execution window. Long-running operations should be delegated to a Service or WorkManager.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "All Android permissions require explicit user approval at runtime.",
+    "correctAnswer": false,
+    "explanation": "Only 'dangerous' permissions (like camera, location, contacts) require runtime approval. Normal permissions are granted automatically at install time.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The `by viewModels()` delegate can be used inside a Fragment to get a ViewModel scoped to that Fragment.",
+    "correctAnswer": true,
+    "explanation": "`by viewModels()` in a Fragment creates a ViewModel scoped to the Fragment's lifecycle. Use `by activityViewModels()` to scope to the Activity.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Jetpack Compose's `derivedStateOf` is equivalent to `remember` and provides no additional optimization.",
+    "correctAnswer": false,
+    "explanation": "`derivedStateOf` wraps a calculation that should only recompute when its internal state reads change, preventing unnecessary recompositions when unrelated state changes.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An Android `ContentProvider` can be used to share data between different applications.",
+    "correctAnswer": true,
+    "explanation": "`ContentProvider` provides a standard interface for sharing data between apps, used by contacts, media, and custom app data.",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Kotlin's `Flow` is hot by default, meaning it emits values even without collectors.",
+    "correctAnswer": false,
+    "explanation": "Kotlin's `Flow` is cold by default — it only starts emitting values when a collector subscribes. `SharedFlow` and `StateFlow` are hot flows.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Using `Dispatchers.IO` for CPU-intensive tasks is the recommended approach in Android.",
+    "correctAnswer": false,
+    "explanation": "`Dispatchers.IO` is optimized for blocking I/O operations. CPU-intensive tasks should use `Dispatchers.Default`, which is optimized for CPU-bound work.",
     "difficulty": "hard"
   }
 ]

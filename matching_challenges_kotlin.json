@@ -228,5 +228,350 @@
     ],
     "difficulty": "Hard",
     "explanation": "Kotlin Flow provides reactive stream processing with various operators for data transformation."
+  },
+  {
+    "question": "Match Kotlin coroutine context elements with their roles",
+    "pairs": [
+      {
+        "left": "Job",
+        "right": "Controls coroutine lifecycle and cancellation"
+      },
+      {
+        "left": "CoroutineDispatcher",
+        "right": "Determines thread for execution"
+      },
+      {
+        "left": "CoroutineName",
+        "right": "Provides debug name for coroutine"
+      },
+      {
+        "left": "CoroutineExceptionHandler",
+        "right": "Handles uncaught exceptions"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "CoroutineContext is composed of elements that control coroutine behavior and execution."
+  },
+  {
+    "question": "Match Kotlin generic variance annotations with their meaning",
+    "pairs": [
+      {
+        "left": "out T (covariant)",
+        "right": "Can only be produced/returned"
+      },
+      {
+        "left": "in T (contravariant)",
+        "right": "Can only be consumed/received"
+      },
+      {
+        "left": "T (invariant)",
+        "right": "Can be both produced and consumed"
+      },
+      {
+        "left": "* (star projection)",
+        "right": "Unknown type projection"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Kotlin generics variance controls type safety for producers and consumers."
+  },
+  {
+    "question": "Match Kotlin Flow types with their behavior",
+    "pairs": [
+      {
+        "left": "Flow",
+        "right": "Cold stream, runs on collection"
+      },
+      {
+        "left": "StateFlow",
+        "right": "Hot stream with a current value"
+      },
+      {
+        "left": "SharedFlow",
+        "right": "Hot stream with configurable replay"
+      },
+      {
+        "left": "channelFlow",
+        "right": "Flow with send/receive channels"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Kotlin provides multiple Flow types suited to different reactive programming patterns."
+  },
+  {
+    "question": "Match Kotlin interface features with their descriptions",
+    "pairs": [
+      {
+        "left": "Default implementation",
+        "right": "Method body in interface"
+      },
+      {
+        "left": "Abstract property",
+        "right": "Property without initializer"
+      },
+      {
+        "left": "Sealed interface",
+        "right": "Interface with restricted implementors"
+      },
+      {
+        "left": "Functional interface",
+        "right": "Interface with exactly one abstract method"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Kotlin interfaces are more powerful than Java interfaces with default implementations and SAM conversions."
+  },
+  {
+    "question": "Match Kotlin multiplatform concepts with their definitions",
+    "pairs": [
+      {
+        "left": "expect",
+        "right": "Declares platform-specific API"
+      },
+      {
+        "left": "actual",
+        "right": "Platform-specific implementation"
+      },
+      {
+        "left": "commonMain",
+        "right": "Code shared across all platforms"
+      },
+      {
+        "left": "iosMain",
+        "right": "Code specific to iOS platform"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Kotlin Multiplatform enables code sharing across JVM, iOS, JS, and native targets."
+  },
+  {
+    "question": "Match Kotlin string manipulation functions with their outputs",
+    "pairs": [
+      {
+        "left": "trimIndent()",
+        "right": "Removes common leading whitespace"
+      },
+      {
+        "left": "substringAfter()",
+        "right": "Returns string after delimiter"
+      },
+      {
+        "left": "replace()",
+        "right": "Substitutes characters or substrings"
+      },
+      {
+        "left": "split()",
+        "right": "Splits string into list"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "Kotlin provides rich string manipulation functions as extensions on the String class."
+  },
+  {
+    "question": "Match Kotlin number types with their sizes",
+    "pairs": [
+      {
+        "left": "Byte",
+        "right": "8-bit integer"
+      },
+      {
+        "left": "Int",
+        "right": "32-bit integer"
+      },
+      {
+        "left": "Long",
+        "right": "64-bit integer"
+      },
+      {
+        "left": "Double",
+        "right": "64-bit floating-point"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "Kotlin provides platform-independent numeric types with fixed sizes."
+  },
+  {
+    "question": "Match Kotlin annotation targets with their description",
+    "pairs": [
+      {
+        "left": "@file:",
+        "right": "Annotates entire source file"
+      },
+      {
+        "left": "@get:",
+        "right": "Annotates property getter"
+      },
+      {
+        "left": "@param:",
+        "right": "Annotates constructor parameter"
+      },
+      {
+        "left": "@receiver:",
+        "right": "Annotates extension receiver"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Kotlin annotation use-site targets specify where annotations apply in compiled bytecode."
+  },
+  {
+    "question": "Match Kotlin collection transformation functions with their behavior",
+    "pairs": [
+      {
+        "left": "zip()",
+        "right": "Pairs elements from two collections"
+      },
+      {
+        "left": "chunked()",
+        "right": "Splits collection into fixed-size lists"
+      },
+      {
+        "left": "windowed()",
+        "right": "Creates sliding windows of elements"
+      },
+      {
+        "left": "flatten()",
+        "right": "Flattens nested collections into one"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Kotlin's collection API provides powerful transformation functions for complex data operations."
+  },
+  {
+    "question": "Match Kotlin exception classes with their purpose",
+    "pairs": [
+      {
+        "left": "IllegalArgumentException",
+        "right": "Invalid function argument"
+      },
+      {
+        "left": "IllegalStateException",
+        "right": "Wrong object state"
+      },
+      {
+        "left": "NoSuchElementException",
+        "right": "No element in collection"
+      },
+      {
+        "left": "UnsupportedOperationException",
+        "right": "Operation not supported"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Kotlin inherits JVM exception hierarchy with concise shorthand functions like require() and check()."
+  },
+  {
+    "question": "Match Kotlin DSL features with their capabilities",
+    "pairs": [
+      {
+        "left": "Lambda with receiver",
+        "right": "Enables builder-style DSL"
+      },
+      {
+        "left": "@DslMarker",
+        "right": "Prevents implicit receiver nesting"
+      },
+      {
+        "left": "invoke operator",
+        "right": "Allows object to be called as function"
+      },
+      {
+        "left": "operator fun plus",
+        "right": "Overloads + operator"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Kotlin's language features make it ideal for building expressive DSLs."
+  },
+  {
+    "question": "Match Kotlin destructuring features with their syntax",
+    "pairs": [
+      {
+        "left": "data class componentN()",
+        "right": "Enables destructuring of data classes"
+      },
+      {
+        "left": "val (a, b) = pair",
+        "right": "Destructures a Pair"
+      },
+      {
+        "left": "for ((key, value) in map)",
+        "right": "Destructures map entries"
+      },
+      {
+        "left": "_ (underscore)",
+        "right": "Ignores a destructured component"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Kotlin destructuring declarations extract multiple values from objects in a concise syntax."
+  },
+  {
+    "question": "Match Kotlin testing utilities with their purpose",
+    "pairs": [
+      {
+        "left": "assertEquals()",
+        "right": "Asserts two values are equal"
+      },
+      {
+        "left": "assertThrows()",
+        "right": "Asserts code throws exception"
+      },
+      {
+        "left": "runTest()",
+        "right": "Tests coroutines in controlled environment"
+      },
+      {
+        "left": "coEvery { }",
+        "right": "Stubs suspend function in MockK"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Kotlin testing leverages JUnit and MockK with coroutine-specific test utilities."
+  },
+  {
+    "question": "Match Kotlin inline class features with their benefits",
+    "pairs": [
+      {
+        "left": "value class",
+        "right": "Wraps single value with no overhead"
+      },
+      {
+        "left": "@JvmInline",
+        "right": "Required annotation for inline classes"
+      },
+      {
+        "left": "Type safety",
+        "right": "Distinguishes semantically different values"
+      },
+      {
+        "left": "No boxing overhead",
+        "right": "Represented as raw type at runtime"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Kotlin value classes (inline classes) provide type safety without performance overhead."
+  },
+  {
+    "question": "Match Kotlin Flows terminal operators with their behavior",
+    "pairs": [
+      {
+        "left": "first()",
+        "right": "Returns first emitted value"
+      },
+      {
+        "left": "toList()",
+        "right": "Collects all values into a list"
+      },
+      {
+        "left": "single()",
+        "right": "Ensures exactly one element emitted"
+      },
+      {
+        "left": "fold()",
+        "right": "Accumulates flow values with initial value"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Terminal operators trigger flow collection and produce a final result."
   }
 ]

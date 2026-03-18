@@ -228,5 +228,350 @@
     ],
     "difficulty": "Hard",
     "explanation": "Swift's structured concurrency provides safe, modern asynchronous programming."
+  },
+  {
+    "question": "Match Swift enum features with their syntax",
+    "pairs": [
+      {
+        "left": "Associated values",
+        "right": "Attaches data to enum cases"
+      },
+      {
+        "left": "Raw values",
+        "right": "Each case has a predefined backing value"
+      },
+      {
+        "left": "Indirect",
+        "right": "Allows recursive enum definitions"
+      },
+      {
+        "left": "CaseIterable",
+        "right": "Generates allCases collection"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Swift enums are more powerful than most languages, supporting associated values and protocol conformances."
+  },
+  {
+    "question": "Match Swift generics features with their purpose",
+    "pairs": [
+      {
+        "left": "Type parameter <T>",
+        "right": "Placeholder for concrete type"
+      },
+      {
+        "left": "where clause",
+        "right": "Adds type constraints to generics"
+      },
+      {
+        "left": "some keyword",
+        "right": "Opaque return type"
+      },
+      {
+        "left": "any keyword",
+        "right": "Existential type (type-erased)"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Swift generics and opaque types provide flexible, type-safe abstractions."
+  },
+  {
+    "question": "Match Combine operators with their transformations",
+    "pairs": [
+      {
+        "left": "map",
+        "right": "Transforms each element"
+      },
+      {
+        "left": "flatMap",
+        "right": "Transforms and flattens publishers"
+      },
+      {
+        "left": "filter",
+        "right": "Passes only matching elements"
+      },
+      {
+        "left": "sink",
+        "right": "Subscribes and handles values"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Combine operators transform and process asynchronous event streams from publishers."
+  },
+  {
+    "question": "Match Swift value vs reference semantics with their types",
+    "pairs": [
+      {
+        "left": "struct",
+        "right": "Value type, copied on assignment"
+      },
+      {
+        "left": "class",
+        "right": "Reference type, shared on assignment"
+      },
+      {
+        "left": "enum",
+        "right": "Value type"
+      },
+      {
+        "left": "actor",
+        "right": "Reference type with serial access"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Understanding value vs reference types is fundamental to Swift memory and state management."
+  },
+  {
+    "question": "Match Swift protocol-oriented features with their descriptions",
+    "pairs": [
+      {
+        "left": "Protocol extension",
+        "right": "Provides default implementations"
+      },
+      {
+        "left": "Protocol composition",
+        "right": "Combines multiple protocols with &"
+      },
+      {
+        "left": "Retroactive conformance",
+        "right": "Extends existing type to conform"
+      },
+      {
+        "left": "Conditional conformance",
+        "right": "Conforms only when constraints are met"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Protocol-oriented programming enables powerful composition patterns in Swift."
+  },
+  {
+    "question": "Match SwiftUI container views with their purpose",
+    "pairs": [
+      {
+        "left": "NavigationStack",
+        "right": "Manages stack-based navigation"
+      },
+      {
+        "left": "TabView",
+        "right": "Switches between tab sections"
+      },
+      {
+        "left": "List",
+        "right": "Scrollable column of rows"
+      },
+      {
+        "left": "ScrollView",
+        "right": "Enables scrolling for content"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "SwiftUI container views organize and provide navigation between content."
+  },
+  {
+    "question": "Match Swift string features with their functionality",
+    "pairs": [
+      {
+        "left": "String interpolation",
+        "right": "Embeds values with \\( )"
+      },
+      {
+        "left": "Multi-line string",
+        "right": "Uses triple quotes \"\"\""
+      },
+      {
+        "left": "String.Index",
+        "right": "Safe character position"
+      },
+      {
+        "left": "Character",
+        "right": "Single Unicode extended grapheme cluster"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Swift strings are Unicode-correct with powerful interpolation and safe indexing."
+  },
+  {
+    "question": "Match Swift result type cases with their meaning",
+    "pairs": [
+      {
+        "left": ".success(value)",
+        "right": "Holds successful result value"
+      },
+      {
+        "left": ".failure(error)",
+        "right": "Holds an error"
+      },
+      {
+        "left": "get()",
+        "right": "Unwraps success or throws failure"
+      },
+      {
+        "left": "mapError()",
+        "right": "Transforms the failure error type"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Swift's Result type provides a clean way to represent success or failure without exceptions."
+  },
+  {
+    "question": "Match Swift access control modifiers with their scope",
+    "pairs": [
+      {
+        "left": "open",
+        "right": "Overridable outside module"
+      },
+      {
+        "left": "public",
+        "right": "Accessible outside module"
+      },
+      {
+        "left": "fileprivate",
+        "right": "Accessible within same file"
+      },
+      {
+        "left": "private",
+        "right": "Accessible within same declaration"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Swift provides five access control levels for fine-grained encapsulation."
+  },
+  {
+    "question": "Match SwiftUI animation types with their behavior",
+    "pairs": [
+      {
+        "left": ".easeIn",
+        "right": "Starts slow, ends fast"
+      },
+      {
+        "left": ".easeOut",
+        "right": "Starts fast, ends slow"
+      },
+      {
+        "left": ".spring()",
+        "right": "Bouncy spring physics"
+      },
+      {
+        "left": "withAnimation",
+        "right": "Wraps state change in animation"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "SwiftUI animations are applied to state changes using curves and physics-based options."
+  },
+  {
+    "question": "Match Swift collection types with their characteristics",
+    "pairs": [
+      {
+        "left": "Array",
+        "right": "Ordered, allows duplicates"
+      },
+      {
+        "left": "Set",
+        "right": "Unordered, unique elements"
+      },
+      {
+        "left": "Dictionary",
+        "right": "Key-value mapping"
+      },
+      {
+        "left": "ContiguousArray",
+        "right": "Array optimized for reference types"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "Swift's standard collections cover most data structure needs with value type semantics."
+  },
+  {
+    "question": "Match Swift initialization types with their purpose",
+    "pairs": [
+      {
+        "left": "Designated init",
+        "right": "Primary initializer, fully initializes"
+      },
+      {
+        "left": "Convenience init",
+        "right": "Secondary, calls designated init"
+      },
+      {
+        "left": "Failable init?",
+        "right": "Returns nil if initialization fails"
+      },
+      {
+        "left": "Required init",
+        "right": "All subclasses must implement"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Swift has strict initialization rules ensuring all properties are set before use."
+  },
+  {
+    "question": "Match Swift property observer keywords with their timing",
+    "pairs": [
+      {
+        "left": "willSet",
+        "right": "Called just before value changes"
+      },
+      {
+        "left": "didSet",
+        "right": "Called just after value changes"
+      },
+      {
+        "left": "oldValue",
+        "right": "Available in didSet to read previous"
+      },
+      {
+        "left": "newValue",
+        "right": "Available in willSet to read incoming"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Property observers let you respond to changes in a stored property's value."
+  },
+  {
+    "question": "Match Swift pattern matching syntax with their use cases",
+    "pairs": [
+      {
+        "left": "switch with case let",
+        "right": "Matches and binds value"
+      },
+      {
+        "left": "if case",
+        "right": "Pattern matching in if statement"
+      },
+      {
+        "left": "for case in",
+        "right": "Filters iteration with pattern"
+      },
+      {
+        "left": "~= operator",
+        "right": "Custom pattern matching"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Swift's pattern matching is powerful and works with switch, if, for, guard, and while."
+  },
+  {
+    "question": "Match iOS app distribution channels with their audience",
+    "pairs": [
+      {
+        "left": "App Store",
+        "right": "Public release to all users"
+      },
+      {
+        "left": "TestFlight",
+        "right": "Beta testing for testers"
+      },
+      {
+        "left": "Ad Hoc",
+        "right": "Distribution to specific registered devices"
+      },
+      {
+        "left": "Enterprise",
+        "right": "Internal distribution within organization"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Apple provides multiple distribution channels for different stages of app development."
   }
 ]

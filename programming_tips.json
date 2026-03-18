@@ -98,5 +98,155 @@
     "id": "20",
     "category": "Concurrency",
     "tip": "Use Kotlin Coroutines for asynchronous programming—simpler and more readable than callbacks."
+  },
+  {
+    "id": "21",
+    "category": "iOS",
+    "tip": "Use `@StateObject` to create and own an ObservableObject in SwiftUI. Use `@ObservedObject` only when the object is passed in from outside."
+  },
+  {
+    "id": "22",
+    "category": "iOS",
+    "tip": "Always check `mounted` before using `BuildContext` after an `await` in Flutter, and check `view.window != nil` (or lifecycle state) before updating UI in async iOS callbacks."
+  },
+  {
+    "id": "23",
+    "category": "Flutter",
+    "tip": "Prefer `ListView.builder` over `ListView` with a `children` list for any dynamic or large list — it builds items lazily and is far more memory-efficient."
+  },
+  {
+    "id": "24",
+    "category": "Swift",
+    "tip": "Mark struct methods that modify stored properties with `mutating`. This makes value-type semantics explicit and prevents accidental mutation on `let` instances."
+  },
+  {
+    "id": "25",
+    "category": "iOS",
+    "tip": "Use `[weak self]` in closures that are stored or passed to external objects to break retain cycles. Only use `[unowned self]` when you can guarantee the object outlives the closure."
+  },
+  {
+    "id": "26",
+    "category": "Flutter",
+    "tip": "Use `ValueKey` or `ObjectKey` when dynamically adding, removing, or reordering widgets in a list. Without keys, Flutter matches widgets by position and can assign wrong state."
+  },
+  {
+    "id": "27",
+    "category": "Swift",
+    "tip": "Swift's `async/await` with `URLSession.shared.data(from:)` makes network code linear and easy to read. It also integrates naturally with Swift's structured concurrency and `throws`."
+  },
+  {
+    "id": "28",
+    "category": "Kotlin",
+    "tip": "Use `Dispatchers.Default` for CPU-intensive coroutines and `Dispatchers.IO` for blocking I/O. Never run heavy computation on `Dispatchers.Main` — it blocks the UI thread."
+  },
+  {
+    "id": "29",
+    "category": "Android",
+    "tip": "Prefer `StateFlow` over `LiveData` in new code. `StateFlow` works naturally in coroutines, has no lifecycle coupling in the ViewModel layer, and integrates cleanly with Compose."
+  },
+  {
+    "id": "30",
+    "category": "Testing",
+    "tip": "Use `runTest` from `kotlinx-coroutines-test` to write fast, deterministic coroutine tests. Pair it with `TestDispatcher` to control virtual time and avoid real delays."
+  },
+  {
+    "id": "31",
+    "category": "Architecture",
+    "tip": "Apply Unidirectional Data Flow (UDF): state flows down from the ViewModel, events flow up from the UI. This makes state predictable and the app easier to test."
+  },
+  {
+    "id": "32",
+    "category": "Flutter",
+    "tip": "Use `context.watch<T>()` to rebuild when a Provider value changes, and `context.read<T>()` for one-time reads inside callbacks. Misusing `watch` in callbacks causes unnecessary rebuilds."
+  },
+  {
+    "id": "33",
+    "category": "iOS",
+    "tip": "Core Data fetch requests are synchronous and block the calling thread. Always perform fetches on a background context (`newBackgroundContext()`) for anything non-trivial."
+  },
+  {
+    "id": "34",
+    "category": "Testing",
+    "tip": "Unit test ViewModels without Android dependencies by injecting fake or mock repositories. Keep business logic in plain Kotlin/Swift classes — not tied to UI frameworks."
+  },
+  {
+    "id": "35",
+    "category": "DevOps/CI",
+    "tip": "Run lint, unit tests, and build checks on every pull request in CI. Catching issues before merge is far cheaper than fixing them in production."
+  },
+  {
+    "id": "36",
+    "category": "DevOps/CI",
+    "tip": "Use signed, versioned release builds in CI/CD pipelines. Store signing credentials in environment secrets — never commit keystore files or certificates to version control."
+  },
+  {
+    "id": "37",
+    "category": "Accessibility",
+    "tip": "Add content descriptions to image-only UI elements so screen readers can describe them. In Compose use `contentDescription`, in UIKit use `accessibilityLabel`."
+  },
+  {
+    "id": "38",
+    "category": "Accessibility",
+    "tip": "Ensure minimum touch target sizes of 48x48dp (Android) or 44x44pt (iOS) for interactive elements. Small targets cause frustration for users with motor impairments."
+  },
+  {
+    "id": "39",
+    "category": "Debugging",
+    "tip": "Use `Layout Inspector` in Android Studio and `View Hierarchy Debugger` in Xcode to diagnose unexpected UI layouts without guessing. Visual tools are faster than trial-and-error."
+  },
+  {
+    "id": "40",
+    "category": "Debugging",
+    "tip": "Add structured logging with log levels (DEBUG, INFO, WARN, ERROR). Verbose logs in production consume battery and storage — use release build flags to strip debug logs."
+  },
+  {
+    "id": "41",
+    "category": "Android",
+    "tip": "Use `rememberSaveable` instead of `remember` in Compose when state must survive configuration changes like screen rotation or system-initiated process death."
+  },
+  {
+    "id": "42",
+    "category": "Swift",
+    "tip": "Use `actor` types to protect mutable state shared across concurrent tasks. Actors serialize access automatically — no manual locking required."
+  },
+  {
+    "id": "43",
+    "category": "Flutter",
+    "tip": "`InheritedWidget` is Flutter's built-in mechanism for propagating data down the tree. `Provider` wraps it with a simpler API and reactive updates — prefer Provider for app state."
+  },
+  {
+    "id": "44",
+    "category": "Architecture",
+    "tip": "Separate your app into layers: UI, Domain (use cases), and Data (repositories). This makes each layer independently testable and reduces coupling."
+  },
+  {
+    "id": "45",
+    "category": "Kotlin",
+    "tip": "Use `data class` for DTOs and model objects to get `equals`, `hashCode`, `copy`, and `toString` for free. Avoid using regular classes where structural equality is needed."
+  },
+  {
+    "id": "46",
+    "category": "Testing",
+    "tip": "Write integration tests that cover the data layer — real database queries, real serialization. Unit tests with mocks can miss schema mismatches and codec bugs."
+  },
+  {
+    "id": "47",
+    "category": "iOS",
+    "tip": "SwiftUI's `@EnvironmentObject` is ideal for app-wide shared state (e.g., auth session, theme). Inject it once at the root and read it anywhere without passing it through every view."
+  },
+  {
+    "id": "48",
+    "category": "DevOps/CI",
+    "tip": "Automate version bumping and changelog generation with tools like `semantic-release` or `fastlane`. Manual versioning is error-prone and slows down release cycles."
+  },
+  {
+    "id": "49",
+    "category": "Accessibility",
+    "tip": "Test your app with VoiceOver (iOS) and TalkBack (Android) enabled. Many accessibility issues are only discoverable by actually navigating the app without looking at the screen."
+  },
+  {
+    "id": "50",
+    "category": "Flutter",
+    "tip": "Use `const` constructors wherever possible in Flutter. Const widgets are never rebuilt unnecessarily, which is one of the simplest performance wins available."
   }
 ]

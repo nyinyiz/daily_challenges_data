@@ -2,30 +2,30 @@
   {
     "id": "1",
     "difficulty": "Easy",
-    "question": "\uD83D\uDDE3\uFE0F You want to show a FloatingActionButton (FAB) only after scrolling past the first few items. You’ve got access to scroll state — now you need to connect that to visibility. How would you do it? Feel free to share code snippets!",
+    "question": "🗣️ You want to show a FloatingActionButton (FAB) only after scrolling past the first few items. You’ve got access to scroll state — now you need to connect that to visibility. How would you do it? Feel free to share code snippets!",
     "questionCode": "val listState = rememberLazyListState()\n\nLazyColumn(state = listState) {\n  items(100) { Text(\"Item $it\") }\n}\n\n// Show a FAB only when the first visible index > 4",
     "answerCode": "val listState = rememberLazyListState()\n\n// Solution: use derivedStateOf to efficiently compute visibility\nval showFab by remember {\n    derivedStateOf {\n        listState.firstVisibleItemIndex > 2\n    }\n}\n\n// Then use AnimatedVisibility with showFab to control the FAB\nAnimatedVisibility(\n    visible = showFab,\n    enter = fadeIn() + slideInVertically { it },\n    exit = fadeOut() + slideOutVertically { it }\n) {\n    FloatingActionButton(onClick = { /* Action */ }) {\n        // FAB content\n    }\n}"
   },
   {
     "id": "2",
     "difficulty": "Medium",
-    "question": "\uD83D\uDDE3\uFE0F Below is a basic implementation of a LazyColumn. Will this work as expected, or do you think there is something wrong with the code? ",
+    "question": "🗣️ Below is a basic implementation of a LazyColumn. Will this work as expected, or do you think there is something wrong with the code? ",
     "questionCode": "LazyColumn {\n    items(comments.map { it.text }, key = { it }) { text ->\n        CommentCard(text)\n    }\n}",
-    "answerCode": "Solution,\n \uD83D\uDD28\n\nAt first glance, it looks like we’re doing everything right: we’re using the key parameter in items(), and we’re rendering a stable list.\n\nBut here’s the gotcha: we’re keying the list by the comment text, not by the actual unique identity of each comment.\n\nIf two comments have the same text — which is common in real apps — the key is no longer unique. This leads to Compose treating different items as the same, resulting in a crash when when a duplicate key is found as the list is being scrolled.\n\nFix: Always use a true stable identifier, like a comment ID: LazyColumn {\n    items(comments, key = { it.id }) { comment ->\n        CommentCard(comment.text)\n    }\n}"
+    "answerCode": "Solution,\n 🔨\n\nAt first glance, it looks like we’re doing everything right: we’re using the key parameter in items(), and we’re rendering a stable list.\n\nBut here’s the gotcha: we’re keying the list by the comment text, not by the actual unique identity of each comment.\n\nIf two comments have the same text — which is common in real apps — the key is no longer unique. This leads to Compose treating different items as the same, resulting in a crash when when a duplicate key is found as the list is being scrolled.\n\nFix: Always use a true stable identifier, like a comment ID: LazyColumn {\n    items(comments, key = { it.id }) { comment ->\n        CommentCard(comment.text)\n    }\n}"
   },
   {
     "id": "3",
     "difficulty": "Hard",
-    "question": "\uD83D\uDDE3\uFE0F This grid layout looks great on your device, but you’ve been tasked to ensure that it looks great on many form factors, like a tablet. Are you confident that this code will do just that? If not, then what would you change about it to make it truly adaptive?",
+    "question": "🗣️ This grid layout looks great on your device, but you’ve been tasked to ensure that it looks great on many form factors, like a tablet. Are you confident that this code will do just that? If not, then what would you change about it to make it truly adaptive?",
     "questionCode": "LazyVerticalGrid(\n  columns = GridCells.Fixed(2),\n  horizontalArrangement = Arrangement.spacedBy(24.dp),\n  verticalArrangement = Arrangement.spacedBy(24.dp),\n  contentPadding = PaddingValues(16.dp)\n) {\n  items(shoes) { shoe ->\n    ShopItemWithImage(shoe)\n  }\n}",
-    "answerCode": "Solution,\n \uD83E\uDD73 \n\nUsing GridCells.Fixed(2) forces exactly two columns, no matter how wide the screen is. On wide layouts (landscape, tablets), that makes each column too wide, stretching your cards unnaturally and breaking image aspect ratios.\n\nThe correct solution is to use GridCells.Adaptive(minSize), which calculates the number of columns based on available width and a minimum item width — keeping your cards looking good across screen sizes.\n\n            LazyVerticalGrid(\n                columns = GridCells.Adaptive(minSize = 128.dp),\n                horizontalArrangement = Arrangement.spacedBy(24.dp),\n                verticalArrangement = Arrangement.spacedBy(24.dp),\n                contentPadding = PaddingValues(16.dp)\n            ) {\n                items(shoes) { shoe ->\n                    ShopItemWithImage(shoe)\n                }\n            }"
+    "answerCode": "Solution,\n 🥳 \n\nUsing GridCells.Fixed(2) forces exactly two columns, no matter how wide the screen is. On wide layouts (landscape, tablets), that makes each column too wide, stretching your cards unnaturally and breaking image aspect ratios.\n\nThe correct solution is to use GridCells.Adaptive(minSize), which calculates the number of columns based on available width and a minimum item width — keeping your cards looking good across screen sizes.\n\n            LazyVerticalGrid(\n                columns = GridCells.Adaptive(minSize = 128.dp),\n                horizontalArrangement = Arrangement.spacedBy(24.dp),\n                verticalArrangement = Arrangement.spacedBy(24.dp),\n                contentPadding = PaddingValues(16.dp)\n            ) {\n                items(shoes) { shoe ->\n                    ShopItemWithImage(shoe)\n                }\n            }"
   },
   {
     "id": "4",
     "difficulty": "Hard",
-    "question": "\uD83D\uDDE3\uFE0F The following snippet can cause you to have some real headaches! Considering that the Service class is bound to a lifecycle and that it can launch many coroutines from this scope, what are the two (2) bugs you can see happening when using this code?",
+    "question": "🗣️ The following snippet can cause you to have some real headaches! Considering that the Service class is bound to a lifecycle and that it can launch many coroutines from this scope, what are the two (2) bugs you can see happening when using this code?",
     "questionCode": "import android.app.Service\n\nclass NotificationService : Service() {\n\n    private val serviceScope = CoroutineScope(Dispatchers.Default)\n\n    override fun onBind(intent: Intent?): IBinder? {\n        // Your custom logic here\n        return null\n    }\n\n    override fun onDestroy() {\n        super.onDestroy()\n    }\n}",
-    "answerCode": "Solution,\n\uD83D\uDC1B Bug #1: Scope Not Cancelled on onDestroy()\n\nWithout serviceScope.cancel(), all launched coroutines keep running until they have completed—even after the service is destroyed. That’s a classic memory leak risk.\n\n\uD83D\uDC1B Bug #2: Not Using SupervisorJob()\n\nA normal coroutine scope will get cancelled when any of its child coroutines throw an exception, which in most cases is not something that you want when creating such lifecycle-scoped coroutine scopes (similar to the built-in viewModelScope and lifecycleScope who also use SupervisorJob() under the hood)\n\nSupervisorJob() is unique because it prevents a failure in one child coroutine to cancel any of its siblings or the scope itself.\n\n\n import android.app.Service\n\nclass NotificationService : Service() {\n\n    private val serviceScope = CoroutineScope(Dispatchers.Default + SupervisorJob())\n\n    override fun onBind(intent: Intent?): IBinder? {\n        return null\n    }\n\n    override fun onDestroy() {\n        super.onDestroy()\n        serviceScope.cancel()\n    }\n}"
+    "answerCode": "Solution,\n🐛 Bug #1: Scope Not Cancelled on onDestroy()\n\nWithout serviceScope.cancel(), all launched coroutines keep running until they have completed—even after the service is destroyed. That’s a classic memory leak risk.\n\n🐛 Bug #2: Not Using SupervisorJob()\n\nA normal coroutine scope will get cancelled when any of its child coroutines throw an exception, which in most cases is not something that you want when creating such lifecycle-scoped coroutine scopes (similar to the built-in viewModelScope and lifecycleScope who also use SupervisorJob() under the hood)\n\nSupervisorJob() is unique because it prevents a failure in one child coroutine to cancel any of its siblings or the scope itself.\n\n\n import android.app.Service\n\nclass NotificationService : Service() {\n\n    private val serviceScope = CoroutineScope(Dispatchers.Default + SupervisorJob())\n\n    override fun onBind(intent: Intent?): IBinder? {\n        return null\n    }\n\n    override fun onDestroy() {\n        super.onDestroy()\n        serviceScope.cancel()\n    }\n}"
   },
   {
     "id": "5",
@@ -236,5 +236,110 @@
     "question": "🔃 You want to retry a failed API call every 5 seconds until it succeeds using Kotlin Flow. What operator can help you?",
     "questionCode": "// Wrap your network call",
     "answerCode": "flow {\n    emit(api.fetchData())\n}.retryWhen { cause, attempt ->\n    delay(5000)\n    true // retry forever\n}"
+  },
+  {
+    "id": "35",
+    "difficulty": "Easy",
+    "question": "🗣️ In SwiftUI, how do you create a two-way binding between a parent view's state and a child view so that changes in the child update the parent?",
+    "questionCode": "struct ParentView: View {\n    @State private var name: String = \"\"\n\n    var body: some View {\n        // Pass name to ChildView so it can modify it\n        ChildView(/* ??? */)\n    }\n}\n\nstruct ChildView: View {\n    // How should this property be declared?\n    var name: String\n\n    var body: some View {\n        TextField(\"Enter name\", text: /* ??? */)\n    }\n}",
+    "answerCode": "struct ParentView: View {\n    @State private var name: String = \"\"\n\n    var body: some View {\n        ChildView(name: $name) // Pass a Binding using $\n    }\n}\n\nstruct ChildView: View {\n    @Binding var name: String // Declare as @Binding\n\n    var body: some View {\n        TextField(\"Enter name\", text: $name)\n    }\n}\n\n// @Binding creates a two-way connection. Changes in ChildView\n// propagate back to the @State in ParentView."
+  },
+  {
+    "id": "36",
+    "difficulty": "Medium",
+    "question": "🗣️ You need to fetch data from a REST API in Swift using async/await and URLSession. The current callback-based code works but is hard to read. Can you rewrite it using modern concurrency?",
+    "questionCode": "func fetchUser(id: Int, completion: @escaping (User?, Error?) -> Void) {\n    let url = URL(string: \"https://api.example.com/users/\\(id)\")!\n    URLSession.shared.dataTask(with: url) { data, _, error in\n        if let error = error {\n            completion(nil, error)\n            return\n        }\n        guard let data = data else { return }\n        let user = try? JSONDecoder().decode(User.self, from: data)\n        completion(user, nil)\n    }.resume()\n}",
+    "answerCode": "func fetchUser(id: Int) async throws -> User {\n    let url = URL(string: \"https://api.example.com/users/\\(id)\")!\n    let (data, _) = try await URLSession.shared.data(from: url)\n    return try JSONDecoder().decode(User.self, from: data)\n}\n\n// Usage:\nTask {\n    do {\n        let user = try await fetchUser(id: 42)\n        print(user.name)\n    } catch {\n        print(\"Error: \\(error)\")\n    }\n}\n\n// async/await eliminates callback nesting, propagates errors\n// naturally with throws, and reads like synchronous code."
+  },
+  {
+    "id": "37",
+    "difficulty": "Medium",
+    "question": "🗣️ You're building a Flutter app and need to share a counter value across multiple widgets without passing it down manually. How would you manage this state using Provider?",
+    "questionCode": "// Counter value needs to be shared between\n// ScreenA and ScreenB without prop drilling.\n\nclass CounterModel {\n  int count = 0;\n  void increment() => count++;\n}\n\n// How do you provide and consume this model?",
+    "answerCode": "import 'package:provider/provider.dart';\n\n// 1. Make CounterModel a ChangeNotifier\nclass CounterModel extends ChangeNotifier {\n  int count = 0;\n  void increment() {\n    count++;\n    notifyListeners(); // Notify widgets to rebuild\n  }\n}\n\n// 2. Provide it at the top of the widget tree\nvoid main() {\n  runApp(\n    ChangeNotifierProvider(\n      create: (_) => CounterModel(),\n      child: MyApp(),\n    ),\n  );\n}\n\n// 3. Consume in any descendant widget\nclass CounterDisplay extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    final counter = context.watch<CounterModel>();\n    return Text('Count: ${counter.count}');\n  }\n}"
+  },
+  {
+    "id": "38",
+    "difficulty": "Medium",
+    "question": "🗣️ This Flutter FutureBuilder always shows the loading spinner even after the future completes with an error. What's wrong and how would you fix it?",
+    "questionCode": "FutureBuilder<String>(\n  future: fetchData(),\n  builder: (context, snapshot) {\n    if (snapshot.connectionState == ConnectionState.done) {\n      return Text(snapshot.data ?? 'No data');\n    }\n    return CircularProgressIndicator();\n  },\n)",
+    "answerCode": "// Bug: snapshot.hasError is never checked.\n// If the future throws, snapshot.data is null AND\n// snapshot.hasError is true — but we display 'No data' silently.\n\n// Fix: Always check for errors before accessing data.\nFutureBuilder<String>(\n  future: fetchData(),\n  builder: (context, snapshot) {\n    if (snapshot.connectionState == ConnectionState.waiting) {\n      return CircularProgressIndicator();\n    }\n    if (snapshot.hasError) {\n      return Text('Error: ${snapshot.error}');\n    }\n    if (snapshot.hasData) {\n      return Text(snapshot.data!);\n    }\n    return Text('No data');\n  },\n)"
+  },
+  {
+    "id": "39",
+    "difficulty": "Hard",
+    "question": "🗣️ This iOS Swift code has a retain cycle inside a closure. Can you identify the problem and fix it?",
+    "questionCode": "class ProfileViewController: UIViewController {\n    var onUserLoaded: (() -> Void)?\n\n    func loadUser() {\n        UserService.shared.fetchUser { user in\n            self.updateUI(with: user) // Potential retain cycle!\n            self.onUserLoaded?()\n        }\n    }\n\n    func updateUI(with user: User) {\n        // update views\n    }\n}",
+    "answerCode": "// Problem: The closure captures `self` strongly.\n// If UserService holds the closure, it creates a cycle:\n// VC -> closure -> VC (never deallocated)\n\n// Fix: Use [weak self] to break the cycle\nfunc loadUser() {\n    UserService.shared.fetchUser { [weak self] user in\n        guard let self = self else { return }\n        self.updateUI(with: user)\n        self.onUserLoaded?()\n    }\n}\n\n// [weak self] makes the closure's reference to self weak,\n// so the VC can be deallocated even if the closure still exists."
+  },
+  {
+    "id": "40",
+    "difficulty": "Easy",
+    "question": "🗣️ You have a JSON response from an API and want to decode it into a Swift struct. How do you use `Codable` to parse it cleanly?",
+    "questionCode": "// JSON response:\n// {\n//   \"user_id\": 1,\n//   \"full_name\": \"Alice Smith\",\n//   \"email\": \"alice@example.com\"\n// }\n\n// How do you define a Swift struct and decode this JSON?",
+    "answerCode": "struct User: Codable {\n    let userId: Int\n    let fullName: String\n    let email: String\n\n    // Map snake_case JSON keys to camelCase Swift properties\n    enum CodingKeys: String, CodingKey {\n        case userId = \"user_id\"\n        case fullName = \"full_name\"\n        case email\n    }\n}\n\n// Decoding:\nlet jsonData = jsonString.data(using: .utf8)!\nlet user = try JSONDecoder().decode(User.self, from: jsonData)\nprint(user.fullName) // \"Alice Smith\"\n\n// Tip: Set decoder.keyDecodingStrategy = .convertFromSnakeCase\n// to skip CodingKeys if all properties follow the pattern."
+  },
+  {
+    "id": "41",
+    "difficulty": "Medium",
+    "question": "🗣️ In Flutter, what is the performance difference between `ListView` and `ListView.builder`? When should you use each?",
+    "questionCode": "// Option A:\nListView(\n  children: items.map((item) => ListTile(title: Text(item))).toList(),\n)\n\n// Option B:\nListView.builder(\n  itemCount: items.length,\n  itemBuilder: (context, index) => ListTile(title: Text(items[index])),\n)",
+    "answerCode": "// Option A - ListView with children list:\n// ALL widgets are built upfront, regardless of visibility.\n// Fine for small, fixed lists (< ~20 items).\n// Bad for long lists — high memory usage and slow startup.\n\n// Option B - ListView.builder:\n// Widgets are built LAZILY — only visible items are created.\n// Efficiently recycles items as you scroll (like RecyclerView).\n// Always prefer this for dynamic or large lists.\n\n// Rule of thumb:\n// - Static, short list  -> ListView(children: [...])\n// - Dynamic or long list -> ListView.builder(itemBuilder: ...)"
+  },
+  {
+    "id": "42",
+    "difficulty": "Hard",
+    "question": "🗣️ This Swift code has a potential data race when accessed from multiple threads. How do you fix it using Swift's Actor model?",
+    "questionCode": "class UserCache {\n    private var cache: [Int: User] = [:]\n\n    func getUser(id: Int) -> User? {\n        return cache[id] // ⚠️ Unsafe if called from multiple threads\n    }\n\n    func storeUser(_ user: User) {\n        cache[user.id] = user // ⚠️ Unsafe mutation\n    }\n}",
+    "answerCode": "// Fix: Convert UserCache into an Actor.\n// Actors in Swift automatically serialize access to their state,\n// preventing data races without manual locking.\n\nactor UserCache {\n    private var cache: [Int: User] = [:]\n\n    func getUser(id: Int) -> User? {\n        return cache[id]\n    }\n\n    func storeUser(_ user: User) {\n        cache[user.id] = user\n    }\n}\n\n// Usage (must use await since actor methods are async):\nlet cache = UserCache()\nawait cache.storeUser(user)\nif let user = await cache.getUser(id: 42) {\n    print(user.name)\n}"
+  },
+  {
+    "id": "43",
+    "difficulty": "Medium",
+    "question": "🗣️ This iOS completion handler code can cause memory leaks. How should you handle `self` correctly?",
+    "questionCode": "class DashboardViewController: UIViewController {\n    func loadDashboard() {\n        APIClient.fetchDashboard { result in\n            switch result {\n            case .success(let data):\n                self.renderDashboard(data) // Strong capture of self\n            case .failure(let error):\n                self.showError(error)\n            }\n        }\n    }\n}",
+    "answerCode": "// Problem: If APIClient retains the completion closure,\n// it keeps the ViewController alive via the strong `self` capture.\n\n// Fix: Use [weak self] in the capture list\nfunc loadDashboard() {\n    APIClient.fetchDashboard { [weak self] result in\n        guard let self = self else { return } // Early exit if deallocated\n        switch result {\n        case .success(let data):\n            self.renderDashboard(data)\n        case .failure(let error):\n            self.showError(error)\n        }\n    }\n}\n\n// Note: Use [unowned self] only when you are 100% certain\n// self will outlive the closure — otherwise it will crash."
+  },
+  {
+    "id": "44",
+    "difficulty": "Medium",
+    "question": "🗣️ What is the difference between `InheritedWidget` and `Provider` in Flutter? When would you choose one over the other?",
+    "questionCode": "// Option A: InheritedWidget\nclass ThemeData extends InheritedWidget { ... }\n\n// Option B: Provider (from the provider package)\nChangeNotifierProvider(\n  create: (_) => ThemeModel(),\n  child: MyApp(),\n)",
+    "answerCode": "// InheritedWidget:\n// - Built into Flutter framework, no dependencies.\n// - Propagates data DOWN the widget tree efficiently.\n// - Low-level: you must manually handle change notifications.\n// - Good for static or rarely-changing data (themes, localization).\n// - Boilerplate-heavy to implement correctly.\n\n// Provider:\n// - Wraps InheritedWidget with a cleaner, ergonomic API.\n// - Supports ChangeNotifier for reactive state updates.\n// - Handles widget rebuild scoping (context.watch vs context.read).\n// - Less boilerplate, easier to test and maintain.\n// - The recommended choice for most app state management.\n\n// Rule:\n// Use InheritedWidget for framework-level data propagation.\n// Use Provider for app-level state management."
+  },
+  {
+    "id": "45",
+    "difficulty": "Hard",
+    "question": "🗣️ You need to fetch a filtered list of users from Core Data in an iOS app. How do you write a fetch request with a predicate?",
+    "questionCode": "// Core Data entity: UserEntity\n// Attributes: name (String), age (Int32), isActive (Bool)\n\n// Fetch all active users older than 18\nfunc fetchActiveAdults(context: NSManagedObjectContext) -> [UserEntity] {\n    // Write the fetch request here\n}",
+    "answerCode": "func fetchActiveAdults(context: NSManagedObjectContext) -> [UserEntity] {\n    let request = NSFetchRequest<UserEntity>(entityName: \"UserEntity\")\n\n    // Compound predicate: isActive == true AND age > 18\n    request.predicate = NSPredicate(\n        format: \"isActive == %@ AND age > %d\",\n        NSNumber(value: true),\n        18\n    )\n\n    // Optional: sort results\n    request.sortDescriptors = [\n        NSSortDescriptor(key: \"name\", ascending: true)\n    ]\n\n    do {\n        return try context.fetch(request)\n    } catch {\n        print(\"Fetch error: \\(error)\")\n        return []\n    }\n}"
+  },
+  {
+    "id": "46",
+    "difficulty": "Medium",
+    "question": "🗣️ In Swift, value types like structs are supposed to be immutable by default. Why does this code fail to compile, and how do you fix it?",
+    "questionCode": "struct Counter {\n    var count: Int = 0\n\n    func increment() {\n        count += 1 // Compile error!\n    }\n}",
+    "answerCode": "// Problem: Struct methods cannot mutate stored properties\n// unless they are marked with `mutating`.\n// This is because structs are value types — mutation creates\n// a new copy, and the method must declare this intent.\n\nstruct Counter {\n    var count: Int = 0\n\n    mutating func increment() { // Add `mutating`\n        count += 1\n    }\n}\n\nvar counter = Counter()\ncounter.increment() // Works!\nprint(counter.count) // 1\n\n// Note: `let` instances of structs cannot call mutating methods:\n// let c = Counter()\n// c.increment() // Compile error — c is immutable"
+  },
+  {
+    "id": "47",
+    "difficulty": "Medium",
+    "question": "🗣️ Your Flutter widget list is reordering items incorrectly when you add or remove elements. Why do keys matter here, and how do you fix it?",
+    "questionCode": "// Items are removed/added dynamically\nColumn(\n  children: items.map((item) =>\n    MyItemWidget(label: item.label) // No key!\n  ).toList(),\n)",
+    "answerCode": "// Problem: Without keys, Flutter's reconciler matches widgets\n// by their position in the tree. When an item is removed from\n// the middle, all widgets below it shift up and Flutter may\n// assign stale state (e.g., text field content, animations)\n// to the wrong items.\n\n// Fix: Use a ValueKey with a unique, stable identifier\nColumn(\n  children: items.map((item) =>\n    MyItemWidget(\n      key: ValueKey(item.id), // Stable identity\n      label: item.label,\n    )\n  ).toList(),\n)\n\n// With keys, Flutter correctly matches existing widgets to\n// their previous state even after reordering or removal.\n// Use ValueKey for data-driven keys, ObjectKey for object identity."
+  },
+  {
+    "id": "48",
+    "difficulty": "Medium",
+    "question": "🗣️ You want to fetch data from a network API in an iOS app using modern Swift concurrency. How do you use `async/await` with URLSession?",
+    "questionCode": "struct Post: Decodable {\n    let id: Int\n    let title: String\n}\n\n// Fetch a post by ID from:\n// https://jsonplaceholder.typicode.com/posts/{id}\nfunc fetchPost(id: Int) async throws -> Post {\n    // Implement here\n}",
+    "answerCode": "func fetchPost(id: Int) async throws -> Post {\n    let url = URL(string: \"https://jsonplaceholder.typicode.com/posts/\\(id)\")!\n    // URLSession.data(from:) is natively async in Swift 5.5+\n    let (data, response) = try await URLSession.shared.data(from: url)\n\n    guard let httpResponse = response as? HTTPURLResponse,\n          httpResponse.statusCode == 200 else {\n        throw URLError(.badServerResponse)\n    }\n\n    return try JSONDecoder().decode(Post.self, from: data)\n}\n\n// Call site (e.g., in a SwiftUI task or async context):\nTask {\n    do {\n        let post = try await fetchPost(id: 1)\n        print(post.title)\n    } catch {\n        print(\"Failed: \\(error)\")\n    }\n}"
+  },
+  {
+    "id": "49",
+    "difficulty": "Hard",
+    "question": "🗣️ This Flutter widget tries to navigate using BuildContext inside an async callback, but causes a warning and can crash in some cases. What's the problem and how do you fix it?",
+    "questionCode": "class SubmitButton extends StatefulWidget {\n  @override\n  State<SubmitButton> createState() => _SubmitButtonState();\n}\n\nclass _SubmitButtonState extends State<SubmitButton> {\n  Future<void> handleSubmit() async {\n    await saveData();\n    Navigator.of(context).pushNamed('/success'); // ⚠️ Dangerous!\n  }\n\n  @override\n  Widget build(BuildContext context) {\n    return ElevatedButton(onPressed: handleSubmit, child: Text('Submit'));\n  }\n}",
+    "answerCode": "// Problem: After `await saveData()`, the widget may have been\n// unmounted (removed from the tree). Using `context` after an\n// async gap in a State that is no longer mounted can crash or\n// cause unexpected behavior.\n\n// Fix: Check `mounted` before using context after an await\nFuture<void> handleSubmit() async {\n  await saveData();\n\n  if (!mounted) return; // Guard against unmounted state\n  Navigator.of(context).pushNamed('/success');\n}\n\n// In newer Flutter versions, the linter warning is:\n// 'use_build_context_synchronously'\n// Always add the mounted check after any await\n// before touching context or setState."
   }
 ]

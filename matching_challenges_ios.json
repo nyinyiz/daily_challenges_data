@@ -228,5 +228,350 @@
     ],
     "difficulty": "Medium",
     "explanation": "XCTest provides comprehensive testing capabilities for iOS applications."
+  },
+  {
+    "question": "Match SwiftUI property wrappers with their roles",
+    "pairs": [
+      {
+        "left": "@StateObject",
+        "right": "Owns and creates an observable object"
+      },
+      {
+        "left": "@ObservedObject",
+        "right": "Subscribes to external observable object"
+      },
+      {
+        "left": "@EnvironmentObject",
+        "right": "Reads shared object injected into environment"
+      },
+      {
+        "left": "@Binding",
+        "right": "Two-way connection to source of truth"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "SwiftUI property wrappers manage data flow and ownership between views."
+  },
+  {
+    "question": "Match UIKit navigation controllers with their purpose",
+    "pairs": [
+      {
+        "left": "UINavigationController",
+        "right": "Manages a stack of view controllers"
+      },
+      {
+        "left": "UITabBarController",
+        "right": "Manages multiple child controllers with tabs"
+      },
+      {
+        "left": "UISplitViewController",
+        "right": "Shows master-detail interface"
+      },
+      {
+        "left": "UIPageViewController",
+        "right": "Shows pages in a swipeable container"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "UIKit provides container controllers for organizing navigation and presenting content."
+  },
+  {
+    "question": "Match iOS data persistence options with their use cases",
+    "pairs": [
+      {
+        "left": "UserDefaults",
+        "right": "Small key-value settings"
+      },
+      {
+        "left": "Core Data",
+        "right": "Object graph and relational data"
+      },
+      {
+        "left": "Keychain",
+        "right": "Secure sensitive credentials"
+      },
+      {
+        "left": "FileManager",
+        "right": "Direct file system access"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "iOS provides different persistence options suited to different data types and security needs."
+  },
+  {
+    "question": "Match Combine framework types with their roles",
+    "pairs": [
+      {
+        "left": "Publisher",
+        "right": "Emits sequence of values over time"
+      },
+      {
+        "left": "Subscriber",
+        "right": "Receives values from a publisher"
+      },
+      {
+        "left": "Subject",
+        "right": "Publisher that can be manually triggered"
+      },
+      {
+        "left": "Cancellable",
+        "right": "Token representing active subscription"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Combine is Apple's reactive programming framework for processing asynchronous events."
+  },
+  {
+    "question": "Match iOS testing frameworks with their scope",
+    "pairs": [
+      {
+        "left": "XCTest",
+        "right": "Apple's native unit testing framework"
+      },
+      {
+        "left": "XCUITest",
+        "right": "UI automation testing framework"
+      },
+      {
+        "left": "Quick",
+        "right": "BDD-style testing framework"
+      },
+      {
+        "left": "Nimble",
+        "right": "Matcher library for assertions"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "iOS testing ecosystem includes both Apple-provided and community frameworks."
+  },
+  {
+    "question": "Match UIViewController lifecycle methods with their events",
+    "pairs": [
+      {
+        "left": "viewDidLoad()",
+        "right": "View loaded into memory"
+      },
+      {
+        "left": "viewWillAppear(_:)",
+        "right": "View about to become visible"
+      },
+      {
+        "left": "viewDidDisappear(_:)",
+        "right": "View has left the screen"
+      },
+      {
+        "left": "deinit",
+        "right": "Controller being deallocated"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "UIViewController lifecycle methods allow responding to visibility and memory events."
+  },
+  {
+    "question": "Match Swift concurrency types with their purpose",
+    "pairs": [
+      {
+        "left": "async/await",
+        "right": "Sequential-style async code"
+      },
+      {
+        "left": "Task",
+        "right": "Represents a unit of concurrent work"
+      },
+      {
+        "left": "TaskGroup",
+        "right": "Runs multiple tasks in parallel"
+      },
+      {
+        "left": "actor",
+        "right": "Protects mutable state from data races"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Swift structured concurrency provides modern, safe tools for async and parallel programming."
+  },
+  {
+    "question": "Match Core Data concepts with their definitions",
+    "pairs": [
+      {
+        "left": "NSManagedObject",
+        "right": "Model object in Core Data"
+      },
+      {
+        "left": "NSManagedObjectContext",
+        "right": "In-memory scratchpad for objects"
+      },
+      {
+        "left": "NSPersistentStore",
+        "right": "Actual database storage"
+      },
+      {
+        "left": "NSFetchRequest",
+        "right": "Query object for fetching data"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Core Data's stack has distinct layers for object management, context, and persistence."
+  },
+  {
+    "question": "Match iOS network layers with their responsibilities",
+    "pairs": [
+      {
+        "left": "URLSession",
+        "right": "Manages network requests"
+      },
+      {
+        "left": "URLRequest",
+        "right": "Encapsulates request parameters"
+      },
+      {
+        "left": "URLResponse",
+        "right": "Stores metadata about response"
+      },
+      {
+        "left": "URLSessionDataTask",
+        "right": "Downloads data in memory"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "URLSession provides a comprehensive networking stack for iOS applications."
+  },
+  {
+    "question": "Match SwiftUI view modifiers with their effects",
+    "pairs": [
+      {
+        "left": ".padding()",
+        "right": "Adds space around view"
+      },
+      {
+        "left": ".frame()",
+        "right": "Sets view size and alignment"
+      },
+      {
+        "left": ".foregroundColor()",
+        "right": "Sets text or shape color"
+      },
+      {
+        "left": ".overlay()",
+        "right": "Draws view on top of another"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "SwiftUI modifiers are chained to customize appearance and layout of views."
+  },
+  {
+    "question": "Match iOS App lifecycle states with their description",
+    "pairs": [
+      {
+        "left": "Not Running",
+        "right": "App not launched or terminated"
+      },
+      {
+        "left": "Inactive",
+        "right": "App foreground but not receiving events"
+      },
+      {
+        "left": "Active",
+        "right": "App in foreground and receiving events"
+      },
+      {
+        "left": "Suspended",
+        "right": "App in background, no code execution"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "iOS manages app states to balance responsiveness and battery life."
+  },
+  {
+    "question": "Match ARC reference types with their behavior",
+    "pairs": [
+      {
+        "left": "strong",
+        "right": "Increases retain count by one"
+      },
+      {
+        "left": "weak",
+        "right": "Zero retain count increase, auto-nil"
+      },
+      {
+        "left": "unowned",
+        "right": "Zero retain count, assumes non-nil"
+      },
+      {
+        "left": "capture list [weak self]",
+        "right": "Prevents retain cycle in closure"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "ARC reference types control object ownership and are key to preventing memory leaks."
+  },
+  {
+    "question": "Match iOS security features with their purpose",
+    "pairs": [
+      {
+        "left": "Keychain Services",
+        "right": "Stores passwords and tokens securely"
+      },
+      {
+        "left": "App Transport Security",
+        "right": "Enforces HTTPS connections"
+      },
+      {
+        "left": "Data Protection",
+        "right": "Encrypts files at rest"
+      },
+      {
+        "left": "Secure Enclave",
+        "right": "Hardware-isolated cryptographic keys"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "iOS provides multiple layers of security features for protecting user data."
+  },
+  {
+    "question": "Match Grand Central Dispatch queue types with their characteristics",
+    "pairs": [
+      {
+        "left": "Main Queue",
+        "right": "Serial queue for UI updates"
+      },
+      {
+        "left": "Global Queue",
+        "right": "Concurrent queue with QoS priorities"
+      },
+      {
+        "left": "Serial Queue",
+        "right": "Executes tasks one at a time"
+      },
+      {
+        "left": "Concurrent Queue",
+        "right": "Executes multiple tasks simultaneously"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "GCD manages threading with dispatch queues for efficient concurrent programming."
+  },
+  {
+    "question": "Match Xcode build phases with their purpose",
+    "pairs": [
+      {
+        "left": "Compile Sources",
+        "right": "Compiles Swift and Objective-C files"
+      },
+      {
+        "left": "Copy Bundle Resources",
+        "right": "Copies assets and resources"
+      },
+      {
+        "left": "Link Binary With Libraries",
+        "right": "Links frameworks and libraries"
+      },
+      {
+        "left": "Run Script",
+        "right": "Executes custom shell scripts"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Xcode build phases define the steps taken to build an iOS application."
   }
 ]
