@@ -183,5 +183,386 @@
     ],
     "difficulty": "Easy",
     "explanation": "leading, trailing, top, and bottom are valid iOS Auto Layout attributes. android:layout_width and android:layout_height are Android layout attributes."
+  },
+  {
+    "question": "Which of the following are valid SwiftUI property wrappers?",
+    "options": [
+      "@State",
+      "@Binding",
+      "@ObservedObject",
+      "@EnvironmentObject",
+      "@ViewModel",
+      "@Published"
+    ],
+    "correctAnswers": [
+      "@State",
+      "@Binding",
+      "@ObservedObject",
+      "@EnvironmentObject"
+    ],
+    "difficulty": "Medium",
+    "explanation": "@State manages local view state, @Binding creates a two-way connection to state owned elsewhere, @ObservedObject observes an external ObservableObject, and @EnvironmentObject injects a shared object through the view hierarchy. @ViewModel does not exist as a SwiftUI property wrapper. @Published is used inside ObservableObject classes to mark published properties, not a view property wrapper."
+  },
+  {
+    "question": "Which of the following are valid Combine operators?",
+    "options": [
+      "map",
+      "filter",
+      "flatMap",
+      "merge",
+      "subscribe",
+      "collect"
+    ],
+    "correctAnswers": [
+      "map",
+      "filter",
+      "flatMap",
+      "merge",
+      "collect"
+    ],
+    "difficulty": "Hard",
+    "explanation": "map, filter, flatMap, merge, and collect are all valid Combine operators. subscribe is not an operator in Combine; instead you use sink or assign to subscribe to a publisher."
+  },
+  {
+    "question": "Which of the following are valid Core Data stack components?",
+    "options": [
+      "NSManagedObjectContext",
+      "NSPersistentStoreCoordinator",
+      "NSManagedObjectModel",
+      "NSFetchRequest",
+      "NSEntityDescription",
+      "NSDataStore"
+    ],
+    "correctAnswers": [
+      "NSManagedObjectContext",
+      "NSPersistentStoreCoordinator",
+      "NSManagedObjectModel",
+      "NSFetchRequest",
+      "NSEntityDescription"
+    ],
+    "difficulty": "Hard",
+    "explanation": "NSManagedObjectContext (the scratch pad for working with objects), NSPersistentStoreCoordinator (coordinates persistent stores), NSManagedObjectModel (describes the data model), NSFetchRequest (used to retrieve objects), and NSEntityDescription (describes an entity) are all Core Data components. NSDataStore does not exist."
+  },
+  {
+    "question": "Which of the following are valid URLSession task types?",
+    "options": [
+      "URLSessionDataTask",
+      "URLSessionDownloadTask",
+      "URLSessionUploadTask",
+      "URLSessionStreamTask",
+      "URLSessionFetchTask",
+      "URLSessionWebSocketTask"
+    ],
+    "correctAnswers": [
+      "URLSessionDataTask",
+      "URLSessionDownloadTask",
+      "URLSessionUploadTask",
+      "URLSessionStreamTask",
+      "URLSessionWebSocketTask"
+    ],
+    "difficulty": "Medium",
+    "explanation": "URLSession provides URLSessionDataTask (data in memory), URLSessionDownloadTask (downloads to file), URLSessionUploadTask (uploads data), URLSessionStreamTask (TCP/IP streaming), and URLSessionWebSocketTask (WebSocket connections). URLSessionFetchTask does not exist."
+  },
+  {
+    "question": "Which of the following are valid Grand Central Dispatch (GCD) queue types?",
+    "options": [
+      "DispatchQueue.main",
+      "DispatchQueue.global()",
+      "DispatchQueue(label:)",
+      "DispatchQueue.background",
+      "DispatchQueue.concurrent",
+      "DispatchQueue.utility"
+    ],
+    "correctAnswers": [
+      "DispatchQueue.main",
+      "DispatchQueue.global()",
+      "DispatchQueue(label:)"
+    ],
+    "difficulty": "Medium",
+    "explanation": "DispatchQueue.main is the main serial queue, DispatchQueue.global() returns a system-managed concurrent queue (with optional QoS), and DispatchQueue(label:) creates a custom serial queue. DispatchQueue.background, DispatchQueue.concurrent, and DispatchQueue.utility are not valid GCD API calls — .background and .utility are QoS levels passed as arguments, not queue names."
+  },
+  {
+    "question": "Which of the following are valid iOS testing frameworks or tools?",
+    "options": [
+      "XCTest",
+      "XCUITest",
+      "Quick",
+      "Nimble",
+      "Espresso",
+      "Robolectric"
+    ],
+    "correctAnswers": [
+      "XCTest",
+      "XCUITest",
+      "Quick",
+      "Nimble"
+    ],
+    "difficulty": "Medium",
+    "explanation": "XCTest is Apple's primary unit testing framework, XCUITest is used for UI testing, Quick is a BDD-style testing framework for Swift, and Nimble provides expressive matchers used alongside Quick. Espresso and Robolectric are Android testing tools."
+  },
+  {
+    "question": "Which of the following are valid Swift concurrency keywords introduced in Swift 5.5?",
+    "options": [
+      "async",
+      "await",
+      "actor",
+      "Task",
+      "coroutine",
+      "suspend"
+    ],
+    "correctAnswers": [
+      "async",
+      "await",
+      "actor",
+      "Task"
+    ],
+    "difficulty": "Hard",
+    "explanation": "async marks a function as asynchronous, await is used to call async functions, actor is a reference type that protects mutable state from data races, and Task is used to create a new concurrent unit of work. coroutine and suspend are Kotlin concurrency keywords, not Swift."
+  },
+  {
+    "question": "Which of the following are valid Swift access control levels?",
+    "options": [
+      "open",
+      "public",
+      "internal",
+      "fileprivate",
+      "private",
+      "protected"
+    ],
+    "correctAnswers": [
+      "open",
+      "public",
+      "internal",
+      "fileprivate",
+      "private"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Swift has five access levels: open (accessible and subclassable from any module), public (accessible from any module but not subclassable outside), internal (accessible within the same module, the default), fileprivate (accessible within the same file), and private (accessible within the enclosing declaration). protected is a Java/Kotlin access modifier that does not exist in Swift."
+  },
+  {
+    "question": "Which of the following statements about ARC (Automatic Reference Counting) in Swift are true?",
+    "options": [
+      "ARC automatically manages memory for class instances",
+      "ARC applies to both value types and reference types",
+      "weak references do not increase the reference count",
+      "unowned references are always optional",
+      "Strong reference cycles can cause memory leaks"
+    ],
+    "correctAnswers": [
+      "ARC automatically manages memory for class instances",
+      "weak references do not increase the reference count",
+      "Strong reference cycles can cause memory leaks"
+    ],
+    "difficulty": "Hard",
+    "explanation": "ARC manages memory for class (reference type) instances only — structs and enums (value types) do not use ARC. weak references do not increase reference count and are always Optional. unowned references are non-optional and assumed to always have a value. Strong reference cycles between two class instances prevent ARC from deallocating them, causing memory leaks."
+  },
+  {
+    "question": "Which of the following are Xcode features used during iOS development?",
+    "options": [
+      "Instruments",
+      "Simulator",
+      "Interface Builder",
+      "Gradle",
+      "Memory Graph Debugger",
+      "ProGuard"
+    ],
+    "correctAnswers": [
+      "Instruments",
+      "Simulator",
+      "Interface Builder",
+      "Memory Graph Debugger"
+    ],
+    "difficulty": "Easy",
+    "explanation": "Instruments is Xcode's performance and memory profiling tool, Simulator runs iOS apps on macOS, Interface Builder is the visual UI designer in Xcode, and Memory Graph Debugger helps detect memory leaks and retain cycles. Gradle is Android's build system and ProGuard/R8 is Android's code shrinker — neither is an Xcode feature."
+  },
+  {
+    "question": "Which of the following are Swift protocols from the standard library?",
+    "options": [
+      "Equatable",
+      "Comparable",
+      "Hashable",
+      "Codable",
+      "Observable",
+      "Printable"
+    ],
+    "correctAnswers": [
+      "Equatable",
+      "Comparable",
+      "Hashable",
+      "Codable"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Equatable (== comparison), Comparable (ordering), Hashable (can be used in sets/dictionaries), and Codable (Encodable & Decodable combined) are all standard Swift protocols. Observable is a macro-based protocol introduced in Swift 5.9 for the Observation framework (not in the original standard library), and Printable was renamed to CustomStringConvertible in Swift 2."
+  },
+  {
+    "question": "Which of the following are valid Swift error handling mechanisms?",
+    "options": [
+      "do-catch",
+      "try?",
+      "try!",
+      "throws",
+      "guard let",
+      "Result<Success, Failure>"
+    ],
+    "correctAnswers": [
+      "do-catch",
+      "try?",
+      "try!",
+      "throws",
+      "Result<Success, Failure>"
+    ],
+    "difficulty": "Medium",
+    "explanation": "do-catch handles thrown errors, try? converts a thrown error to an optional (nil on failure), try! forces a call and crashes if an error is thrown, throws marks a function as capable of throwing errors, and Result<Success, Failure> is a type that represents either success or failure. guard let is for optional binding, not error handling."
+  },
+  {
+    "question": "Which of the following are valid Swift closure capture list modifiers?",
+    "options": [
+      "weak",
+      "unowned",
+      "strong",
+      "lazy",
+      "escaping",
+      "nonescaping"
+    ],
+    "correctAnswers": [
+      "weak",
+      "unowned"
+    ],
+    "difficulty": "Hard",
+    "explanation": "In Swift closure capture lists (inside []), only weak and unowned are valid capture modifiers. strong is the default and does not need to be specified in a capture list. lazy is a property modifier, not a capture modifier. @escaping and @nonescaping are attributes on closure parameters in function signatures, not capture list items."
+  },
+  {
+    "question": "Which of the following are valid Swift collection types?",
+    "options": [
+      "Array",
+      "Dictionary",
+      "Set",
+      "Tuple",
+      "LinkedList",
+      "Queue"
+    ],
+    "correctAnswers": [
+      "Array",
+      "Dictionary",
+      "Set",
+      "Tuple"
+    ],
+    "difficulty": "Easy",
+    "explanation": "Array (ordered collection), Dictionary (key-value pairs), Set (unordered unique values), and Tuple (fixed-size grouping of values) are built-in Swift collection/grouping types. LinkedList and Queue are data structures not natively built into the Swift standard library as named types."
+  },
+  {
+    "question": "Which of the following are part of the UIScene-based lifecycle introduced in iOS 13?",
+    "options": [
+      "scene(_:willConnectTo:options:)",
+      "sceneDidBecomeActive(_:)",
+      "sceneWillResignActive(_:)",
+      "applicationDidFinishLaunching(_:)",
+      "sceneDidEnterBackground(_:)",
+      "sceneWillEnterForeground(_:)"
+    ],
+    "correctAnswers": [
+      "scene(_:willConnectTo:options:)",
+      "sceneDidBecomeActive(_:)",
+      "sceneWillResignActive(_:)",
+      "sceneDidEnterBackground(_:)",
+      "sceneWillEnterForeground(_:)"
+    ],
+    "difficulty": "Hard",
+    "explanation": "scene(_:willConnectTo:options:), sceneDidBecomeActive(_:), sceneWillResignActive(_:), sceneDidEnterBackground(_:), and sceneWillEnterForeground(_:) are all UISceneDelegate methods introduced in iOS 13 for the scene-based lifecycle. applicationDidFinishLaunching(_:) is a UIApplicationDelegate method from the older app lifecycle."
+  },
+  {
+    "question": "Which of the following are valid SwiftUI view modifiers for layout?",
+    "options": [
+      ".padding()",
+      ".frame()",
+      ".offset()",
+      ".position()",
+      ".layoutPriority()",
+      ".alignmentGuide()"
+    ],
+    "correctAnswers": [
+      ".padding()",
+      ".frame()",
+      ".offset()",
+      ".position()",
+      ".layoutPriority()",
+      ".alignmentGuide()"
+    ],
+    "difficulty": "Medium",
+    "explanation": "All six are valid SwiftUI layout modifiers: .padding() adds spacing around a view, .frame() sets size constraints, .offset() shifts a view without affecting layout, .position() places a view at an absolute coordinate in its parent, .layoutPriority() influences which views are resized first, and .alignmentGuide() customizes alignment."
+  },
+  {
+    "question": "Which of the following are valid Combine publisher types?",
+    "options": [
+      "Just",
+      "Future",
+      "PassthroughSubject",
+      "CurrentValueSubject",
+      "Observable",
+      "AnyPublisher"
+    ],
+    "correctAnswers": [
+      "Just",
+      "Future",
+      "PassthroughSubject",
+      "CurrentValueSubject",
+      "AnyPublisher"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Just emits a single value then completes, Future represents a single value produced asynchronously, PassthroughSubject broadcasts values to subscribers without a current value, CurrentValueSubject maintains and broadcasts a current value, and AnyPublisher is a type-erased publisher wrapper. Observable is an RxSwift type, not a Combine publisher."
+  },
+  {
+    "question": "Which of the following are true about @StateObject in SwiftUI?",
+    "options": [
+      "@StateObject creates and owns the object's lifecycle",
+      "@StateObject is re-initialized on every view update",
+      "@StateObject should be used when the view is the source of truth for the object",
+      "@StateObject is equivalent to @ObservedObject",
+      "The object conforms to ObservableObject"
+    ],
+    "correctAnswers": [
+      "@StateObject creates and owns the object's lifecycle",
+      "@StateObject should be used when the view is the source of truth for the object",
+      "The object conforms to ObservableObject"
+    ],
+    "difficulty": "Hard",
+    "explanation": "@StateObject creates and owns an ObservableObject instance, preserving it across view re-renders — it is not re-initialized on every view update. Use @StateObject when the view owns the object, and @ObservedObject when the object is passed in from outside. They are not equivalent: @ObservedObject does not own the lifecycle."
+  },
+  {
+    "question": "Which of the following are valid Swift protocol requirements?",
+    "options": [
+      "Property requirements (var with get or get set)",
+      "Method requirements",
+      "Initializer requirements",
+      "Stored property requirements",
+      "Subscript requirements",
+      "Operator requirements"
+    ],
+    "correctAnswers": [
+      "Property requirements (var with get or get set)",
+      "Method requirements",
+      "Initializer requirements",
+      "Subscript requirements"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Swift protocols can require properties (declared as var with { get } or { get set }), methods (instance and type), initializers, and subscripts. Protocols cannot specify stored properties — they can only declare property requirements that conforming types must satisfy (which can be stored or computed). Operator requirements can be expressed as static func requirements."
+  },
+  {
+    "question": "Which of the following are valid URLSession configuration types in iOS?",
+    "options": [
+      "URLSessionConfiguration.default",
+      "URLSessionConfiguration.ephemeral",
+      "URLSessionConfiguration.background(withIdentifier:)",
+      "URLSessionConfiguration.shared",
+      "URLSessionConfiguration.cached",
+      "URLSessionConfiguration.temporary"
+    ],
+    "correctAnswers": [
+      "URLSessionConfiguration.default",
+      "URLSessionConfiguration.ephemeral",
+      "URLSessionConfiguration.background(withIdentifier:)"
+    ],
+    "difficulty": "Medium",
+    "explanation": "URLSession supports three configuration types: .default (uses disk-based caching and credentials), .ephemeral (no persistent storage — caches and cookies are in-memory only), and .background(withIdentifier:) (allows transfers to continue when the app is suspended). URLSessionConfiguration.shared, .cached, and .temporary do not exist — note that URLSession.shared is a singleton, not a configuration type."
   }
 ]
