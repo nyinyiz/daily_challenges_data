@@ -1,0 +1,388 @@
+[
+  {
+    "question": "Which of the following are SOLID principles?",
+    "options": [
+      "Single Responsibility Principle",
+      "Sequential Execution Principle",
+      "Open/Closed Principle",
+      "Liskov Substitution Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "correctAnswers": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Liskov Substitution Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "difficulty": "Easy",
+    "explanation": "SOLID is an acronym for five OOP design principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion. 'Sequential Execution Principle' is not a real principle."
+  },
+  {
+    "question": "Which of the following are layers in Clean Architecture?",
+    "options": [
+      "Entities",
+      "Use Cases",
+      "Interface Adapters",
+      "Frameworks & Drivers",
+      "Service Locator",
+      "Middleware"
+    ],
+    "correctAnswers": [
+      "Entities",
+      "Use Cases",
+      "Interface Adapters",
+      "Frameworks & Drivers"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Clean Architecture defines four concentric layers: Entities (core business rules), Use Cases (application logic), Interface Adapters (converters), and Frameworks & Drivers (external tools). Service Locator and Middleware are not Clean Architecture layers."
+  },
+  {
+    "question": "Which of the following are creational design patterns?",
+    "options": [
+      "Singleton",
+      "Factory Method",
+      "Abstract Factory",
+      "Builder",
+      "Adapter",
+      "Prototype"
+    ],
+    "correctAnswers": [
+      "Singleton",
+      "Factory Method",
+      "Abstract Factory",
+      "Builder",
+      "Prototype"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The GoF creational patterns are Singleton, Factory Method, Abstract Factory, Builder, and Prototype. Adapter is a structural pattern, not creational."
+  },
+  {
+    "question": "Which of the following are behavioral design patterns?",
+    "options": [
+      "Observer",
+      "Strategy",
+      "Composite",
+      "Command",
+      "Iterator",
+      "Flyweight"
+    ],
+    "correctAnswers": [
+      "Observer",
+      "Strategy",
+      "Command",
+      "Iterator"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Observer, Strategy, Command, and Iterator are all GoF behavioral patterns. Composite and Flyweight are structural patterns concerned with object composition and memory sharing."
+  },
+  {
+    "question": "Which of the following are benefits of using MVVM architecture?",
+    "options": [
+      "Separation of UI logic from business logic",
+      "ViewModel is easily unit-testable without Android framework dependencies",
+      "Eliminates the need for any data models",
+      "Supports reactive data binding between View and ViewModel",
+      "ViewModel survives configuration changes",
+      "Forces a single activity architecture"
+    ],
+    "correctAnswers": [
+      "Separation of UI logic from business logic",
+      "ViewModel is easily unit-testable without Android framework dependencies",
+      "Supports reactive data binding between View and ViewModel",
+      "ViewModel survives configuration changes"
+    ],
+    "difficulty": "Medium",
+    "explanation": "MVVM separates concerns, makes the ViewModel testable in isolation, enables reactive binding, and on Android the ViewModel survives rotation. MVVM does not eliminate data models and does not mandate a single activity design."
+  },
+  {
+    "question": "Which of the following typically belong to the Domain Layer in Clean Architecture?",
+    "options": [
+      "Use Cases / Interactors",
+      "Entity / Domain Model classes",
+      "Repository Interfaces",
+      "Repository Implementations",
+      "Retrofit API service interfaces",
+      "Room DAO interfaces"
+    ],
+    "correctAnswers": [
+      "Use Cases / Interactors",
+      "Entity / Domain Model classes",
+      "Repository Interfaces"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The Domain Layer contains Use Cases, Domain Entities, and Repository Interfaces (abstractions). Repository Implementations belong to the Data Layer. Retrofit and Room are framework-level details in the outermost layer."
+  },
+  {
+    "question": "Which of the following are valid dependency injection techniques?",
+    "options": [
+      "Constructor Injection",
+      "Property / Field Injection",
+      "Method Injection",
+      "Singleton Injection",
+      "Interface Injection",
+      "Global Variable Injection"
+    ],
+    "correctAnswers": [
+      "Constructor Injection",
+      "Property / Field Injection",
+      "Method Injection",
+      "Interface Injection"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The four recognized DI techniques are Constructor, Property/Field, Method, and Interface Injection. 'Singleton Injection' and 'Global Variable Injection' are not standard DI techniques; global variables are actually an anti-pattern."
+  },
+  {
+    "question": "Which of the following are characteristics of MVI (Model-View-Intent) architecture?",
+    "options": [
+      "Unidirectional data flow",
+      "Immutable state",
+      "Two-way data binding between View and Model",
+      "State is the single source of truth for the UI",
+      "Intents represent user actions or events",
+      "The View directly mutates the Model"
+    ],
+    "correctAnswers": [
+      "Unidirectional data flow",
+      "Immutable state",
+      "State is the single source of truth for the UI",
+      "Intents represent user actions or events"
+    ],
+    "difficulty": "Hard",
+    "explanation": "MVI enforces unidirectional flow, immutable state snapshots, a single source of truth, and Intent objects as event signals. Two-way data binding and direct View-to-Model mutation contradict MVI's principles."
+  },
+  {
+    "question": "Which of the following are typical responsibilities of a Repository?",
+    "options": [
+      "Abstracting the data source from the rest of the app",
+      "Deciding whether to return cached or fresh data",
+      "Rendering the UI",
+      "Coordinating multiple data sources (local and remote)",
+      "Exposing a clean API to the Domain or ViewModel layer",
+      "Handling navigation between screens"
+    ],
+    "correctAnswers": [
+      "Abstracting the data source from the rest of the app",
+      "Deciding whether to return cached or fresh data",
+      "Coordinating multiple data sources (local and remote)",
+      "Exposing a clean API to the Domain or ViewModel layer"
+    ],
+    "difficulty": "Medium",
+    "explanation": "A Repository mediates between domain logic and data sources by abstracting them, implementing cache strategies, merging local and remote sources, and providing a clean data API. Rendering UI and navigation are not repository concerns."
+  },
+  {
+    "question": "Which design patterns does the Repository pattern combine elements of?",
+    "options": [
+      "Gateway",
+      "Facade",
+      "Singleton",
+      "Collection (Domain Store)",
+      "Observer",
+      "Proxy"
+    ],
+    "correctAnswers": [
+      "Gateway",
+      "Facade",
+      "Collection (Domain Store)"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The Repository pattern is conceptually a combination of Gateway (abstracting access to an external system), Facade (simplifying a complex data subsystem), and a Collection-like interface that treats stored objects as an in-memory set."
+  },
+  {
+    "question": "Which of the following are valid ways to manage and expose state in an MVVM ViewModel?",
+    "options": [
+      "LiveData",
+      "StateFlow",
+      "SharedFlow",
+      "Plain mutable public variables",
+      "MutableStateFlow with an immutable public StateFlow",
+      "ObservableField (Data Binding)"
+    ],
+    "correctAnswers": [
+      "LiveData",
+      "StateFlow",
+      "SharedFlow",
+      "MutableStateFlow with an immutable public StateFlow",
+      "ObservableField (Data Binding)"
+    ],
+    "difficulty": "Medium",
+    "explanation": "LiveData, StateFlow, SharedFlow, encapsulated MutableStateFlow, and ObservableField are all recognized state-holder mechanisms in Android MVVM. Plain mutable public variables are an anti-pattern because they lack lifecycle awareness and observability."
+  },
+  {
+    "question": "Which of the following are advantages of modularizing a mobile application?",
+    "options": [
+      "Faster incremental build times",
+      "Clear ownership boundaries for teams",
+      "Enables dynamic feature delivery",
+      "Eliminates the need for unit tests",
+      "Improved code reusability across apps",
+      "Enforces stricter encapsulation of implementation details"
+    ],
+    "correctAnswers": [
+      "Faster incremental build times",
+      "Clear ownership boundaries for teams",
+      "Enables dynamic feature delivery",
+      "Improved code reusability across apps",
+      "Enforces stricter encapsulation of implementation details"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Modularization speeds up builds via parallelism and caching, clarifies team ownership, enables on-demand module delivery, promotes shared modules, and enforces encapsulation via module API surfaces. It does not eliminate the need for tests."
+  },
+  {
+    "question": "Which of the following are components of the VIPER architecture pattern?",
+    "options": [
+      "View",
+      "Interactor",
+      "Presenter",
+      "Entity",
+      "Router",
+      "ViewModel"
+    ],
+    "correctAnswers": [
+      "View",
+      "Interactor",
+      "Presenter",
+      "Entity",
+      "Router"
+    ],
+    "difficulty": "Medium",
+    "explanation": "VIPER stands for View, Interactor, Presenter, Entity, and Router. ViewModel is a component of MVVM, not VIPER."
+  },
+  {
+    "question": "Which of the following are core concepts in reactive programming?",
+    "options": [
+      "Streams / Observables",
+      "Operators (map, filter, flatMap)",
+      "Synchronous blocking calls",
+      "Backpressure",
+      "Schedulers / Dispatchers",
+      "Global mutable state"
+    ],
+    "correctAnswers": [
+      "Streams / Observables",
+      "Operators (map, filter, flatMap)",
+      "Backpressure",
+      "Schedulers / Dispatchers"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Reactive programming is built around asynchronous Streams/Observables, transformation Operators, Backpressure for flow control, and Schedulers/Dispatchers for thread management. Synchronous blocking calls and global mutable state are antithetical to reactive principles."
+  },
+  {
+    "question": "Which of the following principles does Clean Architecture enforce?",
+    "options": [
+      "Dependency Rule: dependencies point inward only",
+      "Independence from UI frameworks",
+      "Independence from the database",
+      "All layers must use the same data transfer format",
+      "Testability of business rules without external systems",
+      "Independence from any external agency"
+    ],
+    "correctAnswers": [
+      "Dependency Rule: dependencies point inward only",
+      "Independence from UI frameworks",
+      "Independence from the database",
+      "Testability of business rules without external systems",
+      "Independence from any external agency"
+    ],
+    "difficulty": "Hard",
+    "explanation": "Clean Architecture enforces inward-pointing dependencies and independence from UI, database, frameworks, and external agencies, which collectively make core business rules testable in isolation. It does not mandate a shared data format across all layers."
+  },
+  {
+    "question": "Which of the following are valid architectural patterns for mobile applications?",
+    "options": [
+      "MVC (Model-View-Controller)",
+      "MVP (Model-View-Presenter)",
+      "MVVM (Model-View-ViewModel)",
+      "MVI (Model-View-Intent)",
+      "VIPER",
+      "REST"
+    ],
+    "correctAnswers": [
+      "MVC (Model-View-Controller)",
+      "MVP (Model-View-Presenter)",
+      "MVVM (Model-View-ViewModel)",
+      "MVI (Model-View-Intent)",
+      "VIPER"
+    ],
+    "difficulty": "Easy",
+    "explanation": "MVC, MVP, MVVM, MVI, and VIPER are all recognized architectural patterns applied in mobile development. REST is a network communication style, not an architectural pattern for organizing app code."
+  },
+  {
+    "question": "Which of the following are characteristics of a Use Case (Interactor) in Clean Architecture?",
+    "options": [
+      "Contains application-specific business rules",
+      "Is independent of the UI framework",
+      "Directly accesses the database",
+      "Orchestrates data flow between Entities and outer layers",
+      "Has a single clearly defined responsibility",
+      "Manages navigation between screens"
+    ],
+    "correctAnswers": [
+      "Contains application-specific business rules",
+      "Is independent of the UI framework",
+      "Orchestrates data flow between Entities and outer layers",
+      "Has a single clearly defined responsibility"
+    ],
+    "difficulty": "Hard",
+    "explanation": "A Use Case encapsulates one application-specific business rule, is framework-independent, and orchestrates interactions between Entities and data sources via abstractions. It does not directly access databases (that belongs to outer layers) and does not handle navigation."
+  },
+  {
+    "question": "Which of the following are benefits of using Dependency Injection?",
+    "options": [
+      "Improved testability through easy substitution of fakes/mocks",
+      "Reduced boilerplate code for all classes",
+      "Loose coupling between components",
+      "Easier to swap implementations without changing consumers",
+      "Improved code readability through explicit dependencies",
+      "Guarantees thread safety"
+    ],
+    "correctAnswers": [
+      "Improved testability through easy substitution of fakes/mocks",
+      "Loose coupling between components",
+      "Easier to swap implementations without changing consumers",
+      "Improved code readability through explicit dependencies"
+    ],
+    "difficulty": "Medium",
+    "explanation": "DI improves testability, decouples components, makes implementation swaps painless, and makes dependencies explicit and readable. It does not inherently reduce boilerplate (DI frameworks may even add some) and does not guarantee thread safety."
+  },
+  {
+    "question": "Which of the following statements accurately describe the Observer pattern?",
+    "options": [
+      "Defines a one-to-many dependency between objects",
+      "When the subject changes state, all observers are notified automatically",
+      "Observers must poll the subject regularly to detect changes",
+      "Promotes loose coupling between subject and observer",
+      "Used to implement event-driven and publish-subscribe systems",
+      "Each observer must know the concrete type of the subject"
+    ],
+    "correctAnswers": [
+      "Defines a one-to-many dependency between objects",
+      "When the subject changes state, all observers are notified automatically",
+      "Promotes loose coupling between subject and observer",
+      "Used to implement event-driven and publish-subscribe systems"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The Observer pattern establishes a one-to-many relationship where observers are automatically notified of subject state changes, promoting loose coupling. Observers do not poll — they are pushed notifications. They also depend on the subject interface, not its concrete type."
+  },
+  {
+    "question": "Which of the following statements are true about the Singleton pattern?",
+    "options": [
+      "Ensures a class has only one instance throughout the application",
+      "Provides a global access point to that instance",
+      "Makes unit testing easier because of shared state",
+      "Can introduce hidden global state and tight coupling",
+      "Thread safety must be explicitly handled in concurrent environments",
+      "Is classified as a creational pattern"
+    ],
+    "correctAnswers": [
+      "Ensures a class has only one instance throughout the application",
+      "Provides a global access point to that instance",
+      "Can introduce hidden global state and tight coupling",
+      "Thread safety must be explicitly handled in concurrent environments",
+      "Is classified as a creational pattern"
+    ],
+    "difficulty": "Medium",
+    "explanation": "Singleton guarantees a single instance and global access point, and is a GoF creational pattern. However, it can introduce hidden global state and tight coupling, harming testability. In multithreaded environments, the implementation must be made thread-safe explicitly. It actually makes unit testing harder, not easier."
+  }
+]
