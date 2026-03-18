@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Match each MVVM component with its primary responsibility.",
+    "pairs": [
+      {"left": "Model", "right": "Holds and manages application data"},
+      {"left": "View", "right": "Displays UI and observes ViewModel state"},
+      {"left": "ViewModel", "right": "Exposes data streams and handles UI logic"},
+      {"left": "Data Binding", "right": "Automatically syncs View with ViewModel state"}
+    ],
+    "difficulty": "Easy",
+    "explanation": "In MVVM, the Model manages data, the View renders UI and observes the ViewModel, the ViewModel exposes observable state and handles presentation logic, and Data Binding connects View and ViewModel automatically."
+  },
+  {
+    "question": "Match each SOLID principle with its definition.",
+    "pairs": [
+      {"left": "Single Responsibility Principle", "right": "A class should have only one reason to change"},
+      {"left": "Open/Closed Principle", "right": "Open for extension, closed for modification"},
+      {"left": "Liskov Substitution Principle", "right": "Subtypes must be substitutable for their base types"},
+      {"left": "Interface Segregation Principle", "right": "Clients should not depend on interfaces they don't use"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "SRP limits a class to one responsibility, OCP allows extension without modification, LSP ensures subclasses honor contracts of their parents, and ISP keeps interfaces focused and minimal."
+  },
+  {
+    "question": "Match each Clean Architecture layer with its primary role.",
+    "pairs": [
+      {"left": "Entities", "right": "Enterprise-wide business rules and core data"},
+      {"left": "Use Cases", "right": "Application-specific business logic"},
+      {"left": "Interface Adapters", "right": "Convert data between use cases and external formats"},
+      {"left": "Frameworks & Drivers", "right": "UI, databases, and external frameworks"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "Clean Architecture layers move from inner (abstract, stable) to outer (concrete, volatile): Entities hold core rules, Use Cases orchestrate app logic, Interface Adapters translate data, and Frameworks & Drivers contain implementation details."
+  },
+  {
+    "question": "Match each MVI component with its role.",
+    "pairs": [
+      {"left": "Model", "right": "Immutable state representing the entire UI"},
+      {"left": "View", "right": "Renders state and emits user intents"},
+      {"left": "Intent", "right": "Represents user actions or events"},
+      {"left": "Reducer", "right": "Produces a new state from current state and intent"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "In MVI, the Model is an immutable state snapshot, the View renders it and emits Intents (user actions), and a Reducer (or similar function) combines the current state with an Intent to produce the next state."
+  },
+  {
+    "question": "Match each MVP component with its responsibility.",
+    "pairs": [
+      {"left": "Model", "right": "Data access and business logic"},
+      {"left": "View", "right": "Passive UI that delegates all logic to Presenter"},
+      {"left": "Presenter", "right": "Retrieves data from Model and formats it for View"},
+      {"left": "View Interface", "right": "Contract the View implements so Presenter can drive it"}
+    ],
+    "difficulty": "Easy",
+    "explanation": "In MVP, the Model handles data, the View is passive and implements a contract interface, and the Presenter mediates between them by retrieving data and telling the View exactly what to display."
+  },
+  {
+    "question": "Match each design pattern with its intent.",
+    "pairs": [
+      {"left": "Singleton", "right": "Ensure a class has only one instance"},
+      {"left": "Observer", "right": "Notify dependents automatically when state changes"},
+      {"left": "Factory Method", "right": "Define an interface for creating objects, letting subclasses decide the type"},
+      {"left": "Decorator", "right": "Attach additional responsibilities to an object dynamically"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "Singleton restricts instantiation, Observer enables publish-subscribe communication, Factory Method delegates object creation to subclasses, and Decorator extends behavior without subclassing."
+  },
+  {
+    "question": "Match each Dependency Injection concept with its definition.",
+    "pairs": [
+      {"left": "Constructor Injection", "right": "Dependencies provided through the class constructor"},
+      {"left": "Property Injection", "right": "Dependencies assigned directly to a public property"},
+      {"left": "Service Locator", "right": "Centralized registry from which objects retrieve dependencies"},
+      {"left": "Dependency Inversion Principle", "right": "High-level modules should not depend on low-level modules; both depend on abstractions"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "Constructor Injection supplies dependencies at creation time, Property Injection sets them after creation, Service Locator provides a global lookup mechanism (often considered an anti-pattern), and DIP ensures abstractions mediate between layers."
+  },
+  {
+    "question": "Match each design pattern category with its defining characteristic.",
+    "pairs": [
+      {"left": "Creational", "right": "Concerned with object creation mechanisms"},
+      {"left": "Structural", "right": "Deals with object composition and relationships"},
+      {"left": "Behavioral", "right": "Focuses on communication between objects"},
+      {"left": "Architectural", "right": "Defines high-level structure of entire systems"}
+    ],
+    "difficulty": "Easy",
+    "explanation": "The GoF categorizes patterns as Creational (how objects are made), Structural (how they are composed), and Behavioral (how they communicate). Architectural patterns sit above these and define overall system structure."
+  },
+  {
+    "question": "Match each Unidirectional Data Flow (UDF) concept with its role.",
+    "pairs": [
+      {"left": "State", "right": "Single source of truth for the UI at a given moment"},
+      {"left": "Action / Event", "right": "Signals that something happened requiring a state change"},
+      {"left": "Store / StateHolder", "right": "Holds current state and processes actions"},
+      {"left": "Render / Observe", "right": "Re-draws the UI whenever state changes"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "In UDF, State is the immutable snapshot of the UI, Actions represent occurrences, the Store processes actions and emits new state, and the UI re-renders reactively whenever it observes a state change."
+  },
+  {
+    "question": "Match each design pattern with its GoF category.",
+    "pairs": [
+      {"left": "Abstract Factory", "right": "Creational"},
+      {"left": "Adapter", "right": "Structural"},
+      {"left": "Strategy", "right": "Behavioral"},
+      {"left": "Composite", "right": "Structural"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "Abstract Factory is Creational (creates families of objects), Adapter and Composite are Structural (organize object relationships), and Strategy is Behavioral (encapsulates interchangeable algorithms)."
+  },
+  {
+    "question": "Match each Clean Architecture dependency rule concept with its meaning.",
+    "pairs": [
+      {"left": "Dependency Rule", "right": "Source code dependencies must point only inward"},
+      {"left": "Stable Abstraction", "right": "Inner layers contain abstractions that rarely change"},
+      {"left": "Boundary Interface", "right": "Contract that separates an inner layer from an outer layer"},
+      {"left": "Data Transfer Object", "right": "Simple structure used to pass data across layer boundaries"}
+    ],
+    "difficulty": "Hard",
+    "explanation": "The Dependency Rule mandates inward-pointing dependencies, keeping inner layers unaware of outer ones. Stable Abstractions live in the core, Boundary Interfaces define crossing points, and DTOs carry data across those crossings."
+  },
+  {
+    "question": "Match each Repository pattern concept with its definition.",
+    "pairs": [
+      {"left": "Repository Interface", "right": "Abstract contract defined in the domain layer"},
+      {"left": "Repository Implementation", "right": "Concrete class in the data layer that fulfills the contract"},
+      {"left": "Data Source", "right": "Remote API or local database accessed by the repository"},
+      {"left": "Cache Strategy", "right": "Logic that decides whether to return local or remote data"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "The Repository pattern decouples the domain from data concerns. The Interface lives in the domain, the Implementation lives in the data layer, Data Sources are the underlying storage mechanisms, and Cache Strategy determines data freshness policy."
+  },
+  {
+    "question": "Match each VIPER component with its responsibility.",
+    "pairs": [
+      {"left": "View", "right": "Displays information and forwards interactions to Presenter"},
+      {"left": "Interactor", "right": "Contains business logic and use case execution"},
+      {"left": "Presenter", "right": "Formats data from Interactor for display in View"},
+      {"left": "Router", "right": "Handles navigation and module creation"}
+    ],
+    "difficulty": "Hard",
+    "explanation": "VIPER separates concerns into View (display), Interactor (business logic), Presenter (formatting), Entity (data model), and Router (navigation). Each component has a single clearly defined role."
+  },
+  {
+    "question": "Match each reactive programming concept with its definition.",
+    "pairs": [
+      {"left": "Observable / Flow", "right": "A stream that emits values over time"},
+      {"left": "Subscriber / Collector", "right": "Consumes and reacts to emitted values"},
+      {"left": "Operator", "right": "Transforms, filters, or combines streams"},
+      {"left": "Backpressure", "right": "Mechanism to handle a producer emitting faster than a consumer can process"}
+    ],
+    "difficulty": "Hard",
+    "explanation": "Reactive programming models asynchronous data as streams (Observables/Flows). Subscribers consume them, Operators transform them, and Backpressure strategies handle mismatched production and consumption rates."
+  },
+  {
+    "question": "Match each modularization concept with its benefit.",
+    "pairs": [
+      {"left": "Feature Module", "right": "Encapsulates a single product feature for independent development"},
+      {"left": "Core Module", "right": "Shared utilities and components reused across features"},
+      {"left": "Dynamic Feature Module", "right": "Downloaded on-demand to reduce initial app size"},
+      {"left": "API Module", "right": "Exposes only the public contract of a module to consumers"}
+    ],
+    "difficulty": "Hard",
+    "explanation": "Modularization improves build times and team scalability. Feature Modules isolate features, Core Modules centralize shared code, Dynamic Feature Modules enable on-demand delivery, and API Modules enforce encapsulation by hiding implementation details."
+  },
+  {
+    "question": "Match each structural design pattern with its intent.",
+    "pairs": [
+      {"left": "Facade", "right": "Provide a simplified interface to a complex subsystem"},
+      {"left": "Proxy", "right": "Provide a surrogate to control access to another object"},
+      {"left": "Bridge", "right": "Decouple abstraction from implementation so both can vary independently"},
+      {"left": "Flyweight", "right": "Share common state among many fine-grained objects to save memory"}
+    ],
+    "difficulty": "Hard",
+    "explanation": "Facade simplifies subsystem usage, Proxy controls access (e.g., lazy loading, security), Bridge separates abstraction hierarchies from implementations, and Flyweight reduces memory by sharing intrinsic state."
+  },
+  {
+    "question": "Match each behavioral design pattern with its intent.",
+    "pairs": [
+      {"left": "Command", "right": "Encapsulate a request as an object to support undo/redo"},
+      {"left": "Chain of Responsibility", "right": "Pass a request along a chain of handlers until one processes it"},
+      {"left": "Mediator", "right": "Centralize complex communication between many objects"},
+      {"left": "Memento", "right": "Capture and restore an object's internal state without violating encapsulation"}
+    ],
+    "difficulty": "Hard",
+    "explanation": "Command turns requests into objects enabling queuing and undo, Chain of Responsibility decouples sender from receivers, Mediator reduces coupling in many-to-many communications, and Memento provides snapshots for state restoration."
+  },
+  {
+    "question": "Match each layer responsibility in a typical layered mobile architecture.",
+    "pairs": [
+      {"left": "Presentation Layer", "right": "Manages UI state and user interaction"},
+      {"left": "Domain Layer", "right": "Encapsulates business rules independent of frameworks"},
+      {"left": "Data Layer", "right": "Fetches, caches, and persists data"},
+      {"left": "Network Layer", "right": "Handles HTTP communication and API serialization"}
+    ],
+    "difficulty": "Easy",
+    "explanation": "A layered mobile app separates Presentation (UI logic), Domain (business rules), Data (storage and retrieval), and Network (remote communication) concerns so each layer can evolve independently."
+  },
+  {
+    "question": "Match each creational design pattern with its intent.",
+    "pairs": [
+      {"left": "Builder", "right": "Construct a complex object step by step"},
+      {"left": "Prototype", "right": "Create new objects by cloning an existing instance"},
+      {"left": "Object Pool", "right": "Reuse a set of pre-instantiated objects rather than creating new ones"},
+      {"left": "Abstract Factory", "right": "Create families of related objects without specifying concrete classes"}
+    ],
+    "difficulty": "Medium",
+    "explanation": "Builder assembles complex objects incrementally, Prototype clones existing objects cheaply, Object Pool recycles expensive-to-create objects, and Abstract Factory produces compatible families of objects."
+  },
+  {
+    "question": "Match each Dependency Inversion and IoC concept with its definition.",
+    "pairs": [
+      {"left": "Inversion of Control", "right": "Framework calls application code rather than the reverse"},
+      {"left": "DI Container / Injector", "right": "Framework that resolves and provides dependencies automatically"},
+      {"left": "Scope", "right": "Defines the lifetime of a provided dependency instance"},
+      {"left": "Binding", "right": "Declaration that maps an abstraction to a concrete implementation"}
+    ],
+    "difficulty": "Hard",
+    "explanation": "IoC inverts the traditional control flow so frameworks manage lifecycle. A DI Container automates dependency resolution. Scopes control instance lifetime (e.g., singleton vs. per-request). Bindings register how abstractions map to implementations."
+  }
+]
