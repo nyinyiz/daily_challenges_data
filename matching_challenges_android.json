@@ -228,5 +228,350 @@
     ],
     "difficulty": "Easy",
     "explanation": "These build configuration values are essential for proper app deployment and compatibility."
+  },
+  {
+    "question": "Match Hilt annotations with their purposes",
+    "pairs": [
+      {
+        "left": "@HiltAndroidApp",
+        "right": "Triggers Hilt code generation in Application class"
+      },
+      {
+        "left": "@AndroidEntryPoint",
+        "right": "Enables injection in Android classes"
+      },
+      {
+        "left": "@Inject",
+        "right": "Marks constructor or field for injection"
+      },
+      {
+        "left": "@Module",
+        "right": "Provides bindings for injection"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Hilt is Android's recommended DI library built on Dagger, with these core annotations for setup."
+  },
+  {
+    "question": "Match Room annotations with their roles",
+    "pairs": [
+      {
+        "left": "@Entity",
+        "right": "Declares a database table"
+      },
+      {
+        "left": "@Dao",
+        "right": "Defines data access methods"
+      },
+      {
+        "left": "@Database",
+        "right": "Marks the main database class"
+      },
+      {
+        "left": "@PrimaryKey",
+        "right": "Marks the primary key field"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Room uses annotations to map Kotlin classes to SQLite database tables and queries."
+  },
+  {
+    "question": "Match Compose layout composables with their behavior",
+    "pairs": [
+      {
+        "left": "Box",
+        "right": "Overlays children on top of each other"
+      },
+      {
+        "left": "Column",
+        "right": "Arranges children vertically"
+      },
+      {
+        "left": "Row",
+        "right": "Arranges children horizontally"
+      },
+      {
+        "left": "LazyColumn",
+        "right": "Lazily renders vertically scrollable list"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "Jetpack Compose provides layout composables for positioning children in different arrangements."
+  },
+  {
+    "question": "Match Kotlin Flow operators with their behavior",
+    "pairs": [
+      {
+        "left": "map",
+        "right": "Transforms each emitted value"
+      },
+      {
+        "left": "filter",
+        "right": "Emits only values matching predicate"
+      },
+      {
+        "left": "collect",
+        "right": "Terminal operator consuming the flow"
+      },
+      {
+        "left": "stateIn",
+        "right": "Converts flow to StateFlow"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Kotlin Flow provides reactive streams with rich operator support for data transformation."
+  },
+  {
+    "question": "Match Compose state APIs with their purpose",
+    "pairs": [
+      {
+        "left": "remember",
+        "right": "Stores value across recompositions"
+      },
+      {
+        "left": "rememberSaveable",
+        "right": "Survives activity recreation"
+      },
+      {
+        "left": "derivedStateOf",
+        "right": "Computes state from other states"
+      },
+      {
+        "left": "produceState",
+        "right": "Converts non-Compose state into Compose state"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Compose provides multiple state APIs for different persistence and reactivity needs."
+  },
+  {
+    "question": "Match Fragment lifecycle methods with their timing",
+    "pairs": [
+      {
+        "left": "onAttach()",
+        "right": "Fragment attached to Activity"
+      },
+      {
+        "left": "onCreateView()",
+        "right": "Create fragment's view hierarchy"
+      },
+      {
+        "left": "onViewCreated()",
+        "right": "After view is fully created"
+      },
+      {
+        "left": "onDestroyView()",
+        "right": "Fragment's view being removed"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Fragment lifecycle extends Activity lifecycle with additional view-related callbacks."
+  },
+  {
+    "question": "Match Android animation APIs with their use cases",
+    "pairs": [
+      {
+        "left": "ValueAnimator",
+        "right": "Animates a value over time"
+      },
+      {
+        "left": "ObjectAnimator",
+        "right": "Animates a property on an object"
+      },
+      {
+        "left": "AnimatorSet",
+        "right": "Orchestrates multiple animations"
+      },
+      {
+        "left": "ViewPropertyAnimator",
+        "right": "Fluent API for View animations"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Android provides multiple animation APIs for different levels of control and convenience."
+  },
+  {
+    "question": "Match Jetpack Compose effect APIs with their purposes",
+    "pairs": [
+      {
+        "left": "LaunchedEffect",
+        "right": "Runs suspend function on key change"
+      },
+      {
+        "left": "DisposableEffect",
+        "right": "Runs cleanup on key change or removal"
+      },
+      {
+        "left": "SideEffect",
+        "right": "Syncs non-Compose state on each recomposition"
+      },
+      {
+        "left": "rememberCoroutineScope",
+        "right": "Provides coroutine scope tied to composition"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Compose effect APIs help manage side effects in a composable-lifecycle-aware manner."
+  },
+  {
+    "question": "Match Android intent types with their descriptions",
+    "pairs": [
+      {
+        "left": "Explicit Intent",
+        "right": "Specifies exact target component"
+      },
+      {
+        "left": "Implicit Intent",
+        "right": "Declares general action, system resolves"
+      },
+      {
+        "left": "Pending Intent",
+        "right": "Intent executed on behalf of another app"
+      },
+      {
+        "left": "Sticky Intent",
+        "right": "Broadcast that remains after delivery"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Android Intents come in different types suited for various inter-component communication scenarios."
+  },
+  {
+    "question": "Match Compose Modifier functions with their effects",
+    "pairs": [
+      {
+        "left": "fillMaxSize()",
+        "right": "Makes composable fill available space"
+      },
+      {
+        "left": "padding()",
+        "right": "Adds spacing around composable"
+      },
+      {
+        "left": "clip()",
+        "right": "Clips to given shape"
+      },
+      {
+        "left": "background()",
+        "right": "Draws background color or shape"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "Compose Modifiers are chained to apply layout, drawing, and gesture behaviors."
+  },
+  {
+    "question": "Match Android testing levels with their scope",
+    "pairs": [
+      {
+        "left": "Unit Test",
+        "right": "Tests logic without Android framework"
+      },
+      {
+        "left": "Integration Test",
+        "right": "Tests interaction between components"
+      },
+      {
+        "left": "UI Test",
+        "right": "Tests user interface with Espresso"
+      },
+      {
+        "left": "Screenshot Test",
+        "right": "Verifies visual output pixel-by-pixel"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Android testing pyramid has multiple layers for comprehensive quality assurance."
+  },
+  {
+    "question": "Match Coroutine scope types with their lifecycle",
+    "pairs": [
+      {
+        "left": "GlobalScope",
+        "right": "Lives as long as application"
+      },
+      {
+        "left": "viewModelScope",
+        "right": "Tied to ViewModel lifecycle"
+      },
+      {
+        "left": "lifecycleScope",
+        "right": "Tied to Lifecycle owner"
+      },
+      {
+        "left": "rememberCoroutineScope",
+        "right": "Tied to Composition lifecycle"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Choosing the right coroutine scope prevents memory leaks and ensures proper cancellation."
+  },
+  {
+    "question": "Match Android App architecture layers with their responsibilities",
+    "pairs": [
+      {
+        "left": "UI Layer",
+        "right": "Displays data and handles user events"
+      },
+      {
+        "left": "Domain Layer",
+        "right": "Contains business logic use cases"
+      },
+      {
+        "left": "Data Layer",
+        "right": "Fetches and stores data"
+      },
+      {
+        "left": "Repository",
+        "right": "Single source of truth for data"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Clean architecture separates concerns into layers for maintainability and testability."
+  },
+  {
+    "question": "Match ProGuard/R8 directives with their effects",
+    "pairs": [
+      {
+        "left": "-keep",
+        "right": "Preserves class and its members"
+      },
+      {
+        "left": "-keepnames",
+        "right": "Preserves names but allows removal"
+      },
+      {
+        "left": "-dontwarn",
+        "right": "Suppresses missing class warnings"
+      },
+      {
+        "left": "-obfuscate",
+        "right": "Renames classes and members"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "ProGuard/R8 rules control code shrinking, obfuscation, and optimization in release builds."
+  },
+  {
+    "question": "Match Compose navigation concepts with their roles",
+    "pairs": [
+      {
+        "left": "NavHost",
+        "right": "Container for navigation graph"
+      },
+      {
+        "left": "NavController",
+        "right": "Manages navigation state and back stack"
+      },
+      {
+        "left": "composable()",
+        "right": "Declares a navigation destination"
+      },
+      {
+        "left": "navigate()",
+        "right": "Navigates to a destination"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Jetpack Navigation for Compose provides a type-safe navigation framework with back stack management."
   }
 ]

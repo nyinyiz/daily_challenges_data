@@ -228,5 +228,350 @@
     ],
     "difficulty": "Medium",
     "explanation": "Flutter supports multiple testing approaches for different verification needs."
+  },
+  {
+    "question": "Match Dart null safety keywords with their behavior",
+    "pairs": [
+      {
+        "left": "?",
+        "right": "Declares nullable type"
+      },
+      {
+        "left": "!",
+        "right": "Force-unwraps nullable (throws if null)"
+      },
+      {
+        "left": "??",
+        "right": "Null-coalescing, returns right if null"
+      },
+      {
+        "left": "late",
+        "right": "Non-nullable initialized after declaration"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "Dart null safety prevents null reference errors at compile time with explicit annotations."
+  },
+  {
+    "question": "Match Flutter build modes with their characteristics",
+    "pairs": [
+      {
+        "left": "Debug",
+        "right": "Hot reload, debug info, no optimization"
+      },
+      {
+        "left": "Profile",
+        "right": "Tracing enabled, close to release"
+      },
+      {
+        "left": "Release",
+        "right": "Fully optimized, no debug info"
+      },
+      {
+        "left": "AOT",
+        "right": "Compiled ahead-of-time for production"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Flutter supports three build modes for development, profiling, and production use."
+  },
+  {
+    "question": "Match Flutter widget types with their rebuild behavior",
+    "pairs": [
+      {
+        "left": "StatelessWidget",
+        "right": "Rebuilt only when parent provides new config"
+      },
+      {
+        "left": "StatefulWidget",
+        "right": "Rebuilt when setState() is called"
+      },
+      {
+        "left": "InheritedWidget",
+        "right": "Descendants rebuild when data changes"
+      },
+      {
+        "left": "RenderObjectWidget",
+        "right": "Low-level widget managing render object"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Understanding when widgets rebuild is key to Flutter performance optimization."
+  },
+  {
+    "question": "Match Dart asynchronous types with their characteristics",
+    "pairs": [
+      {
+        "left": "Future<T>",
+        "right": "Represents a single async value"
+      },
+      {
+        "left": "Stream<T>",
+        "right": "Sequence of asynchronous events"
+      },
+      {
+        "left": "Completer<T>",
+        "right": "Manually completes a Future"
+      },
+      {
+        "left": "StreamController<T>",
+        "right": "Creates and controls a Stream"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Dart async programming uses Futures for one-shot and Streams for ongoing async data."
+  },
+  {
+    "question": "Match Flutter layout constraints with their behavior",
+    "pairs": [
+      {
+        "left": "Flexible",
+        "right": "Takes remaining space with flex factor"
+      },
+      {
+        "left": "Expanded",
+        "right": "Forces child to fill remaining space"
+      },
+      {
+        "left": "SizedBox",
+        "right": "Fixed size box or spacer"
+      },
+      {
+        "left": "Constraints",
+        "right": "Min/max width and height bounds"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Flutter's layout system is constraint-based, flowing from parent to child."
+  },
+  {
+    "question": "Match Riverpod provider types with their use cases",
+    "pairs": [
+      {
+        "left": "Provider",
+        "right": "Exposes a read-only value"
+      },
+      {
+        "left": "StateProvider",
+        "right": "Exposes simple mutable state"
+      },
+      {
+        "left": "FutureProvider",
+        "right": "Exposes async Future value"
+      },
+      {
+        "left": "StreamProvider",
+        "right": "Exposes Stream of values"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Riverpod offers specialized provider types for different state management needs."
+  },
+  {
+    "question": "Match Flutter painting widgets with their purposes",
+    "pairs": [
+      {
+        "left": "CustomPaint",
+        "right": "Draws using Canvas and Paint API"
+      },
+      {
+        "left": "ClipRRect",
+        "right": "Clips child to rounded rectangle"
+      },
+      {
+        "left": "DecoratedBox",
+        "right": "Paints decoration before/after child"
+      },
+      {
+        "left": "Opacity",
+        "right": "Makes child partially transparent"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Flutter provides widgets for custom drawing and visual transformations."
+  },
+  {
+    "question": "Match Flutter scroll widgets with their behavior",
+    "pairs": [
+      {
+        "left": "ListView",
+        "right": "Scrollable linear list"
+      },
+      {
+        "left": "GridView",
+        "right": "Scrollable 2D grid of widgets"
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Scroll view with slivers"
+      },
+      {
+        "left": "SingleChildScrollView",
+        "right": "Scrollable container for one child"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "Flutter has multiple scroll widgets optimized for different content structures."
+  },
+  {
+    "question": "Match Dart collection literals with their type",
+    "pairs": [
+      {
+        "left": "[ ]",
+        "right": "List literal"
+      },
+      {
+        "left": "{ }",
+        "right": "Set or Map literal"
+      },
+      {
+        "left": "{ key: value }",
+        "right": "Map literal"
+      },
+      {
+        "left": "{ value }",
+        "right": "Set literal"
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "Dart uses bracket syntax to create collections, with context determining type."
+  },
+  {
+    "question": "Match Flutter navigation 2.0 concepts with their roles",
+    "pairs": [
+      {
+        "left": "RouterDelegate",
+        "right": "Builds Navigator from app state"
+      },
+      {
+        "left": "RouteInformationParser",
+        "right": "Parses URL into app state"
+      },
+      {
+        "left": "GoRouter",
+        "right": "Declarative routing package"
+      },
+      {
+        "left": "ShellRoute",
+        "right": "Wraps child routes in persistent UI"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Flutter's navigation 2.0 provides full URL and deep-link control for complex apps."
+  },
+  {
+    "question": "Match Flutter implicit animation widgets with their purpose",
+    "pairs": [
+      {
+        "left": "AnimatedContainer",
+        "right": "Animates container property changes"
+      },
+      {
+        "left": "AnimatedOpacity",
+        "right": "Animates opacity changes"
+      },
+      {
+        "left": "AnimatedSwitcher",
+        "right": "Animates between two widgets"
+      },
+      {
+        "left": "AnimatedPositioned",
+        "right": "Animates position in Stack"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Implicit animations animate property changes automatically without an AnimationController."
+  },
+  {
+    "question": "Match Dart class modifiers (Dart 3) with their restrictions",
+    "pairs": [
+      {
+        "left": "final class",
+        "right": "Cannot be extended or implemented"
+      },
+      {
+        "left": "sealed class",
+        "right": "Can only be extended in same library"
+      },
+      {
+        "left": "interface class",
+        "right": "Can only be implemented, not extended"
+      },
+      {
+        "left": "base class",
+        "right": "Can only be extended, not implemented"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Dart 3 class modifiers provide fine-grained control over class inheritance and implementation."
+  },
+  {
+    "question": "Match Flutter platform channel types with their communication style",
+    "pairs": [
+      {
+        "left": "MethodChannel",
+        "right": "Request/response calls to platform"
+      },
+      {
+        "left": "EventChannel",
+        "right": "Streams events from platform"
+      },
+      {
+        "left": "BasicMessageChannel",
+        "right": "Arbitrary message passing"
+      },
+      {
+        "left": "Pigeon",
+        "right": "Type-safe platform channel code generation"
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "Flutter platform channels allow Dart code to communicate with native Android/iOS code."
+  },
+  {
+    "question": "Match Flutter DevTools features with their purpose",
+    "pairs": [
+      {
+        "left": "Widget Inspector",
+        "right": "Visualizes widget tree and properties"
+      },
+      {
+        "left": "Performance",
+        "right": "Diagnoses jank and frame rate issues"
+      },
+      {
+        "left": "Memory",
+        "right": "Tracks heap allocations and leaks"
+      },
+      {
+        "left": "Network",
+        "right": "Monitors network requests"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Flutter DevTools provides a suite of debugging and profiling tools for Flutter apps."
+  },
+  {
+    "question": "Match Flutter test utilities with their purpose",
+    "pairs": [
+      {
+        "left": "tester.pumpWidget()",
+        "right": "Renders widget in test environment"
+      },
+      {
+        "left": "tester.pump()",
+        "right": "Triggers a frame rebuild"
+      },
+      {
+        "left": "find.byType()",
+        "right": "Finds widget by type"
+      },
+      {
+        "left": "expect(finder, matcher)",
+        "right": "Asserts widget state"
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "Flutter widget testing uses WidgetTester to interact with and verify widgets in isolation."
   }
 ]

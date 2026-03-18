@@ -1,0 +1,494 @@
+[
+  {
+    "question": "What is the difference between a StatelessWidget and a StatefulWidget in Flutter?",
+    "options": [
+      "StatelessWidget can hold mutable state; StatefulWidget cannot",
+      "StatefulWidget has a separate State object that can hold mutable state; StatelessWidget cannot",
+      "StatelessWidget is faster in all cases",
+      "StatefulWidget must always use a GlobalKey"
+    ],
+    "correctAnswer": "StatefulWidget has a separate State object that can hold mutable state; StatelessWidget cannot",
+    "explanation": "A StatefulWidget pairs with a State object that persists across rebuilds and can hold mutable data. A StatelessWidget is immutable and describes UI entirely from its constructor arguments.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which method must you call to schedule a widget rebuild after changing state in a StatefulWidget?",
+    "options": [
+      "rebuild()",
+      "update()",
+      "setState()",
+      "refresh()"
+    ],
+    "correctAnswer": "setState()",
+    "explanation": "Calling setState() notifies the Flutter framework that the internal state has changed, scheduling a rebuild of the widget subtree.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does the `const` keyword achieve when used with a widget constructor?",
+    "options": [
+      "Makes the widget mutable",
+      "Forces the widget to rebuild on every frame",
+      "Allows Flutter to reuse the same widget instance if inputs are identical, skipping rebuild",
+      "Marks the widget as deprecated"
+    ],
+    "correctAnswer": "Allows Flutter to reuse the same widget instance if inputs are identical, skipping rebuild",
+    "explanation": "const constructors create compile-time constants. Flutter can short-circuit rebuilds for subtrees rooted at const widgets because their configuration can never change.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which widget distributes available space proportionally among its children in a Row or Column?",
+    "options": [
+      "SizedBox",
+      "Spacer",
+      "Expanded",
+      "Flexible"
+    ],
+    "correctAnswer": "Expanded",
+    "explanation": "Expanded forces a child to fill all remaining space along the main axis. Multiple Expanded widgets split space according to their flex factors (default 1).",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the key difference between `Expanded` and `Flexible` in a Row or Column?",
+    "options": [
+      "Expanded allows shrinking; Flexible does not",
+      "Flexible forces the child to fill all remaining space; Expanded allows shrinking",
+      "Expanded forces the child to fill remaining space; Flexible allows the child to be smaller",
+      "They are identical widgets"
+    ],
+    "correctAnswer": "Expanded forces the child to fill remaining space; Flexible allows the child to be smaller",
+    "explanation": "Expanded uses FlexFit.tight, meaning the child must fill the available space. Flexible uses FlexFit.loose by default, meaning the child can be smaller than the available space.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which widget should you use when you want to overlay widgets on top of each other?",
+    "options": [
+      "Column",
+      "Row",
+      "Stack",
+      "Wrap"
+    ],
+    "correctAnswer": "Stack",
+    "explanation": "Stack positions its children relative to its edges and allows widgets to overlap. Children can be positioned using the Positioned widget.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is an InheritedWidget used for?",
+    "options": [
+      "Extending another widget's functionality",
+      "Efficiently propagating data down the widget tree without passing it through every constructor",
+      "Inheriting styles from a parent theme",
+      "Creating stateful widgets with inheritance"
+    ],
+    "correctAnswer": "Efficiently propagating data down the widget tree without passing it through every constructor",
+    "explanation": "InheritedWidget allows data to be accessed by any descendant widget via BuildContext.dependOnInheritedWidgetOfExactType(). It is the foundation of Provider and Theme.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Dart null safety, what does the `late` keyword indicate?",
+    "options": [
+      "The variable is nullable",
+      "The variable will be initialized before first use, but not at declaration",
+      "The variable is initialized lazily only if accessed",
+      "Both B and C are correct"
+    ],
+    "correctAnswer": "Both B and C are correct",
+    "explanation": "late marks a non-nullable variable that will be initialized before first access. If assigned a lazy initializer (late final x = compute()), the initializer runs only on first read.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the return type of an `async` function in Dart that returns a `String`?",
+    "options": [
+      "String",
+      "Future<String>",
+      "Stream<String>",
+      "Completer<String>"
+    ],
+    "correctAnswer": "Future<String>",
+    "explanation": "An async function always returns a Future. A function declared `async` that returns a String will have its return type inferred or declared as Future<String>.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which widget is used to build UI asynchronously based on the latest snapshot of a Future?",
+    "options": [
+      "AsyncWidget",
+      "FutureBuilder",
+      "StreamBuilder",
+      "ValueListenableBuilder"
+    ],
+    "correctAnswer": "FutureBuilder",
+    "explanation": "FutureBuilder rebuilds its subtree whenever the provided Future emits a new value, including states like waiting, done, and error.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which widget is used to build UI reactively based on a stream of values?",
+    "options": [
+      "FutureBuilder",
+      "StreamBuilder",
+      "ValueListenableBuilder",
+      "AnimatedBuilder"
+    ],
+    "correctAnswer": "StreamBuilder",
+    "explanation": "StreamBuilder listens to a Stream and rebuilds its widget tree each time a new event is emitted, handling active, waiting, done, and error states.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does `hot reload` do in Flutter development?",
+    "options": [
+      "Restarts the Dart VM and re-initializes the app state",
+      "Injects updated source code into the running Dart VM and rebuilds the widget tree, preserving state",
+      "Rebuilds the release binary",
+      "Clears the widget cache and rebuilds from scratch"
+    ],
+    "correctAnswer": "Injects updated source code into the running Dart VM and rebuilds the widget tree, preserving state",
+    "explanation": "Hot reload updates the running code without restarting the app. State is preserved, making it useful for UI iteration. It does not re-run main() or initState().",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does `hot restart` do differently from `hot reload` in Flutter?",
+    "options": [
+      "Hot restart preserves state; hot reload does not",
+      "Hot restart fully restarts the Dart VM and resets app state; hot reload preserves state",
+      "Hot restart only works in release mode",
+      "There is no difference"
+    ],
+    "correctAnswer": "Hot restart fully restarts the Dart VM and resets app state; hot reload preserves state",
+    "explanation": "Hot restart destroys the current Dart VM instance and starts a fresh one, running main() again. App state is lost. It is slower than hot reload but more thorough.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which key type should you use when you need to access a widget's state from outside its subtree?",
+    "options": [
+      "ValueKey",
+      "UniqueKey",
+      "GlobalKey",
+      "ObjectKey"
+    ],
+    "correctAnswer": "GlobalKey",
+    "explanation": "GlobalKey provides a unique identity across the entire widget tree and allows access to the State, BuildContext, or RenderObject of the associated widget from anywhere.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is a `ValueKey` primarily used for?",
+    "options": [
+      "Accessing widget state from outside the tree",
+      "Identifying a widget by a specific value to help Flutter match widgets during rebuilds",
+      "Generating unique identifiers automatically",
+      "Storing the widget's render object"
+    ],
+    "correctAnswer": "Identifying a widget by a specific value to help Flutter match widgets during rebuilds",
+    "explanation": "ValueKey wraps a value (like an ID or string) and is used to preserve state across reorders in lists. Flutter uses it to match old and new widget instances.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is `BuildContext` in Flutter?",
+    "options": [
+      "A class that manages widget state",
+      "A handle to the location of a widget in the widget tree",
+      "A configuration object for the build system",
+      "The root of every widget hierarchy"
+    ],
+    "correctAnswer": "A handle to the location of a widget in the widget tree",
+    "explanation": "BuildContext is an opaque handle to the widget's position in the widget tree. It is used to look up inherited widgets, navigate, show dialogs, and access theme data.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter's Navigator 1.0, which method is used to navigate to a new route and add it to the navigation stack?",
+    "options": [
+      "Navigator.replace()",
+      "Navigator.push()",
+      "Navigator.navigate()",
+      "Navigator.add()"
+    ],
+    "correctAnswer": "Navigator.push()",
+    "explanation": "Navigator.push() adds a new Route to the navigation stack. It returns a Future that resolves when the pushed route is popped.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which GoRouter method is used for declarative navigation to a named route?",
+    "options": [
+      "GoRouter.push()",
+      "context.go()",
+      "Navigator.pushNamed()",
+      "context.navigate()"
+    ],
+    "correctAnswer": "context.go()",
+    "explanation": "GoRouter exposes context.go(path) for declarative navigation. It replaces the current location. context.push() can be used to push on top of the current route.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the purpose of `Provider` in Flutter state management?",
+    "options": [
+      "It provides platform channels to native code",
+      "It is a wrapper around InheritedWidget to make state management simpler and more testable",
+      "It provides build configuration to the build system",
+      "It manages navigation state"
+    ],
+    "correctAnswer": "It is a wrapper around InheritedWidget to make state management simpler and more testable",
+    "explanation": "Provider is a popular DI/state management package that uses InheritedWidget under the hood. It simplifies providing and consuming objects across the widget tree.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In the BLoC pattern, what does BLoC stand for?",
+    "options": [
+      "Build Logic and Components",
+      "Business Logic Component",
+      "Basic Layout and Controller",
+      "Background Logic Controller"
+    ],
+    "correctAnswer": "Business Logic Component",
+    "explanation": "BLoC (Business Logic Component) separates business logic from UI. It uses Streams/Sinks (or Cubits) to manage state reactively.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is a `Riverpod` Provider's key advantage over the original `Provider` package?",
+    "options": [
+      "It uses InheritedWidget directly",
+      "It does not require BuildContext to read providers and supports compile-time safety",
+      "It only works with StatelessWidgets",
+      "It is built into the Flutter SDK"
+    ],
+    "correctAnswer": "It does not require BuildContext to read providers and supports compile-time safety",
+    "explanation": "Riverpod is a complete rewrite of Provider. Providers are declared globally, are accessible without BuildContext (using a Ref), and offer stronger compile-time guarantees.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What does the Flutter rendering pipeline's `build` phase produce?",
+    "options": [
+      "A bitmap image",
+      "A widget tree",
+      "An element tree that reflects the current widget configuration",
+      "A render object tree"
+    ],
+    "correctAnswer": "An element tree that reflects the current widget configuration",
+    "explanation": "During the build phase, Flutter walks the widget tree and calls build() methods to produce an element tree. The element tree is then reconciled with the render object tree.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which phase of Flutter's rendering pipeline computes the size and position of each render object?",
+    "options": [
+      "Build",
+      "Paint",
+      "Composite",
+      "Layout"
+    ],
+    "correctAnswer": "Layout",
+    "explanation": "During the layout phase, Flutter traverses the render tree passing constraints down and receiving sizes up. Each render object computes its own size and position.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the role of an `AnimationController` in Flutter?",
+    "options": [
+      "It defines the begin and end values of an animation",
+      "It manages the animation's timeline, controlling playback and generating tick values",
+      "It applies visual effects to widgets",
+      "It provides the current animation value to child widgets"
+    ],
+    "correctAnswer": "It manages the animation's timeline, controlling playback and generating tick values",
+    "explanation": "AnimationController drives an animation by producing values between 0.0 and 1.0 over a given duration. It controls play, reverse, repeat, and stop operations.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the purpose of a `Tween` in Flutter animations?",
+    "options": [
+      "It controls the animation duration",
+      "It maps the animation's 0.0–1.0 range to a specific begin and end value",
+      "It creates curved animations",
+      "It links two AnimationControllers together"
+    ],
+    "correctAnswer": "It maps the animation's 0.0–1.0 range to a specific begin and end value",
+    "explanation": "A Tween defines begin and end values. Its animate() method chains it with an Animation<double> to produce a typed animation (e.g., ColorTween, SizeTween).",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the purpose of Platform Channels in Flutter?",
+    "options": [
+      "They allow Flutter to run on multiple screen sizes",
+      "They enable communication between Flutter Dart code and platform-native code (Kotlin/Swift)",
+      "They distribute the app across multiple platforms via a single channel",
+      "They manage network requests for different platforms"
+    ],
+    "correctAnswer": "They enable communication between Flutter Dart code and platform-native code (Kotlin/Swift)",
+    "explanation": "Platform channels use a message-passing mechanism (MethodChannel, EventChannel, BasicMessageChannel) to call native APIs from Dart and receive results asynchronously.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which type of platform channel is used for calling a single method on the native side and receiving one result?",
+    "options": [
+      "EventChannel",
+      "BasicMessageChannel",
+      "MethodChannel",
+      "StreamChannel"
+    ],
+    "correctAnswer": "MethodChannel",
+    "explanation": "MethodChannel supports a request-response pattern: Dart calls invokeMethod(), and the native handler returns a result. For continuous streams of events, EventChannel is used.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does `pubspec.yaml` define in a Flutter project?",
+    "options": [
+      "Widget tree structure",
+      "App metadata, dependencies, assets, and fonts",
+      "Native platform configuration",
+      "Test runner configuration"
+    ],
+    "correctAnswer": "App metadata, dependencies, assets, and fonts",
+    "explanation": "pubspec.yaml is the project manifest. It declares the app name, version, SDK constraints, package dependencies, and asset/font paths.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter widget testing, which class is used to pump and interact with widgets in a test environment?",
+    "options": [
+      "TestRunner",
+      "WidgetTester",
+      "FlutterDriver",
+      "TestWidget"
+    ],
+    "correctAnswer": "WidgetTester",
+    "explanation": "WidgetTester is provided to testWidgets() callbacks. It offers methods like pumpWidget(), pump(), tap(), and enterText() to build and interact with widgets in a headless test environment.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the difference between a unit test and a widget test in Flutter?",
+    "options": [
+      "Unit tests test individual functions/classes without Flutter; widget tests render widgets in a simulated environment",
+      "Widget tests require a physical device; unit tests do not",
+      "Unit tests are faster only in release mode",
+      "There is no practical difference"
+    ],
+    "correctAnswer": "Unit tests test individual functions/classes without Flutter; widget tests render widgets in a simulated environment",
+    "explanation": "Unit tests verify logic in isolation using dart:test. Widget tests use Flutter's test framework to build and interact with widgets without a device, using WidgetTester.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is a Dart `Stream`?",
+    "options": [
+      "A single asynchronous value",
+      "A sequence of asynchronous events delivered over time",
+      "A synchronous iterable collection",
+      "A low-level byte buffer"
+    ],
+    "correctAnswer": "A sequence of asynchronous events delivered over time",
+    "explanation": "A Stream is an asynchronous sequence of data events and error events. Unlike a Future (single value), a Stream can emit multiple values over time.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the difference between `final` and `const` in Dart?",
+    "options": [
+      "final is evaluated at compile time; const is evaluated at runtime",
+      "const is evaluated at compile time; final is assigned once at runtime",
+      "They are identical in behavior",
+      "final allows reassignment; const does not"
+    ],
+    "correctAnswer": "const is evaluated at compile time; final is assigned once at runtime",
+    "explanation": "const variables must be known at compile time and are deeply immutable. final variables are assigned once but can be computed at runtime (e.g., final x = DateTime.now()).",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Dart null safety, which symbol is used to assert that a nullable expression is non-null (and throw if null)?",
+    "options": [
+      "??",
+      "!",
+      "?.",
+      "~"
+    ],
+    "correctAnswer": "!",
+    "explanation": "The null assertion operator ! tells the Dart compiler to treat a nullable value as non-null. If the value is actually null at runtime, a Null check operator used on a null value error is thrown.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does the `??` operator do in Dart?",
+    "options": [
+      "Safe property access on a nullable object",
+      "Returns the right-hand operand if the left-hand operand is null",
+      "Asserts that a value is non-null",
+      "Checks if two values are equal"
+    ],
+    "correctAnswer": "Returns the right-hand operand if the left-hand operand is null",
+    "explanation": "The null-coalescing operator ?? evaluates the left expression; if it's null, it evaluates and returns the right expression. Equivalent to Kotlin's ?: (Elvis operator).",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which widget is used to give a child a fixed width and height in Flutter?",
+    "options": [
+      "Padding",
+      "Container",
+      "SizedBox",
+      "ConstrainedBox"
+    ],
+    "correctAnswer": "SizedBox",
+    "explanation": "SizedBox imposes exact width and height constraints on its child. It is also used as a SizedBox.shrink() or SizedBox.expand() for common sizing patterns.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter build mode is optimized for performance profiling and has no debug overhead?",
+    "options": [
+      "Debug",
+      "Release",
+      "Profile",
+      "Test"
+    ],
+    "correctAnswer": "Profile",
+    "explanation": "Profile mode is similar to release mode but retains enough instrumentation for performance profiling. It is used with the Flutter DevTools performance overlay.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does `runApp()` do in Flutter?",
+    "options": [
+      "Runs the platform-native portion of the app",
+      "Inflates the given widget and attaches it to the screen as the root widget",
+      "Starts the Dart isolate",
+      "Registers platform channels"
+    ],
+    "correctAnswer": "Inflates the given widget and attaches it to the screen as the root widget",
+    "explanation": "runApp() takes a Widget and makes it the root of the widget tree, constraining it to fill the entire screen.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is a `Cubit` in the flutter_bloc package?",
+    "options": [
+      "A stream controller for EventChannels",
+      "A simplified BLoC that uses methods instead of events to trigger state changes",
+      "A widget that listens to BLoC events",
+      "A provider wrapper for BLoC"
+    ],
+    "correctAnswer": "A simplified BLoC that uses methods instead of events to trigger state changes",
+    "explanation": "Cubit is a lightweight subset of BLoC. Instead of dispatching Events, you call methods on the Cubit directly to emit new states, reducing boilerplate.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Dart, what is the purpose of the `async*` function modifier?",
+    "options": [
+      "Creates a function that returns a single Future",
+      "Creates a generator function that returns a Stream",
+      "Creates a synchronous generator",
+      "Makes all internal calls asynchronous"
+    ],
+    "correctAnswer": "Creates a generator function that returns a Stream",
+    "explanation": "async* creates an asynchronous generator. It uses yield to emit values to a Stream and yield* to emit all values from another stream.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which annotation is used in Dart to mark a method that overrides a parent class method?",
+    "options": [
+      "@override",
+      "@Override",
+      "@overrides",
+      "override"
+    ],
+    "correctAnswer": "@override",
+    "explanation": "@override is a Dart annotation (lowercase) used to indicate a method is intended to override a method from a superclass. It enables the compiler to warn if no such method exists.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does `Navigator.pop()` do in Flutter?",
+    "options": [
+      "Adds a new route to the navigation stack",
+      "Replaces the current route",
+      "Removes the top-most route from the navigation stack",
+      "Clears all routes from the stack"
+    ],
+    "correctAnswer": "Removes the top-most route from the navigation stack",
+    "explanation": "Navigator.pop() removes the current route from the stack, returning to the previous route. An optional result can be passed back to the awaiting push() call.",
+    "difficulty": "Easy"
+  }
+]
