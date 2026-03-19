@@ -9,7 +9,7 @@
     ],
     "correctAnswer": "Swift",
     "explanation": "Swift is the primary programming language developed by Apple for iOS, macOS, watchOS, and tvOS development.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Which property wrapper is used to create a state variable in SwiftUI?",
@@ -21,7 +21,7 @@
     ],
     "correctAnswer": "@State",
     "explanation": "@State is used to create a source of truth for a value that can be modified and will trigger view updates.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What does ARC stand for in Swift?",
@@ -33,7 +33,7 @@
     ],
     "correctAnswer": "Automated Reference Counting",
     "explanation": "ARC (Automatic Reference Counting) is Swift's memory management mechanism that automatically tracks and manages an app's memory usage.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which protocol is used to make a type encodable and decodable in Swift?",
@@ -45,7 +45,7 @@
     ],
     "correctAnswer": "Codable",
     "explanation": "Codable protocol allows automatic encoding and decoding of types to and from external representations like JSON.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which property wrapper is used to create an observable object in SwiftUI?",
@@ -57,7 +57,7 @@
     ],
     "correctAnswer": "@Published",
     "explanation": "@Published is used to create an observable property that automatically announces changes to its value.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the primary way to handle error handling in Swift?",
@@ -69,7 +69,7 @@
     ],
     "correctAnswer": "Do-Catch Statements",
     "explanation": "Swift uses do-catch statements to handle and propagate errors in a type-safe manner.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which property is initialized only when first accessed?",
@@ -81,7 +81,7 @@
     ],
     "correctAnswer": "Lazy Property",
     "explanation": "Lazy properties are initialized only when they are first accessed, which can help improve performance.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What prevents retain cycles in Swift?",
@@ -93,7 +93,7 @@
     ],
     "correctAnswer": "Weak References",
     "explanation": "Weak references break potential retain cycles by not increasing the reference count of an object.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What allows Swift types to be used interchangeably with Objective-C?",
@@ -105,7 +105,7 @@
     ],
     "correctAnswer": "@objc Attribute",
     "explanation": "The @objc attribute allows Swift types and methods to be used in Objective-C code.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which collection type in Swift is unordered and contains unique values?",
@@ -117,7 +117,7 @@
     ],
     "correctAnswer": "Set",
     "explanation": "A Set in Swift is an unordered collection of unique values, ensuring no duplicate elements.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Which type allows representing either a success or a failure in Swift?",
@@ -129,7 +129,7 @@
     ],
     "correctAnswer": "Result",
     "explanation": "The Result type provides a way to represent either a successful value or an error in a type-safe manner.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What is used to add constraints to generic type parameters in Swift?",
@@ -141,7 +141,7 @@
     ],
     "correctAnswer": "Where Clause",
     "explanation": "The where clause allows adding specific constraints to generic type parameters in Swift.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What type are closures in Swift?",
@@ -153,7 +153,7 @@
     ],
     "correctAnswer": "Reference Types",
     "explanation": "Closures are reference types in Swift, which means they can create retain cycles if not handled carefully.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which keyword ensures a block of code is executed when a scope exits?",
@@ -165,7 +165,7 @@
     ],
     "correctAnswer": "defer",
     "explanation": "The defer keyword guarantees that a block of code is executed when the current scope exits, regardless of how it exits.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What is used to create custom subscripts in Swift?",
@@ -177,7 +177,7 @@
     ],
     "correctAnswer": "Subscript Keyword",
     "explanation": "Swift allows creating custom subscripts using the subscript keyword to define custom access patterns for types.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What is used to create associated types in protocols?",
@@ -189,7 +189,7 @@
     ],
     "correctAnswer": "Associated Type",
     "explanation": "Associated types allow creating flexible, generic protocols with placeholder types that are specified when the protocol is adopted.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What type of programming does Swift primarily support?",
@@ -201,7 +201,7 @@
     ],
     "correctAnswer": "Protocol-Oriented",
     "explanation": "Swift emphasizes protocol-oriented programming, allowing for more flexible and composable code design.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which keyword is used to define a type alias in Swift?",
@@ -213,7 +213,7 @@
     ],
     "correctAnswer": "typealias",
     "explanation": "The typealias keyword creates an alternative name for an existing type, improving code readability.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What is the default access level for types and members in Swift?",
@@ -225,7 +225,7 @@
     ],
     "correctAnswer": "internal",
     "explanation": "Internal is the default access level, making entities accessible within the same module but not outside it.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which operator is used for nil-coalescing in Swift?",
@@ -237,7 +237,7 @@
     ],
     "correctAnswer": "??",
     "explanation": "The ?? operator provides a default value when an optional contains nil.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What type of parameter allows a function to accept zero or more values?",
@@ -249,7 +249,7 @@
     ],
     "correctAnswer": "Variadic Parameter",
     "explanation": "Variadic parameters, denoted with ..., accept zero or more values of a specified type.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which keyword prevents a class from being subclassed?",
@@ -261,7 +261,7 @@
     ],
     "correctAnswer": "final",
     "explanation": "The final keyword prevents a class, method, or property from being overridden or subclassed.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What is used to group related values in Swift without defining a type?",
@@ -273,7 +273,7 @@
     ],
     "correctAnswer": "Tuple",
     "explanation": "Tuples group multiple values into a single compound value without requiring a formal type definition.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which attribute marks a function that modifies a struct's properties?",
@@ -285,7 +285,7 @@
     ],
     "correctAnswer": "mutating",
     "explanation": "The mutating keyword allows methods to modify properties of value types like structs and enums.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What feature allows Swift to infer types without explicit declaration?",
@@ -297,7 +297,7 @@
     ],
     "correctAnswer": "Type Inference",
     "explanation": "Type inference allows Swift to automatically deduce the type of a variable or constant from its initial value.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Which keyword creates a computed property that cannot be set?",
@@ -309,7 +309,7 @@
     ],
     "correctAnswer": "get",
     "explanation": "A computed property with only a get block is read-only and cannot be assigned a value.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the purpose of the @escaping attribute for closures?",
@@ -321,7 +321,7 @@
     ],
     "correctAnswer": "To allow the closure to outlive the function",
     "explanation": "@escaping indicates that a closure can be stored and called after the function returns.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which keyword is used inside a protocol definition to declare a placeholder type that conforming types must specify?",
@@ -333,7 +333,7 @@
     ],
     "correctAnswer": "associatedtype",
     "explanation": "associatedtype declares a placeholder type name as part of a protocol's definition. Conforming types provide the concrete type, either explicitly with a typealias or implicitly through type inference.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What can a protocol extension provide that a protocol declaration alone cannot?",
@@ -345,7 +345,7 @@
     ],
     "correctAnswer": "Default method implementations",
     "explanation": "Protocol extensions can supply default implementations for methods and computed properties, allowing conforming types to inherit the behavior without writing any code.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which of the following correctly constrains a generic function to accept only types that conform to Comparable?",
@@ -357,7 +357,7 @@
     ],
     "correctAnswer": "func max<T>(_ a: T, _ b: T) -> T where T: Comparable",
     "explanation": "Type constraints can be written inline (<T: Comparable>) or in a trailing where clause. Both enforce that T must conform to Comparable; the where clause form is preferred for complex constraints.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What does the some keyword mean when used as a return type, e.g., func makeView() -> some View?",
@@ -369,7 +369,7 @@
     ],
     "correctAnswer": "The function returns an opaque type \u2014 a specific concrete type hidden behind the protocol interface",
     "explanation": "some (opaque return type) guarantees the caller receives a single, consistent concrete type that conforms to the protocol, preserving type identity without exposing the concrete type name.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which Swift enum feature allows each case to store additional custom information of different types?",
@@ -381,7 +381,7 @@
     ],
     "correctAnswer": "Associated values",
     "explanation": "Associated values let each enum case carry additional data of any type. For example, case success(Data) and case failure(Error) can both exist in the same enum.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Which of the following is true about Swift enum raw values?",
@@ -393,7 +393,7 @@
     ],
     "correctAnswer": "All cases in an enum share the same underlying raw value type",
     "explanation": "When an enum declares a raw value type (e.g., enum Direction: String), every case has a raw value of that same type. Raw values and associated values are mutually exclusive in a single enum.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What is the purpose of the indirect keyword when applied to an enum case in Swift?",
@@ -405,7 +405,7 @@
     ],
     "correctAnswer": "It allows the case to store an instance of the same enum type recursively",
     "explanation": "indirect tells the compiler to store the associated value behind a pointer, enabling recursive enum types such as linked lists or binary trees without causing an infinite-size value type.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What does conforming a Swift enum to CaseIterable provide?",
@@ -417,7 +417,7 @@
     ],
     "correctAnswer": "An allCases static property containing all enum cases in declaration order",
     "explanation": "CaseIterable automatically synthesizes an allCases property of type [EnumType] that lists every case. It only works on enums with no associated values (or where all associated values have defaults).",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What syntax rule allows you to write a closure argument outside the function's parentheses?",
@@ -429,7 +429,7 @@
     ],
     "correctAnswer": "Trailing closure syntax",
     "explanation": "If a closure is the last argument to a function, trailing closure syntax lets you place it after the closing parenthesis (or omit the parentheses entirely if it is the only argument), improving readability.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What does the @autoclosure attribute do when applied to a function parameter of closure type?",
@@ -441,7 +441,7 @@
     ],
     "correctAnswer": "It automatically wraps the passed expression in a closure, delaying its evaluation",
     "explanation": "@autoclosure lets callers pass a plain expression instead of an explicit { } closure. Swift wraps the expression in a zero-argument closure that is only evaluated when called, enabling lazy evaluation.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "In a Swift closure capture list, what does [weak self] achieve?",
@@ -453,7 +453,7 @@
     ],
     "correctAnswer": "It captures self as a weak optional reference, preventing a retain cycle",
     "explanation": "[weak self] in a capture list makes self a weak reference (Optional) inside the closure. This breaks potential retain cycles; you must safely unwrap self inside the closure body.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which Swift types are value types that are copied on assignment?",
@@ -465,7 +465,7 @@
     ],
     "correctAnswer": "Structs, enums, and tuples",
     "explanation": "Structs, enums, and tuples are value types in Swift; assignment or passing to a function creates an independent copy. Classes, closures, and actors are reference types that share a single instance.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What is copy-on-write (COW) in Swift?",
@@ -477,7 +477,7 @@
     ],
     "correctAnswer": "A technique where value types share the same underlying storage until one copy is mutated",
     "explanation": "Swift's standard collection types (Array, Dictionary, Set) use COW: multiple variables can share the same internal buffer cheaply until a mutation occurs, at which point a copy is made for the mutating variable.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "When is the deinit method of a Swift class called?",
@@ -489,7 +489,7 @@
     ],
     "correctAnswer": "Just before the object's reference count reaches zero and its memory is freed",
     "explanation": "deinit is the Swift equivalent of a destructor. ARC calls it automatically immediately before deallocating the object. It cannot be called manually and is only available on class types.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What problem does the actor type in Swift solve?",
@@ -501,7 +501,7 @@
     ],
     "correctAnswer": "It protects mutable state from data races by serialising access",
     "explanation": "actor is a reference type that uses actor isolation to ensure only one task accesses its mutable state at a time, preventing data races without manual locking.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What does conformance to the Sendable protocol indicate about a Swift type?",
@@ -513,7 +513,7 @@
     ],
     "correctAnswer": "The type can be safely passed across actor and concurrency boundaries",
     "explanation": "Sendable marks types whose values can be shared across concurrent contexts without risk of data races. Value types with Sendable properties are often automatically Sendable, while mutable classes must be explicitly annotated.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "After calling Task.cancel() on a Swift Task, what happens to the running work?",
@@ -525,7 +525,7 @@
     ],
     "correctAnswer": "Cancellation is cooperative \u2014 the task must check Task.isCancelled or call try Task.checkCancellation() to stop",
     "explanation": "Swift task cancellation is cooperative. Calling cancel() sets a cancellation flag; the task must periodically check Task.isCancelled or call Task.checkCancellation() to actually stop executing.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "What does compactMap(_:) do that map(_:) does not?",
@@ -537,7 +537,7 @@
     ],
     "correctAnswer": "It removes nil values from the resulting array",
     "explanation": "compactMap applies a transform that returns an optional and automatically filters out nil results, returning a [T] rather than [T?]. This is useful for safe type conversions.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "What does flatMap(_:) do when called on an array of arrays in Swift?",
@@ -549,7 +549,7 @@
     ],
     "correctAnswer": "It transforms each element and flattens one level of nesting into a single array",
     "explanation": "flatMap applies a transform that returns a sequence for each element and then concatenates all resulting sequences into a single flat array, removing one level of nesting.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "What does the rethrows keyword indicate in a Swift function declaration?",
@@ -561,7 +561,7 @@
     ],
     "correctAnswer": "The function throws only if one of its closure parameters throws",
     "explanation": "rethrows means the function is only throwing when a provided closure argument throws. Callers that pass non-throwing closures can call the function without try, while callers passing throwing closures must use try.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "How is Swift's Result<Success, Failure> type commonly used?",
@@ -573,7 +573,7 @@
     ],
     "correctAnswer": "To represent either a success value or a typed failure, often in async callbacks",
     "explanation": "Result<Success, Failure: Error> encapsulates either a .success(Value) or a .failure(Error), making error handling explicit and composable, especially in completion handlers.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Which component of a custom property wrapper is responsible for storing the wrapped value?",
@@ -585,7 +585,7 @@
     ],
     "correctAnswer": "A property named wrappedValue",
     "explanation": "A property wrapper type must define a wrappedValue property. When you annotate a property with the wrapper, Swift stores and retrieves the underlying value through wrappedValue automatically.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "In Swift property wrappers, what is the projected value accessed with the $ prefix?",
@@ -597,7 +597,7 @@
     ],
     "correctAnswer": "An additional value exposed by the wrapper type via a projectedValue property",
     "explanation": "If a property wrapper defines a projectedValue property, callers can access it with the $ prefix (e.g., $username). SwiftUI's @State uses this to expose a Binding via $state.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Why can't you subscript a Swift String with an Int index like string[2]?",
@@ -609,7 +609,7 @@
     ],
     "correctAnswer": "Swift String stores Unicode scalars of variable width, so integer offsets don't map to Character boundaries",
     "explanation": "Swift's String is a collection of Unicode-correct Character values that may span multiple code units. Because characters vary in storage size, the only safe index type is String.Index, which is calculated from the string's content.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Which property of Swift's Character type returns the Unicode scalar values that compose the character?",
@@ -621,6 +621,6 @@
     ],
     "correctAnswer": "character.unicodeScalars",
     "explanation": "Character.unicodeScalars gives you a view of the Unicode.Scalar values (21-bit code points) that make up the character, which is important for characters composed of multiple scalars like emoji with skin-tone modifiers.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   }
 ]

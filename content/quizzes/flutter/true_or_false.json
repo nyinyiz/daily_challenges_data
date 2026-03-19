@@ -3,246 +3,246 @@
     "question": "In Dart null safety, all variables are non-nullable by default.",
     "correctAnswer": true,
     "explanation": "With sound null safety, Dart variables cannot contain null unless you explicitly declare them with a nullable type (e.g., String?).",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "A `const` constructor in Dart allows the object to be instantiated at runtime with dynamic values.",
     "correctAnswer": false,
     "explanation": "const constructors require all arguments to be compile-time constants. The resulting objects are canonical and deeply immutable.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "`final` variables in Dart can only be assigned once, but their value can be determined at runtime.",
     "correctAnswer": true,
     "explanation": "Unlike const (which must be a compile-time constant), final is assigned once and its value can come from a runtime expression, such as `final now = DateTime.now()`.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Hot reload in Flutter preserves the current state of the application.",
     "correctAnswer": true,
     "explanation": "Hot reload injects updated source code into the running Dart VM and triggers a widget rebuild without re-running main() or initState(), so application state is preserved.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Hot reload in Flutter can apply changes made to `initState()` methods without requiring a hot restart.",
     "correctAnswer": false,
     "explanation": "initState() runs only once when a StatefulWidget is first inserted into the tree. Hot reload does not re-run initState(), so changes to it require a hot restart to take effect.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "A StatelessWidget can have its `build()` method called multiple times.",
     "correctAnswer": true,
     "explanation": "Flutter may call build() on a StatelessWidget many times when a parent widget rebuilds or when dependencies (like InheritedWidget) change. StatelessWidgets must be pure functions of their configuration.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "The `didUpdateWidget()` lifecycle method is called on a State object when the parent rebuilds with a new widget instance of the same type.",
     "correctAnswer": true,
     "explanation": "didUpdateWidget() is invoked when the parent rebuilds and supplies a new widget of the same runtime type. The old widget is passed as an argument so the State can compare changes.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "In Flutter, the widget tree, element tree, and render tree are all the same thing.",
     "correctAnswer": false,
     "explanation": "Flutter maintains three separate trees: the widget tree (lightweight configuration objects), the element tree (lifecycle management), and the render tree (layout and painting). They work in concert but are distinct.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "A Dart `Future` can emit multiple values over time.",
     "correctAnswer": false,
     "explanation": "A Future represents a single asynchronous computation that completes with one value (or one error). For multiple asynchronous values over time, use a Stream.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Dart isolates share memory with each other by default.",
     "correctAnswer": false,
     "explanation": "Dart isolates are fully isolated units of computation. They do not share memory; instead they communicate by passing messages through ports. This avoids data races without needing locks.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "The `await` keyword in Dart can only be used inside functions marked with `async`.",
     "correctAnswer": true,
     "explanation": "await pauses execution until a Future completes. The await keyword is only valid inside an async function (or async* for streams).",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "In Flutter, `Navigator.push()` returns a `Future` that completes when the pushed route is popped.",
     "correctAnswer": true,
     "explanation": "Navigator.push() returns a Future<T?> that resolves with the value passed to Navigator.pop(result) when the new route is dismissed.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "GoRouter supports deep linking in Flutter apps out of the box.",
     "correctAnswer": true,
     "explanation": "GoRouter is built with deep linking in mind. It maps URL paths to routes declaratively and handles platform deep link intent/URL handling automatically.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Provider is built on top of InheritedWidget.",
     "correctAnswer": true,
     "explanation": "Provider is a wrapper around InheritedWidget that simplifies providing and consuming values down the widget tree. It handles update notifications and disposal automatically.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "In the BLoC pattern, UI widgets should directly access business logic without going through events or states.",
     "correctAnswer": false,
     "explanation": "BLoC enforces strict separation of concerns. UI widgets dispatch Events to the BLoC, which processes them and emits States. The UI only observes State and never contains business logic.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Riverpod providers can be read outside of the widget tree, for example in services and repositories.",
     "correctAnswer": true,
     "explanation": "Riverpod providers are globally scoped and can be read using a ProviderContainer or a Ref (from another provider), making them accessible outside the widget tree.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Flutter's rendering pipeline processes stages in the order: layout, then build, then paint.",
     "correctAnswer": false,
     "explanation": "Flutter's pipeline order is: build (widgets -> elements), then layout (compute sizes/positions), then paint (draw to canvas), then composite (rasterize layers).",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "A `GlobalKey` can be used to access the `State` of a StatefulWidget from another part of the tree.",
     "correctAnswer": true,
     "explanation": "GlobalKey<T extends State> exposes the currentState property, allowing external code to call methods on the State object. This is sometimes necessary for imperative control of child widgets.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Using a `UniqueKey` on a widget guarantees the widget will be re-created (and its state reset) on every rebuild.",
     "correctAnswer": true,
     "explanation": "UniqueKey generates a new unique identity each time it is instantiated. Assigning a new UniqueKey on rebuild forces Flutter to treat the widget as a completely different widget, destroying old state.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "An `AnimationController` requires a `TickerProvider` (vsync) to function.",
     "correctAnswer": true,
     "explanation": "AnimationController uses a Ticker to schedule animation frames. The vsync parameter takes a TickerProvider (e.g., SingleTickerProviderStateMixin) to bind the ticker to the screen's vsync signal.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "A `Tween` can only animate between two double values.",
     "correctAnswer": false,
     "explanation": "Tween<T> is generic and can animate between any type that supports lerp (linear interpolation). Built-in tweens include ColorTween, SizeTween, RectTween, BorderRadiusTween, and more.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Platform channels in Flutter use asynchronous message passing between the Dart and native layers.",
     "correctAnswer": true,
     "explanation": "All platform channel calls (MethodChannel, EventChannel, BasicMessageChannel) are asynchronous. The Dart side awaits a Future for the native result, preventing UI thread blocking.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Flutter apps compiled in release mode include the Dart VM for just-in-time compilation.",
     "correctAnswer": false,
     "explanation": "In release mode, Flutter uses ahead-of-time (AOT) compilation to native machine code. The Dart VM is present in debug and profile modes for JIT compilation and hot reload.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "The `pubspec.yaml` file is used to declare dependencies, assets, and SDK constraints in a Flutter project.",
     "correctAnswer": true,
     "explanation": "pubspec.yaml is the package manifest for Dart/Flutter projects. It defines the package name, version, environment (SDK constraints), dependencies, dev_dependencies, and asset paths.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Widget tests in Flutter require a physical device or emulator to run.",
     "correctAnswer": false,
     "explanation": "Widget tests run entirely on the host machine using a lightweight simulated environment called flutter_test. No device or emulator is needed.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "In Dart, a `Stream` can be either single-subscription or broadcast.",
     "correctAnswer": true,
     "explanation": "Single-subscription streams allow only one listener and buffer events. Broadcast streams allow multiple simultaneous listeners and do not buffer events.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "The `BuildContext` passed to a widget's `build()` method is the context of the widget itself, not its parent.",
     "correctAnswer": true,
     "explanation": "The BuildContext in build() belongs to the current widget's element in the tree. This is important when using context to look up inherited widgets or show overlays.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Calling `setState()` outside of the State class (e.g., from a callback in a separate class) is always safe and error-free.",
     "correctAnswer": false,
     "explanation": "Calling setState() after the widget has been disposed will throw a 'called after dispose()' error. Always guard setState() calls with mounted checks when responding to async callbacks.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "The `?. ` operator in Dart allows calling a method on a nullable object and returns null if the object is null.",
     "correctAnswer": true,
     "explanation": "The null-aware access operator ?. short-circuits the call if the receiver is null and returns null, preventing a null dereference exception.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "In Flutter, `Container` is always a leaf widget and cannot have a child.",
     "correctAnswer": false,
     "explanation": "Container accepts a single optional child widget. It is a convenience widget that combines common painting, positioning, and sizing widgets.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Dart supports top-level functions (functions defined outside of any class).",
     "correctAnswer": true,
     "explanation": "Dart allows functions to be declared at the top level of a file, not just inside classes. The main() function itself is a top-level function.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "In Flutter, using too many `Opacity` widgets can negatively impact rendering performance.",
     "correctAnswer": true,
     "explanation": "Opacity forces its subtree to be composited into an offscreen buffer before applying the opacity. For animated opacity, AnimatedOpacity or FadeTransition is preferred as they can use hardware layers more efficiently.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "The `late` keyword in Dart can only be used with `final` variables.",
     "correctAnswer": false,
     "explanation": "late can be used with both final and non-final variables. `late String name;` allows a non-nullable var to be assigned after declaration, while `late final String name;` allows a one-time late assignment.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "In Flutter debug mode, the `assert()` statement is evaluated and can throw errors.",
     "correctAnswer": true,
     "explanation": "assert() statements are active in debug mode (and test mode). In profile and release modes, assertions are stripped out and have no effect.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "A Dart class can implement multiple interfaces.",
     "correctAnswer": true,
     "explanation": "Dart supports implementing multiple interfaces using the `implements` keyword followed by a comma-separated list. The implementing class must provide all declared members.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "The `FutureBuilder` widget will only call its `builder` function once.",
     "correctAnswer": false,
     "explanation": "FutureBuilder calls its builder each time the widget rebuilds and whenever the Future emits a new snapshot (waiting, done, or error). It can call builder multiple times during its lifecycle.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "`async` functions in Dart are always executed on a separate thread.",
     "correctAnswer": false,
     "explanation": "Dart's async/await uses cooperative concurrency, not threads. Async functions run on the same main isolate thread. True parallelism requires spawning a separate Isolate.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "In Flutter, `Scaffold` provides the basic Material Design visual structure of a screen, including AppBar and FloatingActionButton slots.",
     "correctAnswer": true,
     "explanation": "Scaffold implements the basic material design visual layout structure, providing slots for appBar, body, floatingActionButton, drawer, bottomNavigationBar, and more.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "The `dispose()` lifecycle method in a State object is the appropriate place to release resources like AnimationControllers and StreamSubscriptions.",
     "correctAnswer": true,
     "explanation": "dispose() is called when the State object is permanently removed from the tree. It is the correct place to cancel stream subscriptions, dispose controllers, and release other resources to prevent memory leaks.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "In Dart, named parameters in a function are required by default.",
     "correctAnswer": false,
     "explanation": "Named parameters (defined in curly braces) are optional by default. To make them required, you must mark them with the `required` keyword.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Flutter's `ListView.builder` creates all list item widgets upfront when the list is first rendered.",
     "correctAnswer": false,
     "explanation": "ListView.builder lazily builds widgets on demand as the user scrolls. Only the widgets currently visible (plus a small cache extent buffer) are created, making it efficient for long lists.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   }
 ]

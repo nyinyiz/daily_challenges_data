@@ -3,342 +3,342 @@
     "question": "In Swift, a struct is a value type.",
     "correctAnswer": true,
     "explanation": "Structs in Swift are value types, which means they are copied when assigned or passed as arguments, unlike classes which are reference types.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "ARC (Automatic Reference Counting) manages memory automatically in Swift.",
     "correctAnswer": true,
     "explanation": "ARC automatically keeps track of strong references to class instances and deallocates memory when no longer needed.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift is a compiled programming language.",
     "correctAnswer": true,
     "explanation": "Swift is a compiled language that is optimized for performance and safety.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "@objc attribute is always required when working with Objective-C code in Swift.",
     "correctAnswer": false,
     "explanation": "@objc is only needed when you want to expose Swift code to Objective-C or use dynamic dispatch.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift supports multiple inheritance of classes.",
     "correctAnswer": false,
     "explanation": "Swift does not support multiple inheritance of classes. Instead, it uses protocols and protocol extensions to achieve similar functionality.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's optional chaining can prevent runtime crashes when accessing nested properties.",
     "correctAnswer": true,
     "explanation": "Optional chaining allows you to safely access properties, methods, and subscripts of an optional that might currently be nil.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift supports functional programming paradigms.",
     "correctAnswer": true,
     "explanation": "Swift includes many functional programming features like map, filter, reduce, and first-class functions.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "In Swift, all numeric types are converted implicitly.",
     "correctAnswer": false,
     "explanation": "Swift requires explicit type conversion between different numeric types to prevent unintended precision loss.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Property observers can be added to stored properties in Swift.",
     "correctAnswer": true,
     "explanation": "willSet and didSet property observers allow you to observe and respond to changes in a property's value.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Protocol extensions can provide default implementations for protocol methods.",
     "correctAnswer": true,
     "explanation": "Swift allows adding default implementations to protocol methods through protocol extensions.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift's type inference always works perfectly for complex generic types.",
     "correctAnswer": false,
     "explanation": "While Swift has powerful type inference, complex generic types may require explicit type annotations.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Generics in Swift can work with any type that conforms to a specific protocol.",
     "correctAnswer": true,
     "explanation": "Swift's generics allow creating flexible, reusable code that works with types conforming to specified protocols.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift's type system prevents all possible runtime errors.",
     "correctAnswer": false,
     "explanation": "While Swift's type system is robust, it cannot prevent all possible runtime errors, such as those involving optionals or force unwrapping.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Closures in Swift are reference types.",
     "correctAnswer": true,
     "explanation": "Closures are reference types in Swift, which means they can create retain cycles if not handled carefully.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift supports multiple return values from a function using tuples.",
     "correctAnswer": true,
     "explanation": "Swift allows functions to return multiple values by packaging them in a tuple.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Optionals in Swift can only contain reference types.",
     "correctAnswer": false,
     "explanation": "Optionals in Swift can contain both value and reference types.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's Result type is used for handling errors in a functional way.",
     "correctAnswer": true,
     "explanation": "The Result type provides a way to represent either a successful value or an error in a type-safe manner.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift supports operator overloading.",
     "correctAnswer": true,
     "explanation": "Swift allows developers to define custom implementations for standard operators for their own types.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Lazy properties are initialized only when they are first accessed.",
     "correctAnswer": true,
     "explanation": "Lazy properties defer their initialization until the first time they are accessed, which can help improve performance.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's protocol-oriented programming completely replaces object-oriented programming.",
     "correctAnswer": false,
     "explanation": "Protocol-oriented programming is a powerful paradigm in Swift, but it complements rather than completely replaces object-oriented programming.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift's defer keyword guarantees that a block of code will always execute.",
     "correctAnswer": true,
     "explanation": "The defer keyword ensures a block of code is executed when the current scope exits, regardless of how it exits.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Type erasure is not used in Swift generics.",
     "correctAnswer": false,
     "explanation": "Type erasure is a technique used in Swift to hide the underlying type details of generic types.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift supports default parameter values in function definitions.",
     "correctAnswer": true,
     "explanation": "Swift allows specifying default values for function parameters, making them optional when calling the function.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Swift's @escaping closure can outlive the function it was created in.",
     "correctAnswer": true,
     "explanation": "@escaping closures can be stored and called after the function they were created in has finished executing.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift's where clause can be used to add constraints to generics.",
     "correctAnswer": true,
     "explanation": "The where clause allows adding specific constraints to generic type parameters.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift's @autoclosure can be used to delay the evaluation of an expression.",
     "correctAnswer": true,
     "explanation": "@autoclosure allows you to pass an expression that will be evaluated only when needed, which can improve performance in some cases.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's typealias can create a new name for an existing type.",
     "correctAnswer": true,
     "explanation": "typealias allows you to define a new name for an existing type, improving code readability.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Swift's @discardableResult attribute is used to ignore the return value of a function.",
     "correctAnswer": true,
     "explanation": "@discardableResult allows you to call a function without using its return value, which can be useful in certain scenarios.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's @dynamicCallable allows instances of a type to be called like a function.",
     "correctAnswer": true,
     "explanation": "@dynamicCallable enables types to be called as if they were functions, providing flexibility in how they can be used.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift's @MainActor attribute ensures that code runs on the main thread.",
     "correctAnswer": true,
     "explanation": "@MainActor ensures that the annotated code runs on the main thread, which is essential for UI updates in iOS applications.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's @available attribute is used to mark deprecated APIs.",
     "correctAnswer": true,
     "explanation": "@available allows you to specify the availability of APIs, including marking them as deprecated.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's @frozen attribute prevents future changes to a type's layout.",
     "correctAnswer": true,
     "explanation": "@frozen indicates that a type's layout will not change in future versions, which can improve performance in certain scenarios.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift enums can conform to protocols.",
     "correctAnswer": true,
     "explanation": "Swift enums are fully fledged types and can conform to protocols, including providing computed properties and method implementations.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift supports function overloading, allowing multiple functions with the same name but different parameter types.",
     "correctAnswer": true,
     "explanation": "Swift allows defining multiple functions with the same name as long as their parameter labels, types, or return types differ.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "In Swift, an actor is a reference type.",
     "correctAnswer": true,
     "explanation": "Actors in Swift are reference types, similar to classes, but they protect their mutable state by ensuring only one task accesses that state at a time.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "The @frozen attribute on a Swift enum allows the compiler to skip exhaustiveness checking for switch statements.",
     "correctAnswer": true,
     "explanation": "@frozen tells the compiler the enum's cases will never change, enabling optimizations and allowing exhaustive switches without a default case in library evolution mode.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "The willSet and didSet property observers fire when a lazy property is first accessed.",
     "correctAnswer": false,
     "explanation": "willSet and didSet do not fire for lazy properties. Lazy properties cannot have property observers because they are not stored in the same way as regular stored properties.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "All Swift types, including classes, are value types.",
     "correctAnswer": false,
     "explanation": "Swift has both value types (structs, enums, tuples) and reference types (classes, closures, actors). Classes are reference types.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Swift arrays use copy-on-write semantics, so copying is only performed when the copy is mutated.",
     "correctAnswer": true,
     "explanation": "Swift arrays (and other collection types) implement copy-on-write: the underlying storage is shared until one of the copies is mutated, at which point a copy is made.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "In Swift, String is a value type.",
     "correctAnswer": true,
     "explanation": "Swift's String is a struct and therefore a value type. Assignments create independent copies with copy-on-write optimization.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Swift 5.5 introduced structured concurrency with async/await and task groups.",
     "correctAnswer": true,
     "explanation": "Swift 5.5 added structured concurrency including async/await, actors, Task, and TaskGroup, providing a safe and readable way to write concurrent code.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Protocol extensions in Swift can have stored properties.",
     "correctAnswer": false,
     "explanation": "Protocol extensions cannot define stored properties. They can only add computed properties and method implementations as default behavior.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "The @discardableResult attribute suppresses the 'result of call is unused' compiler warning.",
     "correctAnswer": true,
     "explanation": "@discardableResult allows callers to ignore the return value of a function without receiving a compiler warning.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "@autoclosure in Swift wraps an expression into a closure that is only evaluated when the closure is called.",
     "correctAnswer": true,
     "explanation": "@autoclosure automatically creates a closure from an expression passed as an argument, allowing lazy evaluation of the expression.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "@inlinable makes a function's body available to the optimizer across module boundaries.",
     "correctAnswer": true,
     "explanation": "@inlinable exposes a function's implementation to the Swift compiler when building other modules, enabling cross-module inlining and optimization.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "A where clause can be used in a Swift for-in loop to filter elements during iteration.",
     "correctAnswer": true,
     "explanation": "Swift's for-in loop supports a where clause that acts as a filter, only executing the loop body for elements that satisfy the condition.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift generics allow writing a single function or type that works with multiple concrete types.",
     "correctAnswer": true,
     "explanation": "Generics enable writing flexible, reusable functions and types that work with any type satisfying specified requirements.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "A Swift async function can be called from synchronous code without any special syntax.",
     "correctAnswer": false,
     "explanation": "Async functions must be called with the await keyword and can only be called from an async context or a Task.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's TaskGroup allows running multiple async tasks in parallel and collecting their results.",
     "correctAnswer": true,
     "explanation": "TaskGroup provides structured concurrency for launching multiple child tasks in parallel and waiting for all their results.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "In Swift, a generic type parameter can be constrained to conform to multiple protocols using the & operator.",
     "correctAnswer": true,
     "explanation": "Swift allows composing protocol constraints with & (e.g., T: Codable & Equatable), requiring a type to conform to all listed protocols.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift enums can have associated values of different types for each case.",
     "correctAnswer": true,
     "explanation": "Each enum case in Swift can have its own associated values with distinct types, making enums highly expressive for modeling data.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "A Swift class marked as 'final' can be subclassed.",
     "correctAnswer": false,
     "explanation": "The 'final' keyword prevents a class from being subclassed and prevents methods and properties from being overridden.",
-    "difficulty": "easy"
+    "difficulty": "Easy"
   },
   {
     "question": "Swift's Sendable protocol is used to mark types that are safe to share across concurrency domains.",
     "correctAnswer": true,
     "explanation": "Sendable is a marker protocol that indicates a type's values can be safely shared across concurrent tasks without data races.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "In Swift, computed properties can be defined on extensions of existing types.",
     "correctAnswer": true,
     "explanation": "Extensions in Swift can add computed properties (but not stored properties) to existing types, including types from the standard library.",
-    "difficulty": "medium"
+    "difficulty": "Medium"
   },
   {
     "question": "Swift's KeyPath type can be used to reference a property without accessing its value.",
     "correctAnswer": true,
     "explanation": "KeyPath provides a type-safe reference to a property of a type, which can be later applied to an instance to get or set the value.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "An unowned reference in Swift will cause a crash if accessed after the referenced object is deallocated.",
     "correctAnswer": true,
     "explanation": "Unlike weak references which become nil, unowned references are non-optional and accessing them after deallocation results in a runtime crash.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   },
   {
     "question": "Swift's 'some' keyword is used to return an opaque type that hides the concrete type while preserving type identity.",
     "correctAnswer": true,
     "explanation": "Opaque types (declared with 'some') hide the concrete return type from the caller while preserving type information for the compiler, enabling protocol return types.",
-    "difficulty": "hard"
+    "difficulty": "Hard"
   }
 ]
