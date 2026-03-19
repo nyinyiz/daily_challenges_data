@@ -490,5 +490,605 @@
     "correctAnswer": "It has a clear linguistic boundary where a ubiquitous language is consistently applied and models are not shared across boundaries",
     "explanation": "A Bounded Context defines the scope within which a particular domain model applies. The same term (e.g., 'User') may mean different things in different Bounded Contexts. Within a context, the ubiquitous language is consistent. Contexts communicate via well-defined contracts (e.g., Domain Events, anti-corruption layers).",
     "difficulty": "Hard"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Abstract data access behind a collection-like interface.",
+    "options": [
+      "Separation of Concerns",
+      "Repository",
+      "Pagination",
+      "Caching"
+    ],
+    "correctAnswer": "Repository",
+    "explanation": "Repository is used to abstract data access behind a collection-like interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Encapsulate a single unit of business logic or user intent.",
+    "options": [
+      "Use Case",
+      "SOLID",
+      "Rate Limiting",
+      "Eventual Consistency"
+    ],
+    "correctAnswer": "Use Case",
+    "explanation": "Use Case is used to encapsulate a single unit of business logic or user intent.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Provide dependencies from the outside instead of creating them internally.",
+    "options": [
+      "SOLID",
+      "CQRS",
+      "Caching",
+      "Dependency Injection"
+    ],
+    "correctAnswer": "Dependency Injection",
+    "explanation": "Dependency Injection is used to provide dependencies from the outside instead of creating them internally.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Centralize authoritative data in one owned location.",
+    "options": [
+      "Single Source of Truth",
+      "Unidirectional Data Flow",
+      "Dependency Injection",
+      "Eventual Consistency"
+    ],
+    "correctAnswer": "Single Source of Truth",
+    "explanation": "Single Source of Truth is used to centralize authoritative data in one owned location.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Move state down and events up through a predictable data path.",
+    "options": [
+      "Retry with Backoff",
+      "Unidirectional Data Flow",
+      "MVVM",
+      "Rate Limiting"
+    ],
+    "correctAnswer": "Unidirectional Data Flow",
+    "explanation": "Unidirectional Data Flow is used to move state down and events up through a predictable data path.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Split a system into parts with focused responsibilities.",
+    "options": [
+      "Separation of Concerns",
+      "Use Case",
+      "SOLID",
+      "CQRS"
+    ],
+    "correctAnswer": "Separation of Concerns",
+    "explanation": "Separation of Concerns is used to split a system into parts with focused responsibilities.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Group five object-oriented design principles for maintainable software.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Idempotency",
+      "Pagination",
+      "SOLID"
+    ],
+    "correctAnswer": "SOLID",
+    "explanation": "SOLID is used to group five object-oriented design principles for maintainable software.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Give a module one reason to change.",
+    "options": [
+      "Eventual Consistency",
+      "Separation of Concerns",
+      "MVI",
+      "Single Responsibility Principle"
+    ],
+    "correctAnswer": "Single Responsibility Principle",
+    "explanation": "Single Responsibility Principle is used to give a module one reason to change.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Allow behavior to be extended without modifying stable code.",
+    "options": [
+      "Dependency Inversion Principle",
+      "MVVM",
+      "Single Source of Truth",
+      "Open/Closed Principle"
+    ],
+    "correctAnswer": "Open/Closed Principle",
+    "explanation": "Open/Closed Principle is used to allow behavior to be extended without modifying stable code.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Ensure subtypes can replace their base types without breaking behavior.",
+    "options": [
+      "MVVM",
+      "Liskov Substitution Principle",
+      "Idempotency",
+      "Repository"
+    ],
+    "correctAnswer": "Liskov Substitution Principle",
+    "explanation": "Liskov Substitution Principle is used to ensure subtypes can replace their base types without breaking behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Prefer small client-specific interfaces over one large interface.",
+    "options": [
+      "Separation of Concerns",
+      "Repository",
+      "Dependency Inversion Principle",
+      "Interface Segregation Principle"
+    ],
+    "correctAnswer": "Interface Segregation Principle",
+    "explanation": "Interface Segregation Principle is used to prefer small client-specific interfaces over one large interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Make high-level policy depend on abstractions rather than concrete details.",
+    "options": [
+      "MVI",
+      "Dependency Inversion Principle",
+      "Separation of Concerns",
+      "Circuit Breaker"
+    ],
+    "correctAnswer": "Dependency Inversion Principle",
+    "explanation": "Dependency Inversion Principle is used to make high-level policy depend on abstractions rather than concrete details.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Organize code in layers with dependencies pointing inward.",
+    "options": [
+      "Open/Closed Principle",
+      "Observability",
+      "Unidirectional Data Flow",
+      "Clean Architecture"
+    ],
+    "correctAnswer": "Clean Architecture",
+    "explanation": "Clean Architecture is used to organize code in layers with dependencies pointing inward.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Separate UI rendering from state and presentation logic using a ViewModel.",
+    "options": [
+      "CQRS",
+      "Caching",
+      "MVVM",
+      "Circuit Breaker"
+    ],
+    "correctAnswer": "MVVM",
+    "explanation": "MVVM is used to separate UI rendering from state and presentation logic using a ViewModel.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Model UI as state transitions driven by intents or events.",
+    "options": [
+      "Separation of Concerns",
+      "MVI",
+      "MVVM",
+      "CQRS"
+    ],
+    "correctAnswer": "MVI",
+    "explanation": "MVI is used to model UI as state transitions driven by intents or events.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Separate read operations from write operations when their models differ.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Single Responsibility Principle",
+      "CQRS",
+      "Clean Architecture"
+    ],
+    "correctAnswer": "CQRS",
+    "explanation": "CQRS is used to separate read operations from write operations when their models differ.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Make repeated requests produce the same effect as one request.",
+    "options": [
+      "Caching",
+      "MVVM",
+      "Pagination",
+      "Idempotency"
+    ],
+    "correctAnswer": "Idempotency",
+    "explanation": "Idempotency is used to make repeated requests produce the same effect as one request.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Stop calling an unhealthy dependency until it recovers.",
+    "options": [
+      "Circuit Breaker",
+      "Dependency Inversion Principle",
+      "Unidirectional Data Flow",
+      "Open/Closed Principle"
+    ],
+    "correctAnswer": "Circuit Breaker",
+    "explanation": "Circuit Breaker is used to stop calling an unhealthy dependency until it recovers.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Retry transient failures with increasing delays between attempts.",
+    "options": [
+      "Eventual Consistency",
+      "Retry with Backoff",
+      "Message Queue",
+      "Single Responsibility Principle"
+    ],
+    "correctAnswer": "Retry with Backoff",
+    "explanation": "Retry with Backoff is used to retry transient failures with increasing delays between attempts.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Reuse previously computed or fetched data to reduce latency and load.",
+    "options": [
+      "Caching",
+      "Separation of Concerns",
+      "Interface Segregation Principle",
+      "Message Queue"
+    ],
+    "correctAnswer": "Caching",
+    "explanation": "Caching is used to reuse previously computed or fetched data to reduce latency and load.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Split large result sets into smaller pages for delivery and rendering.",
+    "options": [
+      "Interface Segregation Principle",
+      "Observability",
+      "Pagination",
+      "Eventual Consistency"
+    ],
+    "correctAnswer": "Pagination",
+    "explanation": "Pagination is used to split large result sets into smaller pages for delivery and rendering.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Control how many requests a client can make over time.",
+    "options": [
+      "Message Queue",
+      "Repository",
+      "Rate Limiting",
+      "Retry with Backoff"
+    ],
+    "correctAnswer": "Rate Limiting",
+    "explanation": "Rate Limiting is used to control how many requests a client can make over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Accept temporary divergence between replicas while they converge later.",
+    "options": [
+      "Retry with Backoff",
+      "Eventual Consistency",
+      "Caching",
+      "Single Source of Truth"
+    ],
+    "correctAnswer": "Eventual Consistency",
+    "explanation": "Eventual Consistency is used to accept temporary divergence between replicas while they converge later.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Understand system behavior through logs, metrics, and traces.",
+    "options": [
+      "CQRS",
+      "Observability",
+      "Clean Architecture",
+      "Liskov Substitution Principle"
+    ],
+    "correctAnswer": "Observability",
+    "explanation": "Observability is used to understand system behavior through logs, metrics, and traces.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which software architecture concept is best described as: Buffer and deliver asynchronous work between decoupled producers and consumers.",
+    "options": [
+      "Message Queue",
+      "Open/Closed Principle",
+      "Caching",
+      "Circuit Breaker"
+    ],
+    "correctAnswer": "Message Queue",
+    "explanation": "Message Queue is used to buffer and deliver asynchronous work between decoupled producers and consumers.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Repository?",
+    "options": [
+      "Reuse previously computed or fetched data to reduce latency and load.",
+      "Abstract data access behind a collection-like interface.",
+      "Centralize authoritative data in one owned location.",
+      "Prefer small client-specific interfaces over one large interface."
+    ],
+    "correctAnswer": "Abstract data access behind a collection-like interface.",
+    "explanation": "The correct answer is Repository because it is used to abstract data access behind a collection-like interface.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Use Case?",
+    "options": [
+      "Control how many requests a client can make over time.",
+      "Encapsulate a single unit of business logic or user intent.",
+      "Prefer small client-specific interfaces over one large interface.",
+      "Move state down and events up through a predictable data path."
+    ],
+    "correctAnswer": "Encapsulate a single unit of business logic or user intent.",
+    "explanation": "The correct answer is Use Case because it is used to encapsulate a single unit of business logic or user intent.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Dependency Injection?",
+    "options": [
+      "Retry transient failures with increasing delays between attempts.",
+      "Provide dependencies from the outside instead of creating them internally.",
+      "Move state down and events up through a predictable data path.",
+      "Ensure subtypes can replace their base types without breaking behavior."
+    ],
+    "correctAnswer": "Provide dependencies from the outside instead of creating them internally.",
+    "explanation": "The correct answer is Dependency Injection because it is used to provide dependencies from the outside instead of creating them internally.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Single Source of Truth?",
+    "options": [
+      "Ensure subtypes can replace their base types without breaking behavior.",
+      "Make repeated requests produce the same effect as one request.",
+      "Centralize authoritative data in one owned location.",
+      "Move state down and events up through a predictable data path."
+    ],
+    "correctAnswer": "Centralize authoritative data in one owned location.",
+    "explanation": "The correct answer is Single Source of Truth because it is used to centralize authoritative data in one owned location.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Unidirectional Data Flow?",
+    "options": [
+      "Model UI as state transitions driven by intents or events.",
+      "Provide dependencies from the outside instead of creating them internally.",
+      "Abstract data access behind a collection-like interface.",
+      "Move state down and events up through a predictable data path."
+    ],
+    "correctAnswer": "Move state down and events up through a predictable data path.",
+    "explanation": "The correct answer is Unidirectional Data Flow because it is used to move state down and events up through a predictable data path.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Separation of Concerns?",
+    "options": [
+      "Split a system into parts with focused responsibilities.",
+      "Ensure subtypes can replace their base types without breaking behavior.",
+      "Separate UI rendering from state and presentation logic using a ViewModel.",
+      "Retry transient failures with increasing delays between attempts."
+    ],
+    "correctAnswer": "Split a system into parts with focused responsibilities.",
+    "explanation": "The correct answer is Separation of Concerns because it is used to split a system into parts with focused responsibilities.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of SOLID?",
+    "options": [
+      "Group five object-oriented design principles for maintainable software.",
+      "Retry transient failures with increasing delays between attempts.",
+      "Separate UI rendering from state and presentation logic using a ViewModel.",
+      "Model UI as state transitions driven by intents or events."
+    ],
+    "correctAnswer": "Group five object-oriented design principles for maintainable software.",
+    "explanation": "The correct answer is SOLID because it is used to group five object-oriented design principles for maintainable software.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Single Responsibility Principle?",
+    "options": [
+      "Give a module one reason to change.",
+      "Move state down and events up through a predictable data path.",
+      "Retry transient failures with increasing delays between attempts.",
+      "Accept temporary divergence between replicas while they converge later."
+    ],
+    "correctAnswer": "Give a module one reason to change.",
+    "explanation": "The correct answer is Single Responsibility Principle because it is used to give a module one reason to change.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Open/Closed Principle?",
+    "options": [
+      "Stop calling an unhealthy dependency until it recovers.",
+      "Allow behavior to be extended without modifying stable code.",
+      "Accept temporary divergence between replicas while they converge later.",
+      "Abstract data access behind a collection-like interface."
+    ],
+    "correctAnswer": "Allow behavior to be extended without modifying stable code.",
+    "explanation": "The correct answer is Open/Closed Principle because it is used to allow behavior to be extended without modifying stable code.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Liskov Substitution Principle?",
+    "options": [
+      "Make repeated requests produce the same effect as one request.",
+      "Ensure subtypes can replace their base types without breaking behavior.",
+      "Retry transient failures with increasing delays between attempts.",
+      "Allow behavior to be extended without modifying stable code."
+    ],
+    "correctAnswer": "Ensure subtypes can replace their base types without breaking behavior.",
+    "explanation": "The correct answer is Liskov Substitution Principle because it is used to ensure subtypes can replace their base types without breaking behavior.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Interface Segregation Principle?",
+    "options": [
+      "Retry transient failures with increasing delays between attempts.",
+      "Separate read operations from write operations when their models differ.",
+      "Understand system behavior through logs, metrics, and traces.",
+      "Prefer small client-specific interfaces over one large interface."
+    ],
+    "correctAnswer": "Prefer small client-specific interfaces over one large interface.",
+    "explanation": "The correct answer is Interface Segregation Principle because it is used to prefer small client-specific interfaces over one large interface.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Dependency Inversion Principle?",
+    "options": [
+      "Make high-level policy depend on abstractions rather than concrete details.",
+      "Make repeated requests produce the same effect as one request.",
+      "Centralize authoritative data in one owned location.",
+      "Split large result sets into smaller pages for delivery and rendering."
+    ],
+    "correctAnswer": "Make high-level policy depend on abstractions rather than concrete details.",
+    "explanation": "The correct answer is Dependency Inversion Principle because it is used to make high-level policy depend on abstractions rather than concrete details.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Clean Architecture?",
+    "options": [
+      "Understand system behavior through logs, metrics, and traces.",
+      "Organize code in layers with dependencies pointing inward.",
+      "Provide dependencies from the outside instead of creating them internally.",
+      "Separate read operations from write operations when their models differ."
+    ],
+    "correctAnswer": "Organize code in layers with dependencies pointing inward.",
+    "explanation": "The correct answer is Clean Architecture because it is used to organize code in layers with dependencies pointing inward.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of MVVM?",
+    "options": [
+      "Allow behavior to be extended without modifying stable code.",
+      "Make repeated requests produce the same effect as one request.",
+      "Separate UI rendering from state and presentation logic using a ViewModel.",
+      "Move state down and events up through a predictable data path."
+    ],
+    "correctAnswer": "Separate UI rendering from state and presentation logic using a ViewModel.",
+    "explanation": "The correct answer is MVVM because it is used to separate UI rendering from state and presentation logic using a ViewModel.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of MVI?",
+    "options": [
+      "Prefer small client-specific interfaces over one large interface.",
+      "Understand system behavior through logs, metrics, and traces.",
+      "Ensure subtypes can replace their base types without breaking behavior.",
+      "Model UI as state transitions driven by intents or events."
+    ],
+    "correctAnswer": "Model UI as state transitions driven by intents or events.",
+    "explanation": "The correct answer is MVI because it is used to model UI as state transitions driven by intents or events.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, what is the primary role of CQRS?",
+    "options": [
+      "Separate UI rendering from state and presentation logic using a ViewModel.",
+      "Separate read operations from write operations when their models differ.",
+      "Move state down and events up through a predictable data path.",
+      "Allow behavior to be extended without modifying stable code."
+    ],
+    "correctAnswer": "Separate read operations from write operations when their models differ.",
+    "explanation": "The correct answer is CQRS because it is used to separate read operations from write operations when their models differ.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Idempotency?",
+    "options": [
+      "Split a system into parts with focused responsibilities.",
+      "Reuse previously computed or fetched data to reduce latency and load.",
+      "Make repeated requests produce the same effect as one request.",
+      "Group five object-oriented design principles for maintainable software."
+    ],
+    "correctAnswer": "Make repeated requests produce the same effect as one request.",
+    "explanation": "The correct answer is Idempotency because it is used to make repeated requests produce the same effect as one request.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Circuit Breaker?",
+    "options": [
+      "Reuse previously computed or fetched data to reduce latency and load.",
+      "Encapsulate a single unit of business logic or user intent.",
+      "Stop calling an unhealthy dependency until it recovers.",
+      "Separate read operations from write operations when their models differ."
+    ],
+    "correctAnswer": "Stop calling an unhealthy dependency until it recovers.",
+    "explanation": "The correct answer is Circuit Breaker because it is used to stop calling an unhealthy dependency until it recovers.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Retry with Backoff?",
+    "options": [
+      "Encapsulate a single unit of business logic or user intent.",
+      "Retry transient failures with increasing delays between attempts.",
+      "Provide dependencies from the outside instead of creating them internally.",
+      "Make high-level policy depend on abstractions rather than concrete details."
+    ],
+    "correctAnswer": "Retry transient failures with increasing delays between attempts.",
+    "explanation": "The correct answer is Retry with Backoff because it is used to retry transient failures with increasing delays between attempts.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Caching?",
+    "options": [
+      "Make repeated requests produce the same effect as one request.",
+      "Understand system behavior through logs, metrics, and traces.",
+      "Move state down and events up through a predictable data path.",
+      "Reuse previously computed or fetched data to reduce latency and load."
+    ],
+    "correctAnswer": "Reuse previously computed or fetched data to reduce latency and load.",
+    "explanation": "The correct answer is Caching because it is used to reuse previously computed or fetched data to reduce latency and load.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Pagination?",
+    "options": [
+      "Centralize authoritative data in one owned location.",
+      "Split large result sets into smaller pages for delivery and rendering.",
+      "Ensure subtypes can replace their base types without breaking behavior.",
+      "Make high-level policy depend on abstractions rather than concrete details."
+    ],
+    "correctAnswer": "Split large result sets into smaller pages for delivery and rendering.",
+    "explanation": "The correct answer is Pagination because it is used to split large result sets into smaller pages for delivery and rendering.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Rate Limiting?",
+    "options": [
+      "Separate UI rendering from state and presentation logic using a ViewModel.",
+      "Provide dependencies from the outside instead of creating them internally.",
+      "Reuse previously computed or fetched data to reduce latency and load.",
+      "Control how many requests a client can make over time."
+    ],
+    "correctAnswer": "Control how many requests a client can make over time.",
+    "explanation": "The correct answer is Rate Limiting because it is used to control how many requests a client can make over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Eventual Consistency?",
+    "options": [
+      "Split large result sets into smaller pages for delivery and rendering.",
+      "Ensure subtypes can replace their base types without breaking behavior.",
+      "Encapsulate a single unit of business logic or user intent.",
+      "Accept temporary divergence between replicas while they converge later."
+    ],
+    "correctAnswer": "Accept temporary divergence between replicas while they converge later.",
+    "explanation": "The correct answer is Eventual Consistency because it is used to accept temporary divergence between replicas while they converge later.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Observability?",
+    "options": [
+      "Buffer and deliver asynchronous work between decoupled producers and consumers.",
+      "Split large result sets into smaller pages for delivery and rendering.",
+      "Make high-level policy depend on abstractions rather than concrete details.",
+      "Understand system behavior through logs, metrics, and traces."
+    ],
+    "correctAnswer": "Understand system behavior through logs, metrics, and traces.",
+    "explanation": "The correct answer is Observability because it is used to understand system behavior through logs, metrics, and traces.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, what is the primary role of Message Queue?",
+    "options": [
+      "Reuse previously computed or fetched data to reduce latency and load.",
+      "Buffer and deliver asynchronous work between decoupled producers and consumers.",
+      "Model UI as state transitions driven by intents or events.",
+      "Make high-level policy depend on abstractions rather than concrete details."
+    ],
+    "correctAnswer": "Buffer and deliver asynchronous work between decoupled producers and consumers.",
+    "explanation": "The correct answer is Message Queue because it is used to buffer and deliver asynchronous work between decoupled producers and consumers.",
+    "difficulty": "Hard"
   }
 ]

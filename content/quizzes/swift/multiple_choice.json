@@ -363,11 +363,11 @@
     "question": "What does the some keyword mean when used as a return type, e.g., func makeView() -> some View?",
     "options": [
       "The function may return any type conforming to View",
-      "The function returns an opaque type \u2014 a specific concrete type hidden behind the protocol interface",
+      "The function returns an opaque type — a specific concrete type hidden behind the protocol interface",
       "The function returns an optional View",
       "The function returns a type-erased AnyView"
     ],
-    "correctAnswer": "The function returns an opaque type \u2014 a specific concrete type hidden behind the protocol interface",
+    "correctAnswer": "The function returns an opaque type — a specific concrete type hidden behind the protocol interface",
     "explanation": "some (opaque return type) guarantees the caller receives a single, consistent concrete type that conforms to the protocol, preserving type identity without exposing the concrete type name.",
     "difficulty": "Hard"
   },
@@ -519,11 +519,11 @@
     "question": "After calling Task.cancel() on a Swift Task, what happens to the running work?",
     "options": [
       "The task is immediately and forcibly stopped",
-      "Cancellation is cooperative \u2014 the task must check Task.isCancelled or call try Task.checkCancellation() to stop",
+      "Cancellation is cooperative — the task must check Task.isCancelled or call try Task.checkCancellation() to stop",
       "A CancellationError is automatically thrown at every await point",
       "The task is moved to a cancelled queue and retried later"
     ],
-    "correctAnswer": "Cancellation is cooperative \u2014 the task must check Task.isCancelled or call try Task.checkCancellation() to stop",
+    "correctAnswer": "Cancellation is cooperative — the task must check Task.isCancelled or call try Task.checkCancellation() to stop",
     "explanation": "Swift task cancellation is cooperative. Calling cancel() sets a cancellation flag; the task must periodically check Task.isCancelled or call Task.checkCancellation() to actually stop executing.",
     "difficulty": "Hard"
   },
@@ -621,6 +621,606 @@
     ],
     "correctAnswer": "character.unicodeScalars",
     "explanation": "Character.unicodeScalars gives you a view of the Unicode.Scalar values (21-bit code points) that make up the character, which is important for characters composed of multiple scalars like emoji with skin-tone modifiers.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Swift concept is best described as: Define a value type with copied semantics by default.",
+    "options": [
+      "Optional",
+      "opaque type",
+      "struct",
+      "async/await"
+    ],
+    "correctAnswer": "struct",
+    "explanation": "struct is used to define a value type with copied semantics by default.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Define a reference type that supports inheritance.",
+    "options": [
+      "enum",
+      "class",
+      "generic",
+      "weak reference"
+    ],
+    "correctAnswer": "class",
+    "explanation": "class is used to define a reference type that supports inheritance.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Model a finite set of related cases and associated values.",
+    "options": [
+      "enum",
+      "Equatable",
+      "actor",
+      "protocol"
+    ],
+    "correctAnswer": "enum",
+    "explanation": "enum is used to model a finite set of related cases and associated values.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Declare a contract of required properties and methods.",
+    "options": [
+      "throws",
+      "protocol",
+      "Task",
+      "actor"
+    ],
+    "correctAnswer": "protocol",
+    "explanation": "protocol is used to declare a contract of required properties and methods.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Add functionality to an existing type.",
+    "options": [
+      "capture list",
+      "extension",
+      "Optional",
+      "enum"
+    ],
+    "correctAnswer": "extension",
+    "explanation": "extension is used to add functionality to an existing type.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Represent either a wrapped value or the absence of one.",
+    "options": [
+      "Optional",
+      "extension",
+      "property wrapper",
+      "generic"
+    ],
+    "correctAnswer": "Optional",
+    "explanation": "Optional is used to represent either a wrapped value or the absence of one.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Exit early when required conditions are not satisfied.",
+    "options": [
+      "guard",
+      "enum",
+      "generic",
+      "throws"
+    ],
+    "correctAnswer": "guard",
+    "explanation": "guard is used to exit early when required conditions are not satisfied.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Schedule cleanup code to run when the current scope exits.",
+    "options": [
+      "throws",
+      "Task",
+      "class",
+      "defer"
+    ],
+    "correctAnswer": "defer",
+    "explanation": "defer is used to schedule cleanup code to run when the current scope exits.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Protect mutable state through isolated concurrency access.",
+    "options": [
+      "enum",
+      "actor",
+      "generic",
+      "throws"
+    ],
+    "correctAnswer": "actor",
+    "explanation": "actor is used to protect mutable state through isolated concurrency access.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Write asynchronous code in a sequential style.",
+    "options": [
+      "async/await",
+      "extension",
+      "opaque type",
+      "actor"
+    ],
+    "correctAnswer": "async/await",
+    "explanation": "async/await is used to write asynchronous code in a sequential style.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Start a unit of asynchronous work in structured concurrency.",
+    "options": [
+      "Equatable",
+      "associatedtype",
+      "enum",
+      "Task"
+    ],
+    "correctAnswer": "Task",
+    "explanation": "Task is used to start a unit of asynchronous work in structured concurrency.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Model success or failure as a typed value.",
+    "options": [
+      "Result",
+      "guard",
+      "protocol",
+      "Codable"
+    ],
+    "correctAnswer": "Result",
+    "explanation": "Result is used to model success or failure as a typed value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Mark a function that can propagate errors to its caller.",
+    "options": [
+      "enum",
+      "opaque type",
+      "throws",
+      "property wrapper"
+    ],
+    "correctAnswer": "throws",
+    "explanation": "throws is used to mark a function that can propagate errors to its caller.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Write reusable code that works with multiple concrete types.",
+    "options": [
+      "generic",
+      "enum",
+      "Optional",
+      "Equatable"
+    ],
+    "correctAnswer": "generic",
+    "explanation": "generic is used to write reusable code that works with multiple concrete types.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Declare a placeholder type inside a protocol.",
+    "options": [
+      "associatedtype",
+      "protocol extension",
+      "Equatable",
+      "capture list"
+    ],
+    "correctAnswer": "associatedtype",
+    "explanation": "associatedtype is used to declare a placeholder type inside a protocol.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Provide shared default behavior for conforming types.",
+    "options": [
+      "class",
+      "associatedtype",
+      "generic",
+      "protocol extension"
+    ],
+    "correctAnswer": "protocol extension",
+    "explanation": "protocol extension is used to provide shared default behavior for conforming types.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Avoid increasing a referenced object's retain count.",
+    "options": [
+      "throws",
+      "opaque type",
+      "property wrapper",
+      "weak reference"
+    ],
+    "correctAnswer": "weak reference",
+    "explanation": "weak reference is used to avoid increasing a referenced object's retain count.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Control how values are captured inside a closure.",
+    "options": [
+      "associatedtype",
+      "capture list",
+      "property wrapper",
+      "protocol extension"
+    ],
+    "correctAnswer": "capture list",
+    "explanation": "capture list is used to control how values are captured inside a closure.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Allow a struct or enum method to modify self.",
+    "options": [
+      "Result",
+      "mutating",
+      "opaque type",
+      "capture list"
+    ],
+    "correctAnswer": "mutating",
+    "explanation": "mutating is used to allow a struct or enum method to modify self.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Support encoding and decoding structured data.",
+    "options": [
+      "defer",
+      "guard",
+      "value semantics",
+      "Codable"
+    ],
+    "correctAnswer": "Codable",
+    "explanation": "Codable is used to support encoding and decoding structured data.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Swift concept is best described as: Compare two values for equality.",
+    "options": [
+      "weak reference",
+      "actor",
+      "Optional",
+      "Equatable"
+    ],
+    "correctAnswer": "Equatable",
+    "explanation": "Equatable is used to compare two values for equality.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Swift concept is best described as: Generate a stable hash representation for set and dictionary keys.",
+    "options": [
+      "enum",
+      "Hashable",
+      "value semantics",
+      "class"
+    ],
+    "correctAnswer": "Hashable",
+    "explanation": "Hashable is used to generate a stable hash representation for set and dictionary keys.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Swift concept is best described as: Hide a concrete return type behind the some keyword.",
+    "options": [
+      "opaque type",
+      "Optional",
+      "Equatable",
+      "Task"
+    ],
+    "correctAnswer": "opaque type",
+    "explanation": "opaque type is used to hide a concrete return type behind the some keyword.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Swift concept is best described as: Encapsulate reusable getter and setter behavior around a property.",
+    "options": [
+      "async/await",
+      "Equatable",
+      "property wrapper",
+      "enum"
+    ],
+    "correctAnswer": "property wrapper",
+    "explanation": "property wrapper is used to encapsulate reusable getter and setter behavior around a property.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Swift concept is best described as: Ensure copies are independent so changes to one do not affect another.",
+    "options": [
+      "value semantics",
+      "property wrapper",
+      "opaque type",
+      "weak reference"
+    ],
+    "correctAnswer": "value semantics",
+    "explanation": "value semantics is used to ensure copies are independent so changes to one do not affect another.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of struct?",
+    "options": [
+      "Define a reference type that supports inheritance.",
+      "Declare a placeholder type inside a protocol.",
+      "Define a value type with copied semantics by default.",
+      "Exit early when required conditions are not satisfied."
+    ],
+    "correctAnswer": "Define a value type with copied semantics by default.",
+    "explanation": "The correct answer is struct because it is used to define a value type with copied semantics by default.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of class?",
+    "options": [
+      "Avoid increasing a referenced object's retain count.",
+      "Schedule cleanup code to run when the current scope exits.",
+      "Define a reference type that supports inheritance.",
+      "Exit early when required conditions are not satisfied."
+    ],
+    "correctAnswer": "Define a reference type that supports inheritance.",
+    "explanation": "The correct answer is class because it is used to define a reference type that supports inheritance.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of enum?",
+    "options": [
+      "Protect mutable state through isolated concurrency access.",
+      "Model a finite set of related cases and associated values.",
+      "Add functionality to an existing type.",
+      "Model success or failure as a typed value."
+    ],
+    "correctAnswer": "Model a finite set of related cases and associated values.",
+    "explanation": "The correct answer is enum because it is used to model a finite set of related cases and associated values.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of protocol?",
+    "options": [
+      "Avoid increasing a referenced object's retain count.",
+      "Represent either a wrapped value or the absence of one.",
+      "Compare two values for equality.",
+      "Declare a contract of required properties and methods."
+    ],
+    "correctAnswer": "Declare a contract of required properties and methods.",
+    "explanation": "The correct answer is protocol because it is used to declare a contract of required properties and methods.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of extension?",
+    "options": [
+      "Encapsulate reusable getter and setter behavior around a property.",
+      "Support encoding and decoding structured data.",
+      "Mark a function that can propagate errors to its caller.",
+      "Add functionality to an existing type."
+    ],
+    "correctAnswer": "Add functionality to an existing type.",
+    "explanation": "The correct answer is extension because it is used to add functionality to an existing type.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of Optional?",
+    "options": [
+      "Represent either a wrapped value or the absence of one.",
+      "Support encoding and decoding structured data.",
+      "Model a finite set of related cases and associated values.",
+      "Control how values are captured inside a closure."
+    ],
+    "correctAnswer": "Represent either a wrapped value or the absence of one.",
+    "explanation": "The correct answer is Optional because it is used to represent either a wrapped value or the absence of one.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of guard?",
+    "options": [
+      "Write reusable code that works with multiple concrete types.",
+      "Exit early when required conditions are not satisfied.",
+      "Ensure copies are independent so changes to one do not affect another.",
+      "Define a value type with copied semantics by default."
+    ],
+    "correctAnswer": "Exit early when required conditions are not satisfied.",
+    "explanation": "The correct answer is guard because it is used to exit early when required conditions are not satisfied.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of defer?",
+    "options": [
+      "Hide a concrete return type behind the some keyword.",
+      "Schedule cleanup code to run when the current scope exits.",
+      "Encapsulate reusable getter and setter behavior around a property.",
+      "Support encoding and decoding structured data."
+    ],
+    "correctAnswer": "Schedule cleanup code to run when the current scope exits.",
+    "explanation": "The correct answer is defer because it is used to schedule cleanup code to run when the current scope exits.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of actor?",
+    "options": [
+      "Define a reference type that supports inheritance.",
+      "Generate a stable hash representation for set and dictionary keys.",
+      "Provide shared default behavior for conforming types.",
+      "Protect mutable state through isolated concurrency access."
+    ],
+    "correctAnswer": "Protect mutable state through isolated concurrency access.",
+    "explanation": "The correct answer is actor because it is used to protect mutable state through isolated concurrency access.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of async/await?",
+    "options": [
+      "Add functionality to an existing type.",
+      "Write asynchronous code in a sequential style.",
+      "Mark a function that can propagate errors to its caller.",
+      "Support encoding and decoding structured data."
+    ],
+    "correctAnswer": "Write asynchronous code in a sequential style.",
+    "explanation": "The correct answer is async/await because it is used to write asynchronous code in a sequential style.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of Task?",
+    "options": [
+      "Encapsulate reusable getter and setter behavior around a property.",
+      "Start a unit of asynchronous work in structured concurrency.",
+      "Support encoding and decoding structured data.",
+      "Generate a stable hash representation for set and dictionary keys."
+    ],
+    "correctAnswer": "Start a unit of asynchronous work in structured concurrency.",
+    "explanation": "The correct answer is Task because it is used to start a unit of asynchronous work in structured concurrency.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of Result?",
+    "options": [
+      "Represent either a wrapped value or the absence of one.",
+      "Ensure copies are independent so changes to one do not affect another.",
+      "Model a finite set of related cases and associated values.",
+      "Model success or failure as a typed value."
+    ],
+    "correctAnswer": "Model success or failure as a typed value.",
+    "explanation": "The correct answer is Result because it is used to model success or failure as a typed value.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of throws?",
+    "options": [
+      "Start a unit of asynchronous work in structured concurrency.",
+      "Avoid increasing a referenced object's retain count.",
+      "Mark a function that can propagate errors to its caller.",
+      "Define a reference type that supports inheritance."
+    ],
+    "correctAnswer": "Mark a function that can propagate errors to its caller.",
+    "explanation": "The correct answer is throws because it is used to mark a function that can propagate errors to its caller.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of generic?",
+    "options": [
+      "Define a reference type that supports inheritance.",
+      "Exit early when required conditions are not satisfied.",
+      "Allow a struct or enum method to modify self.",
+      "Write reusable code that works with multiple concrete types."
+    ],
+    "correctAnswer": "Write reusable code that works with multiple concrete types.",
+    "explanation": "The correct answer is generic because it is used to write reusable code that works with multiple concrete types.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of associatedtype?",
+    "options": [
+      "Write reusable code that works with multiple concrete types.",
+      "Ensure copies are independent so changes to one do not affect another.",
+      "Declare a placeholder type inside a protocol.",
+      "Start a unit of asynchronous work in structured concurrency."
+    ],
+    "correctAnswer": "Declare a placeholder type inside a protocol.",
+    "explanation": "The correct answer is associatedtype because it is used to declare a placeholder type inside a protocol.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, what is the primary role of protocol extension?",
+    "options": [
+      "Write asynchronous code in a sequential style.",
+      "Write reusable code that works with multiple concrete types.",
+      "Represent either a wrapped value or the absence of one.",
+      "Provide shared default behavior for conforming types."
+    ],
+    "correctAnswer": "Provide shared default behavior for conforming types.",
+    "explanation": "The correct answer is protocol extension because it is used to provide shared default behavior for conforming types.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of weak reference?",
+    "options": [
+      "Define a reference type that supports inheritance.",
+      "Model a finite set of related cases and associated values.",
+      "Avoid increasing a referenced object's retain count.",
+      "Mark a function that can propagate errors to its caller."
+    ],
+    "correctAnswer": "Avoid increasing a referenced object's retain count.",
+    "explanation": "The correct answer is weak reference because it is used to avoid increasing a referenced object's retain count.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of capture list?",
+    "options": [
+      "Control how values are captured inside a closure.",
+      "Allow a struct or enum method to modify self.",
+      "Hide a concrete return type behind the some keyword.",
+      "Protect mutable state through isolated concurrency access."
+    ],
+    "correctAnswer": "Control how values are captured inside a closure.",
+    "explanation": "The correct answer is capture list because it is used to control how values are captured inside a closure.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of mutating?",
+    "options": [
+      "Declare a placeholder type inside a protocol.",
+      "Allow a struct or enum method to modify self.",
+      "Start a unit of asynchronous work in structured concurrency.",
+      "Mark a function that can propagate errors to its caller."
+    ],
+    "correctAnswer": "Allow a struct or enum method to modify self.",
+    "explanation": "The correct answer is mutating because it is used to allow a struct or enum method to modify self.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of Codable?",
+    "options": [
+      "Model a finite set of related cases and associated values.",
+      "Hide a concrete return type behind the some keyword.",
+      "Support encoding and decoding structured data.",
+      "Allow a struct or enum method to modify self."
+    ],
+    "correctAnswer": "Support encoding and decoding structured data.",
+    "explanation": "The correct answer is Codable because it is used to support encoding and decoding structured data.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of Equatable?",
+    "options": [
+      "Define a value type with copied semantics by default.",
+      "Compare two values for equality.",
+      "Start a unit of asynchronous work in structured concurrency.",
+      "Hide a concrete return type behind the some keyword."
+    ],
+    "correctAnswer": "Compare two values for equality.",
+    "explanation": "The correct answer is Equatable because it is used to compare two values for equality.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of Hashable?",
+    "options": [
+      "Schedule cleanup code to run when the current scope exits.",
+      "Generate a stable hash representation for set and dictionary keys.",
+      "Declare a contract of required properties and methods.",
+      "Protect mutable state through isolated concurrency access."
+    ],
+    "correctAnswer": "Generate a stable hash representation for set and dictionary keys.",
+    "explanation": "The correct answer is Hashable because it is used to generate a stable hash representation for set and dictionary keys.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of opaque type?",
+    "options": [
+      "Mark a function that can propagate errors to its caller.",
+      "Control how values are captured inside a closure.",
+      "Hide a concrete return type behind the some keyword.",
+      "Schedule cleanup code to run when the current scope exits."
+    ],
+    "correctAnswer": "Hide a concrete return type behind the some keyword.",
+    "explanation": "The correct answer is opaque type because it is used to hide a concrete return type behind the some keyword.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of property wrapper?",
+    "options": [
+      "Define a value type with copied semantics by default.",
+      "Encapsulate reusable getter and setter behavior around a property.",
+      "Write reusable code that works with multiple concrete types.",
+      "Compare two values for equality."
+    ],
+    "correctAnswer": "Encapsulate reusable getter and setter behavior around a property.",
+    "explanation": "The correct answer is property wrapper because it is used to encapsulate reusable getter and setter behavior around a property.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, what is the primary role of value semantics?",
+    "options": [
+      "Encapsulate reusable getter and setter behavior around a property.",
+      "Ensure copies are independent so changes to one do not affect another.",
+      "Represent either a wrapped value or the absence of one.",
+      "Control how values are captured inside a closure."
+    ],
+    "correctAnswer": "Ensure copies are independent so changes to one do not affect another.",
+    "explanation": "The correct answer is value semantics because it is used to ensure copies are independent so changes to one do not affect another.",
     "difficulty": "Hard"
   }
 ]

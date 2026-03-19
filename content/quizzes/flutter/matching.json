@@ -573,5 +573,1155 @@
     ],
     "difficulty": "Medium",
     "explanation": "Flutter widget testing uses WidgetTester to interact with and verify widgets in isolation."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles",
+    "pairs": [
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      },
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "Isolate",
+        "right": "Run computation in a separate memory-isolated worker."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do",
+    "pairs": [
+      {
+        "left": "Hot reload",
+        "right": "Inject code changes into a running app while preserving state when possible."
+      },
+      {
+        "left": "GridView.builder",
+        "right": "Lazily build grid items on demand."
+      },
+      {
+        "left": "Scaffold",
+        "right": "Provide a standard visual layout structure for a Material screen."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous Dart code in a sequential style."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each Flutter concept with the correct description",
+    "pairs": [
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      },
+      {
+        "left": "InheritedWidget",
+        "right": "Share data efficiently with descendants in the widget tree."
+      },
+      {
+        "left": "const widget",
+        "right": "Allow Flutter to reuse immutable widget instances more efficiently."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these core Flutter ideas with their responsibilities",
+    "pairs": [
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      },
+      {
+        "left": "Key",
+        "right": "Preserve widget identity across rebuilds and reordering."
+      },
+      {
+        "left": "InheritedWidget",
+        "right": "Share data efficiently with descendants in the widget tree."
+      },
+      {
+        "left": "BuildContext",
+        "right": "Provide access to a widget's location in the widget tree."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose",
+    "pairs": [
+      {
+        "left": "Navigator",
+        "right": "Manage a stack of routes for screen transitions."
+      },
+      {
+        "left": "LayoutBuilder",
+        "right": "Build widgets based on parent layout constraints."
+      },
+      {
+        "left": "ListView.builder",
+        "right": "Lazily build scrolling list items on demand."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: BoxConstraints, ThemeData, ListView.builder, and SliverAppBar",
+    "pairs": [
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      },
+      {
+        "left": "ListView.builder",
+        "right": "Lazily build scrolling list items on demand."
+      },
+      {
+        "left": "SliverAppBar",
+        "right": "Create an app bar that participates in sliver scrolling behavior."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: MediaQuery, setState, const widget, and pubspec.yaml",
+    "pairs": [
+      {
+        "left": "MediaQuery",
+        "right": "Read screen size, padding, and platform metrics from context."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "const widget",
+        "right": "Allow Flutter to reuse immutable widget instances more efficiently."
+      },
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: StatefulWidget, GridView.builder, ThemeData, and setState",
+    "pairs": [
+      {
+        "left": "StatefulWidget",
+        "right": "Create UI that owns mutable state through a paired State object."
+      },
+      {
+        "left": "GridView.builder",
+        "right": "Lazily build grid items on demand."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: pubspec.yaml, setState, InheritedWidget, and BuildContext",
+    "pairs": [
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "InheritedWidget",
+        "right": "Share data efficiently with descendants in the widget tree."
+      },
+      {
+        "left": "BuildContext",
+        "right": "Provide access to a widget's location in the widget tree."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: SliverAppBar, ThemeData, Widget, and StatefulWidget",
+    "pairs": [
+      {
+        "left": "SliverAppBar",
+        "right": "Create an app bar that participates in sliver scrolling behavior."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      },
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "StatefulWidget",
+        "right": "Create UI that owns mutable state through a paired State object."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: pubspec.yaml, Key, CustomScrollView, and Scaffold",
+    "pairs": [
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "Key",
+        "right": "Preserve widget identity across rebuilds and reordering."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      },
+      {
+        "left": "Scaffold",
+        "right": "Provide a standard visual layout structure for a Material screen."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: Widget, StatefulWidget, setState, and CustomScrollView",
+    "pairs": [
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "StatefulWidget",
+        "right": "Create UI that owns mutable state through a paired State object."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: ThemeData, BoxConstraints, StatelessWidget, and FutureBuilder",
+    "pairs": [
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      },
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: GridView.builder, setState, MaterialApp, and async/await",
+    "pairs": [
+      {
+        "left": "GridView.builder",
+        "right": "Lazily build grid items on demand."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous Dart code in a sequential style."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: Widget, Hot reload, Isolate, and CustomScrollView",
+    "pairs": [
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "Hot reload",
+        "right": "Inject code changes into a running app while preserving state when possible."
+      },
+      {
+        "left": "Isolate",
+        "right": "Run computation in a separate memory-isolated worker."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: pubspec.yaml, StreamBuilder, async/await, and Navigator",
+    "pairs": [
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "StreamBuilder",
+        "right": "Build UI based on values emitted by a Stream."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous Dart code in a sequential style."
+      },
+      {
+        "left": "Navigator",
+        "right": "Manage a stack of routes for screen transitions."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: StatefulWidget, LayoutBuilder, MaterialApp, and ThemeData",
+    "pairs": [
+      {
+        "left": "StatefulWidget",
+        "right": "Create UI that owns mutable state through a paired State object."
+      },
+      {
+        "left": "LayoutBuilder",
+        "right": "Build widgets based on parent layout constraints."
+      },
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: InheritedWidget, Navigator, StatefulWidget, and StreamBuilder",
+    "pairs": [
+      {
+        "left": "InheritedWidget",
+        "right": "Share data efficiently with descendants in the widget tree."
+      },
+      {
+        "left": "Navigator",
+        "right": "Manage a stack of routes for screen transitions."
+      },
+      {
+        "left": "StatefulWidget",
+        "right": "Create UI that owns mutable state through a paired State object."
+      },
+      {
+        "left": "StreamBuilder",
+        "right": "Build UI based on values emitted by a Stream."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: StreamBuilder, Navigator, Widget, and Hot reload",
+    "pairs": [
+      {
+        "left": "StreamBuilder",
+        "right": "Build UI based on values emitted by a Stream."
+      },
+      {
+        "left": "Navigator",
+        "right": "Manage a stack of routes for screen transitions."
+      },
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "Hot reload",
+        "right": "Inject code changes into a running app while preserving state when possible."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: StatelessWidget, Key, LayoutBuilder, and CustomScrollView",
+    "pairs": [
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "Key",
+        "right": "Preserve widget identity across rebuilds and reordering."
+      },
+      {
+        "left": "LayoutBuilder",
+        "right": "Build widgets based on parent layout constraints."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: setState, MaterialApp, LayoutBuilder, and StatelessWidget",
+    "pairs": [
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      },
+      {
+        "left": "LayoutBuilder",
+        "right": "Build widgets based on parent layout constraints."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: MediaQuery, BoxConstraints, pubspec.yaml, and Navigator",
+    "pairs": [
+      {
+        "left": "MediaQuery",
+        "right": "Read screen size, padding, and platform metrics from context."
+      },
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      },
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "Navigator",
+        "right": "Manage a stack of routes for screen transitions."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: Widget, BuildContext, Hot reload, and ListView.builder",
+    "pairs": [
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "BuildContext",
+        "right": "Provide access to a widget's location in the widget tree."
+      },
+      {
+        "left": "Hot reload",
+        "right": "Inject code changes into a running app while preserving state when possible."
+      },
+      {
+        "left": "ListView.builder",
+        "right": "Lazily build scrolling list items on demand."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: Scaffold, BuildContext, setState, and MaterialApp",
+    "pairs": [
+      {
+        "left": "Scaffold",
+        "right": "Provide a standard visual layout structure for a Material screen."
+      },
+      {
+        "left": "BuildContext",
+        "right": "Provide access to a widget's location in the widget tree."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: Widget, FutureBuilder, CustomScrollView, and setState",
+    "pairs": [
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: MaterialApp, MediaQuery, StatelessWidget, and FutureBuilder",
+    "pairs": [
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      },
+      {
+        "left": "MediaQuery",
+        "right": "Read screen size, padding, and platform metrics from context."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: Key, BoxConstraints, SliverAppBar, and BuildContext",
+    "pairs": [
+      {
+        "left": "Key",
+        "right": "Preserve widget identity across rebuilds and reordering."
+      },
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      },
+      {
+        "left": "SliverAppBar",
+        "right": "Create an app bar that participates in sliver scrolling behavior."
+      },
+      {
+        "left": "BuildContext",
+        "right": "Provide access to a widget's location in the widget tree."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: InheritedWidget, Widget, CustomScrollView, and MaterialApp",
+    "pairs": [
+      {
+        "left": "InheritedWidget",
+        "right": "Share data efficiently with descendants in the widget tree."
+      },
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      },
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: BoxConstraints, Key, Isolate, and StreamBuilder",
+    "pairs": [
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      },
+      {
+        "left": "Key",
+        "right": "Preserve widget identity across rebuilds and reordering."
+      },
+      {
+        "left": "Isolate",
+        "right": "Run computation in a separate memory-isolated worker."
+      },
+      {
+        "left": "StreamBuilder",
+        "right": "Build UI based on values emitted by a Stream."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: Navigator, BuildContext, const widget, and ListView.builder",
+    "pairs": [
+      {
+        "left": "Navigator",
+        "right": "Manage a stack of routes for screen transitions."
+      },
+      {
+        "left": "BuildContext",
+        "right": "Provide access to a widget's location in the widget tree."
+      },
+      {
+        "left": "const widget",
+        "right": "Allow Flutter to reuse immutable widget instances more efficiently."
+      },
+      {
+        "left": "ListView.builder",
+        "right": "Lazily build scrolling list items on demand."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: GridView.builder, setState, FutureBuilder, and ThemeData",
+    "pairs": [
+      {
+        "left": "GridView.builder",
+        "right": "Lazily build grid items on demand."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: setState, FutureBuilder, BuildContext, and StatefulWidget",
+    "pairs": [
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      },
+      {
+        "left": "BuildContext",
+        "right": "Provide access to a widget's location in the widget tree."
+      },
+      {
+        "left": "StatefulWidget",
+        "right": "Create UI that owns mutable state through a paired State object."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: ThemeData, StatelessWidget, LayoutBuilder, and pubspec.yaml",
+    "pairs": [
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "LayoutBuilder",
+        "right": "Build widgets based on parent layout constraints."
+      },
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: FutureBuilder, GridView.builder, Scaffold, and ListView.builder",
+    "pairs": [
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      },
+      {
+        "left": "GridView.builder",
+        "right": "Lazily build grid items on demand."
+      },
+      {
+        "left": "Scaffold",
+        "right": "Provide a standard visual layout structure for a Material screen."
+      },
+      {
+        "left": "ListView.builder",
+        "right": "Lazily build scrolling list items on demand."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: pubspec.yaml, InheritedWidget, setState, and BoxConstraints",
+    "pairs": [
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "InheritedWidget",
+        "right": "Share data efficiently with descendants in the widget tree."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: pubspec.yaml, BoxConstraints, StatefulWidget, and CustomScrollView",
+    "pairs": [
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      },
+      {
+        "left": "StatefulWidget",
+        "right": "Create UI that owns mutable state through a paired State object."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: Widget, StreamBuilder, StatelessWidget, and ThemeData",
+    "pairs": [
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "StreamBuilder",
+        "right": "Build UI based on values emitted by a Stream."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: SliverAppBar, StatelessWidget, BoxConstraints, and ThemeData",
+    "pairs": [
+      {
+        "left": "SliverAppBar",
+        "right": "Create an app bar that participates in sliver scrolling behavior."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: setState, pubspec.yaml, const widget, and BoxConstraints",
+    "pairs": [
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "const widget",
+        "right": "Allow Flutter to reuse immutable widget instances more efficiently."
+      },
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: FutureBuilder, StatelessWidget, Widget, and CustomScrollView",
+    "pairs": [
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: BoxConstraints, const widget, setState, and async/await",
+    "pairs": [
+      {
+        "left": "BoxConstraints",
+        "right": "Describe the minimum and maximum size a widget can take."
+      },
+      {
+        "left": "const widget",
+        "right": "Allow Flutter to reuse immutable widget instances more efficiently."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous Dart code in a sequential style."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: const widget, ThemeData, LayoutBuilder, and Scaffold",
+    "pairs": [
+      {
+        "left": "const widget",
+        "right": "Allow Flutter to reuse immutable widget instances more efficiently."
+      },
+      {
+        "left": "ThemeData",
+        "right": "Configure colors, typography, and visual theming for Material widgets."
+      },
+      {
+        "left": "LayoutBuilder",
+        "right": "Build widgets based on parent layout constraints."
+      },
+      {
+        "left": "Scaffold",
+        "right": "Provide a standard visual layout structure for a Material screen."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: pubspec.yaml, MaterialApp, Isolate, and CustomScrollView",
+    "pairs": [
+      {
+        "left": "pubspec.yaml",
+        "right": "Declare package dependencies and asset configuration."
+      },
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      },
+      {
+        "left": "Isolate",
+        "right": "Run computation in a separate memory-isolated worker."
+      },
+      {
+        "left": "CustomScrollView",
+        "right": "Combine multiple slivers into one coordinated scroll view."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: Isolate, Key, MaterialApp, and MediaQuery",
+    "pairs": [
+      {
+        "left": "Isolate",
+        "right": "Run computation in a separate memory-isolated worker."
+      },
+      {
+        "left": "Key",
+        "right": "Preserve widget identity across rebuilds and reordering."
+      },
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      },
+      {
+        "left": "MediaQuery",
+        "right": "Read screen size, padding, and platform metrics from context."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: Isolate, FutureBuilder, async/await, and ListView.builder",
+    "pairs": [
+      {
+        "left": "Isolate",
+        "right": "Run computation in a separate memory-isolated worker."
+      },
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous Dart code in a sequential style."
+      },
+      {
+        "left": "ListView.builder",
+        "right": "Lazily build scrolling list items on demand."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter concepts with their primary roles: LayoutBuilder, InheritedWidget, FutureBuilder, and Isolate",
+    "pairs": [
+      {
+        "left": "LayoutBuilder",
+        "right": "Build widgets based on parent layout constraints."
+      },
+      {
+        "left": "InheritedWidget",
+        "right": "Share data efficiently with descendants in the widget tree."
+      },
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      },
+      {
+        "left": "Isolate",
+        "right": "Run computation in a separate memory-isolated worker."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Flutter terms to what they do: Widget, MaterialApp, StatelessWidget, and MediaQuery",
+    "pairs": [
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      },
+      {
+        "left": "MaterialApp",
+        "right": "Configure top-level Material Design app behavior."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "MediaQuery",
+        "right": "Read screen size, padding, and platform metrics from context."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Flutter concepts with the correct description: const widget, StreamBuilder, async/await, and Widget",
+    "pairs": [
+      {
+        "left": "const widget",
+        "right": "Allow Flutter to reuse immutable widget instances more efficiently."
+      },
+      {
+        "left": "StreamBuilder",
+        "right": "Build UI based on values emitted by a Stream."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous Dart code in a sequential style."
+      },
+      {
+        "left": "Widget",
+        "right": "Describe an immutable part of the user interface."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter ideas with their responsibilities: ListView.builder, Scaffold, InheritedWidget, and Isolate",
+    "pairs": [
+      {
+        "left": "ListView.builder",
+        "right": "Lazily build scrolling list items on demand."
+      },
+      {
+        "left": "Scaffold",
+        "right": "Provide a standard visual layout structure for a Material screen."
+      },
+      {
+        "left": "InheritedWidget",
+        "right": "Share data efficiently with descendants in the widget tree."
+      },
+      {
+        "left": "Isolate",
+        "right": "Run computation in a separate memory-isolated worker."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
+  },
+  {
+    "question": "Match these Flutter building blocks with their purpose: FutureBuilder, StatelessWidget, LayoutBuilder, and setState",
+    "pairs": [
+      {
+        "left": "FutureBuilder",
+        "right": "Build UI based on the state of a Future."
+      },
+      {
+        "left": "StatelessWidget",
+        "right": "Build UI from configuration that does not change internally over time."
+      },
+      {
+        "left": "LayoutBuilder",
+        "right": "Build widgets based on parent layout constraints."
+      },
+      {
+        "left": "setState",
+        "right": "Mark a State object dirty so Flutter schedules a rebuild."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Flutter concepts with their primary roles."
   }
 ]

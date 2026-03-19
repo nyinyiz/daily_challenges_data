@@ -461,5 +461,914 @@
     ],
     "difficulty": "Medium",
     "explanation": "Swift's error handling includes do-try-catch, try? (converts to optional), try! (force-unwrap, crashes on error), and the Result<Success, Failure> type. defer executes cleanup code but is not an error handling mechanism. NSException is an Objective-C exception mechanism, not idiomatic Swift error handling."
+  },
+  {
+    "question": "Which of the following are associated with type declarations and composition features in Swift?",
+    "options": [
+      "protocol",
+      "Result",
+      "mutating",
+      "struct",
+      "defer",
+      "extension"
+    ],
+    "correctAnswers": [
+      "extension",
+      "struct",
+      "protocol",
+      "mutating"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are extension, struct, protocol, mutating because they belong to type declarations and composition features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Select all Swift concepts that belong to flow control and optional-handling constructs.",
+    "options": [
+      "struct",
+      "guard",
+      "Codable",
+      "defer",
+      "associatedtype",
+      "Optional"
+    ],
+    "correctAnswers": [
+      "guard",
+      "defer",
+      "Optional"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are guard, defer, Optional because they belong to flow control and optional-handling constructs. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which options are commonly used for Swift concurrency features in Swift?",
+    "options": [
+      "actor",
+      "Task",
+      "associatedtype",
+      "async/await",
+      "protocol extension",
+      "Equatable"
+    ],
+    "correctAnswers": [
+      "async/await",
+      "actor",
+      "Task"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are async/await, actor, Task because they belong to Swift concurrency features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Choose all items related to advanced generic and abstraction features in Swift.",
+    "options": [
+      "protocol extension",
+      "extension",
+      "weak reference",
+      "associatedtype",
+      "generic",
+      "struct"
+    ],
+    "correctAnswers": [
+      "generic",
+      "associatedtype",
+      "protocol extension"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are generic, associatedtype, protocol extension because they belong to advanced generic and abstraction features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which Swift terms fit under memory-management and value/reference semantics?",
+    "options": [
+      "value semantics",
+      "Optional",
+      "capture list",
+      "Hashable",
+      "extension",
+      "weak reference"
+    ],
+    "correctAnswers": [
+      "capture list",
+      "weak reference",
+      "value semantics"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are capture list, weak reference, value semantics because they belong to memory-management and value/reference semantics. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which of the following are associated with standard protocol-based modeling features in Swift?",
+    "options": [
+      "Equatable",
+      "Codable",
+      "Hashable",
+      "mutating",
+      "generic",
+      "extension"
+    ],
+    "correctAnswers": [
+      "Codable",
+      "Hashable",
+      "Equatable"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Codable, Hashable, Equatable because they belong to standard protocol-based modeling features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Select all Swift concepts that belong to type declarations and composition features.",
+    "options": [
+      "enum",
+      "class",
+      "struct",
+      "guard",
+      "mutating",
+      "Codable"
+    ],
+    "correctAnswers": [
+      "enum",
+      "mutating",
+      "struct",
+      "class"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are enum, mutating, struct, class because they belong to type declarations and composition features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which options are commonly used for flow control and optional-handling constructs in Swift?",
+    "options": [
+      "class",
+      "defer",
+      "Codable",
+      "Optional",
+      "guard",
+      "value semantics"
+    ],
+    "correctAnswers": [
+      "defer",
+      "guard",
+      "Optional"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are defer, guard, Optional because they belong to flow control and optional-handling constructs. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Choose all items related to Swift concurrency features in Swift.",
+    "options": [
+      "extension",
+      "capture list",
+      "defer",
+      "async/await",
+      "Task",
+      "actor"
+    ],
+    "correctAnswers": [
+      "actor",
+      "Task",
+      "async/await"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are actor, Task, async/await because they belong to Swift concurrency features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which Swift terms fit under advanced generic and abstraction features?",
+    "options": [
+      "async/await",
+      "generic",
+      "protocol extension",
+      "protocol",
+      "associatedtype",
+      "extension"
+    ],
+    "correctAnswers": [
+      "protocol extension",
+      "associatedtype",
+      "generic"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are protocol extension, associatedtype, generic because they belong to advanced generic and abstraction features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which of the following are associated with memory-management and value/reference semantics in Swift?",
+    "options": [
+      "async/await",
+      "associatedtype",
+      "generic",
+      "value semantics",
+      "capture list",
+      "weak reference"
+    ],
+    "correctAnswers": [
+      "capture list",
+      "weak reference",
+      "value semantics"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are capture list, weak reference, value semantics because they belong to memory-management and value/reference semantics. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Select all Swift concepts that belong to standard protocol-based modeling features.",
+    "options": [
+      "weak reference",
+      "Hashable",
+      "associatedtype",
+      "generic",
+      "Codable",
+      "Equatable"
+    ],
+    "correctAnswers": [
+      "Hashable",
+      "Codable",
+      "Equatable"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Hashable, Codable, Equatable because they belong to standard protocol-based modeling features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which options are commonly used for type declarations and composition features in Swift?",
+    "options": [
+      "class",
+      "mutating",
+      "struct",
+      "property wrapper",
+      "extension",
+      "actor"
+    ],
+    "correctAnswers": [
+      "extension",
+      "struct",
+      "mutating",
+      "class"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are extension, struct, mutating, class because they belong to type declarations and composition features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Choose all items related to flow control and optional-handling constructs in Swift.",
+    "options": [
+      "Result",
+      "guard",
+      "Equatable",
+      "defer",
+      "async/await",
+      "Optional"
+    ],
+    "correctAnswers": [
+      "guard",
+      "defer",
+      "Optional"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are guard, defer, Optional because they belong to flow control and optional-handling constructs. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which Swift terms fit under Swift concurrency features?",
+    "options": [
+      "defer",
+      "actor",
+      "async/await",
+      "mutating",
+      "Task",
+      "throws"
+    ],
+    "correctAnswers": [
+      "Task",
+      "async/await",
+      "actor"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Task, async/await, actor because they belong to Swift concurrency features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which of the following are associated with advanced generic and abstraction features in Swift?",
+    "options": [
+      "property wrapper",
+      "generic",
+      "protocol",
+      "value semantics",
+      "weak reference",
+      "protocol extension"
+    ],
+    "correctAnswers": [
+      "protocol extension",
+      "generic",
+      "property wrapper"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are protocol extension, generic, property wrapper because they belong to advanced generic and abstraction features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Select all Swift concepts that belong to memory-management and value/reference semantics.",
+    "options": [
+      "capture list",
+      "property wrapper",
+      "throws",
+      "extension",
+      "value semantics",
+      "weak reference"
+    ],
+    "correctAnswers": [
+      "weak reference",
+      "capture list",
+      "value semantics"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are weak reference, capture list, value semantics because they belong to memory-management and value/reference semantics. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which options are commonly used for standard protocol-based modeling features in Swift?",
+    "options": [
+      "async/await",
+      "Equatable",
+      "defer",
+      "Codable",
+      "Hashable",
+      "Result"
+    ],
+    "correctAnswers": [
+      "Hashable",
+      "Codable",
+      "Equatable"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Hashable, Codable, Equatable because they belong to standard protocol-based modeling features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Choose all items related to type declarations and composition features in Swift.",
+    "options": [
+      "Equatable",
+      "Codable",
+      "struct",
+      "protocol",
+      "extension",
+      "enum"
+    ],
+    "correctAnswers": [
+      "protocol",
+      "struct",
+      "extension",
+      "enum"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are protocol, struct, extension, enum because they belong to type declarations and composition features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which Swift terms fit under flow control and optional-handling constructs?",
+    "options": [
+      "Optional",
+      "defer",
+      "opaque type",
+      "throws",
+      "guard",
+      "enum"
+    ],
+    "correctAnswers": [
+      "guard",
+      "defer",
+      "Optional"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are guard, defer, Optional because they belong to flow control and optional-handling constructs. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which of the following are associated with Swift concurrency features in Swift?",
+    "options": [
+      "actor",
+      "guard",
+      "opaque type",
+      "Task",
+      "async/await",
+      "Equatable"
+    ],
+    "correctAnswers": [
+      "async/await",
+      "actor",
+      "Task"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are async/await, actor, Task because they belong to Swift concurrency features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Select all Swift concepts that belong to advanced generic and abstraction features.",
+    "options": [
+      "Task",
+      "generic",
+      "extension",
+      "opaque type",
+      "Optional",
+      "protocol extension"
+    ],
+    "correctAnswers": [
+      "opaque type",
+      "protocol extension",
+      "generic"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are opaque type, protocol extension, generic because they belong to advanced generic and abstraction features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which options are commonly used for memory-management and value/reference semantics in Swift?",
+    "options": [
+      "weak reference",
+      "mutating",
+      "opaque type",
+      "Equatable",
+      "capture list",
+      "value semantics"
+    ],
+    "correctAnswers": [
+      "weak reference",
+      "capture list",
+      "value semantics"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are weak reference, capture list, value semantics because they belong to memory-management and value/reference semantics. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Choose all items related to standard protocol-based modeling features in Swift.",
+    "options": [
+      "Codable",
+      "Task",
+      "class",
+      "capture list",
+      "Equatable",
+      "Hashable"
+    ],
+    "correctAnswers": [
+      "Codable",
+      "Equatable",
+      "Hashable"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Codable, Equatable, Hashable because they belong to standard protocol-based modeling features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which Swift terms fit under type declarations and composition features?",
+    "options": [
+      "struct",
+      "extension",
+      "protocol",
+      "associatedtype",
+      "capture list",
+      "enum"
+    ],
+    "correctAnswers": [
+      "extension",
+      "enum",
+      "protocol",
+      "struct"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are extension, enum, protocol, struct because they belong to type declarations and composition features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which of the following are associated with flow control and optional-handling constructs in Swift?",
+    "options": [
+      "async/await",
+      "Optional",
+      "guard",
+      "struct",
+      "capture list",
+      "defer"
+    ],
+    "correctAnswers": [
+      "guard",
+      "defer",
+      "Optional"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are guard, defer, Optional because they belong to flow control and optional-handling constructs. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Select all Swift concepts that belong to Swift concurrency features.",
+    "options": [
+      "Task",
+      "defer",
+      "class",
+      "protocol",
+      "actor",
+      "async/await"
+    ],
+    "correctAnswers": [
+      "async/await",
+      "Task",
+      "actor"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are async/await, Task, actor because they belong to Swift concurrency features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which options are commonly used for advanced generic and abstraction features in Swift?",
+    "options": [
+      "throws",
+      "opaque type",
+      "protocol",
+      "property wrapper",
+      "Task",
+      "generic"
+    ],
+    "correctAnswers": [
+      "opaque type",
+      "property wrapper",
+      "generic"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are opaque type, property wrapper, generic because they belong to advanced generic and abstraction features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Choose all items related to memory-management and value/reference semantics in Swift.",
+    "options": [
+      "value semantics",
+      "Optional",
+      "capture list",
+      "async/await",
+      "defer",
+      "weak reference"
+    ],
+    "correctAnswers": [
+      "weak reference",
+      "value semantics",
+      "capture list"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are weak reference, value semantics, capture list because they belong to memory-management and value/reference semantics. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which Swift terms fit under standard protocol-based modeling features?",
+    "options": [
+      "capture list",
+      "Task",
+      "Codable",
+      "Equatable",
+      "Hashable",
+      "struct"
+    ],
+    "correctAnswers": [
+      "Equatable",
+      "Hashable",
+      "Codable"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Equatable, Hashable, Codable because they belong to standard protocol-based modeling features. The remaining options come from different areas of Swift."
+  },
+  {
+    "question": "Which of the following belong to type declarations and composition features in Swift, including concepts like class and struct?",
+    "options": [
+      "Optional",
+      "Equatable",
+      "class",
+      "protocol",
+      "extension",
+      "struct"
+    ],
+    "correctAnswers": [
+      "class",
+      "struct",
+      "protocol",
+      "extension"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are class, struct, protocol, extension because they belong to type declarations and composition features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Select all Swift terms tied to flow control and optional-handling constructs, such as guard and defer.",
+    "options": [
+      "struct",
+      "guard",
+      "mutating",
+      "Optional",
+      "actor",
+      "defer"
+    ],
+    "correctAnswers": [
+      "guard",
+      "defer",
+      "Optional"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are guard, defer, Optional because they belong to flow control and optional-handling constructs. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which options fit under Swift concurrency features in Swift? Think about items like Task and async/await.",
+    "options": [
+      "property wrapper",
+      "Hashable",
+      "actor",
+      "async/await",
+      "Task",
+      "Codable"
+    ],
+    "correctAnswers": [
+      "Task",
+      "async/await",
+      "actor"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Task, async/await, actor because they belong to Swift concurrency features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Choose all items related to advanced generic and abstraction features in Swift; examples include opaque type and protocol extension.",
+    "options": [
+      "protocol extension",
+      "mutating",
+      "property wrapper",
+      "opaque type",
+      "class",
+      "enum"
+    ],
+    "correctAnswers": [
+      "opaque type",
+      "protocol extension",
+      "property wrapper"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are opaque type, protocol extension, property wrapper because they belong to advanced generic and abstraction features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which Swift concepts are part of memory-management and value/reference semantics, including weak reference and capture list?",
+    "options": [
+      "weak reference",
+      "protocol extension",
+      "value semantics",
+      "capture list",
+      "defer",
+      "guard"
+    ],
+    "correctAnswers": [
+      "weak reference",
+      "capture list",
+      "value semantics"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are weak reference, capture list, value semantics because they belong to memory-management and value/reference semantics. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which of the following belong to standard protocol-based modeling features in Swift, including concepts like Hashable and Codable?",
+    "options": [
+      "protocol",
+      "Equatable",
+      "value semantics",
+      "Hashable",
+      "protocol extension",
+      "Codable"
+    ],
+    "correctAnswers": [
+      "Hashable",
+      "Codable",
+      "Equatable"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Hashable, Codable, Equatable because they belong to standard protocol-based modeling features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Select all Swift terms tied to type declarations and composition features, such as protocol and extension.",
+    "options": [
+      "weak reference",
+      "extension",
+      "protocol",
+      "actor",
+      "struct",
+      "class"
+    ],
+    "correctAnswers": [
+      "protocol",
+      "extension",
+      "struct",
+      "class"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are protocol, extension, struct, class because they belong to type declarations and composition features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which options fit under flow control and optional-handling constructs in Swift? Think about items like guard and Optional.",
+    "options": [
+      "struct",
+      "defer",
+      "protocol",
+      "Optional",
+      "guard",
+      "Hashable"
+    ],
+    "correctAnswers": [
+      "guard",
+      "Optional",
+      "defer"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are guard, Optional, defer because they belong to flow control and optional-handling constructs. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Choose all items related to Swift concurrency features in Swift; examples include actor and Task.",
+    "options": [
+      "extension",
+      "async/await",
+      "actor",
+      "Task",
+      "defer",
+      "Optional"
+    ],
+    "correctAnswers": [
+      "actor",
+      "Task",
+      "async/await"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are actor, Task, async/await because they belong to Swift concurrency features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which Swift concepts are part of advanced generic and abstraction features, including protocol extension and associatedtype?",
+    "options": [
+      "associatedtype",
+      "property wrapper",
+      "Optional",
+      "struct",
+      "Codable",
+      "protocol extension"
+    ],
+    "correctAnswers": [
+      "protocol extension",
+      "associatedtype",
+      "property wrapper"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are protocol extension, associatedtype, property wrapper because they belong to advanced generic and abstraction features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which of the following belong to memory-management and value/reference semantics in Swift, including concepts like weak reference and capture list?",
+    "options": [
+      "capture list",
+      "weak reference",
+      "value semantics",
+      "Hashable",
+      "associatedtype",
+      "Equatable"
+    ],
+    "correctAnswers": [
+      "weak reference",
+      "capture list",
+      "value semantics"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are weak reference, capture list, value semantics because they belong to memory-management and value/reference semantics. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Select all Swift terms tied to standard protocol-based modeling features, such as Codable and Hashable.",
+    "options": [
+      "Codable",
+      "Hashable",
+      "enum",
+      "opaque type",
+      "Equatable",
+      "protocol extension"
+    ],
+    "correctAnswers": [
+      "Codable",
+      "Hashable",
+      "Equatable"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Codable, Hashable, Equatable because they belong to standard protocol-based modeling features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which options fit under type declarations and composition features in Swift? Think about items like enum and class.",
+    "options": [
+      "associatedtype",
+      "class",
+      "Task",
+      "extension",
+      "enum",
+      "struct"
+    ],
+    "correctAnswers": [
+      "enum",
+      "class",
+      "struct",
+      "extension"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are enum, class, struct, extension because they belong to type declarations and composition features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Choose all items related to flow control and optional-handling constructs in Swift; examples include guard and Optional.",
+    "options": [
+      "value semantics",
+      "Optional",
+      "associatedtype",
+      "defer",
+      "Hashable",
+      "guard"
+    ],
+    "correctAnswers": [
+      "guard",
+      "Optional",
+      "defer"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are guard, Optional, defer because they belong to flow control and optional-handling constructs. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which Swift concepts are part of Swift concurrency features, including Task and actor?",
+    "options": [
+      "Task",
+      "protocol extension",
+      "enum",
+      "async/await",
+      "guard",
+      "actor"
+    ],
+    "correctAnswers": [
+      "Task",
+      "actor",
+      "async/await"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Task, actor, async/await because they belong to Swift concurrency features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which of the following belong to advanced generic and abstraction features in Swift, including concepts like generic and protocol extension?",
+    "options": [
+      "associatedtype",
+      "extension",
+      "generic",
+      "defer",
+      "protocol extension",
+      "protocol"
+    ],
+    "correctAnswers": [
+      "generic",
+      "protocol extension",
+      "associatedtype"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are generic, protocol extension, associatedtype because they belong to advanced generic and abstraction features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Select all Swift terms tied to memory-management and value/reference semantics, such as value semantics and weak reference.",
+    "options": [
+      "actor",
+      "capture list",
+      "weak reference",
+      "protocol",
+      "value semantics",
+      "generic"
+    ],
+    "correctAnswers": [
+      "value semantics",
+      "weak reference",
+      "capture list"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are value semantics, weak reference, capture list because they belong to memory-management and value/reference semantics. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which options fit under standard protocol-based modeling features in Swift? Think about items like Hashable and Equatable.",
+    "options": [
+      "async/await",
+      "Hashable",
+      "Equatable",
+      "Codable",
+      "mutating",
+      "protocol extension"
+    ],
+    "correctAnswers": [
+      "Hashable",
+      "Equatable",
+      "Codable"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Hashable, Equatable, Codable because they belong to standard protocol-based modeling features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Choose all items related to type declarations and composition features in Swift; examples include mutating and enum.",
+    "options": [
+      "extension",
+      "protocol extension",
+      "mutating",
+      "struct",
+      "enum",
+      "guard"
+    ],
+    "correctAnswers": [
+      "mutating",
+      "enum",
+      "extension",
+      "struct"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are mutating, enum, extension, struct because they belong to type declarations and composition features. The remaining options come from other areas of Swift."
+  },
+  {
+    "question": "Which Swift concepts are part of flow control and optional-handling constructs, including guard and Optional?",
+    "options": [
+      "guard",
+      "Optional",
+      "extension",
+      "opaque type",
+      "defer",
+      "generic"
+    ],
+    "correctAnswers": [
+      "guard",
+      "Optional",
+      "defer"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are guard, Optional, defer because they belong to flow control and optional-handling constructs. The remaining options come from other areas of Swift."
   }
 ]

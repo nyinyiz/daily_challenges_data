@@ -458,5 +458,930 @@
     ],
     "difficulty": "Medium",
     "explanation": "Kotlin interfaces support multiple implementation, default method bodies, and abstract property declarations. However, interfaces cannot have constructors with parameters and cannot store state via backing fields (properties in interfaces are abstract or computed)."
+  },
+  {
+    "question": "Which of the following are associated with core language syntax and control flow in Kotlin?",
+    "options": [
+      "when expression",
+      "suspend function",
+      "companion object",
+      "smart cast",
+      "var",
+      "val"
+    ],
+    "correctAnswers": [
+      "when expression",
+      "smart cast",
+      "var",
+      "val"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are when expression, smart cast, var, val because they belong to core language syntax and control flow. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin concepts that belong to null-safety features.",
+    "options": [
+      "Safe call operator",
+      "launch",
+      "companion object",
+      "Elvis operator",
+      "Nullable type",
+      "apply"
+    ],
+    "correctAnswers": [
+      "Elvis operator",
+      "Safe call operator",
+      "Nullable type"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Elvis operator, Safe call operator, Nullable type because they belong to null-safety features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which options are commonly used for type-system and object-model features in Kotlin?",
+    "options": [
+      "companion object",
+      "sealed class",
+      "data class",
+      "Nullable type",
+      "val",
+      "object declaration"
+    ],
+    "correctAnswers": [
+      "object declaration",
+      "companion object",
+      "data class",
+      "sealed class"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are object declaration, companion object, data class, sealed class because they belong to type-system and object-model features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to functional and scope-function features in Kotlin.",
+    "options": [
+      "smart cast",
+      "data class",
+      "extension function",
+      "apply",
+      "val",
+      "let"
+    ],
+    "correctAnswers": [
+      "extension function",
+      "apply",
+      "let"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are extension function, apply, let because they belong to functional and scope-function features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin terms fit under coroutines and asynchronous streams?",
+    "options": [
+      "var",
+      "coroutineScope",
+      "launch",
+      "suspend function",
+      "inline function",
+      "Flow"
+    ],
+    "correctAnswers": [
+      "coroutineScope",
+      "Flow",
+      "launch",
+      "suspend function"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are coroutineScope, Flow, launch, suspend function because they belong to coroutines and asynchronous streams. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which of the following are associated with advanced language features in Kotlin?",
+    "options": [
+      "data class",
+      "Safe call operator",
+      "typealias",
+      "inline function",
+      "by lazy",
+      "val"
+    ],
+    "correctAnswers": [
+      "typealias",
+      "by lazy",
+      "inline function"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are typealias, by lazy, inline function because they belong to advanced language features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin concepts that belong to core language syntax and control flow.",
+    "options": [
+      "val",
+      "by lazy",
+      "smart cast",
+      "reified type parameter",
+      "var",
+      "when expression"
+    ],
+    "correctAnswers": [
+      "smart cast",
+      "val",
+      "var",
+      "when expression"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are smart cast, val, var, when expression because they belong to core language syntax and control flow. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which options are commonly used for null-safety features in Kotlin?",
+    "options": [
+      "typealias",
+      "Elvis operator",
+      "Safe call operator",
+      "Nullable type",
+      "lambda",
+      "when expression"
+    ],
+    "correctAnswers": [
+      "Elvis operator",
+      "Nullable type",
+      "Safe call operator"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Elvis operator, Nullable type, Safe call operator because they belong to null-safety features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to type-system and object-model features in Kotlin.",
+    "options": [
+      "companion object",
+      "data class",
+      "async",
+      "object declaration",
+      "inline function",
+      "sealed class"
+    ],
+    "correctAnswers": [
+      "companion object",
+      "object declaration",
+      "data class",
+      "sealed class"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are companion object, object declaration, data class, sealed class because they belong to type-system and object-model features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin terms fit under functional and scope-function features?",
+    "options": [
+      "async",
+      "apply",
+      "data class",
+      "lambda",
+      "extension function",
+      "Elvis operator"
+    ],
+    "correctAnswers": [
+      "extension function",
+      "apply",
+      "lambda"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are extension function, apply, lambda because they belong to functional and scope-function features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which of the following are associated with coroutines and asynchronous streams in Kotlin?",
+    "options": [
+      "object declaration",
+      "coroutineScope",
+      "reified type parameter",
+      "launch",
+      "StateFlow",
+      "async"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "coroutineScope",
+      "async",
+      "launch"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are StateFlow, coroutineScope, async, launch because they belong to coroutines and asynchronous streams. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin concepts that belong to advanced language features.",
+    "options": [
+      "lambda",
+      "by lazy",
+      "typealias",
+      "object declaration",
+      "launch",
+      "inline function"
+    ],
+    "correctAnswers": [
+      "by lazy",
+      "typealias",
+      "inline function"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are by lazy, typealias, inline function because they belong to advanced language features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which options are commonly used for core language syntax and control flow in Kotlin?",
+    "options": [
+      "when expression",
+      "object declaration",
+      "StateFlow",
+      "smart cast",
+      "var",
+      "val"
+    ],
+    "correctAnswers": [
+      "val",
+      "smart cast",
+      "when expression",
+      "var"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are val, smart cast, when expression, var because they belong to core language syntax and control flow. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to null-safety features in Kotlin.",
+    "options": [
+      "Safe call operator",
+      "inline function",
+      "StateFlow",
+      "Elvis operator",
+      "Nullable type",
+      "smart cast"
+    ],
+    "correctAnswers": [
+      "Safe call operator",
+      "Nullable type",
+      "Elvis operator"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Safe call operator, Nullable type, Elvis operator because they belong to null-safety features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin terms fit under type-system and object-model features?",
+    "options": [
+      "companion object",
+      "sealed class",
+      "object declaration",
+      "data class",
+      "Flow",
+      "Nullable type"
+    ],
+    "correctAnswers": [
+      "companion object",
+      "object declaration",
+      "sealed class",
+      "data class"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are companion object, object declaration, sealed class, data class because they belong to type-system and object-model features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which of the following are associated with functional and scope-function features in Kotlin?",
+    "options": [
+      "let",
+      "apply",
+      "async",
+      "smart cast",
+      "Safe call operator",
+      "lambda"
+    ],
+    "correctAnswers": [
+      "lambda",
+      "apply",
+      "let"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are lambda, apply, let because they belong to functional and scope-function features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin concepts that belong to coroutines and asynchronous streams.",
+    "options": [
+      "Flow",
+      "suspend function",
+      "var",
+      "when expression",
+      "coroutineScope",
+      "launch"
+    ],
+    "correctAnswers": [
+      "coroutineScope",
+      "suspend function",
+      "launch",
+      "Flow"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are coroutineScope, suspend function, launch, Flow because they belong to coroutines and asynchronous streams. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which options are commonly used for advanced language features in Kotlin?",
+    "options": [
+      "async",
+      "apply",
+      "reified type parameter",
+      "Elvis operator",
+      "typealias",
+      "by lazy"
+    ],
+    "correctAnswers": [
+      "typealias",
+      "by lazy",
+      "reified type parameter"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are typealias, by lazy, reified type parameter because they belong to advanced language features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to core language syntax and control flow in Kotlin.",
+    "options": [
+      "val",
+      "var",
+      "when expression",
+      "StateFlow",
+      "smart cast",
+      "Nullable type"
+    ],
+    "correctAnswers": [
+      "when expression",
+      "var",
+      "val",
+      "smart cast"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are when expression, var, val, smart cast because they belong to core language syntax and control flow. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin terms fit under null-safety features?",
+    "options": [
+      "val",
+      "reified type parameter",
+      "Safe call operator",
+      "Nullable type",
+      "Elvis operator",
+      "Flow"
+    ],
+    "correctAnswers": [
+      "Elvis operator",
+      "Nullable type",
+      "Safe call operator"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Elvis operator, Nullable type, Safe call operator because they belong to null-safety features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which of the following are associated with type-system and object-model features in Kotlin?",
+    "options": [
+      "companion object",
+      "sealed class",
+      "var",
+      "async",
+      "object declaration",
+      "data class"
+    ],
+    "correctAnswers": [
+      "companion object",
+      "sealed class",
+      "object declaration",
+      "data class"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are companion object, sealed class, object declaration, data class because they belong to type-system and object-model features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin concepts that belong to functional and scope-function features.",
+    "options": [
+      "var",
+      "lambda",
+      "extension function",
+      "Nullable type",
+      "sealed class",
+      "let"
+    ],
+    "correctAnswers": [
+      "lambda",
+      "extension function",
+      "let"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are lambda, extension function, let because they belong to functional and scope-function features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which options are commonly used for coroutines and asynchronous streams in Kotlin?",
+    "options": [
+      "inline function",
+      "suspend function",
+      "Elvis operator",
+      "Flow",
+      "async",
+      "StateFlow"
+    ],
+    "correctAnswers": [
+      "suspend function",
+      "Flow",
+      "async",
+      "StateFlow"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are suspend function, Flow, async, StateFlow because they belong to coroutines and asynchronous streams. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to advanced language features in Kotlin.",
+    "options": [
+      "Safe call operator",
+      "typealias",
+      "apply",
+      "by lazy",
+      "inline function",
+      "var"
+    ],
+    "correctAnswers": [
+      "typealias",
+      "by lazy",
+      "inline function"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are typealias, by lazy, inline function because they belong to advanced language features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin terms fit under core language syntax and control flow?",
+    "options": [
+      "val",
+      "lambda",
+      "smart cast",
+      "async",
+      "when expression",
+      "var"
+    ],
+    "correctAnswers": [
+      "smart cast",
+      "when expression",
+      "var",
+      "val"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are smart cast, when expression, var, val because they belong to core language syntax and control flow. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which of the following are associated with null-safety features in Kotlin?",
+    "options": [
+      "suspend function",
+      "launch",
+      "Elvis operator",
+      "Safe call operator",
+      "Nullable type",
+      "lambda"
+    ],
+    "correctAnswers": [
+      "Nullable type",
+      "Elvis operator",
+      "Safe call operator"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Nullable type, Elvis operator, Safe call operator because they belong to null-safety features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin concepts that belong to type-system and object-model features.",
+    "options": [
+      "object declaration",
+      "val",
+      "companion object",
+      "sealed class",
+      "Safe call operator",
+      "data class"
+    ],
+    "correctAnswers": [
+      "companion object",
+      "object declaration",
+      "data class",
+      "sealed class"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are companion object, object declaration, data class, sealed class because they belong to type-system and object-model features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which options are commonly used for functional and scope-function features in Kotlin?",
+    "options": [
+      "let",
+      "Flow",
+      "Elvis operator",
+      "extension function",
+      "lambda",
+      "companion object"
+    ],
+    "correctAnswers": [
+      "lambda",
+      "extension function",
+      "let"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are lambda, extension function, let because they belong to functional and scope-function features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to coroutines and asynchronous streams in Kotlin.",
+    "options": [
+      "launch",
+      "let",
+      "val",
+      "suspend function",
+      "StateFlow",
+      "Flow"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "Flow",
+      "suspend function",
+      "launch"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are StateFlow, Flow, suspend function, launch because they belong to coroutines and asynchronous streams. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin terms fit under advanced language features?",
+    "options": [
+      "reified type parameter",
+      "var",
+      "object declaration",
+      "when expression",
+      "typealias",
+      "inline function"
+    ],
+    "correctAnswers": [
+      "reified type parameter",
+      "inline function",
+      "typealias"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are reified type parameter, inline function, typealias because they belong to advanced language features. The remaining options come from different areas of Kotlin."
+  },
+  {
+    "question": "Which of the following belong to core language syntax and control flow in Kotlin, including concepts like smart cast and when expression?",
+    "options": [
+      "object declaration",
+      "inline function",
+      "val",
+      "when expression",
+      "smart cast",
+      "var"
+    ],
+    "correctAnswers": [
+      "smart cast",
+      "when expression",
+      "var",
+      "val"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are smart cast, when expression, var, val because they belong to core language syntax and control flow. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin terms tied to null-safety features, such as Elvis operator and Nullable type.",
+    "options": [
+      "Nullable type",
+      "Flow",
+      "StateFlow",
+      "Elvis operator",
+      "launch",
+      "let"
+    ],
+    "correctAnswers": [
+      "Elvis operator",
+      "Nullable type",
+      "let"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Elvis operator, Nullable type, let because they belong to null-safety features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which options fit under type-system and object-model features in Kotlin? Think about items like object declaration and companion object.",
+    "options": [
+      "launch",
+      "companion object",
+      "sealed class",
+      "Safe call operator",
+      "object declaration",
+      "typealias"
+    ],
+    "correctAnswers": [
+      "object declaration",
+      "companion object",
+      "typealias",
+      "sealed class"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are object declaration, companion object, typealias, sealed class because they belong to type-system and object-model features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to functional and scope-function features in Kotlin; examples include extension function and apply.",
+    "options": [
+      "let",
+      "reified type parameter",
+      "apply",
+      "extension function",
+      "Elvis operator",
+      "val"
+    ],
+    "correctAnswers": [
+      "extension function",
+      "apply",
+      "let"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are extension function, apply, let because they belong to functional and scope-function features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin concepts are part of coroutines and asynchronous streams, including Flow and launch?",
+    "options": [
+      "Elvis operator",
+      "Flow",
+      "StateFlow",
+      "coroutineScope",
+      "launch",
+      "smart cast"
+    ],
+    "correctAnswers": [
+      "Flow",
+      "launch",
+      "StateFlow",
+      "coroutineScope"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Flow, launch, StateFlow, coroutineScope because they belong to coroutines and asynchronous streams. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which of the following belong to advanced language features in Kotlin, including concepts like typealias and reified type parameter?",
+    "options": [
+      "inline function",
+      "reified type parameter",
+      "Nullable type",
+      "typealias",
+      "lambda",
+      "object declaration"
+    ],
+    "correctAnswers": [
+      "typealias",
+      "reified type parameter",
+      "inline function"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are typealias, reified type parameter, inline function because they belong to advanced language features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin terms tied to core language syntax and control flow, such as when expression and val.",
+    "options": [
+      "by lazy",
+      "val",
+      "Elvis operator",
+      "when expression",
+      "var",
+      "smart cast"
+    ],
+    "correctAnswers": [
+      "when expression",
+      "val",
+      "smart cast",
+      "var"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are when expression, val, smart cast, var because they belong to core language syntax and control flow. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which options fit under null-safety features in Kotlin? Think about items like Safe call operator and Nullable type.",
+    "options": [
+      "Nullable type",
+      "launch",
+      "sealed class",
+      "coroutineScope",
+      "let",
+      "Safe call operator"
+    ],
+    "correctAnswers": [
+      "Safe call operator",
+      "Nullable type",
+      "let"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Safe call operator, Nullable type, let because they belong to null-safety features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to type-system and object-model features in Kotlin; examples include data class and object declaration.",
+    "options": [
+      "object declaration",
+      "companion object",
+      "sealed class",
+      "when expression",
+      "Flow",
+      "data class"
+    ],
+    "correctAnswers": [
+      "data class",
+      "object declaration",
+      "sealed class",
+      "companion object"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are data class, object declaration, sealed class, companion object because they belong to type-system and object-model features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin concepts are part of functional and scope-function features, including let and extension function?",
+    "options": [
+      "extension function",
+      "Elvis operator",
+      "lambda",
+      "sealed class",
+      "let",
+      "when expression"
+    ],
+    "correctAnswers": [
+      "let",
+      "extension function",
+      "lambda"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are let, extension function, lambda because they belong to functional and scope-function features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which of the following belong to coroutines and asynchronous streams in Kotlin, including concepts like launch and Flow?",
+    "options": [
+      "launch",
+      "async",
+      "inline function",
+      "Flow",
+      "coroutineScope",
+      "Elvis operator"
+    ],
+    "correctAnswers": [
+      "launch",
+      "Flow",
+      "coroutineScope",
+      "async"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are launch, Flow, coroutineScope, async because they belong to coroutines and asynchronous streams. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin terms tied to advanced language features, such as reified type parameter and typealias.",
+    "options": [
+      "typealias",
+      "by lazy",
+      "reified type parameter",
+      "sealed class",
+      "let",
+      "when expression"
+    ],
+    "correctAnswers": [
+      "reified type parameter",
+      "typealias",
+      "by lazy"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are reified type parameter, typealias, by lazy because they belong to advanced language features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which options fit under core language syntax and control flow in Kotlin? Think about items like val and smart cast.",
+    "options": [
+      "suspend function",
+      "smart cast",
+      "sealed class",
+      "when expression",
+      "var",
+      "val"
+    ],
+    "correctAnswers": [
+      "val",
+      "smart cast",
+      "var",
+      "when expression"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are val, smart cast, var, when expression because they belong to core language syntax and control flow. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to null-safety features in Kotlin; examples include Nullable type and Elvis operator.",
+    "options": [
+      "let",
+      "launch",
+      "Nullable type",
+      "Elvis operator",
+      "reified type parameter",
+      "inline function"
+    ],
+    "correctAnswers": [
+      "Nullable type",
+      "Elvis operator",
+      "let"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Nullable type, Elvis operator, let because they belong to null-safety features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin concepts are part of type-system and object-model features, including typealias and sealed class?",
+    "options": [
+      "launch",
+      "var",
+      "sealed class",
+      "companion object",
+      "typealias",
+      "object declaration"
+    ],
+    "correctAnswers": [
+      "typealias",
+      "sealed class",
+      "object declaration",
+      "companion object"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are typealias, sealed class, object declaration, companion object because they belong to type-system and object-model features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which of the following belong to functional and scope-function features in Kotlin, including concepts like extension function and let?",
+    "options": [
+      "StateFlow",
+      "extension function",
+      "typealias",
+      "let",
+      "var",
+      "lambda"
+    ],
+    "correctAnswers": [
+      "extension function",
+      "let",
+      "lambda"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are extension function, let, lambda because they belong to functional and scope-function features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Select all Kotlin terms tied to coroutines and asynchronous streams, such as StateFlow and suspend function.",
+    "options": [
+      "async",
+      "StateFlow",
+      "companion object",
+      "suspend function",
+      "apply",
+      "coroutineScope"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "suspend function",
+      "async",
+      "coroutineScope"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are StateFlow, suspend function, async, coroutineScope because they belong to coroutines and asynchronous streams. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which options fit under advanced language features in Kotlin? Think about items like reified type parameter and by lazy.",
+    "options": [
+      "reified type parameter",
+      "suspend function",
+      "apply",
+      "async",
+      "by lazy",
+      "typealias"
+    ],
+    "correctAnswers": [
+      "reified type parameter",
+      "by lazy",
+      "typealias"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are reified type parameter, by lazy, typealias because they belong to advanced language features. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Choose all items related to core language syntax and control flow in Kotlin; examples include var and val.",
+    "options": [
+      "launch",
+      "reified type parameter",
+      "smart cast",
+      "var",
+      "when expression",
+      "val"
+    ],
+    "correctAnswers": [
+      "var",
+      "val",
+      "when expression",
+      "smart cast"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are var, val, when expression, smart cast because they belong to core language syntax and control flow. The remaining options come from other areas of Kotlin."
+  },
+  {
+    "question": "Which Kotlin concepts are part of null-safety features, including Elvis operator and let?",
+    "options": [
+      "Safe call operator",
+      "reified type parameter",
+      "sealed class",
+      "launch",
+      "let",
+      "Elvis operator"
+    ],
+    "correctAnswers": [
+      "Elvis operator",
+      "let",
+      "Safe call operator"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Elvis operator, let, Safe call operator because they belong to null-safety features. The remaining options come from other areas of Kotlin."
   }
 ]

@@ -490,5 +490,605 @@
     "correctAnswer": "Removes the top-most route from the navigation stack",
     "explanation": "Navigator.pop() removes the current route from the stack, returning to the previous route. An optional result can be passed back to the awaiting push() call.",
     "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Describe an immutable part of the user interface.",
+    "options": [
+      "ListView.builder",
+      "Widget",
+      "BoxConstraints",
+      "Navigator"
+    ],
+    "correctAnswer": "Widget",
+    "explanation": "Widget is used to describe an immutable part of the user interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Build UI from configuration that does not change internally over time.",
+    "options": [
+      "CustomScrollView",
+      "StatelessWidget",
+      "MaterialApp",
+      "StatefulWidget"
+    ],
+    "correctAnswer": "StatelessWidget",
+    "explanation": "StatelessWidget is used to build UI from configuration that does not change internally over time.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Create UI that owns mutable state through a paired State object.",
+    "options": [
+      "StatefulWidget",
+      "CustomScrollView",
+      "pubspec.yaml",
+      "Hot reload"
+    ],
+    "correctAnswer": "StatefulWidget",
+    "explanation": "StatefulWidget is used to create UI that owns mutable state through a paired State object.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Provide access to a widget's location in the widget tree.",
+    "options": [
+      "LayoutBuilder",
+      "Scaffold",
+      "BuildContext",
+      "async/await"
+    ],
+    "correctAnswer": "BuildContext",
+    "explanation": "BuildContext is used to provide access to a widget's location in the widget tree.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Mark a State object dirty so Flutter schedules a rebuild.",
+    "options": [
+      "FutureBuilder",
+      "setState",
+      "Navigator",
+      "StatelessWidget"
+    ],
+    "correctAnswer": "setState",
+    "explanation": "setState is used to mark a State object dirty so Flutter schedules a rebuild.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Share data efficiently with descendants in the widget tree.",
+    "options": [
+      "Navigator",
+      "Isolate",
+      "InheritedWidget",
+      "const widget"
+    ],
+    "correctAnswer": "InheritedWidget",
+    "explanation": "InheritedWidget is used to share data efficiently with descendants in the widget tree.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Manage a stack of routes for screen transitions.",
+    "options": [
+      "ListView.builder",
+      "Navigator",
+      "BuildContext",
+      "SliverAppBar"
+    ],
+    "correctAnswer": "Navigator",
+    "explanation": "Navigator is used to manage a stack of routes for screen transitions.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Configure top-level Material Design app behavior.",
+    "options": [
+      "MaterialApp",
+      "const widget",
+      "setState",
+      "StatefulWidget"
+    ],
+    "correctAnswer": "MaterialApp",
+    "explanation": "MaterialApp is used to configure top-level Material Design app behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Provide a standard visual layout structure for a Material screen.",
+    "options": [
+      "Hot reload",
+      "Key",
+      "Scaffold",
+      "Widget"
+    ],
+    "correctAnswer": "Scaffold",
+    "explanation": "Scaffold is used to provide a standard visual layout structure for a Material screen.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Build UI based on the state of a Future.",
+    "options": [
+      "SliverAppBar",
+      "MediaQuery",
+      "FutureBuilder",
+      "Scaffold"
+    ],
+    "correctAnswer": "FutureBuilder",
+    "explanation": "FutureBuilder is used to build UI based on the state of a Future.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Build UI based on values emitted by a Stream.",
+    "options": [
+      "const widget",
+      "StreamBuilder",
+      "MediaQuery",
+      "ThemeData"
+    ],
+    "correctAnswer": "StreamBuilder",
+    "explanation": "StreamBuilder is used to build UI based on values emitted by a Stream.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Lazily build scrolling list items on demand.",
+    "options": [
+      "async/await",
+      "pubspec.yaml",
+      "ListView.builder",
+      "InheritedWidget"
+    ],
+    "correctAnswer": "ListView.builder",
+    "explanation": "ListView.builder is used to lazily build scrolling list items on demand.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Lazily build grid items on demand.",
+    "options": [
+      "MediaQuery",
+      "GridView.builder",
+      "ListView.builder",
+      "MaterialApp"
+    ],
+    "correctAnswer": "GridView.builder",
+    "explanation": "GridView.builder is used to lazily build grid items on demand.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Combine multiple slivers into one coordinated scroll view.",
+    "options": [
+      "CustomScrollView",
+      "FutureBuilder",
+      "StatelessWidget",
+      "GridView.builder"
+    ],
+    "correctAnswer": "CustomScrollView",
+    "explanation": "CustomScrollView is used to combine multiple slivers into one coordinated scroll view.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Create an app bar that participates in sliver scrolling behavior.",
+    "options": [
+      "SliverAppBar",
+      "Isolate",
+      "Navigator",
+      "CustomScrollView"
+    ],
+    "correctAnswer": "SliverAppBar",
+    "explanation": "SliverAppBar is used to create an app bar that participates in sliver scrolling behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Read screen size, padding, and platform metrics from context.",
+    "options": [
+      "Scaffold",
+      "StatefulWidget",
+      "Hot reload",
+      "MediaQuery"
+    ],
+    "correctAnswer": "MediaQuery",
+    "explanation": "MediaQuery is used to read screen size, padding, and platform metrics from context.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Build widgets based on parent layout constraints.",
+    "options": [
+      "Navigator",
+      "const widget",
+      "ThemeData",
+      "LayoutBuilder"
+    ],
+    "correctAnswer": "LayoutBuilder",
+    "explanation": "LayoutBuilder is used to build widgets based on parent layout constraints.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Configure colors, typography, and visual theming for Material widgets.",
+    "options": [
+      "Isolate",
+      "ThemeData",
+      "Hot reload",
+      "MaterialApp"
+    ],
+    "correctAnswer": "ThemeData",
+    "explanation": "ThemeData is used to configure colors, typography, and visual theming for Material widgets.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Describe the minimum and maximum size a widget can take.",
+    "options": [
+      "const widget",
+      "BoxConstraints",
+      "Scaffold",
+      "LayoutBuilder"
+    ],
+    "correctAnswer": "BoxConstraints",
+    "explanation": "BoxConstraints is used to describe the minimum and maximum size a widget can take.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Allow Flutter to reuse immutable widget instances more efficiently.",
+    "options": [
+      "Scaffold",
+      "SliverAppBar",
+      "const widget",
+      "Isolate"
+    ],
+    "correctAnswer": "const widget",
+    "explanation": "const widget is used to allow Flutter to reuse immutable widget instances more efficiently.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Preserve widget identity across rebuilds and reordering.",
+    "options": [
+      "SliverAppBar",
+      "const widget",
+      "StatefulWidget",
+      "Key"
+    ],
+    "correctAnswer": "Key",
+    "explanation": "Key is used to preserve widget identity across rebuilds and reordering.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Declare package dependencies and asset configuration.",
+    "options": [
+      "SliverAppBar",
+      "pubspec.yaml",
+      "CustomScrollView",
+      "const widget"
+    ],
+    "correctAnswer": "pubspec.yaml",
+    "explanation": "pubspec.yaml is used to declare package dependencies and asset configuration.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Inject code changes into a running app while preserving state when possible.",
+    "options": [
+      "MaterialApp",
+      "ThemeData",
+      "CustomScrollView",
+      "Hot reload"
+    ],
+    "correctAnswer": "Hot reload",
+    "explanation": "Hot reload is used to inject code changes into a running app while preserving state when possible.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Write asynchronous Dart code in a sequential style.",
+    "options": [
+      "StatelessWidget",
+      "async/await",
+      "BoxConstraints",
+      "Widget"
+    ],
+    "correctAnswer": "async/await",
+    "explanation": "async/await is used to write asynchronous Dart code in a sequential style.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Flutter concept is best described as: Run computation in a separate memory-isolated worker.",
+    "options": [
+      "setState",
+      "ThemeData",
+      "Scaffold",
+      "Isolate"
+    ],
+    "correctAnswer": "Isolate",
+    "explanation": "Isolate is used to run computation in a separate memory-isolated worker.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of Widget?",
+    "options": [
+      "Build widgets based on parent layout constraints.",
+      "Combine multiple slivers into one coordinated scroll view.",
+      "Describe an immutable part of the user interface.",
+      "Read screen size, padding, and platform metrics from context."
+    ],
+    "correctAnswer": "Describe an immutable part of the user interface.",
+    "explanation": "The correct answer is Widget because it is used to describe an immutable part of the user interface.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of StatelessWidget?",
+    "options": [
+      "Build UI from configuration that does not change internally over time.",
+      "Describe an immutable part of the user interface.",
+      "Provide a standard visual layout structure for a Material screen.",
+      "Declare package dependencies and asset configuration."
+    ],
+    "correctAnswer": "Build UI from configuration that does not change internally over time.",
+    "explanation": "The correct answer is StatelessWidget because it is used to build UI from configuration that does not change internally over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of StatefulWidget?",
+    "options": [
+      "Provide access to a widget's location in the widget tree.",
+      "Describe an immutable part of the user interface.",
+      "Build widgets based on parent layout constraints.",
+      "Create UI that owns mutable state through a paired State object."
+    ],
+    "correctAnswer": "Create UI that owns mutable state through a paired State object.",
+    "explanation": "The correct answer is StatefulWidget because it is used to create UI that owns mutable state through a paired State object.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of BuildContext?",
+    "options": [
+      "Provide access to a widget's location in the widget tree.",
+      "Inject code changes into a running app while preserving state when possible.",
+      "Read screen size, padding, and platform metrics from context.",
+      "Run computation in a separate memory-isolated worker."
+    ],
+    "correctAnswer": "Provide access to a widget's location in the widget tree.",
+    "explanation": "The correct answer is BuildContext because it is used to provide access to a widget's location in the widget tree.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of setState?",
+    "options": [
+      "Mark a State object dirty so Flutter schedules a rebuild.",
+      "Configure colors, typography, and visual theming for Material widgets.",
+      "Build UI from configuration that does not change internally over time.",
+      "Describe the minimum and maximum size a widget can take."
+    ],
+    "correctAnswer": "Mark a State object dirty so Flutter schedules a rebuild.",
+    "explanation": "The correct answer is setState because it is used to mark a State object dirty so Flutter schedules a rebuild.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of InheritedWidget?",
+    "options": [
+      "Describe an immutable part of the user interface.",
+      "Allow Flutter to reuse immutable widget instances more efficiently.",
+      "Build widgets based on parent layout constraints.",
+      "Share data efficiently with descendants in the widget tree."
+    ],
+    "correctAnswer": "Share data efficiently with descendants in the widget tree.",
+    "explanation": "The correct answer is InheritedWidget because it is used to share data efficiently with descendants in the widget tree.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of Navigator?",
+    "options": [
+      "Describe the minimum and maximum size a widget can take.",
+      "Manage a stack of routes for screen transitions.",
+      "Combine multiple slivers into one coordinated scroll view.",
+      "Describe an immutable part of the user interface."
+    ],
+    "correctAnswer": "Manage a stack of routes for screen transitions.",
+    "explanation": "The correct answer is Navigator because it is used to manage a stack of routes for screen transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of MaterialApp?",
+    "options": [
+      "Configure colors, typography, and visual theming for Material widgets.",
+      "Preserve widget identity across rebuilds and reordering.",
+      "Configure top-level Material Design app behavior.",
+      "Describe the minimum and maximum size a widget can take."
+    ],
+    "correctAnswer": "Configure top-level Material Design app behavior.",
+    "explanation": "The correct answer is MaterialApp because it is used to configure top-level Material Design app behavior.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of Scaffold?",
+    "options": [
+      "Provide a standard visual layout structure for a Material screen.",
+      "Combine multiple slivers into one coordinated scroll view.",
+      "Provide access to a widget's location in the widget tree.",
+      "Build UI based on the state of a Future."
+    ],
+    "correctAnswer": "Provide a standard visual layout structure for a Material screen.",
+    "explanation": "The correct answer is Scaffold because it is used to provide a standard visual layout structure for a Material screen.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of FutureBuilder?",
+    "options": [
+      "Configure top-level Material Design app behavior.",
+      "Build UI based on the state of a Future.",
+      "Provide access to a widget's location in the widget tree.",
+      "Lazily build scrolling list items on demand."
+    ],
+    "correctAnswer": "Build UI based on the state of a Future.",
+    "explanation": "The correct answer is FutureBuilder because it is used to build UI based on the state of a Future.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of StreamBuilder?",
+    "options": [
+      "Preserve widget identity across rebuilds and reordering.",
+      "Build widgets based on parent layout constraints.",
+      "Build UI based on values emitted by a Stream.",
+      "Configure top-level Material Design app behavior."
+    ],
+    "correctAnswer": "Build UI based on values emitted by a Stream.",
+    "explanation": "The correct answer is StreamBuilder because it is used to build UI based on values emitted by a Stream.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of ListView.builder?",
+    "options": [
+      "Describe the minimum and maximum size a widget can take.",
+      "Share data efficiently with descendants in the widget tree.",
+      "Build widgets based on parent layout constraints.",
+      "Lazily build scrolling list items on demand."
+    ],
+    "correctAnswer": "Lazily build scrolling list items on demand.",
+    "explanation": "The correct answer is ListView.builder because it is used to lazily build scrolling list items on demand.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of GridView.builder?",
+    "options": [
+      "Describe an immutable part of the user interface.",
+      "Share data efficiently with descendants in the widget tree.",
+      "Create UI that owns mutable state through a paired State object.",
+      "Lazily build grid items on demand."
+    ],
+    "correctAnswer": "Lazily build grid items on demand.",
+    "explanation": "The correct answer is GridView.builder because it is used to lazily build grid items on demand.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of CustomScrollView?",
+    "options": [
+      "Combine multiple slivers into one coordinated scroll view.",
+      "Run computation in a separate memory-isolated worker.",
+      "Preserve widget identity across rebuilds and reordering.",
+      "Declare package dependencies and asset configuration."
+    ],
+    "correctAnswer": "Combine multiple slivers into one coordinated scroll view.",
+    "explanation": "The correct answer is CustomScrollView because it is used to combine multiple slivers into one coordinated scroll view.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of SliverAppBar?",
+    "options": [
+      "Configure top-level Material Design app behavior.",
+      "Lazily build scrolling list items on demand.",
+      "Create an app bar that participates in sliver scrolling behavior.",
+      "Lazily build grid items on demand."
+    ],
+    "correctAnswer": "Create an app bar that participates in sliver scrolling behavior.",
+    "explanation": "The correct answer is SliverAppBar because it is used to create an app bar that participates in sliver scrolling behavior.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, what is the primary role of MediaQuery?",
+    "options": [
+      "Create UI that owns mutable state through a paired State object.",
+      "Lazily build scrolling list items on demand.",
+      "Build UI from configuration that does not change internally over time.",
+      "Read screen size, padding, and platform metrics from context."
+    ],
+    "correctAnswer": "Read screen size, padding, and platform metrics from context.",
+    "explanation": "The correct answer is MediaQuery because it is used to read screen size, padding, and platform metrics from context.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of LayoutBuilder?",
+    "options": [
+      "Describe the minimum and maximum size a widget can take.",
+      "Share data efficiently with descendants in the widget tree.",
+      "Build widgets based on parent layout constraints.",
+      "Build UI from configuration that does not change internally over time."
+    ],
+    "correctAnswer": "Build widgets based on parent layout constraints.",
+    "explanation": "The correct answer is LayoutBuilder because it is used to build widgets based on parent layout constraints.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of ThemeData?",
+    "options": [
+      "Configure colors, typography, and visual theming for Material widgets.",
+      "Lazily build scrolling list items on demand.",
+      "Combine multiple slivers into one coordinated scroll view.",
+      "Share data efficiently with descendants in the widget tree."
+    ],
+    "correctAnswer": "Configure colors, typography, and visual theming for Material widgets.",
+    "explanation": "The correct answer is ThemeData because it is used to configure colors, typography, and visual theming for Material widgets.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of BoxConstraints?",
+    "options": [
+      "Combine multiple slivers into one coordinated scroll view.",
+      "Share data efficiently with descendants in the widget tree.",
+      "Describe the minimum and maximum size a widget can take.",
+      "Create UI that owns mutable state through a paired State object."
+    ],
+    "correctAnswer": "Describe the minimum and maximum size a widget can take.",
+    "explanation": "The correct answer is BoxConstraints because it is used to describe the minimum and maximum size a widget can take.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of const widget?",
+    "options": [
+      "Allow Flutter to reuse immutable widget instances more efficiently.",
+      "Read screen size, padding, and platform metrics from context.",
+      "Provide access to a widget's location in the widget tree.",
+      "Build UI based on values emitted by a Stream."
+    ],
+    "correctAnswer": "Allow Flutter to reuse immutable widget instances more efficiently.",
+    "explanation": "The correct answer is const widget because it is used to allow Flutter to reuse immutable widget instances more efficiently.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of Key?",
+    "options": [
+      "Preserve widget identity across rebuilds and reordering.",
+      "Lazily build scrolling list items on demand.",
+      "Build widgets based on parent layout constraints.",
+      "Allow Flutter to reuse immutable widget instances more efficiently."
+    ],
+    "correctAnswer": "Preserve widget identity across rebuilds and reordering.",
+    "explanation": "The correct answer is Key because it is used to preserve widget identity across rebuilds and reordering.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of pubspec.yaml?",
+    "options": [
+      "Build UI based on the state of a Future.",
+      "Run computation in a separate memory-isolated worker.",
+      "Mark a State object dirty so Flutter schedules a rebuild.",
+      "Declare package dependencies and asset configuration."
+    ],
+    "correctAnswer": "Declare package dependencies and asset configuration.",
+    "explanation": "The correct answer is pubspec.yaml because it is used to declare package dependencies and asset configuration.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of Hot reload?",
+    "options": [
+      "Read screen size, padding, and platform metrics from context.",
+      "Build UI based on the state of a Future.",
+      "Inject code changes into a running app while preserving state when possible.",
+      "Describe the minimum and maximum size a widget can take."
+    ],
+    "correctAnswer": "Inject code changes into a running app while preserving state when possible.",
+    "explanation": "The correct answer is Hot reload because it is used to inject code changes into a running app while preserving state when possible.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of async/await?",
+    "options": [
+      "Provide a standard visual layout structure for a Material screen.",
+      "Write asynchronous Dart code in a sequential style.",
+      "Create an app bar that participates in sliver scrolling behavior.",
+      "Build UI based on values emitted by a Stream."
+    ],
+    "correctAnswer": "Write asynchronous Dart code in a sequential style.",
+    "explanation": "The correct answer is async/await because it is used to write asynchronous Dart code in a sequential style.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, what is the primary role of Isolate?",
+    "options": [
+      "Create an app bar that participates in sliver scrolling behavior.",
+      "Allow Flutter to reuse immutable widget instances more efficiently.",
+      "Run computation in a separate memory-isolated worker.",
+      "Declare package dependencies and asset configuration."
+    ],
+    "correctAnswer": "Run computation in a separate memory-isolated worker.",
+    "explanation": "The correct answer is Isolate because it is used to run computation in a separate memory-isolated worker.",
+    "difficulty": "Hard"
   }
 ]

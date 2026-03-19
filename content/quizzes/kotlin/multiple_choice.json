@@ -898,5 +898,605 @@
     "correctAnswer": "Creates method overloads for default parameters",
     "explanation": "`@JvmOverloads` generates overloaded methods for functions with default parameters for Java compatibility.",
     "difficulty": "Medium"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Declare a read-only reference.",
+    "options": [
+      "val",
+      "by lazy",
+      "var",
+      "typealias"
+    ],
+    "correctAnswer": "val",
+    "explanation": "val is used to declare a read-only reference.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Declare a mutable reference.",
+    "options": [
+      "by lazy",
+      "var",
+      "inline function",
+      "reified type parameter"
+    ],
+    "correctAnswer": "var",
+    "explanation": "var is used to declare a mutable reference.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Allow a reference to hold null using a question-mark type suffix.",
+    "options": [
+      "reified type parameter",
+      "Nullable type",
+      "var",
+      "suspend function"
+    ],
+    "correctAnswer": "Nullable type",
+    "explanation": "Nullable type is used to allow a reference to hold null using a question-mark type suffix.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Invoke a member only when the receiver is not null.",
+    "options": [
+      "companion object",
+      "when expression",
+      "async",
+      "Safe call operator"
+    ],
+    "correctAnswer": "Safe call operator",
+    "explanation": "Safe call operator is used to invoke a member only when the receiver is not null.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Provide a fallback value when an expression is null.",
+    "options": [
+      "StateFlow",
+      "sealed class",
+      "Elvis operator",
+      "suspend function"
+    ],
+    "correctAnswer": "Elvis operator",
+    "explanation": "Elvis operator is used to provide a fallback value when an expression is null.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Generate value-oriented methods such as equals, hashCode, and copy.",
+    "options": [
+      "data class",
+      "var",
+      "Flow",
+      "sealed class"
+    ],
+    "correctAnswer": "data class",
+    "explanation": "data class is used to generate value-oriented methods such as equals, hashCode, and copy.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Restrict a type hierarchy to a known set of subclasses.",
+    "options": [
+      "Nullable type",
+      "apply",
+      "sealed class",
+      "Flow"
+    ],
+    "correctAnswer": "sealed class",
+    "explanation": "sealed class is used to restrict a type hierarchy to a known set of subclasses.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Define a singleton instance and its members.",
+    "options": [
+      "let",
+      "object declaration",
+      "when expression",
+      "coroutineScope"
+    ],
+    "correctAnswer": "object declaration",
+    "explanation": "object declaration is used to define a singleton instance and its members.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Hold members tied to a class rather than its instances.",
+    "options": [
+      "suspend function",
+      "by lazy",
+      "Flow",
+      "companion object"
+    ],
+    "correctAnswer": "companion object",
+    "explanation": "companion object is used to hold members tied to a class rather than its instances.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Add callable behavior to a type without modifying its source.",
+    "options": [
+      "data class",
+      "extension function",
+      "when expression",
+      "let"
+    ],
+    "correctAnswer": "extension function",
+    "explanation": "extension function is used to add callable behavior to a type without modifying its source.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Represent an anonymous function value.",
+    "options": [
+      "smart cast",
+      "Elvis operator",
+      "val",
+      "lambda"
+    ],
+    "correctAnswer": "lambda",
+    "explanation": "lambda is used to represent an anonymous function value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Branch on values or types and return a result.",
+    "options": [
+      "when expression",
+      "async",
+      "Nullable type",
+      "let"
+    ],
+    "correctAnswer": "when expression",
+    "explanation": "when expression is used to branch on values or types and return a result.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Let the compiler refine a variable type after a successful check.",
+    "options": [
+      "reified type parameter",
+      "smart cast",
+      "typealias",
+      "Flow"
+    ],
+    "correctAnswer": "smart cast",
+    "explanation": "smart cast is used to let the compiler refine a variable type after a successful check.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Mark a function that can suspend without blocking a thread.",
+    "options": [
+      "suspend function",
+      "Flow",
+      "companion object",
+      "launch"
+    ],
+    "correctAnswer": "suspend function",
+    "explanation": "suspend function is used to mark a function that can suspend without blocking a thread.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Create a scope that waits for all child coroutines to complete.",
+    "options": [
+      "val",
+      "inline function",
+      "coroutineScope",
+      "launch"
+    ],
+    "correctAnswer": "coroutineScope",
+    "explanation": "coroutineScope is used to create a scope that waits for all child coroutines to complete.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Start a coroutine that does not return a result value.",
+    "options": [
+      "by lazy",
+      "StateFlow",
+      "launch",
+      "extension function"
+    ],
+    "correctAnswer": "launch",
+    "explanation": "launch is used to start a coroutine that does not return a result value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Start a coroutine that produces a deferred result.",
+    "options": [
+      "val",
+      "async",
+      "Elvis operator",
+      "by lazy"
+    ],
+    "correctAnswer": "async",
+    "explanation": "async is used to start a coroutine that produces a deferred result.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Emit multiple asynchronously produced values over time.",
+    "options": [
+      "Flow",
+      "val",
+      "sealed class",
+      "lambda"
+    ],
+    "correctAnswer": "Flow",
+    "explanation": "Flow is used to emit multiple asynchronously produced values over time.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Represent observable state as a hot flow with a current value.",
+    "options": [
+      "when expression",
+      "StateFlow",
+      "reified type parameter",
+      "apply"
+    ],
+    "correctAnswer": "StateFlow",
+    "explanation": "StateFlow is used to represent observable state as a hot flow with a current value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Copy function bodies to call sites to reduce overhead or enable special behavior.",
+    "options": [
+      "reified type parameter",
+      "var",
+      "inline function",
+      "object declaration"
+    ],
+    "correctAnswer": "inline function",
+    "explanation": "inline function is used to copy function bodies to call sites to reduce overhead or enable special behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Keep a generic type available at runtime inside an inline function.",
+    "options": [
+      "StateFlow",
+      "by lazy",
+      "inline function",
+      "reified type parameter"
+    ],
+    "correctAnswer": "reified type parameter",
+    "explanation": "reified type parameter is used to keep a generic type available at runtime inside an inline function.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Delay property initialization until the first access.",
+    "options": [
+      "suspend function",
+      "by lazy",
+      "Nullable type",
+      "launch"
+    ],
+    "correctAnswer": "by lazy",
+    "explanation": "by lazy is used to delay property initialization until the first access.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Execute a block with an object as an argument and return the block result.",
+    "options": [
+      "StateFlow",
+      "smart cast",
+      "async",
+      "let"
+    ],
+    "correctAnswer": "let",
+    "explanation": "let is used to execute a block with an object as an argument and return the block result.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Configure an object inside a block and then return the receiver.",
+    "options": [
+      "apply",
+      "lambda",
+      "async",
+      "val"
+    ],
+    "correctAnswer": "apply",
+    "explanation": "apply is used to configure an object inside a block and then return the receiver.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Kotlin concept is best described as: Create an alternate name for an existing type.",
+    "options": [
+      "coroutineScope",
+      "companion object",
+      "typealias",
+      "StateFlow"
+    ],
+    "correctAnswer": "typealias",
+    "explanation": "typealias is used to create an alternate name for an existing type.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of val?",
+    "options": [
+      "Restrict a type hierarchy to a known set of subclasses.",
+      "Hold members tied to a class rather than its instances.",
+      "Generate value-oriented methods such as equals, hashCode, and copy.",
+      "Declare a read-only reference."
+    ],
+    "correctAnswer": "Declare a read-only reference.",
+    "explanation": "The correct answer is val because it is used to declare a read-only reference.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of var?",
+    "options": [
+      "Create a scope that waits for all child coroutines to complete.",
+      "Declare a mutable reference.",
+      "Create an alternate name for an existing type.",
+      "Configure an object inside a block and then return the receiver."
+    ],
+    "correctAnswer": "Declare a mutable reference.",
+    "explanation": "The correct answer is var because it is used to declare a mutable reference.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of Nullable type?",
+    "options": [
+      "Emit multiple asynchronously produced values over time.",
+      "Start a coroutine that does not return a result value.",
+      "Create a scope that waits for all child coroutines to complete.",
+      "Allow a reference to hold null using a question-mark type suffix."
+    ],
+    "correctAnswer": "Allow a reference to hold null using a question-mark type suffix.",
+    "explanation": "The correct answer is Nullable type because it is used to allow a reference to hold null using a question-mark type suffix.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of Safe call operator?",
+    "options": [
+      "Emit multiple asynchronously produced values over time.",
+      "Create an alternate name for an existing type.",
+      "Allow a reference to hold null using a question-mark type suffix.",
+      "Invoke a member only when the receiver is not null."
+    ],
+    "correctAnswer": "Invoke a member only when the receiver is not null.",
+    "explanation": "The correct answer is Safe call operator because it is used to invoke a member only when the receiver is not null.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of Elvis operator?",
+    "options": [
+      "Let the compiler refine a variable type after a successful check.",
+      "Declare a mutable reference.",
+      "Copy function bodies to call sites to reduce overhead or enable special behavior.",
+      "Provide a fallback value when an expression is null."
+    ],
+    "correctAnswer": "Provide a fallback value when an expression is null.",
+    "explanation": "The correct answer is Elvis operator because it is used to provide a fallback value when an expression is null.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of data class?",
+    "options": [
+      "Invoke a member only when the receiver is not null.",
+      "Create an alternate name for an existing type.",
+      "Generate value-oriented methods such as equals, hashCode, and copy.",
+      "Create a scope that waits for all child coroutines to complete."
+    ],
+    "correctAnswer": "Generate value-oriented methods such as equals, hashCode, and copy.",
+    "explanation": "The correct answer is data class because it is used to generate value-oriented methods such as equals, hashCode, and copy.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of sealed class?",
+    "options": [
+      "Generate value-oriented methods such as equals, hashCode, and copy.",
+      "Restrict a type hierarchy to a known set of subclasses.",
+      "Declare a read-only reference.",
+      "Delay property initialization until the first access."
+    ],
+    "correctAnswer": "Restrict a type hierarchy to a known set of subclasses.",
+    "explanation": "The correct answer is sealed class because it is used to restrict a type hierarchy to a known set of subclasses.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of object declaration?",
+    "options": [
+      "Define a singleton instance and its members.",
+      "Copy function bodies to call sites to reduce overhead or enable special behavior.",
+      "Create an alternate name for an existing type.",
+      "Add callable behavior to a type without modifying its source."
+    ],
+    "correctAnswer": "Define a singleton instance and its members.",
+    "explanation": "The correct answer is object declaration because it is used to define a singleton instance and its members.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of companion object?",
+    "options": [
+      "Hold members tied to a class rather than its instances.",
+      "Start a coroutine that does not return a result value.",
+      "Copy function bodies to call sites to reduce overhead or enable special behavior.",
+      "Provide a fallback value when an expression is null."
+    ],
+    "correctAnswer": "Hold members tied to a class rather than its instances.",
+    "explanation": "The correct answer is companion object because it is used to hold members tied to a class rather than its instances.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of extension function?",
+    "options": [
+      "Add callable behavior to a type without modifying its source.",
+      "Represent observable state as a hot flow with a current value.",
+      "Generate value-oriented methods such as equals, hashCode, and copy.",
+      "Invoke a member only when the receiver is not null."
+    ],
+    "correctAnswer": "Add callable behavior to a type without modifying its source.",
+    "explanation": "The correct answer is extension function because it is used to add callable behavior to a type without modifying its source.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of lambda?",
+    "options": [
+      "Add callable behavior to a type without modifying its source.",
+      "Represent an anonymous function value.",
+      "Keep a generic type available at runtime inside an inline function.",
+      "Represent observable state as a hot flow with a current value."
+    ],
+    "correctAnswer": "Represent an anonymous function value.",
+    "explanation": "The correct answer is lambda because it is used to represent an anonymous function value.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of when expression?",
+    "options": [
+      "Let the compiler refine a variable type after a successful check.",
+      "Generate value-oriented methods such as equals, hashCode, and copy.",
+      "Branch on values or types and return a result.",
+      "Define a singleton instance and its members."
+    ],
+    "correctAnswer": "Branch on values or types and return a result.",
+    "explanation": "The correct answer is when expression because it is used to branch on values or types and return a result.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of smart cast?",
+    "options": [
+      "Let the compiler refine a variable type after a successful check.",
+      "Configure an object inside a block and then return the receiver.",
+      "Start a coroutine that does not return a result value.",
+      "Invoke a member only when the receiver is not null."
+    ],
+    "correctAnswer": "Let the compiler refine a variable type after a successful check.",
+    "explanation": "The correct answer is smart cast because it is used to let the compiler refine a variable type after a successful check.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of suspend function?",
+    "options": [
+      "Create a scope that waits for all child coroutines to complete.",
+      "Create an alternate name for an existing type.",
+      "Mark a function that can suspend without blocking a thread.",
+      "Generate value-oriented methods such as equals, hashCode, and copy."
+    ],
+    "correctAnswer": "Mark a function that can suspend without blocking a thread.",
+    "explanation": "The correct answer is suspend function because it is used to mark a function that can suspend without blocking a thread.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of coroutineScope?",
+    "options": [
+      "Copy function bodies to call sites to reduce overhead or enable special behavior.",
+      "Create a scope that waits for all child coroutines to complete.",
+      "Mark a function that can suspend without blocking a thread.",
+      "Represent observable state as a hot flow with a current value."
+    ],
+    "correctAnswer": "Create a scope that waits for all child coroutines to complete.",
+    "explanation": "The correct answer is coroutineScope because it is used to create a scope that waits for all child coroutines to complete.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of launch?",
+    "options": [
+      "Let the compiler refine a variable type after a successful check.",
+      "Start a coroutine that does not return a result value.",
+      "Start a coroutine that produces a deferred result.",
+      "Delay property initialization until the first access."
+    ],
+    "correctAnswer": "Start a coroutine that does not return a result value.",
+    "explanation": "The correct answer is launch because it is used to start a coroutine that does not return a result value.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of async?",
+    "options": [
+      "Start a coroutine that produces a deferred result.",
+      "Invoke a member only when the receiver is not null.",
+      "Delay property initialization until the first access.",
+      "Copy function bodies to call sites to reduce overhead or enable special behavior."
+    ],
+    "correctAnswer": "Start a coroutine that produces a deferred result.",
+    "explanation": "The correct answer is async because it is used to start a coroutine that produces a deferred result.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of Flow?",
+    "options": [
+      "Start a coroutine that does not return a result value.",
+      "Emit multiple asynchronously produced values over time.",
+      "Generate value-oriented methods such as equals, hashCode, and copy.",
+      "Let the compiler refine a variable type after a successful check."
+    ],
+    "correctAnswer": "Emit multiple asynchronously produced values over time.",
+    "explanation": "The correct answer is Flow because it is used to emit multiple asynchronously produced values over time.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of StateFlow?",
+    "options": [
+      "Execute a block with an object as an argument and return the block result.",
+      "Provide a fallback value when an expression is null.",
+      "Represent observable state as a hot flow with a current value.",
+      "Allow a reference to hold null using a question-mark type suffix."
+    ],
+    "correctAnswer": "Represent observable state as a hot flow with a current value.",
+    "explanation": "The correct answer is StateFlow because it is used to represent observable state as a hot flow with a current value.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of inline function?",
+    "options": [
+      "Copy function bodies to call sites to reduce overhead or enable special behavior.",
+      "Let the compiler refine a variable type after a successful check.",
+      "Declare a mutable reference.",
+      "Mark a function that can suspend without blocking a thread."
+    ],
+    "correctAnswer": "Copy function bodies to call sites to reduce overhead or enable special behavior.",
+    "explanation": "The correct answer is inline function because it is used to copy function bodies to call sites to reduce overhead or enable special behavior.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of reified type parameter?",
+    "options": [
+      "Hold members tied to a class rather than its instances.",
+      "Define a singleton instance and its members.",
+      "Declare a read-only reference.",
+      "Keep a generic type available at runtime inside an inline function."
+    ],
+    "correctAnswer": "Keep a generic type available at runtime inside an inline function.",
+    "explanation": "The correct answer is reified type parameter because it is used to keep a generic type available at runtime inside an inline function.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of by lazy?",
+    "options": [
+      "Branch on values or types and return a result.",
+      "Represent an anonymous function value.",
+      "Keep a generic type available at runtime inside an inline function.",
+      "Delay property initialization until the first access."
+    ],
+    "correctAnswer": "Delay property initialization until the first access.",
+    "explanation": "The correct answer is by lazy because it is used to delay property initialization until the first access.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of let?",
+    "options": [
+      "Execute a block with an object as an argument and return the block result.",
+      "Mark a function that can suspend without blocking a thread.",
+      "Invoke a member only when the receiver is not null.",
+      "Hold members tied to a class rather than its instances."
+    ],
+    "correctAnswer": "Execute a block with an object as an argument and return the block result.",
+    "explanation": "The correct answer is let because it is used to execute a block with an object as an argument and return the block result.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of apply?",
+    "options": [
+      "Generate value-oriented methods such as equals, hashCode, and copy.",
+      "Create an alternate name for an existing type.",
+      "Configure an object inside a block and then return the receiver.",
+      "Declare a mutable reference."
+    ],
+    "correctAnswer": "Configure an object inside a block and then return the receiver.",
+    "explanation": "The correct answer is apply because it is used to configure an object inside a block and then return the receiver.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, what is the primary role of typealias?",
+    "options": [
+      "Add callable behavior to a type without modifying its source.",
+      "Declare a read-only reference.",
+      "Delay property initialization until the first access.",
+      "Create an alternate name for an existing type."
+    ],
+    "correctAnswer": "Create an alternate name for an existing type.",
+    "explanation": "The correct answer is typealias because it is used to create an alternate name for an existing type.",
+    "difficulty": "Hard"
   }
 ]

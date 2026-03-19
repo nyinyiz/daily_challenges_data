@@ -2,10 +2,22 @@
   {
     "question": "Match each MVVM component with its primary responsibility.",
     "pairs": [
-      {"left": "Model", "right": "Holds and manages application data"},
-      {"left": "View", "right": "Displays UI and observes ViewModel state"},
-      {"left": "ViewModel", "right": "Exposes data streams and handles UI logic"},
-      {"left": "Data Binding", "right": "Automatically syncs View with ViewModel state"}
+      {
+        "left": "Model",
+        "right": "Holds and manages application data"
+      },
+      {
+        "left": "View",
+        "right": "Displays UI and observes ViewModel state"
+      },
+      {
+        "left": "ViewModel",
+        "right": "Exposes data streams and handles UI logic"
+      },
+      {
+        "left": "Data Binding",
+        "right": "Automatically syncs View with ViewModel state"
+      }
     ],
     "difficulty": "Easy",
     "explanation": "In MVVM, the Model manages data, the View renders UI and observes the ViewModel, the ViewModel exposes observable state and handles presentation logic, and Data Binding connects View and ViewModel automatically."
@@ -13,10 +25,22 @@
   {
     "question": "Match each SOLID principle with its definition.",
     "pairs": [
-      {"left": "Single Responsibility Principle", "right": "A class should have only one reason to change"},
-      {"left": "Open/Closed Principle", "right": "Open for extension, closed for modification"},
-      {"left": "Liskov Substitution Principle", "right": "Subtypes must be substitutable for their base types"},
-      {"left": "Interface Segregation Principle", "right": "Clients should not depend on interfaces they don't use"}
+      {
+        "left": "Single Responsibility Principle",
+        "right": "A class should have only one reason to change"
+      },
+      {
+        "left": "Open/Closed Principle",
+        "right": "Open for extension, closed for modification"
+      },
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Subtypes must be substitutable for their base types"
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Clients should not depend on interfaces they don't use"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "SRP limits a class to one responsibility, OCP allows extension without modification, LSP ensures subclasses honor contracts of their parents, and ISP keeps interfaces focused and minimal."
@@ -24,10 +48,22 @@
   {
     "question": "Match each Clean Architecture layer with its primary role.",
     "pairs": [
-      {"left": "Entities", "right": "Enterprise-wide business rules and core data"},
-      {"left": "Use Cases", "right": "Application-specific business logic"},
-      {"left": "Interface Adapters", "right": "Convert data between use cases and external formats"},
-      {"left": "Frameworks & Drivers", "right": "UI, databases, and external frameworks"}
+      {
+        "left": "Entities",
+        "right": "Enterprise-wide business rules and core data"
+      },
+      {
+        "left": "Use Cases",
+        "right": "Application-specific business logic"
+      },
+      {
+        "left": "Interface Adapters",
+        "right": "Convert data between use cases and external formats"
+      },
+      {
+        "left": "Frameworks & Drivers",
+        "right": "UI, databases, and external frameworks"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "Clean Architecture layers move from inner (abstract, stable) to outer (concrete, volatile): Entities hold core rules, Use Cases orchestrate app logic, Interface Adapters translate data, and Frameworks & Drivers contain implementation details."
@@ -35,10 +71,22 @@
   {
     "question": "Match each MVI component with its role.",
     "pairs": [
-      {"left": "Model", "right": "Immutable state representing the entire UI"},
-      {"left": "View", "right": "Renders state and emits user intents"},
-      {"left": "Intent", "right": "Represents user actions or events"},
-      {"left": "Reducer", "right": "Produces a new state from current state and intent"}
+      {
+        "left": "Model",
+        "right": "Immutable state representing the entire UI"
+      },
+      {
+        "left": "View",
+        "right": "Renders state and emits user intents"
+      },
+      {
+        "left": "Intent",
+        "right": "Represents user actions or events"
+      },
+      {
+        "left": "Reducer",
+        "right": "Produces a new state from current state and intent"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "In MVI, the Model is an immutable state snapshot, the View renders it and emits Intents (user actions), and a Reducer (or similar function) combines the current state with an Intent to produce the next state."
@@ -46,10 +94,22 @@
   {
     "question": "Match each MVP component with its responsibility.",
     "pairs": [
-      {"left": "Model", "right": "Data access and business logic"},
-      {"left": "View", "right": "Passive UI that delegates all logic to Presenter"},
-      {"left": "Presenter", "right": "Retrieves data from Model and formats it for View"},
-      {"left": "View Interface", "right": "Contract the View implements so Presenter can drive it"}
+      {
+        "left": "Model",
+        "right": "Data access and business logic"
+      },
+      {
+        "left": "View",
+        "right": "Passive UI that delegates all logic to Presenter"
+      },
+      {
+        "left": "Presenter",
+        "right": "Retrieves data from Model and formats it for View"
+      },
+      {
+        "left": "View Interface",
+        "right": "Contract the View implements so Presenter can drive it"
+      }
     ],
     "difficulty": "Easy",
     "explanation": "In MVP, the Model handles data, the View is passive and implements a contract interface, and the Presenter mediates between them by retrieving data and telling the View exactly what to display."
@@ -57,10 +117,22 @@
   {
     "question": "Match each design pattern with its intent.",
     "pairs": [
-      {"left": "Singleton", "right": "Ensure a class has only one instance"},
-      {"left": "Observer", "right": "Notify dependents automatically when state changes"},
-      {"left": "Factory Method", "right": "Define an interface for creating objects, letting subclasses decide the type"},
-      {"left": "Decorator", "right": "Attach additional responsibilities to an object dynamically"}
+      {
+        "left": "Singleton",
+        "right": "Ensure a class has only one instance"
+      },
+      {
+        "left": "Observer",
+        "right": "Notify dependents automatically when state changes"
+      },
+      {
+        "left": "Factory Method",
+        "right": "Define an interface for creating objects, letting subclasses decide the type"
+      },
+      {
+        "left": "Decorator",
+        "right": "Attach additional responsibilities to an object dynamically"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "Singleton restricts instantiation, Observer enables publish-subscribe communication, Factory Method delegates object creation to subclasses, and Decorator extends behavior without subclassing."
@@ -68,10 +140,22 @@
   {
     "question": "Match each Dependency Injection concept with its definition.",
     "pairs": [
-      {"left": "Constructor Injection", "right": "Dependencies provided through the class constructor"},
-      {"left": "Property Injection", "right": "Dependencies assigned directly to a public property"},
-      {"left": "Service Locator", "right": "Centralized registry from which objects retrieve dependencies"},
-      {"left": "Dependency Inversion Principle", "right": "High-level modules should not depend on low-level modules; both depend on abstractions"}
+      {
+        "left": "Constructor Injection",
+        "right": "Dependencies provided through the class constructor"
+      },
+      {
+        "left": "Property Injection",
+        "right": "Dependencies assigned directly to a public property"
+      },
+      {
+        "left": "Service Locator",
+        "right": "Centralized registry from which objects retrieve dependencies"
+      },
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "High-level modules should not depend on low-level modules; both depend on abstractions"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "Constructor Injection supplies dependencies at creation time, Property Injection sets them after creation, Service Locator provides a global lookup mechanism (often considered an anti-pattern), and DIP ensures abstractions mediate between layers."
@@ -79,10 +163,22 @@
   {
     "question": "Match each design pattern category with its defining characteristic.",
     "pairs": [
-      {"left": "Creational", "right": "Concerned with object creation mechanisms"},
-      {"left": "Structural", "right": "Deals with object composition and relationships"},
-      {"left": "Behavioral", "right": "Focuses on communication between objects"},
-      {"left": "Architectural", "right": "Defines high-level structure of entire systems"}
+      {
+        "left": "Creational",
+        "right": "Concerned with object creation mechanisms"
+      },
+      {
+        "left": "Structural",
+        "right": "Deals with object composition and relationships"
+      },
+      {
+        "left": "Behavioral",
+        "right": "Focuses on communication between objects"
+      },
+      {
+        "left": "Architectural",
+        "right": "Defines high-level structure of entire systems"
+      }
     ],
     "difficulty": "Easy",
     "explanation": "The GoF categorizes patterns as Creational (how objects are made), Structural (how they are composed), and Behavioral (how they communicate). Architectural patterns sit above these and define overall system structure."
@@ -90,10 +186,22 @@
   {
     "question": "Match each Unidirectional Data Flow (UDF) concept with its role.",
     "pairs": [
-      {"left": "State", "right": "Single source of truth for the UI at a given moment"},
-      {"left": "Action / Event", "right": "Signals that something happened requiring a state change"},
-      {"left": "Store / StateHolder", "right": "Holds current state and processes actions"},
-      {"left": "Render / Observe", "right": "Re-draws the UI whenever state changes"}
+      {
+        "left": "State",
+        "right": "Single source of truth for the UI at a given moment"
+      },
+      {
+        "left": "Action / Event",
+        "right": "Signals that something happened requiring a state change"
+      },
+      {
+        "left": "Store / StateHolder",
+        "right": "Holds current state and processes actions"
+      },
+      {
+        "left": "Render / Observe",
+        "right": "Re-draws the UI whenever state changes"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "In UDF, State is the immutable snapshot of the UI, Actions represent occurrences, the Store processes actions and emits new state, and the UI re-renders reactively whenever it observes a state change."
@@ -101,10 +209,22 @@
   {
     "question": "Match each design pattern with its GoF category.",
     "pairs": [
-      {"left": "Abstract Factory", "right": "Creational"},
-      {"left": "Adapter", "right": "Structural"},
-      {"left": "Strategy", "right": "Behavioral"},
-      {"left": "Composite", "right": "Structural"}
+      {
+        "left": "Abstract Factory",
+        "right": "Creational"
+      },
+      {
+        "left": "Adapter",
+        "right": "Structural"
+      },
+      {
+        "left": "Strategy",
+        "right": "Behavioral"
+      },
+      {
+        "left": "Composite",
+        "right": "Structural"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "Abstract Factory is Creational (creates families of objects), Adapter and Composite are Structural (organize object relationships), and Strategy is Behavioral (encapsulates interchangeable algorithms)."
@@ -112,10 +232,22 @@
   {
     "question": "Match each Clean Architecture dependency rule concept with its meaning.",
     "pairs": [
-      {"left": "Dependency Rule", "right": "Source code dependencies must point only inward"},
-      {"left": "Stable Abstraction", "right": "Inner layers contain abstractions that rarely change"},
-      {"left": "Boundary Interface", "right": "Contract that separates an inner layer from an outer layer"},
-      {"left": "Data Transfer Object", "right": "Simple structure used to pass data across layer boundaries"}
+      {
+        "left": "Dependency Rule",
+        "right": "Source code dependencies must point only inward"
+      },
+      {
+        "left": "Stable Abstraction",
+        "right": "Inner layers contain abstractions that rarely change"
+      },
+      {
+        "left": "Boundary Interface",
+        "right": "Contract that separates an inner layer from an outer layer"
+      },
+      {
+        "left": "Data Transfer Object",
+        "right": "Simple structure used to pass data across layer boundaries"
+      }
     ],
     "difficulty": "Hard",
     "explanation": "The Dependency Rule mandates inward-pointing dependencies, keeping inner layers unaware of outer ones. Stable Abstractions live in the core, Boundary Interfaces define crossing points, and DTOs carry data across those crossings."
@@ -123,10 +255,22 @@
   {
     "question": "Match each Repository pattern concept with its definition.",
     "pairs": [
-      {"left": "Repository Interface", "right": "Abstract contract defined in the domain layer"},
-      {"left": "Repository Implementation", "right": "Concrete class in the data layer that fulfills the contract"},
-      {"left": "Data Source", "right": "Remote API or local database accessed by the repository"},
-      {"left": "Cache Strategy", "right": "Logic that decides whether to return local or remote data"}
+      {
+        "left": "Repository Interface",
+        "right": "Abstract contract defined in the domain layer"
+      },
+      {
+        "left": "Repository Implementation",
+        "right": "Concrete class in the data layer that fulfills the contract"
+      },
+      {
+        "left": "Data Source",
+        "right": "Remote API or local database accessed by the repository"
+      },
+      {
+        "left": "Cache Strategy",
+        "right": "Logic that decides whether to return local or remote data"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "The Repository pattern decouples the domain from data concerns. The Interface lives in the domain, the Implementation lives in the data layer, Data Sources are the underlying storage mechanisms, and Cache Strategy determines data freshness policy."
@@ -134,10 +278,22 @@
   {
     "question": "Match each VIPER component with its responsibility.",
     "pairs": [
-      {"left": "View", "right": "Displays information and forwards interactions to Presenter"},
-      {"left": "Interactor", "right": "Contains business logic and use case execution"},
-      {"left": "Presenter", "right": "Formats data from Interactor for display in View"},
-      {"left": "Router", "right": "Handles navigation and module creation"}
+      {
+        "left": "View",
+        "right": "Displays information and forwards interactions to Presenter"
+      },
+      {
+        "left": "Interactor",
+        "right": "Contains business logic and use case execution"
+      },
+      {
+        "left": "Presenter",
+        "right": "Formats data from Interactor for display in View"
+      },
+      {
+        "left": "Router",
+        "right": "Handles navigation and module creation"
+      }
     ],
     "difficulty": "Hard",
     "explanation": "VIPER separates concerns into View (display), Interactor (business logic), Presenter (formatting), Entity (data model), and Router (navigation). Each component has a single clearly defined role."
@@ -145,10 +301,22 @@
   {
     "question": "Match each reactive programming concept with its definition.",
     "pairs": [
-      {"left": "Observable / Flow", "right": "A stream that emits values over time"},
-      {"left": "Subscriber / Collector", "right": "Consumes and reacts to emitted values"},
-      {"left": "Operator", "right": "Transforms, filters, or combines streams"},
-      {"left": "Backpressure", "right": "Mechanism to handle a producer emitting faster than a consumer can process"}
+      {
+        "left": "Observable / Flow",
+        "right": "A stream that emits values over time"
+      },
+      {
+        "left": "Subscriber / Collector",
+        "right": "Consumes and reacts to emitted values"
+      },
+      {
+        "left": "Operator",
+        "right": "Transforms, filters, or combines streams"
+      },
+      {
+        "left": "Backpressure",
+        "right": "Mechanism to handle a producer emitting faster than a consumer can process"
+      }
     ],
     "difficulty": "Hard",
     "explanation": "Reactive programming models asynchronous data as streams (Observables/Flows). Subscribers consume them, Operators transform them, and Backpressure strategies handle mismatched production and consumption rates."
@@ -156,10 +324,22 @@
   {
     "question": "Match each modularization concept with its benefit.",
     "pairs": [
-      {"left": "Feature Module", "right": "Encapsulates a single product feature for independent development"},
-      {"left": "Core Module", "right": "Shared utilities and components reused across features"},
-      {"left": "Dynamic Feature Module", "right": "Downloaded on-demand to reduce initial app size"},
-      {"left": "API Module", "right": "Exposes only the public contract of a module to consumers"}
+      {
+        "left": "Feature Module",
+        "right": "Encapsulates a single product feature for independent development"
+      },
+      {
+        "left": "Core Module",
+        "right": "Shared utilities and components reused across features"
+      },
+      {
+        "left": "Dynamic Feature Module",
+        "right": "Downloaded on-demand to reduce initial app size"
+      },
+      {
+        "left": "API Module",
+        "right": "Exposes only the public contract of a module to consumers"
+      }
     ],
     "difficulty": "Hard",
     "explanation": "Modularization improves build times and team scalability. Feature Modules isolate features, Core Modules centralize shared code, Dynamic Feature Modules enable on-demand delivery, and API Modules enforce encapsulation by hiding implementation details."
@@ -167,10 +347,22 @@
   {
     "question": "Match each structural design pattern with its intent.",
     "pairs": [
-      {"left": "Facade", "right": "Provide a simplified interface to a complex subsystem"},
-      {"left": "Proxy", "right": "Provide a surrogate to control access to another object"},
-      {"left": "Bridge", "right": "Decouple abstraction from implementation so both can vary independently"},
-      {"left": "Flyweight", "right": "Share common state among many fine-grained objects to save memory"}
+      {
+        "left": "Facade",
+        "right": "Provide a simplified interface to a complex subsystem"
+      },
+      {
+        "left": "Proxy",
+        "right": "Provide a surrogate to control access to another object"
+      },
+      {
+        "left": "Bridge",
+        "right": "Decouple abstraction from implementation so both can vary independently"
+      },
+      {
+        "left": "Flyweight",
+        "right": "Share common state among many fine-grained objects to save memory"
+      }
     ],
     "difficulty": "Hard",
     "explanation": "Facade simplifies subsystem usage, Proxy controls access (e.g., lazy loading, security), Bridge separates abstraction hierarchies from implementations, and Flyweight reduces memory by sharing intrinsic state."
@@ -178,10 +370,22 @@
   {
     "question": "Match each behavioral design pattern with its intent.",
     "pairs": [
-      {"left": "Command", "right": "Encapsulate a request as an object to support undo/redo"},
-      {"left": "Chain of Responsibility", "right": "Pass a request along a chain of handlers until one processes it"},
-      {"left": "Mediator", "right": "Centralize complex communication between many objects"},
-      {"left": "Memento", "right": "Capture and restore an object's internal state without violating encapsulation"}
+      {
+        "left": "Command",
+        "right": "Encapsulate a request as an object to support undo/redo"
+      },
+      {
+        "left": "Chain of Responsibility",
+        "right": "Pass a request along a chain of handlers until one processes it"
+      },
+      {
+        "left": "Mediator",
+        "right": "Centralize complex communication between many objects"
+      },
+      {
+        "left": "Memento",
+        "right": "Capture and restore an object's internal state without violating encapsulation"
+      }
     ],
     "difficulty": "Hard",
     "explanation": "Command turns requests into objects enabling queuing and undo, Chain of Responsibility decouples sender from receivers, Mediator reduces coupling in many-to-many communications, and Memento provides snapshots for state restoration."
@@ -189,10 +393,22 @@
   {
     "question": "Match each layer responsibility in a typical layered mobile architecture.",
     "pairs": [
-      {"left": "Presentation Layer", "right": "Manages UI state and user interaction"},
-      {"left": "Domain Layer", "right": "Encapsulates business rules independent of frameworks"},
-      {"left": "Data Layer", "right": "Fetches, caches, and persists data"},
-      {"left": "Network Layer", "right": "Handles HTTP communication and API serialization"}
+      {
+        "left": "Presentation Layer",
+        "right": "Manages UI state and user interaction"
+      },
+      {
+        "left": "Domain Layer",
+        "right": "Encapsulates business rules independent of frameworks"
+      },
+      {
+        "left": "Data Layer",
+        "right": "Fetches, caches, and persists data"
+      },
+      {
+        "left": "Network Layer",
+        "right": "Handles HTTP communication and API serialization"
+      }
     ],
     "difficulty": "Easy",
     "explanation": "A layered mobile app separates Presentation (UI logic), Domain (business rules), Data (storage and retrieval), and Network (remote communication) concerns so each layer can evolve independently."
@@ -200,10 +416,22 @@
   {
     "question": "Match each creational design pattern with its intent.",
     "pairs": [
-      {"left": "Builder", "right": "Construct a complex object step by step"},
-      {"left": "Prototype", "right": "Create new objects by cloning an existing instance"},
-      {"left": "Object Pool", "right": "Reuse a set of pre-instantiated objects rather than creating new ones"},
-      {"left": "Abstract Factory", "right": "Create families of related objects without specifying concrete classes"}
+      {
+        "left": "Builder",
+        "right": "Construct a complex object step by step"
+      },
+      {
+        "left": "Prototype",
+        "right": "Create new objects by cloning an existing instance"
+      },
+      {
+        "left": "Object Pool",
+        "right": "Reuse a set of pre-instantiated objects rather than creating new ones"
+      },
+      {
+        "left": "Abstract Factory",
+        "right": "Create families of related objects without specifying concrete classes"
+      }
     ],
     "difficulty": "Medium",
     "explanation": "Builder assembles complex objects incrementally, Prototype clones existing objects cheaply, Object Pool recycles expensive-to-create objects, and Abstract Factory produces compatible families of objects."
@@ -211,12 +439,1174 @@
   {
     "question": "Match each Dependency Inversion and IoC concept with its definition.",
     "pairs": [
-      {"left": "Inversion of Control", "right": "Framework calls application code rather than the reverse"},
-      {"left": "DI Container / Injector", "right": "Framework that resolves and provides dependencies automatically"},
-      {"left": "Scope", "right": "Defines the lifetime of a provided dependency instance"},
-      {"left": "Binding", "right": "Declaration that maps an abstraction to a concrete implementation"}
+      {
+        "left": "Inversion of Control",
+        "right": "Framework calls application code rather than the reverse"
+      },
+      {
+        "left": "DI Container / Injector",
+        "right": "Framework that resolves and provides dependencies automatically"
+      },
+      {
+        "left": "Scope",
+        "right": "Defines the lifetime of a provided dependency instance"
+      },
+      {
+        "left": "Binding",
+        "right": "Declaration that maps an abstraction to a concrete implementation"
+      }
     ],
     "difficulty": "Hard",
     "explanation": "IoC inverts the traditional control flow so frameworks manage lifecycle. A DI Container automates dependency resolution. Scopes control instance lifetime (e.g., singleton vs. per-request). Bindings register how abstractions map to implementations."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles",
+    "pairs": [
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Ensure subtypes can replace their base types without breaking behavior."
+      },
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      },
+      {
+        "left": "Circuit Breaker",
+        "right": "Stop calling an unhealthy dependency until it recovers."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do",
+    "pairs": [
+      {
+        "left": "Retry with Backoff",
+        "right": "Retry transient failures with increasing delays between attempts."
+      },
+      {
+        "left": "Eventual Consistency",
+        "right": "Accept temporary divergence between replicas while they converge later."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Rate Limiting",
+        "right": "Control how many requests a client can make over time."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each software architecture concept with the correct description",
+    "pairs": [
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      },
+      {
+        "left": "MVVM",
+        "right": "Separate UI rendering from state and presentation logic using a ViewModel."
+      },
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Ensure subtypes can replace their base types without breaking behavior."
+      },
+      {
+        "left": "SOLID",
+        "right": "Group five object-oriented design principles for maintainable software."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these core software architecture ideas with their responsibilities",
+    "pairs": [
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      },
+      {
+        "left": "Caching",
+        "right": "Reuse previously computed or fetched data to reduce latency and load."
+      },
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "Make high-level policy depend on abstractions rather than concrete details."
+      },
+      {
+        "left": "Open/Closed Principle",
+        "right": "Allow behavior to be extended without modifying stable code."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose",
+    "pairs": [
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      },
+      {
+        "left": "MVVM",
+        "right": "Separate UI rendering from state and presentation logic using a ViewModel."
+      },
+      {
+        "left": "Unidirectional Data Flow",
+        "right": "Move state down and events up through a predictable data path."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: Single Source of Truth, MVI, Retry with Backoff, and Repository",
+    "pairs": [
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      },
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      },
+      {
+        "left": "Retry with Backoff",
+        "right": "Retry transient failures with increasing delays between attempts."
+      },
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: Dependency Inversion Principle, Rate Limiting, Open/Closed Principle, and SOLID",
+    "pairs": [
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "Make high-level policy depend on abstractions rather than concrete details."
+      },
+      {
+        "left": "Rate Limiting",
+        "right": "Control how many requests a client can make over time."
+      },
+      {
+        "left": "Open/Closed Principle",
+        "right": "Allow behavior to be extended without modifying stable code."
+      },
+      {
+        "left": "SOLID",
+        "right": "Group five object-oriented design principles for maintainable software."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: SOLID, Single Source of Truth, Separation of Concerns, and Dependency Injection",
+    "pairs": [
+      {
+        "left": "SOLID",
+        "right": "Group five object-oriented design principles for maintainable software."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      },
+      {
+        "left": "Separation of Concerns",
+        "right": "Split a system into parts with focused responsibilities."
+      },
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: MVVM, Dependency Injection, Observability, and Single Source of Truth",
+    "pairs": [
+      {
+        "left": "MVVM",
+        "right": "Separate UI rendering from state and presentation logic using a ViewModel."
+      },
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      },
+      {
+        "left": "Observability",
+        "right": "Understand system behavior through logs, metrics, and traces."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Repository, Dependency Injection, Single Responsibility Principle, and CQRS",
+    "pairs": [
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      },
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      },
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: Observability, Interface Segregation Principle, Clean Architecture, and Rate Limiting",
+    "pairs": [
+      {
+        "left": "Observability",
+        "right": "Understand system behavior through logs, metrics, and traces."
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Rate Limiting",
+        "right": "Control how many requests a client can make over time."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: Liskov Substitution Principle, CQRS, Repository, and Circuit Breaker",
+    "pairs": [
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Ensure subtypes can replace their base types without breaking behavior."
+      },
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      },
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      },
+      {
+        "left": "Circuit Breaker",
+        "right": "Stop calling an unhealthy dependency until it recovers."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: MVI, Clean Architecture, Rate Limiting, and Retry with Backoff",
+    "pairs": [
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Rate Limiting",
+        "right": "Control how many requests a client can make over time."
+      },
+      {
+        "left": "Retry with Backoff",
+        "right": "Retry transient failures with increasing delays between attempts."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: Caching, Idempotency, Separation of Concerns, and Interface Segregation Principle",
+    "pairs": [
+      {
+        "left": "Caching",
+        "right": "Reuse previously computed or fetched data to reduce latency and load."
+      },
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      },
+      {
+        "left": "Separation of Concerns",
+        "right": "Split a system into parts with focused responsibilities."
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Idempotency, Retry with Backoff, Clean Architecture, and Use Case",
+    "pairs": [
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      },
+      {
+        "left": "Retry with Backoff",
+        "right": "Retry transient failures with increasing delays between attempts."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: Use Case, Separation of Concerns, Open/Closed Principle, and Single Source of Truth",
+    "pairs": [
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      },
+      {
+        "left": "Separation of Concerns",
+        "right": "Split a system into parts with focused responsibilities."
+      },
+      {
+        "left": "Open/Closed Principle",
+        "right": "Allow behavior to be extended without modifying stable code."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: Dependency Injection, CQRS, Single Responsibility Principle, and Repository",
+    "pairs": [
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      },
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      },
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: Unidirectional Data Flow, Single Source of Truth, Single Responsibility Principle, and CQRS",
+    "pairs": [
+      {
+        "left": "Unidirectional Data Flow",
+        "right": "Move state down and events up through a predictable data path."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      },
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: Repository, Separation of Concerns, Message Queue, and Caching",
+    "pairs": [
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      },
+      {
+        "left": "Separation of Concerns",
+        "right": "Split a system into parts with focused responsibilities."
+      },
+      {
+        "left": "Message Queue",
+        "right": "Buffer and deliver asynchronous work between decoupled producers and consumers."
+      },
+      {
+        "left": "Caching",
+        "right": "Reuse previously computed or fetched data to reduce latency and load."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Observability, Clean Architecture, Rate Limiting, and Dependency Injection",
+    "pairs": [
+      {
+        "left": "Observability",
+        "right": "Understand system behavior through logs, metrics, and traces."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Rate Limiting",
+        "right": "Control how many requests a client can make over time."
+      },
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: MVI, Single Source of Truth, Interface Segregation Principle, and Pagination",
+    "pairs": [
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      },
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: Interface Segregation Principle, MVVM, Pagination, and Eventual Consistency",
+    "pairs": [
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      },
+      {
+        "left": "MVVM",
+        "right": "Separate UI rendering from state and presentation logic using a ViewModel."
+      },
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      },
+      {
+        "left": "Eventual Consistency",
+        "right": "Accept temporary divergence between replicas while they converge later."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: Idempotency, MVI, Eventual Consistency, and Pagination",
+    "pairs": [
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      },
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      },
+      {
+        "left": "Eventual Consistency",
+        "right": "Accept temporary divergence between replicas while they converge later."
+      },
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: Dependency Inversion Principle, Idempotency, CQRS, and MVVM",
+    "pairs": [
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "Make high-level policy depend on abstractions rather than concrete details."
+      },
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      },
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      },
+      {
+        "left": "MVVM",
+        "right": "Separate UI rendering from state and presentation logic using a ViewModel."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Unidirectional Data Flow, Rate Limiting, Caching, and Circuit Breaker",
+    "pairs": [
+      {
+        "left": "Unidirectional Data Flow",
+        "right": "Move state down and events up through a predictable data path."
+      },
+      {
+        "left": "Rate Limiting",
+        "right": "Control how many requests a client can make over time."
+      },
+      {
+        "left": "Caching",
+        "right": "Reuse previously computed or fetched data to reduce latency and load."
+      },
+      {
+        "left": "Circuit Breaker",
+        "right": "Stop calling an unhealthy dependency until it recovers."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: MVI, CQRS, Dependency Injection, and Pagination",
+    "pairs": [
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      },
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      },
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      },
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: Idempotency, Interface Segregation Principle, Separation of Concerns, and MVVM",
+    "pairs": [
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      },
+      {
+        "left": "Separation of Concerns",
+        "right": "Split a system into parts with focused responsibilities."
+      },
+      {
+        "left": "MVVM",
+        "right": "Separate UI rendering from state and presentation logic using a ViewModel."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: Use Case, Eventual Consistency, Interface Segregation Principle, and Repository",
+    "pairs": [
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      },
+      {
+        "left": "Eventual Consistency",
+        "right": "Accept temporary divergence between replicas while they converge later."
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      },
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: Dependency Injection, Idempotency, Single Responsibility Principle, and Interface Segregation Principle",
+    "pairs": [
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      },
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      },
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Eventual Consistency, Message Queue, Open/Closed Principle, and MVI",
+    "pairs": [
+      {
+        "left": "Eventual Consistency",
+        "right": "Accept temporary divergence between replicas while they converge later."
+      },
+      {
+        "left": "Message Queue",
+        "right": "Buffer and deliver asynchronous work between decoupled producers and consumers."
+      },
+      {
+        "left": "Open/Closed Principle",
+        "right": "Allow behavior to be extended without modifying stable code."
+      },
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: Single Responsibility Principle, Separation of Concerns, Use Case, and Pagination",
+    "pairs": [
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "Separation of Concerns",
+        "right": "Split a system into parts with focused responsibilities."
+      },
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      },
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: Liskov Substitution Principle, Circuit Breaker, Interface Segregation Principle, and Dependency Inversion Principle",
+    "pairs": [
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Ensure subtypes can replace their base types without breaking behavior."
+      },
+      {
+        "left": "Circuit Breaker",
+        "right": "Stop calling an unhealthy dependency until it recovers."
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      },
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "Make high-level policy depend on abstractions rather than concrete details."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: CQRS, Liskov Substitution Principle, Single Source of Truth, and MVI",
+    "pairs": [
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      },
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Ensure subtypes can replace their base types without breaking behavior."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      },
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: Open/Closed Principle, Dependency Injection, Unidirectional Data Flow, and Retry with Backoff",
+    "pairs": [
+      {
+        "left": "Open/Closed Principle",
+        "right": "Allow behavior to be extended without modifying stable code."
+      },
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      },
+      {
+        "left": "Unidirectional Data Flow",
+        "right": "Move state down and events up through a predictable data path."
+      },
+      {
+        "left": "Retry with Backoff",
+        "right": "Retry transient failures with increasing delays between attempts."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Single Responsibility Principle, Interface Segregation Principle, Use Case, and Retry with Backoff",
+    "pairs": [
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      },
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      },
+      {
+        "left": "Retry with Backoff",
+        "right": "Retry transient failures with increasing delays between attempts."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: Eventual Consistency, CQRS, Pagination, and Single Source of Truth",
+    "pairs": [
+      {
+        "left": "Eventual Consistency",
+        "right": "Accept temporary divergence between replicas while they converge later."
+      },
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      },
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: Observability, Pagination, Single Responsibility Principle, and Dependency Inversion Principle",
+    "pairs": [
+      {
+        "left": "Observability",
+        "right": "Understand system behavior through logs, metrics, and traces."
+      },
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      },
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "Make high-level policy depend on abstractions rather than concrete details."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: Unidirectional Data Flow, Single Responsibility Principle, Open/Closed Principle, and Idempotency",
+    "pairs": [
+      {
+        "left": "Unidirectional Data Flow",
+        "right": "Move state down and events up through a predictable data path."
+      },
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "Open/Closed Principle",
+        "right": "Allow behavior to be extended without modifying stable code."
+      },
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: Clean Architecture, Pagination, Liskov Substitution Principle, and CQRS",
+    "pairs": [
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      },
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Ensure subtypes can replace their base types without breaking behavior."
+      },
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Pagination, Retry with Backoff, Single Source of Truth, and Use Case",
+    "pairs": [
+      {
+        "left": "Pagination",
+        "right": "Split large result sets into smaller pages for delivery and rendering."
+      },
+      {
+        "left": "Retry with Backoff",
+        "right": "Retry transient failures with increasing delays between attempts."
+      },
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      },
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: Circuit Breaker, Eventual Consistency, Message Queue, and Liskov Substitution Principle",
+    "pairs": [
+      {
+        "left": "Circuit Breaker",
+        "right": "Stop calling an unhealthy dependency until it recovers."
+      },
+      {
+        "left": "Eventual Consistency",
+        "right": "Accept temporary divergence between replicas while they converge later."
+      },
+      {
+        "left": "Message Queue",
+        "right": "Buffer and deliver asynchronous work between decoupled producers and consumers."
+      },
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Ensure subtypes can replace their base types without breaking behavior."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: Interface Segregation Principle, Open/Closed Principle, Clean Architecture, and Idempotency",
+    "pairs": [
+      {
+        "left": "Interface Segregation Principle",
+        "right": "Prefer small client-specific interfaces over one large interface."
+      },
+      {
+        "left": "Open/Closed Principle",
+        "right": "Allow behavior to be extended without modifying stable code."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: CQRS, Dependency Inversion Principle, Clean Architecture, and Separation of Concerns",
+    "pairs": [
+      {
+        "left": "CQRS",
+        "right": "Separate read operations from write operations when their models differ."
+      },
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "Make high-level policy depend on abstractions rather than concrete details."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Separation of Concerns",
+        "right": "Split a system into parts with focused responsibilities."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: Circuit Breaker, Dependency Inversion Principle, Caching, and Dependency Injection",
+    "pairs": [
+      {
+        "left": "Circuit Breaker",
+        "right": "Stop calling an unhealthy dependency until it recovers."
+      },
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "Make high-level policy depend on abstractions rather than concrete details."
+      },
+      {
+        "left": "Caching",
+        "right": "Reuse previously computed or fetched data to reduce latency and load."
+      },
+      {
+        "left": "Dependency Injection",
+        "right": "Provide dependencies from the outside instead of creating them internally."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Eventual Consistency, Idempotency, Repository, and Message Queue",
+    "pairs": [
+      {
+        "left": "Eventual Consistency",
+        "right": "Accept temporary divergence between replicas while they converge later."
+      },
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      },
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      },
+      {
+        "left": "Message Queue",
+        "right": "Buffer and deliver asynchronous work between decoupled producers and consumers."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture concepts with their primary roles: Unidirectional Data Flow, Liskov Substitution Principle, Retry with Backoff, and MVI",
+    "pairs": [
+      {
+        "left": "Unidirectional Data Flow",
+        "right": "Move state down and events up through a predictable data path."
+      },
+      {
+        "left": "Liskov Substitution Principle",
+        "right": "Ensure subtypes can replace their base types without breaking behavior."
+      },
+      {
+        "left": "Retry with Backoff",
+        "right": "Retry transient failures with increasing delays between attempts."
+      },
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match the following software architecture terms to what they do: MVI, Clean Architecture, Single Responsibility Principle, and Idempotency",
+    "pairs": [
+      {
+        "left": "MVI",
+        "right": "Model UI as state transitions driven by intents or events."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Single Responsibility Principle",
+        "right": "Give a module one reason to change."
+      },
+      {
+        "left": "Idempotency",
+        "right": "Make repeated requests produce the same effect as one request."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these software architecture concepts with the correct description: Single Source of Truth, Repository, MVVM, and Use Case",
+    "pairs": [
+      {
+        "left": "Single Source of Truth",
+        "right": "Centralize authoritative data in one owned location."
+      },
+      {
+        "left": "Repository",
+        "right": "Abstract data access behind a collection-like interface."
+      },
+      {
+        "left": "MVVM",
+        "right": "Separate UI rendering from state and presentation logic using a ViewModel."
+      },
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture ideas with their responsibilities: Use Case, Circuit Breaker, Dependency Inversion Principle, and Message Queue",
+    "pairs": [
+      {
+        "left": "Use Case",
+        "right": "Encapsulate a single unit of business logic or user intent."
+      },
+      {
+        "left": "Circuit Breaker",
+        "right": "Stop calling an unhealthy dependency until it recovers."
+      },
+      {
+        "left": "Dependency Inversion Principle",
+        "right": "Make high-level policy depend on abstractions rather than concrete details."
+      },
+      {
+        "left": "Message Queue",
+        "right": "Buffer and deliver asynchronous work between decoupled producers and consumers."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
+  },
+  {
+    "question": "Match these software architecture building blocks with their purpose: Message Queue, Open/Closed Principle, Clean Architecture, and Caching",
+    "pairs": [
+      {
+        "left": "Message Queue",
+        "right": "Buffer and deliver asynchronous work between decoupled producers and consumers."
+      },
+      {
+        "left": "Open/Closed Principle",
+        "right": "Allow behavior to be extended without modifying stable code."
+      },
+      {
+        "left": "Clean Architecture",
+        "right": "Organize code in layers with dependencies pointing inward."
+      },
+      {
+        "left": "Caching",
+        "right": "Reuse previously computed or fetched data to reduce latency and load."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect software architecture concepts with their primary roles."
   }
 ]

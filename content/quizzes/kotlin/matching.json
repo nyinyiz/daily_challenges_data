@@ -573,5 +573,1155 @@
     ],
     "difficulty": "Hard",
     "explanation": "Terminal operators trigger flow collection and produce a final result."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles",
+    "pairs": [
+      {
+        "left": "object declaration",
+        "right": "Define a singleton instance and its members."
+      },
+      {
+        "left": "extension function",
+        "right": "Add callable behavior to a type without modifying its source."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "when expression",
+        "right": "Branch on values or types and return a result."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do",
+    "pairs": [
+      {
+        "left": "reified type parameter",
+        "right": "Keep a generic type available at runtime inside an inline function."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      },
+      {
+        "left": "inline function",
+        "right": "Copy function bodies to call sites to reduce overhead or enable special behavior."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each Kotlin concept with the correct description",
+    "pairs": [
+      {
+        "left": "lambda",
+        "right": "Represent an anonymous function value."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      },
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these core Kotlin ideas with their responsibilities",
+    "pairs": [
+      {
+        "left": "suspend function",
+        "right": "Mark a function that can suspend without blocking a thread."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "reified type parameter",
+        "right": "Keep a generic type available at runtime inside an inline function."
+      },
+      {
+        "left": "Nullable type",
+        "right": "Allow a reference to hold null using a question-mark type suffix."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose",
+    "pairs": [
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      },
+      {
+        "left": "StateFlow",
+        "right": "Represent observable state as a hot flow with a current value."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: apply, object declaration, inline function, and companion object",
+    "pairs": [
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      },
+      {
+        "left": "object declaration",
+        "right": "Define a singleton instance and its members."
+      },
+      {
+        "left": "inline function",
+        "right": "Copy function bodies to call sites to reduce overhead or enable special behavior."
+      },
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: apply, Nullable type, launch, and Flow",
+    "pairs": [
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      },
+      {
+        "left": "Nullable type",
+        "right": "Allow a reference to hold null using a question-mark type suffix."
+      },
+      {
+        "left": "launch",
+        "right": "Start a coroutine that does not return a result value."
+      },
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: reified type parameter, Nullable type, Safe call operator, and sealed class",
+    "pairs": [
+      {
+        "left": "reified type parameter",
+        "right": "Keep a generic type available at runtime inside an inline function."
+      },
+      {
+        "left": "Nullable type",
+        "right": "Allow a reference to hold null using a question-mark type suffix."
+      },
+      {
+        "left": "Safe call operator",
+        "right": "Invoke a member only when the receiver is not null."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: suspend function, launch, smart cast, and extension function",
+    "pairs": [
+      {
+        "left": "suspend function",
+        "right": "Mark a function that can suspend without blocking a thread."
+      },
+      {
+        "left": "launch",
+        "right": "Start a coroutine that does not return a result value."
+      },
+      {
+        "left": "smart cast",
+        "right": "Let the compiler refine a variable type after a successful check."
+      },
+      {
+        "left": "extension function",
+        "right": "Add callable behavior to a type without modifying its source."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: inline function, Elvis operator, var, and smart cast",
+    "pairs": [
+      {
+        "left": "inline function",
+        "right": "Copy function bodies to call sites to reduce overhead or enable special behavior."
+      },
+      {
+        "left": "Elvis operator",
+        "right": "Provide a fallback value when an expression is null."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      },
+      {
+        "left": "smart cast",
+        "right": "Let the compiler refine a variable type after a successful check."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: StateFlow, when expression, Flow, and suspend function",
+    "pairs": [
+      {
+        "left": "StateFlow",
+        "right": "Represent observable state as a hot flow with a current value."
+      },
+      {
+        "left": "when expression",
+        "right": "Branch on values or types and return a result."
+      },
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      },
+      {
+        "left": "suspend function",
+        "right": "Mark a function that can suspend without blocking a thread."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: Elvis operator, Safe call operator, var, and async",
+    "pairs": [
+      {
+        "left": "Elvis operator",
+        "right": "Provide a fallback value when an expression is null."
+      },
+      {
+        "left": "Safe call operator",
+        "right": "Invoke a member only when the receiver is not null."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: val, by lazy, object declaration, and data class",
+    "pairs": [
+      {
+        "left": "val",
+        "right": "Declare a read-only reference."
+      },
+      {
+        "left": "by lazy",
+        "right": "Delay property initialization until the first access."
+      },
+      {
+        "left": "object declaration",
+        "right": "Define a singleton instance and its members."
+      },
+      {
+        "left": "data class",
+        "right": "Generate value-oriented methods such as equals, hashCode, and copy."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: extension function, apply, reified type parameter, and let",
+    "pairs": [
+      {
+        "left": "extension function",
+        "right": "Add callable behavior to a type without modifying its source."
+      },
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      },
+      {
+        "left": "reified type parameter",
+        "right": "Keep a generic type available at runtime inside an inline function."
+      },
+      {
+        "left": "let",
+        "right": "Execute a block with an object as an argument and return the block result."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: coroutineScope, let, typealias, and val",
+    "pairs": [
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      },
+      {
+        "left": "let",
+        "right": "Execute a block with an object as an argument and return the block result."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "val",
+        "right": "Declare a read-only reference."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: Safe call operator, when expression, Flow, and apply",
+    "pairs": [
+      {
+        "left": "Safe call operator",
+        "right": "Invoke a member only when the receiver is not null."
+      },
+      {
+        "left": "when expression",
+        "right": "Branch on values or types and return a result."
+      },
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      },
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: lambda, typealias, reified type parameter, and async",
+    "pairs": [
+      {
+        "left": "lambda",
+        "right": "Represent an anonymous function value."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "reified type parameter",
+        "right": "Keep a generic type available at runtime inside an inline function."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: Elvis operator, inline function, smart cast, and var",
+    "pairs": [
+      {
+        "left": "Elvis operator",
+        "right": "Provide a fallback value when an expression is null."
+      },
+      {
+        "left": "inline function",
+        "right": "Copy function bodies to call sites to reduce overhead or enable special behavior."
+      },
+      {
+        "left": "smart cast",
+        "right": "Let the compiler refine a variable type after a successful check."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: apply, smart cast, inline function, and reified type parameter",
+    "pairs": [
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      },
+      {
+        "left": "smart cast",
+        "right": "Let the compiler refine a variable type after a successful check."
+      },
+      {
+        "left": "inline function",
+        "right": "Copy function bodies to call sites to reduce overhead or enable special behavior."
+      },
+      {
+        "left": "reified type parameter",
+        "right": "Keep a generic type available at runtime inside an inline function."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: let, inline function, async, and typealias",
+    "pairs": [
+      {
+        "left": "let",
+        "right": "Execute a block with an object as an argument and return the block result."
+      },
+      {
+        "left": "inline function",
+        "right": "Copy function bodies to call sites to reduce overhead or enable special behavior."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: companion object, async, sealed class, and var",
+    "pairs": [
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: Flow, lambda, companion object, and Nullable type",
+    "pairs": [
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      },
+      {
+        "left": "lambda",
+        "right": "Represent an anonymous function value."
+      },
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "Nullable type",
+        "right": "Allow a reference to hold null using a question-mark type suffix."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: sealed class, launch, var, and data class",
+    "pairs": [
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "launch",
+        "right": "Start a coroutine that does not return a result value."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      },
+      {
+        "left": "data class",
+        "right": "Generate value-oriented methods such as equals, hashCode, and copy."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: sealed class, let, Nullable type, and apply",
+    "pairs": [
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "let",
+        "right": "Execute a block with an object as an argument and return the block result."
+      },
+      {
+        "left": "Nullable type",
+        "right": "Allow a reference to hold null using a question-mark type suffix."
+      },
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: by lazy, coroutineScope, companion object, and Flow",
+    "pairs": [
+      {
+        "left": "by lazy",
+        "right": "Delay property initialization until the first access."
+      },
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      },
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: coroutineScope, Elvis operator, typealias, and var",
+    "pairs": [
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      },
+      {
+        "left": "Elvis operator",
+        "right": "Provide a fallback value when an expression is null."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: Flow, companion object, data class, and object declaration",
+    "pairs": [
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      },
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "data class",
+        "right": "Generate value-oriented methods such as equals, hashCode, and copy."
+      },
+      {
+        "left": "object declaration",
+        "right": "Define a singleton instance and its members."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: apply, object declaration, data class, and by lazy",
+    "pairs": [
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      },
+      {
+        "left": "object declaration",
+        "right": "Define a singleton instance and its members."
+      },
+      {
+        "left": "data class",
+        "right": "Generate value-oriented methods such as equals, hashCode, and copy."
+      },
+      {
+        "left": "by lazy",
+        "right": "Delay property initialization until the first access."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: StateFlow, companion object, by lazy, and Safe call operator",
+    "pairs": [
+      {
+        "left": "StateFlow",
+        "right": "Represent observable state as a hot flow with a current value."
+      },
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "by lazy",
+        "right": "Delay property initialization until the first access."
+      },
+      {
+        "left": "Safe call operator",
+        "right": "Invoke a member only when the receiver is not null."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: typealias, launch, sealed class, and let",
+    "pairs": [
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "launch",
+        "right": "Start a coroutine that does not return a result value."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "let",
+        "right": "Execute a block with an object as an argument and return the block result."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: Safe call operator, var, sealed class, and companion object",
+    "pairs": [
+      {
+        "left": "Safe call operator",
+        "right": "Invoke a member only when the receiver is not null."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: companion object, inline function, sealed class, and typealias",
+    "pairs": [
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "inline function",
+        "right": "Copy function bodies to call sites to reduce overhead or enable special behavior."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: smart cast, Elvis operator, async, and let",
+    "pairs": [
+      {
+        "left": "smart cast",
+        "right": "Let the compiler refine a variable type after a successful check."
+      },
+      {
+        "left": "Elvis operator",
+        "right": "Provide a fallback value when an expression is null."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      },
+      {
+        "left": "let",
+        "right": "Execute a block with an object as an argument and return the block result."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: Elvis operator, companion object, val, and var",
+    "pairs": [
+      {
+        "left": "Elvis operator",
+        "right": "Provide a fallback value when an expression is null."
+      },
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "val",
+        "right": "Declare a read-only reference."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: typealias, data class, Flow, and async",
+    "pairs": [
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "data class",
+        "right": "Generate value-oriented methods such as equals, hashCode, and copy."
+      },
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: StateFlow, typealias, Flow, and sealed class",
+    "pairs": [
+      {
+        "left": "StateFlow",
+        "right": "Represent observable state as a hot flow with a current value."
+      },
+      {
+        "left": "typealias",
+        "right": "Create an alternate name for an existing type."
+      },
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: companion object, inline function, suspend function, and Safe call operator",
+    "pairs": [
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "inline function",
+        "right": "Copy function bodies to call sites to reduce overhead or enable special behavior."
+      },
+      {
+        "left": "suspend function",
+        "right": "Mark a function that can suspend without blocking a thread."
+      },
+      {
+        "left": "Safe call operator",
+        "right": "Invoke a member only when the receiver is not null."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: companion object, when expression, val, and lambda",
+    "pairs": [
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "when expression",
+        "right": "Branch on values or types and return a result."
+      },
+      {
+        "left": "val",
+        "right": "Declare a read-only reference."
+      },
+      {
+        "left": "lambda",
+        "right": "Represent an anonymous function value."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: suspend function, Nullable type, when expression, and coroutineScope",
+    "pairs": [
+      {
+        "left": "suspend function",
+        "right": "Mark a function that can suspend without blocking a thread."
+      },
+      {
+        "left": "Nullable type",
+        "right": "Allow a reference to hold null using a question-mark type suffix."
+      },
+      {
+        "left": "when expression",
+        "right": "Branch on values or types and return a result."
+      },
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: Flow, coroutineScope, smart cast, and reified type parameter",
+    "pairs": [
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      },
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      },
+      {
+        "left": "smart cast",
+        "right": "Let the compiler refine a variable type after a successful check."
+      },
+      {
+        "left": "reified type parameter",
+        "right": "Keep a generic type available at runtime inside an inline function."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: sealed class, smart cast, extension function, and async",
+    "pairs": [
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "smart cast",
+        "right": "Let the compiler refine a variable type after a successful check."
+      },
+      {
+        "left": "extension function",
+        "right": "Add callable behavior to a type without modifying its source."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: companion object, object declaration, Flow, and StateFlow",
+    "pairs": [
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "object declaration",
+        "right": "Define a singleton instance and its members."
+      },
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      },
+      {
+        "left": "StateFlow",
+        "right": "Represent observable state as a hot flow with a current value."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: companion object, lambda, sealed class, and Nullable type",
+    "pairs": [
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "lambda",
+        "right": "Represent an anonymous function value."
+      },
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "Nullable type",
+        "right": "Allow a reference to hold null using a question-mark type suffix."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: companion object, by lazy, Nullable type, and StateFlow",
+    "pairs": [
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      },
+      {
+        "left": "by lazy",
+        "right": "Delay property initialization until the first access."
+      },
+      {
+        "left": "Nullable type",
+        "right": "Allow a reference to hold null using a question-mark type suffix."
+      },
+      {
+        "left": "StateFlow",
+        "right": "Represent observable state as a hot flow with a current value."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: sealed class, coroutineScope, Elvis operator, and let",
+    "pairs": [
+      {
+        "left": "sealed class",
+        "right": "Restrict a type hierarchy to a known set of subclasses."
+      },
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      },
+      {
+        "left": "Elvis operator",
+        "right": "Provide a fallback value when an expression is null."
+      },
+      {
+        "left": "let",
+        "right": "Execute a block with an object as an argument and return the block result."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin concepts with their primary roles: suspend function, smart cast, apply, and data class",
+    "pairs": [
+      {
+        "left": "suspend function",
+        "right": "Mark a function that can suspend without blocking a thread."
+      },
+      {
+        "left": "smart cast",
+        "right": "Let the compiler refine a variable type after a successful check."
+      },
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      },
+      {
+        "left": "data class",
+        "right": "Generate value-oriented methods such as equals, hashCode, and copy."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Kotlin terms to what they do: Elvis operator, launch, Safe call operator, and by lazy",
+    "pairs": [
+      {
+        "left": "Elvis operator",
+        "right": "Provide a fallback value when an expression is null."
+      },
+      {
+        "left": "launch",
+        "right": "Start a coroutine that does not return a result value."
+      },
+      {
+        "left": "Safe call operator",
+        "right": "Invoke a member only when the receiver is not null."
+      },
+      {
+        "left": "by lazy",
+        "right": "Delay property initialization until the first access."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Kotlin concepts with the correct description: StateFlow, data class, async, and companion object",
+    "pairs": [
+      {
+        "left": "StateFlow",
+        "right": "Represent observable state as a hot flow with a current value."
+      },
+      {
+        "left": "data class",
+        "right": "Generate value-oriented methods such as equals, hashCode, and copy."
+      },
+      {
+        "left": "async",
+        "right": "Start a coroutine that produces a deferred result."
+      },
+      {
+        "left": "companion object",
+        "right": "Hold members tied to a class rather than its instances."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin ideas with their responsibilities: launch, object declaration, apply, and var",
+    "pairs": [
+      {
+        "left": "launch",
+        "right": "Start a coroutine that does not return a result value."
+      },
+      {
+        "left": "object declaration",
+        "right": "Define a singleton instance and its members."
+      },
+      {
+        "left": "apply",
+        "right": "Configure an object inside a block and then return the receiver."
+      },
+      {
+        "left": "var",
+        "right": "Declare a mutable reference."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
+  },
+  {
+    "question": "Match these Kotlin building blocks with their purpose: coroutineScope, object declaration, reified type parameter, and Flow",
+    "pairs": [
+      {
+        "left": "coroutineScope",
+        "right": "Create a scope that waits for all child coroutines to complete."
+      },
+      {
+        "left": "object declaration",
+        "right": "Define a singleton instance and its members."
+      },
+      {
+        "left": "reified type parameter",
+        "right": "Keep a generic type available at runtime inside an inline function."
+      },
+      {
+        "left": "Flow",
+        "right": "Emit multiple asynchronously produced values over time."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Kotlin concepts with their primary roles."
   }
 ]

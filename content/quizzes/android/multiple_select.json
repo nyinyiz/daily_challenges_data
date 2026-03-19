@@ -558,5 +558,931 @@
     ],
     "difficulty": "Hard",
     "explanation": "LiveData can be observed with observe() (lifecycle-aware), observeForever() (not lifecycle-aware, must be manually removed), or its current value accessed via liveData.value. collect {} is for Kotlin Flow, and subscribe {} is for RxJava Observables — neither is a LiveData API."
+  },
+  {
+    "question": "Which of the following are associated with Android app components and communication primitives in Android?",
+    "options": [
+      "Modifier",
+      "Activity",
+      "Intent",
+      "BroadcastReceiver",
+      "ContentProvider",
+      "PendingIntent"
+    ],
+    "correctAnswers": [
+      "BroadcastReceiver",
+      "PendingIntent",
+      "Activity",
+      "Intent"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are BroadcastReceiver, PendingIntent, Activity, Intent because they belong to Android app components and communication primitives. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Select all Android concepts that belong to state holders and reactive UI state patterns.",
+    "options": [
+      "WorkManager",
+      "ViewModel",
+      "DAO",
+      "StateFlow",
+      "LiveData",
+      "SharedPreferences"
+    ],
+    "correctAnswers": [
+      "ViewModel",
+      "LiveData",
+      "StateFlow"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are ViewModel, LiveData, StateFlow because they belong to state holders and reactive UI state patterns. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which options are commonly used for local storage and data access in Android?",
+    "options": [
+      "Room",
+      "ContentProvider",
+      "SharedPreferences",
+      "StateFlow",
+      "DataStore",
+      "Intent"
+    ],
+    "correctAnswers": [
+      "Room",
+      "SharedPreferences",
+      "ContentProvider",
+      "DataStore"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Room, SharedPreferences, ContentProvider, DataStore because they belong to local storage and data access. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Choose all items related to Jetpack Compose state and UI APIs in Android.",
+    "options": [
+      "Navigation Component",
+      "LaunchedEffect",
+      "Modifier",
+      "Fragment",
+      "remember",
+      "Activity"
+    ],
+    "correctAnswers": [
+      "Modifier",
+      "remember",
+      "LaunchedEffect"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Modifier, remember, LaunchedEffect because they belong to Jetpack Compose state and UI APIs. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which Android terms fit under Android app components and communication primitives?",
+    "options": [
+      "Activity",
+      "Parcelable",
+      "Intent",
+      "BroadcastReceiver",
+      "StateFlow",
+      "Fragment"
+    ],
+    "correctAnswers": [
+      "Intent",
+      "Fragment",
+      "BroadcastReceiver",
+      "Activity"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Intent, Fragment, BroadcastReceiver, Activity because they belong to Android app components and communication primitives. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which of the following are associated with state holders and reactive UI state patterns in Android?",
+    "options": [
+      "derivedStateOf",
+      "LiveData",
+      "StateFlow",
+      "Intent",
+      "LaunchedEffect",
+      "ViewModel"
+    ],
+    "correctAnswers": [
+      "LiveData",
+      "StateFlow",
+      "ViewModel"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are LiveData, StateFlow, ViewModel because they belong to state holders and reactive UI state patterns. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Select all Android concepts that belong to local storage and data access.",
+    "options": [
+      "ContentProvider",
+      "DAO",
+      "WorkManager",
+      "Parcelable",
+      "LaunchedEffect",
+      "DataStore"
+    ],
+    "correctAnswers": [
+      "ContentProvider",
+      "DataStore",
+      "Parcelable",
+      "DAO"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are ContentProvider, DataStore, Parcelable, DAO because they belong to local storage and data access. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which options are commonly used for Jetpack Compose state and UI APIs in Android?",
+    "options": [
+      "Modifier",
+      "LazyColumn",
+      "RecyclerView",
+      "rememberSaveable",
+      "Intent",
+      "Service"
+    ],
+    "correctAnswers": [
+      "Modifier",
+      "LazyColumn",
+      "rememberSaveable"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Modifier, LazyColumn, rememberSaveable because they belong to Jetpack Compose state and UI APIs. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Choose all items related to Android app components and communication primitives in Android.",
+    "options": [
+      "ContentProvider",
+      "BroadcastReceiver",
+      "Activity",
+      "WorkManager",
+      "PendingIntent",
+      "Intent"
+    ],
+    "correctAnswers": [
+      "Intent",
+      "BroadcastReceiver",
+      "PendingIntent",
+      "Activity"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Intent, BroadcastReceiver, PendingIntent, Activity because they belong to Android app components and communication primitives. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which Android terms fit under state holders and reactive UI state patterns?",
+    "options": [
+      "DAO",
+      "Fragment",
+      "ViewModel",
+      "StateFlow",
+      "LiveData",
+      "DataStore"
+    ],
+    "correctAnswers": [
+      "ViewModel",
+      "LiveData",
+      "StateFlow"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are ViewModel, LiveData, StateFlow because they belong to state holders and reactive UI state patterns. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which of the following are associated with local storage and data access in Android?",
+    "options": [
+      "WorkManager",
+      "Room",
+      "DAO",
+      "ContentProvider",
+      "SharedPreferences",
+      "derivedStateOf"
+    ],
+    "correctAnswers": [
+      "SharedPreferences",
+      "Room",
+      "ContentProvider",
+      "DAO"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are SharedPreferences, Room, ContentProvider, DAO because they belong to local storage and data access. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Select all Android concepts that belong to Jetpack Compose state and UI APIs.",
+    "options": [
+      "Modifier",
+      "Navigation Component",
+      "LaunchedEffect",
+      "Activity",
+      "Hilt",
+      "rememberSaveable"
+    ],
+    "correctAnswers": [
+      "LaunchedEffect",
+      "rememberSaveable",
+      "Modifier"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are LaunchedEffect, rememberSaveable, Modifier because they belong to Jetpack Compose state and UI APIs. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which options are commonly used for Android app components and communication primitives in Android?",
+    "options": [
+      "WorkManager",
+      "Activity",
+      "Fragment",
+      "BroadcastReceiver",
+      "DataStore",
+      "Intent"
+    ],
+    "correctAnswers": [
+      "Activity",
+      "BroadcastReceiver",
+      "Intent",
+      "Fragment"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Activity, BroadcastReceiver, Intent, Fragment because they belong to Android app components and communication primitives. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Choose all items related to state holders and reactive UI state patterns in Android.",
+    "options": [
+      "LiveData",
+      "ViewModel",
+      "StateFlow",
+      "derivedStateOf",
+      "LazyColumn",
+      "ContentProvider"
+    ],
+    "correctAnswers": [
+      "ViewModel",
+      "StateFlow",
+      "LiveData"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are ViewModel, StateFlow, LiveData because they belong to state holders and reactive UI state patterns. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which Android terms fit under local storage and data access?",
+    "options": [
+      "DataStore",
+      "DAO",
+      "ContentProvider",
+      "Room",
+      "Service",
+      "LiveData"
+    ],
+    "correctAnswers": [
+      "ContentProvider",
+      "Room",
+      "DAO",
+      "DataStore"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are ContentProvider, Room, DAO, DataStore because they belong to local storage and data access. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which of the following are associated with Jetpack Compose state and UI APIs in Android?",
+    "options": [
+      "DataStore",
+      "StateFlow",
+      "Modifier",
+      "LaunchedEffect",
+      "Room",
+      "remember"
+    ],
+    "correctAnswers": [
+      "Modifier",
+      "LaunchedEffect",
+      "remember"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Modifier, LaunchedEffect, remember because they belong to Jetpack Compose state and UI APIs. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Select all Android concepts that belong to Android app components and communication primitives.",
+    "options": [
+      "Navigation Component",
+      "Intent",
+      "BroadcastReceiver",
+      "DAO",
+      "PendingIntent",
+      "Fragment"
+    ],
+    "correctAnswers": [
+      "Intent",
+      "PendingIntent",
+      "BroadcastReceiver",
+      "Fragment"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Intent, PendingIntent, BroadcastReceiver, Fragment because they belong to Android app components and communication primitives. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which options are commonly used for state holders and reactive UI state patterns in Android?",
+    "options": [
+      "DataStore",
+      "StateFlow",
+      "Parcelable",
+      "Fragment",
+      "LiveData",
+      "ViewModel"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "ViewModel",
+      "LiveData"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are StateFlow, ViewModel, LiveData because they belong to state holders and reactive UI state patterns. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Choose all items related to local storage and data access in Android.",
+    "options": [
+      "LiveData",
+      "DAO",
+      "Parcelable",
+      "Room",
+      "Hilt",
+      "SharedPreferences"
+    ],
+    "correctAnswers": [
+      "SharedPreferences",
+      "DAO",
+      "Parcelable",
+      "Room"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are SharedPreferences, DAO, Parcelable, Room because they belong to local storage and data access. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which Android terms fit under Jetpack Compose state and UI APIs?",
+    "options": [
+      "rememberSaveable",
+      "Activity",
+      "LaunchedEffect",
+      "ContentProvider",
+      "LazyColumn",
+      "Fragment"
+    ],
+    "correctAnswers": [
+      "LazyColumn",
+      "rememberSaveable",
+      "LaunchedEffect"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are LazyColumn, rememberSaveable, LaunchedEffect because they belong to Jetpack Compose state and UI APIs. The remaining options come from different areas of Android."
+  },
+  {
+    "question": "Which of the following belong to Android app components and communication primitives in Android, including concepts like Fragment and Activity?",
+    "options": [
+      "ContentProvider",
+      "StateFlow",
+      "Activity",
+      "Fragment",
+      "Intent",
+      "PendingIntent"
+    ],
+    "correctAnswers": [
+      "Fragment",
+      "Activity",
+      "PendingIntent",
+      "Intent"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Fragment, Activity, PendingIntent, Intent because they belong to Android app components and communication primitives. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Select all Android terms tied to state holders and reactive UI state patterns, such as StateFlow and ViewModel.",
+    "options": [
+      "PendingIntent",
+      "ContentProvider",
+      "StateFlow",
+      "ViewModel",
+      "LiveData",
+      "remember"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "ViewModel",
+      "LiveData"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are StateFlow, ViewModel, LiveData because they belong to state holders and reactive UI state patterns. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which options fit under local storage and data access in Android? Think about items like Room and DataStore.",
+    "options": [
+      "DAO",
+      "LaunchedEffect",
+      "ViewModel",
+      "DataStore",
+      "SharedPreferences",
+      "Room"
+    ],
+    "correctAnswers": [
+      "Room",
+      "DataStore",
+      "SharedPreferences",
+      "DAO"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Room, DataStore, SharedPreferences, DAO because they belong to local storage and data access. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Choose all items related to Jetpack Compose state and UI APIs in Android; examples include LaunchedEffect and rememberSaveable.",
+    "options": [
+      "DataStore",
+      "rememberSaveable",
+      "Fragment",
+      "Intent",
+      "Modifier",
+      "LaunchedEffect"
+    ],
+    "correctAnswers": [
+      "LaunchedEffect",
+      "rememberSaveable",
+      "Modifier"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are LaunchedEffect, rememberSaveable, Modifier because they belong to Jetpack Compose state and UI APIs. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which Android concepts are part of Android app components and communication primitives, including PendingIntent and Activity?",
+    "options": [
+      "Fragment",
+      "PendingIntent",
+      "BroadcastReceiver",
+      "SharedPreferences",
+      "Activity",
+      "StateFlow"
+    ],
+    "correctAnswers": [
+      "PendingIntent",
+      "Activity",
+      "Fragment",
+      "BroadcastReceiver"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are PendingIntent, Activity, Fragment, BroadcastReceiver because they belong to Android app components and communication primitives. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which of the following belong to state holders and reactive UI state patterns in Android, including concepts like LiveData and StateFlow?",
+    "options": [
+      "Modifier",
+      "StateFlow",
+      "ViewModel",
+      "DAO",
+      "LiveData",
+      "derivedStateOf"
+    ],
+    "correctAnswers": [
+      "LiveData",
+      "StateFlow",
+      "ViewModel"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are LiveData, StateFlow, ViewModel because they belong to state holders and reactive UI state patterns. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Select all Android terms tied to local storage and data access, such as Parcelable and SharedPreferences.",
+    "options": [
+      "DataStore",
+      "SharedPreferences",
+      "Room",
+      "LazyColumn",
+      "Parcelable",
+      "Modifier"
+    ],
+    "correctAnswers": [
+      "Parcelable",
+      "SharedPreferences",
+      "Room",
+      "DataStore"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Parcelable, SharedPreferences, Room, DataStore because they belong to local storage and data access. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which options fit under Jetpack Compose state and UI APIs in Android? Think about items like LazyColumn and Modifier.",
+    "options": [
+      "Intent",
+      "Modifier",
+      "LazyColumn",
+      "Room",
+      "derivedStateOf",
+      "BroadcastReceiver"
+    ],
+    "correctAnswers": [
+      "LazyColumn",
+      "Modifier",
+      "derivedStateOf"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are LazyColumn, Modifier, derivedStateOf because they belong to Jetpack Compose state and UI APIs. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Choose all items related to Android app components and communication primitives in Android; examples include PendingIntent and Fragment.",
+    "options": [
+      "Fragment",
+      "rememberSaveable",
+      "BroadcastReceiver",
+      "PendingIntent",
+      "Activity",
+      "Modifier"
+    ],
+    "correctAnswers": [
+      "PendingIntent",
+      "Fragment",
+      "BroadcastReceiver",
+      "Activity"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are PendingIntent, Fragment, BroadcastReceiver, Activity because they belong to Android app components and communication primitives. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which Android concepts are part of state holders and reactive UI state patterns, including StateFlow and ViewModel?",
+    "options": [
+      "PendingIntent",
+      "StateFlow",
+      "LazyColumn",
+      "ViewModel",
+      "Parcelable",
+      "LiveData"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "ViewModel",
+      "LiveData"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are StateFlow, ViewModel, LiveData because they belong to state holders and reactive UI state patterns. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which of the following belong to local storage and data access in Android, including concepts like ContentProvider and DataStore?",
+    "options": [
+      "SharedPreferences",
+      "Fragment",
+      "DAO",
+      "DataStore",
+      "LiveData",
+      "ContentProvider"
+    ],
+    "correctAnswers": [
+      "ContentProvider",
+      "DataStore",
+      "DAO",
+      "SharedPreferences"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are ContentProvider, DataStore, DAO, SharedPreferences because they belong to local storage and data access. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Select all Android terms tied to Jetpack Compose state and UI APIs, such as Modifier and remember.",
+    "options": [
+      "Modifier",
+      "remember",
+      "BroadcastReceiver",
+      "Activity",
+      "LazyColumn",
+      "Parcelable"
+    ],
+    "correctAnswers": [
+      "Modifier",
+      "remember",
+      "LazyColumn"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Modifier, remember, LazyColumn because they belong to Jetpack Compose state and UI APIs. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which options fit under Android app components and communication primitives in Android? Think about items like BroadcastReceiver and Activity.",
+    "options": [
+      "Activity",
+      "Fragment",
+      "Parcelable",
+      "PendingIntent",
+      "BroadcastReceiver",
+      "derivedStateOf"
+    ],
+    "correctAnswers": [
+      "BroadcastReceiver",
+      "Activity",
+      "Fragment",
+      "PendingIntent"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are BroadcastReceiver, Activity, Fragment, PendingIntent because they belong to Android app components and communication primitives. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Choose all items related to state holders and reactive UI state patterns in Android; examples include StateFlow and ViewModel.",
+    "options": [
+      "BroadcastReceiver",
+      "ViewModel",
+      "Modifier",
+      "LiveData",
+      "DAO",
+      "StateFlow"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "ViewModel",
+      "LiveData"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are StateFlow, ViewModel, LiveData because they belong to state holders and reactive UI state patterns. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which Android concepts are part of local storage and data access, including ContentProvider and SharedPreferences?",
+    "options": [
+      "DataStore",
+      "ContentProvider",
+      "SharedPreferences",
+      "DAO",
+      "StateFlow",
+      "LiveData"
+    ],
+    "correctAnswers": [
+      "ContentProvider",
+      "SharedPreferences",
+      "DataStore",
+      "DAO"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are ContentProvider, SharedPreferences, DataStore, DAO because they belong to local storage and data access. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which of the following belong to Jetpack Compose state and UI APIs in Android, including concepts like derivedStateOf and rememberSaveable?",
+    "options": [
+      "rememberSaveable",
+      "derivedStateOf",
+      "StateFlow",
+      "Modifier",
+      "Room",
+      "Activity"
+    ],
+    "correctAnswers": [
+      "derivedStateOf",
+      "rememberSaveable",
+      "Modifier"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are derivedStateOf, rememberSaveable, Modifier because they belong to Jetpack Compose state and UI APIs. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Select all Android terms tied to Android app components and communication primitives, such as Intent and BroadcastReceiver.",
+    "options": [
+      "Fragment",
+      "BroadcastReceiver",
+      "PendingIntent",
+      "Intent",
+      "rememberSaveable",
+      "remember"
+    ],
+    "correctAnswers": [
+      "Intent",
+      "BroadcastReceiver",
+      "Fragment",
+      "PendingIntent"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Intent, BroadcastReceiver, Fragment, PendingIntent because they belong to Android app components and communication primitives. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which options fit under state holders and reactive UI state patterns in Android? Think about items like ViewModel and StateFlow.",
+    "options": [
+      "ViewModel",
+      "SharedPreferences",
+      "LiveData",
+      "StateFlow",
+      "DAO",
+      "Parcelable"
+    ],
+    "correctAnswers": [
+      "ViewModel",
+      "StateFlow",
+      "LiveData"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are ViewModel, StateFlow, LiveData because they belong to state holders and reactive UI state patterns. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Choose all items related to local storage and data access in Android; examples include Room and DataStore.",
+    "options": [
+      "remember",
+      "ContentProvider",
+      "Room",
+      "Parcelable",
+      "DataStore",
+      "Modifier"
+    ],
+    "correctAnswers": [
+      "Room",
+      "DataStore",
+      "Parcelable",
+      "ContentProvider"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Room, DataStore, Parcelable, ContentProvider because they belong to local storage and data access. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which Android concepts are part of Jetpack Compose state and UI APIs, including remember and LaunchedEffect?",
+    "options": [
+      "LiveData",
+      "LaunchedEffect",
+      "SharedPreferences",
+      "remember",
+      "Parcelable",
+      "rememberSaveable"
+    ],
+    "correctAnswers": [
+      "remember",
+      "LaunchedEffect",
+      "rememberSaveable"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are remember, LaunchedEffect, rememberSaveable because they belong to Jetpack Compose state and UI APIs. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which of the following belong to Android app components and communication primitives in Android, including concepts like Activity and Intent?",
+    "options": [
+      "BroadcastReceiver",
+      "Intent",
+      "ContentProvider",
+      "PendingIntent",
+      "LiveData",
+      "Activity"
+    ],
+    "correctAnswers": [
+      "Activity",
+      "Intent",
+      "BroadcastReceiver",
+      "PendingIntent"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Activity, Intent, BroadcastReceiver, PendingIntent because they belong to Android app components and communication primitives. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Select all Android terms tied to state holders and reactive UI state patterns, such as ViewModel and StateFlow.",
+    "options": [
+      "DAO",
+      "StateFlow",
+      "LiveData",
+      "Room",
+      "DataStore",
+      "ViewModel"
+    ],
+    "correctAnswers": [
+      "ViewModel",
+      "StateFlow",
+      "LiveData"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are ViewModel, StateFlow, LiveData because they belong to state holders and reactive UI state patterns. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which options fit under local storage and data access in Android? Think about items like SharedPreferences and ContentProvider.",
+    "options": [
+      "SharedPreferences",
+      "rememberSaveable",
+      "PendingIntent",
+      "DataStore",
+      "DAO",
+      "ContentProvider"
+    ],
+    "correctAnswers": [
+      "SharedPreferences",
+      "ContentProvider",
+      "DAO",
+      "DataStore"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are SharedPreferences, ContentProvider, DAO, DataStore because they belong to local storage and data access. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which Android concepts are part of Android app components and communication primitives, including BroadcastReceiver and Fragment?",
+    "options": [
+      "LaunchedEffect",
+      "BroadcastReceiver",
+      "Activity",
+      "PendingIntent",
+      "Modifier",
+      "Fragment"
+    ],
+    "correctAnswers": [
+      "BroadcastReceiver",
+      "Fragment",
+      "Activity",
+      "PendingIntent"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are BroadcastReceiver, Fragment, Activity, PendingIntent because they belong to Android app components and communication primitives. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which of the following belong to state holders and reactive UI state patterns in Android, including concepts like StateFlow and ViewModel?",
+    "options": [
+      "DAO",
+      "ViewModel",
+      "BroadcastReceiver",
+      "StateFlow",
+      "Fragment",
+      "LiveData"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "ViewModel",
+      "LiveData"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are StateFlow, ViewModel, LiveData because they belong to state holders and reactive UI state patterns. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Select all Android terms tied to local storage and data access, such as DataStore and Room.",
+    "options": [
+      "Parcelable",
+      "DataStore",
+      "SharedPreferences",
+      "derivedStateOf",
+      "ViewModel",
+      "Room"
+    ],
+    "correctAnswers": [
+      "DataStore",
+      "Room",
+      "SharedPreferences",
+      "Parcelable"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are DataStore, Room, SharedPreferences, Parcelable because they belong to local storage and data access. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which options fit under Jetpack Compose state and UI APIs in Android? Think about items like rememberSaveable and remember.",
+    "options": [
+      "rememberSaveable",
+      "remember",
+      "PendingIntent",
+      "Fragment",
+      "Modifier",
+      "SharedPreferences"
+    ],
+    "correctAnswers": [
+      "rememberSaveable",
+      "remember",
+      "Modifier"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are rememberSaveable, remember, Modifier because they belong to Jetpack Compose state and UI APIs. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Choose all items related to Android app components and communication primitives in Android; examples include BroadcastReceiver and Intent.",
+    "options": [
+      "DataStore",
+      "Parcelable",
+      "Activity",
+      "Intent",
+      "PendingIntent",
+      "BroadcastReceiver"
+    ],
+    "correctAnswers": [
+      "BroadcastReceiver",
+      "Intent",
+      "PendingIntent",
+      "Activity"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are BroadcastReceiver, Intent, PendingIntent, Activity because they belong to Android app components and communication primitives. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which Android concepts are part of state holders and reactive UI state patterns, including StateFlow and LiveData?",
+    "options": [
+      "Activity",
+      "StateFlow",
+      "remember",
+      "LiveData",
+      "ContentProvider",
+      "ViewModel"
+    ],
+    "correctAnswers": [
+      "StateFlow",
+      "LiveData",
+      "ViewModel"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are StateFlow, LiveData, ViewModel because they belong to state holders and reactive UI state patterns. The remaining options come from other areas of Android."
+  },
+  {
+    "question": "Which of the following belong to local storage and data access in Android, including concepts like Room and Parcelable?",
+    "options": [
+      "Room",
+      "LazyColumn",
+      "rememberSaveable",
+      "ContentProvider",
+      "Parcelable",
+      "DataStore"
+    ],
+    "correctAnswers": [
+      "Room",
+      "Parcelable",
+      "DataStore",
+      "ContentProvider"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Room, Parcelable, DataStore, ContentProvider because they belong to local storage and data access. The remaining options come from other areas of Android."
   }
 ]

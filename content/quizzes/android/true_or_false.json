@@ -448,5 +448,305 @@
     "correctAnswer": false,
     "explanation": "`Dispatchers.IO` is optimized for blocking I/O operations. CPU-intensive tasks should use `Dispatchers.Default`, which is optimized for CPU-bound work.",
     "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, Activity is primarily used to represent a single screen and entry point for user interaction.",
+    "correctAnswer": true,
+    "explanation": "True. Activity is used to represent a single screen and entry point for user interaction.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, Fragment is primarily used to host reusable portions of UI and behavior inside an activity.",
+    "correctAnswer": true,
+    "explanation": "True. Fragment is used to host reusable portions of UI and behavior inside an activity.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, ViewModel is primarily used to store UI-related state and logic across configuration changes.",
+    "correctAnswer": true,
+    "explanation": "True. ViewModel is used to store UI-related state and logic across configuration changes.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, LiveData is primarily used to expose lifecycle-aware observable data to the UI layer.",
+    "correctAnswer": true,
+    "explanation": "True. LiveData is used to expose lifecycle-aware observable data to the UI layer.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, StateFlow is primarily used to hold and emit the latest UI state from coroutines.",
+    "correctAnswer": true,
+    "explanation": "True. StateFlow is used to hold and emit the latest UI state from coroutines.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, Room is primarily used to provide an abstraction layer over SQLite for local persistence.",
+    "correctAnswer": true,
+    "explanation": "True. Room is used to provide an abstraction layer over SQLite for local persistence.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, DAO is primarily used to define database access operations for Room entities.",
+    "correctAnswer": true,
+    "explanation": "True. DAO is used to define database access operations for Room entities.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, WorkManager is primarily used to schedule deferrable and guaranteed background work.",
+    "correctAnswer": true,
+    "explanation": "True. WorkManager is used to schedule deferrable and guaranteed background work.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, Service is primarily used to run long-lived work that does not require a visible UI.",
+    "correctAnswer": true,
+    "explanation": "True. Service is used to run long-lived work that does not require a visible UI.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, BroadcastReceiver is primarily used to respond to broadcasted system or app events.",
+    "correctAnswer": true,
+    "explanation": "True. BroadcastReceiver is used to respond to broadcasted system or app events.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, Intent is primarily used to request an action from another Android component.",
+    "correctAnswer": true,
+    "explanation": "True. Intent is used to request an action from another Android component.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, PendingIntent is primarily used to grant another app or the system permission to execute an intent later.",
+    "correctAnswer": true,
+    "explanation": "True. PendingIntent is used to grant another app or the system permission to execute an intent later.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, ContentProvider is primarily used to share structured app data with other apps through a standard interface.",
+    "correctAnswer": true,
+    "explanation": "True. ContentProvider is used to share structured app data with other apps through a standard interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, DataStore is primarily used to store key-value or typed data asynchronously using coroutines.",
+    "correctAnswer": true,
+    "explanation": "True. DataStore is used to store key-value or typed data asynchronously using coroutines.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, SharedPreferences is primarily used to persist small key-value settings on the device.",
+    "correctAnswer": true,
+    "explanation": "True. SharedPreferences is used to persist small key-value settings on the device.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, Navigation Component is primarily used to manage in-app destinations, arguments, and the back stack.",
+    "correctAnswer": true,
+    "explanation": "True. Navigation Component is used to manage in-app destinations, arguments, and the back stack.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, RecyclerView is primarily used to display large scrollable collections efficiently in the View system.",
+    "correctAnswer": true,
+    "explanation": "True. RecyclerView is used to display large scrollable collections efficiently in the View system.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, LazyColumn is primarily used to render a vertically scrolling lazy list in Jetpack Compose.",
+    "correctAnswer": true,
+    "explanation": "True. LazyColumn is used to render a vertically scrolling lazy list in Jetpack Compose.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, Modifier is primarily used to decorate Compose UI with layout, styling, and interaction behavior.",
+    "correctAnswer": true,
+    "explanation": "True. Modifier is used to decorate Compose UI with layout, styling, and interaction behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, remember is primarily used to retain a value across recompositions in Compose.",
+    "correctAnswer": true,
+    "explanation": "True. remember is used to retain a value across recompositions in Compose.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Android, rememberSaveable is primarily used to retain UI state across recomposition and process recreation when possible.",
+    "correctAnswer": true,
+    "explanation": "True. rememberSaveable is used to retain UI state across recomposition and process recreation when possible.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, LaunchedEffect is primarily used to launch suspend side effects that are scoped to the composition.",
+    "correctAnswer": true,
+    "explanation": "True. LaunchedEffect is used to launch suspend side effects that are scoped to the composition.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, derivedStateOf is primarily used to compute derived Compose state efficiently from other state objects.",
+    "correctAnswer": true,
+    "explanation": "True. derivedStateOf is used to compute derived Compose state efficiently from other state objects.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, Hilt is primarily used to provide dependency injection for Android components with generated bindings.",
+    "correctAnswer": true,
+    "explanation": "True. Hilt is used to provide dependency injection for Android components with generated bindings.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, Parcelable is primarily used to serialize structured data efficiently for Android component boundaries.",
+    "correctAnswer": true,
+    "explanation": "True. Parcelable is used to serialize structured data efficiently for Android component boundaries.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, Activity is primarily used to expose lifecycle-aware observable data to the UI layer.",
+    "correctAnswer": false,
+    "explanation": "False. Activity is actually used to represent a single screen and entry point for user interaction, not to expose lifecycle-aware observable data to the UI layer.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, Fragment is primarily used to request an action from another Android component.",
+    "correctAnswer": false,
+    "explanation": "False. Fragment is actually used to host reusable portions of UI and behavior inside an activity, not to request an action from another Android component.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, ViewModel is primarily used to render a vertically scrolling lazy list in Jetpack Compose.",
+    "correctAnswer": false,
+    "explanation": "False. ViewModel is actually used to store UI-related state and logic across configuration changes, not to render a vertically scrolling lazy list in Jetpack Compose.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, LiveData is primarily used to serialize structured data efficiently for Android component boundaries.",
+    "correctAnswer": false,
+    "explanation": "False. LiveData is actually used to expose lifecycle-aware observable data to the UI layer, not to serialize structured data efficiently for Android component boundaries.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, StateFlow is primarily used to define database access operations for Room entities.",
+    "correctAnswer": false,
+    "explanation": "False. StateFlow is actually used to hold and emit the latest UI state from coroutines, not to define database access operations for Room entities.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, Room is primarily used to store key-value or typed data asynchronously using coroutines.",
+    "correctAnswer": false,
+    "explanation": "False. Room is actually used to provide an abstraction layer over SQLite for local persistence, not to store key-value or typed data asynchronously using coroutines.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, DAO is primarily used to retain UI state across recomposition and process recreation when possible.",
+    "correctAnswer": false,
+    "explanation": "False. DAO is actually used to define database access operations for Room entities, not to retain UI state across recomposition and process recreation when possible.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, WorkManager is primarily used to store UI-related state and logic across configuration changes.",
+    "correctAnswer": false,
+    "explanation": "False. WorkManager is actually used to schedule deferrable and guaranteed background work, not to store UI-related state and logic across configuration changes.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, Service is primarily used to respond to broadcasted system or app events.",
+    "correctAnswer": false,
+    "explanation": "False. Service is actually used to run long-lived work that does not require a visible UI, not to respond to broadcasted system or app events.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, BroadcastReceiver is primarily used to display large scrollable collections efficiently in the View system.",
+    "correctAnswer": false,
+    "explanation": "False. BroadcastReceiver is actually used to respond to broadcasted system or app events, not to display large scrollable collections efficiently in the View system.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, Intent is primarily used to provide dependency injection for Android components with generated bindings.",
+    "correctAnswer": false,
+    "explanation": "False. Intent is actually used to request an action from another Android component, not to provide dependency injection for Android components with generated bindings.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, PendingIntent is primarily used to provide an abstraction layer over SQLite for local persistence.",
+    "correctAnswer": false,
+    "explanation": "False. PendingIntent is actually used to grant another app or the system permission to execute an intent later, not to provide an abstraction layer over SQLite for local persistence.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, ContentProvider is primarily used to store key-value or typed data asynchronously using coroutines.",
+    "correctAnswer": false,
+    "explanation": "False. ContentProvider is actually used to share structured app data with other apps through a standard interface, not to store key-value or typed data asynchronously using coroutines.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, DataStore is primarily used to retain a value across recompositions in Compose.",
+    "correctAnswer": false,
+    "explanation": "False. DataStore is actually used to store key-value or typed data asynchronously using coroutines, not to retain a value across recompositions in Compose.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, SharedPreferences is primarily used to host reusable portions of UI and behavior inside an activity.",
+    "correctAnswer": false,
+    "explanation": "False. SharedPreferences is actually used to persist small key-value settings on the device, not to host reusable portions of UI and behavior inside an activity.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, Navigation Component is primarily used to run long-lived work that does not require a visible UI.",
+    "correctAnswer": false,
+    "explanation": "False. Navigation Component is actually used to manage in-app destinations, arguments, and the back stack, not to run long-lived work that does not require a visible UI.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, RecyclerView is primarily used to manage in-app destinations, arguments, and the back stack.",
+    "correctAnswer": false,
+    "explanation": "False. RecyclerView is actually used to display large scrollable collections efficiently in the View system, not to manage in-app destinations, arguments, and the back stack.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, LazyColumn is primarily used to compute derived Compose state efficiently from other state objects.",
+    "correctAnswer": false,
+    "explanation": "False. LazyColumn is actually used to render a vertically scrolling lazy list in Jetpack Compose, not to compute derived Compose state efficiently from other state objects.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, Modifier is primarily used to hold and emit the latest UI state from coroutines.",
+    "correctAnswer": false,
+    "explanation": "False. Modifier is actually used to decorate Compose UI with layout, styling, and interaction behavior, not to hold and emit the latest UI state from coroutines.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, remember is primarily used to grant another app or the system permission to execute an intent later.",
+    "correctAnswer": false,
+    "explanation": "False. remember is actually used to retain a value across recompositions in Compose, not to grant another app or the system permission to execute an intent later.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, rememberSaveable is primarily used to decorate Compose UI with layout, styling, and interaction behavior.",
+    "correctAnswer": false,
+    "explanation": "False. rememberSaveable is actually used to retain UI state across recomposition and process recreation when possible, not to decorate Compose UI with layout, styling, and interaction behavior.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, LaunchedEffect is primarily used to represent a single screen and entry point for user interaction.",
+    "correctAnswer": false,
+    "explanation": "False. LaunchedEffect is actually used to launch suspend side effects that are scoped to the composition, not to represent a single screen and entry point for user interaction.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, derivedStateOf is primarily used to schedule deferrable and guaranteed background work.",
+    "correctAnswer": false,
+    "explanation": "False. derivedStateOf is actually used to compute derived Compose state efficiently from other state objects, not to schedule deferrable and guaranteed background work.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, Hilt is primarily used to persist small key-value settings on the device.",
+    "correctAnswer": false,
+    "explanation": "False. Hilt is actually used to provide dependency injection for Android components with generated bindings, not to persist small key-value settings on the device.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, Parcelable is primarily used to launch suspend side effects that are scoped to the composition.",
+    "correctAnswer": false,
+    "explanation": "False. Parcelable is actually used to serialize structured data efficiently for Android component boundaries, not to launch suspend side effects that are scoped to the composition.",
+    "difficulty": "Hard"
   }
 ]

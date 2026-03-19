@@ -364,5 +364,305 @@
     "correctAnswer": true,
     "explanation": "ATS enforces HTTPS connections by default since iOS 9. Plain HTTP requests are blocked unless an exception is added to the app's Info.plist.",
     "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UIViewController is primarily used to manage a screen's lifecycle and coordinate its view hierarchy.",
+    "correctAnswer": true,
+    "explanation": "True. UIViewController is used to manage a screen's lifecycle and coordinate its view hierarchy.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, UINavigationController is primarily used to manage a stack of view controllers for hierarchical navigation.",
+    "correctAnswer": true,
+    "explanation": "True. UINavigationController is used to manage a stack of view controllers for hierarchical navigation.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, UITableView is primarily used to display vertically scrolling rows of reusable cells.",
+    "correctAnswer": true,
+    "explanation": "True. UITableView is used to display vertically scrolling rows of reusable cells.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, UICollectionView is primarily used to display customizable grids or lists of reusable items.",
+    "correctAnswer": true,
+    "explanation": "True. UICollectionView is used to display customizable grids or lists of reusable items.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, Auto Layout is primarily used to position and size UI elements using constraints.",
+    "correctAnswer": true,
+    "explanation": "True. Auto Layout is used to position and size UI elements using constraints.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, URLSession is primarily used to perform HTTP networking and data transfer tasks.",
+    "correctAnswer": true,
+    "explanation": "True. URLSession is used to perform HTTP networking and data transfer tasks.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, UserDefaults is primarily used to persist lightweight user settings and preferences.",
+    "correctAnswer": true,
+    "explanation": "True. UserDefaults is used to persist lightweight user settings and preferences.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, Keychain is primarily used to store sensitive credentials securely on the device.",
+    "correctAnswer": true,
+    "explanation": "True. Keychain is used to store sensitive credentials securely on the device.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, Core Data is primarily used to manage object graphs and local persistence.",
+    "correctAnswer": true,
+    "explanation": "True. Core Data is used to manage object graphs and local persistence.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, NotificationCenter is primarily used to broadcast in-process events to observers.",
+    "correctAnswer": true,
+    "explanation": "True. NotificationCenter is used to broadcast in-process events to observers.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, BackgroundTasks is primarily used to schedule eligible work for execution when the system allows it.",
+    "correctAnswer": true,
+    "explanation": "True. BackgroundTasks is used to schedule eligible work for execution when the system allows it.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, AppDelegate is primarily used to respond to app-level lifecycle events and configuration.",
+    "correctAnswer": true,
+    "explanation": "True. AppDelegate is used to respond to app-level lifecycle events and configuration.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, SceneDelegate is primarily used to manage the lifecycle of a UI scene in multi-window apps.",
+    "correctAnswer": true,
+    "explanation": "True. SceneDelegate is used to manage the lifecycle of a UI scene in multi-window apps.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, UIView is primarily used to render visible UI elements and handle layout and events.",
+    "correctAnswer": true,
+    "explanation": "True. UIView is used to render visible UI elements and handle layout and events.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, CALayer is primarily used to back a view's rendering, animations, and compositing properties.",
+    "correctAnswer": true,
+    "explanation": "True. CALayer is used to back a view's rendering, animations, and compositing properties.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, UIApplication is primarily used to represent the running app and coordinate high-level app behavior.",
+    "correctAnswer": true,
+    "explanation": "True. UIApplication is used to represent the running app and coordinate high-level app behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, UNUserNotificationCenter is primarily used to manage local and remote notification requests and permissions.",
+    "correctAnswer": true,
+    "explanation": "True. UNUserNotificationCenter is used to manage local and remote notification requests and permissions.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, Core Location is primarily used to access device location and heading services.",
+    "correctAnswer": true,
+    "explanation": "True. Core Location is used to access device location and heading services.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, AVFoundation is primarily used to work with audio, video, and camera capabilities.",
+    "correctAnswer": true,
+    "explanation": "True. AVFoundation is used to work with audio, video, and camera capabilities.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, WKWebView is primarily used to embed and control web content inside an app.",
+    "correctAnswer": true,
+    "explanation": "True. WKWebView is used to embed and control web content inside an app.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In iOS development, Bundle is primarily used to locate app resources and metadata packaged with the app.",
+    "correctAnswer": true,
+    "explanation": "True. Bundle is used to locate app resources and metadata packaged with the app.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, Info.plist is primarily used to declare configuration values and usage descriptions for the app.",
+    "correctAnswer": true,
+    "explanation": "True. Info.plist is used to declare configuration values and usage descriptions for the app.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UIAccessibility is primarily used to expose UI information to assistive technologies.",
+    "correctAnswer": true,
+    "explanation": "True. UIAccessibility is used to expose UI information to assistive technologies.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, Main thread is primarily used to run UI updates and user-interaction work safely.",
+    "correctAnswer": true,
+    "explanation": "True. Main thread is used to run UI updates and user-interaction work safely.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, reuseIdentifier is primarily used to enable cells and reusable views to be recycled efficiently.",
+    "correctAnswer": true,
+    "explanation": "True. reuseIdentifier is used to enable cells and reusable views to be recycled efficiently.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UIViewController is primarily used to display customizable grids or lists of reusable items.",
+    "correctAnswer": false,
+    "explanation": "False. UIViewController is actually used to manage a screen's lifecycle and coordinate its view hierarchy, not to display customizable grids or lists of reusable items.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UINavigationController is primarily used to schedule eligible work for execution when the system allows it.",
+    "correctAnswer": false,
+    "explanation": "False. UINavigationController is actually used to manage a stack of view controllers for hierarchical navigation, not to schedule eligible work for execution when the system allows it.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UITableView is primarily used to access device location and heading services.",
+    "correctAnswer": false,
+    "explanation": "False. UITableView is actually used to display vertically scrolling rows of reusable cells, not to access device location and heading services.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UICollectionView is primarily used to enable cells and reusable views to be recycled efficiently.",
+    "correctAnswer": false,
+    "explanation": "False. UICollectionView is actually used to display customizable grids or lists of reusable items, not to enable cells and reusable views to be recycled efficiently.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, Auto Layout is primarily used to persist lightweight user settings and preferences.",
+    "correctAnswer": false,
+    "explanation": "False. Auto Layout is actually used to position and size UI elements using constraints, not to persist lightweight user settings and preferences.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, URLSession is primarily used to render visible UI elements and handle layout and events.",
+    "correctAnswer": false,
+    "explanation": "False. URLSession is actually used to perform HTTP networking and data transfer tasks, not to render visible UI elements and handle layout and events.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UserDefaults is primarily used to locate app resources and metadata packaged with the app.",
+    "correctAnswer": false,
+    "explanation": "False. UserDefaults is actually used to persist lightweight user settings and preferences, not to locate app resources and metadata packaged with the app.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, Keychain is primarily used to display vertically scrolling rows of reusable cells.",
+    "correctAnswer": false,
+    "explanation": "False. Keychain is actually used to store sensitive credentials securely on the device, not to display vertically scrolling rows of reusable cells.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, Core Data is primarily used to broadcast in-process events to observers.",
+    "correctAnswer": false,
+    "explanation": "False. Core Data is actually used to manage object graphs and local persistence, not to broadcast in-process events to observers.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, NotificationCenter is primarily used to manage local and remote notification requests and permissions.",
+    "correctAnswer": false,
+    "explanation": "False. NotificationCenter is actually used to broadcast in-process events to observers, not to manage local and remote notification requests and permissions.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, BackgroundTasks is primarily used to run UI updates and user-interaction work safely.",
+    "correctAnswer": false,
+    "explanation": "False. BackgroundTasks is actually used to schedule eligible work for execution when the system allows it, not to run UI updates and user-interaction work safely.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, AppDelegate is primarily used to perform HTTP networking and data transfer tasks.",
+    "correctAnswer": false,
+    "explanation": "False. AppDelegate is actually used to respond to app-level lifecycle events and configuration, not to perform HTTP networking and data transfer tasks.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, SceneDelegate is primarily used to render visible UI elements and handle layout and events.",
+    "correctAnswer": false,
+    "explanation": "False. SceneDelegate is actually used to manage the lifecycle of a UI scene in multi-window apps, not to render visible UI elements and handle layout and events.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UIView is primarily used to embed and control web content inside an app.",
+    "correctAnswer": false,
+    "explanation": "False. UIView is actually used to render visible UI elements and handle layout and events, not to embed and control web content inside an app.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, CALayer is primarily used to manage a stack of view controllers for hierarchical navigation.",
+    "correctAnswer": false,
+    "explanation": "False. CALayer is actually used to back a view's rendering, animations, and compositing properties, not to manage a stack of view controllers for hierarchical navigation.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, UIApplication is primarily used to manage object graphs and local persistence.",
+    "correctAnswer": false,
+    "explanation": "False. UIApplication is actually used to represent the running app and coordinate high-level app behavior, not to manage object graphs and local persistence.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, UNUserNotificationCenter is primarily used to represent the running app and coordinate high-level app behavior.",
+    "correctAnswer": false,
+    "explanation": "False. UNUserNotificationCenter is actually used to manage local and remote notification requests and permissions, not to represent the running app and coordinate high-level app behavior.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, Core Location is primarily used to expose UI information to assistive technologies.",
+    "correctAnswer": false,
+    "explanation": "False. Core Location is actually used to access device location and heading services, not to expose UI information to assistive technologies.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, AVFoundation is primarily used to position and size UI elements using constraints.",
+    "correctAnswer": false,
+    "explanation": "False. AVFoundation is actually used to work with audio, video, and camera capabilities, not to position and size UI elements using constraints.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, WKWebView is primarily used to respond to app-level lifecycle events and configuration.",
+    "correctAnswer": false,
+    "explanation": "False. WKWebView is actually used to embed and control web content inside an app, not to respond to app-level lifecycle events and configuration.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, Bundle is primarily used to work with audio, video, and camera capabilities.",
+    "correctAnswer": false,
+    "explanation": "False. Bundle is actually used to locate app resources and metadata packaged with the app, not to work with audio, video, and camera capabilities.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, Info.plist is primarily used to manage a screen's lifecycle and coordinate its view hierarchy.",
+    "correctAnswer": false,
+    "explanation": "False. Info.plist is actually used to declare configuration values and usage descriptions for the app, not to manage a screen's lifecycle and coordinate its view hierarchy.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, UIAccessibility is primarily used to store sensitive credentials securely on the device.",
+    "correctAnswer": false,
+    "explanation": "False. UIAccessibility is actually used to expose UI information to assistive technologies, not to store sensitive credentials securely on the device.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, Main thread is primarily used to back a view's rendering, animations, and compositing properties.",
+    "correctAnswer": false,
+    "explanation": "False. Main thread is actually used to run UI updates and user-interaction work safely, not to back a view's rendering, animations, and compositing properties.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, reuseIdentifier is primarily used to declare configuration values and usage descriptions for the app.",
+    "correctAnswer": false,
+    "explanation": "False. reuseIdentifier is actually used to enable cells and reusable views to be recycled efficiently, not to declare configuration values and usage descriptions for the app.",
+    "difficulty": "Hard"
   }
 ]

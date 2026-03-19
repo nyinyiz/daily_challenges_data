@@ -244,5 +244,305 @@
     "correctAnswer": false,
     "explanation": "ListView.builder lazily builds widgets on demand as the user scrolls. Only the widgets currently visible (plus a small cache extent buffer) are created, making it efficient for long lists.",
     "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, Widget is primarily used to describe an immutable part of the user interface.",
+    "correctAnswer": true,
+    "explanation": "True. Widget is used to describe an immutable part of the user interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, StatelessWidget is primarily used to build UI from configuration that does not change internally over time.",
+    "correctAnswer": true,
+    "explanation": "True. StatelessWidget is used to build UI from configuration that does not change internally over time.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, StatefulWidget is primarily used to create UI that owns mutable state through a paired State object.",
+    "correctAnswer": true,
+    "explanation": "True. StatefulWidget is used to create UI that owns mutable state through a paired State object.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, BuildContext is primarily used to provide access to a widget's location in the widget tree.",
+    "correctAnswer": true,
+    "explanation": "True. BuildContext is used to provide access to a widget's location in the widget tree.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, setState is primarily used to mark a State object dirty so Flutter schedules a rebuild.",
+    "correctAnswer": true,
+    "explanation": "True. setState is used to mark a State object dirty so Flutter schedules a rebuild.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, InheritedWidget is primarily used to share data efficiently with descendants in the widget tree.",
+    "correctAnswer": true,
+    "explanation": "True. InheritedWidget is used to share data efficiently with descendants in the widget tree.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, Navigator is primarily used to manage a stack of routes for screen transitions.",
+    "correctAnswer": true,
+    "explanation": "True. Navigator is used to manage a stack of routes for screen transitions.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, MaterialApp is primarily used to configure top-level Material Design app behavior.",
+    "correctAnswer": true,
+    "explanation": "True. MaterialApp is used to configure top-level Material Design app behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, Scaffold is primarily used to provide a standard visual layout structure for a Material screen.",
+    "correctAnswer": true,
+    "explanation": "True. Scaffold is used to provide a standard visual layout structure for a Material screen.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, FutureBuilder is primarily used to build UI based on the state of a Future.",
+    "correctAnswer": true,
+    "explanation": "True. FutureBuilder is used to build UI based on the state of a Future.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, StreamBuilder is primarily used to build UI based on values emitted by a Stream.",
+    "correctAnswer": true,
+    "explanation": "True. StreamBuilder is used to build UI based on values emitted by a Stream.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, ListView.builder is primarily used to lazily build scrolling list items on demand.",
+    "correctAnswer": true,
+    "explanation": "True. ListView.builder is used to lazily build scrolling list items on demand.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, GridView.builder is primarily used to lazily build grid items on demand.",
+    "correctAnswer": true,
+    "explanation": "True. GridView.builder is used to lazily build grid items on demand.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, CustomScrollView is primarily used to combine multiple slivers into one coordinated scroll view.",
+    "correctAnswer": true,
+    "explanation": "True. CustomScrollView is used to combine multiple slivers into one coordinated scroll view.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, SliverAppBar is primarily used to create an app bar that participates in sliver scrolling behavior.",
+    "correctAnswer": true,
+    "explanation": "True. SliverAppBar is used to create an app bar that participates in sliver scrolling behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, MediaQuery is primarily used to read screen size, padding, and platform metrics from context.",
+    "correctAnswer": true,
+    "explanation": "True. MediaQuery is used to read screen size, padding, and platform metrics from context.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, LayoutBuilder is primarily used to build widgets based on parent layout constraints.",
+    "correctAnswer": true,
+    "explanation": "True. LayoutBuilder is used to build widgets based on parent layout constraints.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, ThemeData is primarily used to configure colors, typography, and visual theming for Material widgets.",
+    "correctAnswer": true,
+    "explanation": "True. ThemeData is used to configure colors, typography, and visual theming for Material widgets.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, BoxConstraints is primarily used to describe the minimum and maximum size a widget can take.",
+    "correctAnswer": true,
+    "explanation": "True. BoxConstraints is used to describe the minimum and maximum size a widget can take.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, const widget is primarily used to allow Flutter to reuse immutable widget instances more efficiently.",
+    "correctAnswer": true,
+    "explanation": "True. const widget is used to allow Flutter to reuse immutable widget instances more efficiently.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Flutter, Key is primarily used to preserve widget identity across rebuilds and reordering.",
+    "correctAnswer": true,
+    "explanation": "True. Key is used to preserve widget identity across rebuilds and reordering.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, pubspec.yaml is primarily used to declare package dependencies and asset configuration.",
+    "correctAnswer": true,
+    "explanation": "True. pubspec.yaml is used to declare package dependencies and asset configuration.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, Hot reload is primarily used to inject code changes into a running app while preserving state when possible.",
+    "correctAnswer": true,
+    "explanation": "True. Hot reload is used to inject code changes into a running app while preserving state when possible.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, async/await is primarily used to write asynchronous Dart code in a sequential style.",
+    "correctAnswer": true,
+    "explanation": "True. async/await is used to write asynchronous Dart code in a sequential style.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, Isolate is primarily used to run computation in a separate memory-isolated worker.",
+    "correctAnswer": true,
+    "explanation": "True. Isolate is used to run computation in a separate memory-isolated worker.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, Widget is primarily used to provide access to a widget's location in the widget tree.",
+    "correctAnswer": false,
+    "explanation": "False. Widget is actually used to describe an immutable part of the user interface, not to provide access to a widget's location in the widget tree.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, StatelessWidget is primarily used to build UI based on values emitted by a Stream.",
+    "correctAnswer": false,
+    "explanation": "False. StatelessWidget is actually used to build UI from configuration that does not change internally over time, not to build UI based on values emitted by a Stream.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, StatefulWidget is primarily used to configure colors, typography, and visual theming for Material widgets.",
+    "correctAnswer": false,
+    "explanation": "False. StatefulWidget is actually used to create UI that owns mutable state through a paired State object, not to configure colors, typography, and visual theming for Material widgets.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, BuildContext is primarily used to run computation in a separate memory-isolated worker.",
+    "correctAnswer": false,
+    "explanation": "False. BuildContext is actually used to provide access to a widget's location in the widget tree, not to run computation in a separate memory-isolated worker.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, setState is primarily used to manage a stack of routes for screen transitions.",
+    "correctAnswer": false,
+    "explanation": "False. setState is actually used to mark a State object dirty so Flutter schedules a rebuild, not to manage a stack of routes for screen transitions.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, InheritedWidget is primarily used to combine multiple slivers into one coordinated scroll view.",
+    "correctAnswer": false,
+    "explanation": "False. InheritedWidget is actually used to share data efficiently with descendants in the widget tree, not to combine multiple slivers into one coordinated scroll view.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, Navigator is primarily used to preserve widget identity across rebuilds and reordering.",
+    "correctAnswer": false,
+    "explanation": "False. Navigator is actually used to manage a stack of routes for screen transitions, not to preserve widget identity across rebuilds and reordering.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, MaterialApp is primarily used to create UI that owns mutable state through a paired State object.",
+    "correctAnswer": false,
+    "explanation": "False. MaterialApp is actually used to configure top-level Material Design app behavior, not to create UI that owns mutable state through a paired State object.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, Scaffold is primarily used to build UI based on the state of a Future.",
+    "correctAnswer": false,
+    "explanation": "False. Scaffold is actually used to provide a standard visual layout structure for a Material screen, not to build UI based on the state of a Future.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, FutureBuilder is primarily used to build widgets based on parent layout constraints.",
+    "correctAnswer": false,
+    "explanation": "False. FutureBuilder is actually used to build UI based on the state of a Future, not to build widgets based on parent layout constraints.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, StreamBuilder is primarily used to write asynchronous Dart code in a sequential style.",
+    "correctAnswer": false,
+    "explanation": "False. StreamBuilder is actually used to build UI based on values emitted by a Stream, not to write asynchronous Dart code in a sequential style.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, ListView.builder is primarily used to share data efficiently with descendants in the widget tree.",
+    "correctAnswer": false,
+    "explanation": "False. ListView.builder is actually used to lazily build scrolling list items on demand, not to share data efficiently with descendants in the widget tree.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, GridView.builder is primarily used to combine multiple slivers into one coordinated scroll view.",
+    "correctAnswer": false,
+    "explanation": "False. GridView.builder is actually used to lazily build grid items on demand, not to combine multiple slivers into one coordinated scroll view.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, CustomScrollView is primarily used to allow Flutter to reuse immutable widget instances more efficiently.",
+    "correctAnswer": false,
+    "explanation": "False. CustomScrollView is actually used to combine multiple slivers into one coordinated scroll view, not to allow Flutter to reuse immutable widget instances more efficiently.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, SliverAppBar is primarily used to build UI from configuration that does not change internally over time.",
+    "correctAnswer": false,
+    "explanation": "False. SliverAppBar is actually used to create an app bar that participates in sliver scrolling behavior, not to build UI from configuration that does not change internally over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Flutter, MediaQuery is primarily used to provide a standard visual layout structure for a Material screen.",
+    "correctAnswer": false,
+    "explanation": "False. MediaQuery is actually used to read screen size, padding, and platform metrics from context, not to provide a standard visual layout structure for a Material screen.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, LayoutBuilder is primarily used to read screen size, padding, and platform metrics from context.",
+    "correctAnswer": false,
+    "explanation": "False. LayoutBuilder is actually used to build widgets based on parent layout constraints, not to read screen size, padding, and platform metrics from context.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, ThemeData is primarily used to inject code changes into a running app while preserving state when possible.",
+    "correctAnswer": false,
+    "explanation": "False. ThemeData is actually used to configure colors, typography, and visual theming for Material widgets, not to inject code changes into a running app while preserving state when possible.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, BoxConstraints is primarily used to mark a State object dirty so Flutter schedules a rebuild.",
+    "correctAnswer": false,
+    "explanation": "False. BoxConstraints is actually used to describe the minimum and maximum size a widget can take, not to mark a State object dirty so Flutter schedules a rebuild.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, const widget is primarily used to lazily build scrolling list items on demand.",
+    "correctAnswer": false,
+    "explanation": "False. const widget is actually used to allow Flutter to reuse immutable widget instances more efficiently, not to lazily build scrolling list items on demand.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, Key is primarily used to describe the minimum and maximum size a widget can take.",
+    "correctAnswer": false,
+    "explanation": "False. Key is actually used to preserve widget identity across rebuilds and reordering, not to describe the minimum and maximum size a widget can take.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, pubspec.yaml is primarily used to describe an immutable part of the user interface.",
+    "correctAnswer": false,
+    "explanation": "False. pubspec.yaml is actually used to declare package dependencies and asset configuration, not to describe an immutable part of the user interface.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, Hot reload is primarily used to configure top-level Material Design app behavior.",
+    "correctAnswer": false,
+    "explanation": "False. Hot reload is actually used to inject code changes into a running app while preserving state when possible, not to configure top-level Material Design app behavior.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, async/await is primarily used to create an app bar that participates in sliver scrolling behavior.",
+    "correctAnswer": false,
+    "explanation": "False. async/await is actually used to write asynchronous Dart code in a sequential style, not to create an app bar that participates in sliver scrolling behavior.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Flutter, Isolate is primarily used to declare package dependencies and asset configuration.",
+    "correctAnswer": false,
+    "explanation": "False. Isolate is actually used to run computation in a separate memory-isolated worker, not to declare package dependencies and asset configuration.",
+    "difficulty": "Hard"
   }
 ]

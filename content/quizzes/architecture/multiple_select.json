@@ -384,5 +384,933 @@
     ],
     "difficulty": "Medium",
     "explanation": "Singleton guarantees a single instance and global access point, and is a GoF creational pattern. However, it can introduce hidden global state and tight coupling, harming testability. In multithreaded environments, the implementation must be made thread-safe explicitly. It actually makes unit testing harder, not easier."
+  },
+  {
+    "question": "Which of the following are associated with architecture patterns and structural building blocks in software architecture?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Use Case",
+      "MVI",
+      "MVVM",
+      "Eventual Consistency",
+      "Repository"
+    ],
+    "correctAnswers": [
+      "MVI",
+      "Repository",
+      "MVVM",
+      "Use Case"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are MVI, Repository, MVVM, Use Case because they belong to architecture patterns and structural building blocks. The remaining options come from different areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture concepts that belong to core design principles.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Separation of Concerns",
+      "Observability",
+      "Interface Segregation Principle",
+      "Dependency Injection",
+      "Unidirectional Data Flow"
+    ],
+    "correctAnswers": [
+      "Unidirectional Data Flow",
+      "Separation of Concerns",
+      "Dependency Injection"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Unidirectional Data Flow, Separation of Concerns, Dependency Injection because they belong to core design principles. The remaining options come from different areas of software architecture."
+  },
+  {
+    "question": "Which options are commonly used for the SOLID principles in software architecture?",
+    "options": [
+      "Open/Closed Principle",
+      "Use Case",
+      "Dependency Inversion Principle",
+      "Liskov Substitution Principle",
+      "SOLID",
+      "Interface Segregation Principle"
+    ],
+    "correctAnswers": [
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle",
+      "Liskov Substitution Principle",
+      "Open/Closed Principle"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Interface Segregation Principle, Dependency Inversion Principle, Liskov Substitution Principle, Open/Closed Principle because they belong to the SOLID principles. The remaining options come from different areas of software architecture."
+  },
+  {
+    "question": "Choose all items related to scalability and throughput techniques in software architecture.",
+    "options": [
+      "Dependency Injection",
+      "Pagination",
+      "CQRS",
+      "Caching",
+      "Circuit Breaker",
+      "MVI"
+    ],
+    "correctAnswers": [
+      "CQRS",
+      "Pagination",
+      "Caching"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are CQRS, Pagination, Caching because they belong to scalability and throughput techniques. The remaining options come from different areas of software architecture."
+  },
+  {
+    "question": "Which software architecture terms fit under resilience and fault-tolerance patterns?",
+    "options": [
+      "Observability",
+      "Idempotency",
+      "Retry with Backoff",
+      "Interface Segregation Principle",
+      "Circuit Breaker",
+      "Rate Limiting"
+    ],
+    "correctAnswers": [
+      "Retry with Backoff",
+      "Idempotency",
+      "Circuit Breaker",
+      "Rate Limiting"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Retry with Backoff, Idempotency, Circuit Breaker, Rate Limiting because they belong to resilience and fault-tolerance patterns. The remaining options come from different areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like CQRS and MVI?",
+    "options": [
+      "Repository",
+      "MVI",
+      "Message Queue",
+      "Use Case",
+      "CQRS",
+      "Eventual Consistency"
+    ],
+    "correctAnswers": [
+      "CQRS",
+      "MVI",
+      "Use Case",
+      "Repository"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are CQRS, MVI, Use Case, Repository because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as Dependency Injection and Single Source of Truth.",
+    "options": [
+      "Repository",
+      "SOLID",
+      "Circuit Breaker",
+      "Liskov Substitution Principle",
+      "Single Source of Truth",
+      "Dependency Injection"
+    ],
+    "correctAnswers": [
+      "Dependency Injection",
+      "Single Source of Truth",
+      "SOLID"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Dependency Injection, Single Source of Truth, SOLID because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Interface Segregation Principle and Dependency Inversion Principle.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Use Case",
+      "Open/Closed Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle",
+      "Clean Architecture"
+    ],
+    "correctAnswers": [
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle",
+      "Liskov Substitution Principle",
+      "Open/Closed Principle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Interface Segregation Principle, Dependency Inversion Principle, Liskov Substitution Principle, Open/Closed Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Choose all items related to resilience and fault-tolerance patterns in software architecture; examples include Circuit Breaker and Idempotency.",
+    "options": [
+      "CQRS",
+      "Separation of Concerns",
+      "Retry with Backoff",
+      "Idempotency",
+      "Circuit Breaker",
+      "Dependency Injection"
+    ],
+    "correctAnswers": [
+      "Circuit Breaker",
+      "Idempotency",
+      "Retry with Backoff"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Circuit Breaker, Idempotency, Retry with Backoff because they belong to resilience and fault-tolerance patterns. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Caching and Eventual Consistency?",
+    "options": [
+      "Observability",
+      "Caching",
+      "Interface Segregation Principle",
+      "Pagination",
+      "Eventual Consistency",
+      "MVI"
+    ],
+    "correctAnswers": [
+      "Caching",
+      "Eventual Consistency",
+      "Pagination",
+      "Observability"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Caching, Eventual Consistency, Pagination, Observability because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like MVI and Repository?",
+    "options": [
+      "Single Source of Truth",
+      "MVI",
+      "Dependency Injection",
+      "Repository",
+      "Interface Segregation Principle",
+      "Use Case"
+    ],
+    "correctAnswers": [
+      "MVI",
+      "Repository",
+      "Use Case"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are MVI, Repository, Use Case because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as Single Source of Truth and Unidirectional Data Flow.",
+    "options": [
+      "Dependency Injection",
+      "Unidirectional Data Flow",
+      "Single Responsibility Principle",
+      "Separation of Concerns",
+      "Circuit Breaker",
+      "Single Source of Truth"
+    ],
+    "correctAnswers": [
+      "Single Source of Truth",
+      "Unidirectional Data Flow",
+      "Separation of Concerns",
+      "Dependency Injection"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Single Source of Truth, Unidirectional Data Flow, Separation of Concerns, Dependency Injection because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Liskov Substitution Principle and Interface Segregation Principle.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Eventual Consistency",
+      "Single Responsibility Principle",
+      "Message Queue",
+      "Interface Segregation Principle",
+      "Circuit Breaker"
+    ],
+    "correctAnswers": [
+      "Liskov Substitution Principle",
+      "Interface Segregation Principle",
+      "Single Responsibility Principle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Liskov Substitution Principle, Interface Segregation Principle, Single Responsibility Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Choose all items related to resilience and fault-tolerance patterns in software architecture; examples include Retry with Backoff and Circuit Breaker.",
+    "options": [
+      "Circuit Breaker",
+      "Rate Limiting",
+      "MVVM",
+      "Retry with Backoff",
+      "Idempotency",
+      "Single Responsibility Principle"
+    ],
+    "correctAnswers": [
+      "Retry with Backoff",
+      "Circuit Breaker",
+      "Rate Limiting",
+      "Idempotency"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Retry with Backoff, Circuit Breaker, Rate Limiting, Idempotency because they belong to resilience and fault-tolerance patterns. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Caching and Message Queue?",
+    "options": [
+      "Circuit Breaker",
+      "Caching",
+      "Message Queue",
+      "Open/Closed Principle",
+      "Eventual Consistency",
+      "Rate Limiting"
+    ],
+    "correctAnswers": [
+      "Caching",
+      "Message Queue",
+      "Eventual Consistency"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Caching, Message Queue, Eventual Consistency because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like Use Case and Repository?",
+    "options": [
+      "Rate Limiting",
+      "Use Case",
+      "Repository",
+      "Observability",
+      "CQRS",
+      "Clean Architecture"
+    ],
+    "correctAnswers": [
+      "Use Case",
+      "Repository",
+      "CQRS",
+      "Clean Architecture"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Use Case, Repository, CQRS, Clean Architecture because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as Unidirectional Data Flow and SOLID.",
+    "options": [
+      "MVVM",
+      "Unidirectional Data Flow",
+      "Rate Limiting",
+      "SOLID",
+      "Observability",
+      "Single Source of Truth"
+    ],
+    "correctAnswers": [
+      "Unidirectional Data Flow",
+      "SOLID",
+      "Single Source of Truth"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Unidirectional Data Flow, SOLID, Single Source of Truth because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Single Responsibility Principle and Open/Closed Principle.",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Clean Architecture",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle",
+      "Repository"
+    ],
+    "correctAnswers": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Single Responsibility Principle, Open/Closed Principle, Interface Segregation Principle, Dependency Inversion Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Pagination and Eventual Consistency?",
+    "options": [
+      "Message Queue",
+      "Separation of Concerns",
+      "Repository",
+      "Pagination",
+      "Eventual Consistency",
+      "Caching"
+    ],
+    "correctAnswers": [
+      "Pagination",
+      "Eventual Consistency",
+      "Caching",
+      "Message Queue"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Pagination, Eventual Consistency, Caching, Message Queue because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like Use Case and Clean Architecture?",
+    "options": [
+      "Circuit Breaker",
+      "Use Case",
+      "Interface Segregation Principle",
+      "Message Queue",
+      "Clean Architecture",
+      "MVVM"
+    ],
+    "correctAnswers": [
+      "Use Case",
+      "Clean Architecture",
+      "MVVM"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Use Case, Clean Architecture, MVVM because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as SOLID and Unidirectional Data Flow.",
+    "options": [
+      "SOLID",
+      "Single Source of Truth",
+      "Unidirectional Data Flow",
+      "Separation of Concerns",
+      "MVVM",
+      "Pagination"
+    ],
+    "correctAnswers": [
+      "SOLID",
+      "Unidirectional Data Flow",
+      "Separation of Concerns",
+      "Single Source of Truth"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are SOLID, Unidirectional Data Flow, Separation of Concerns, Single Source of Truth because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Single Responsibility Principle and Dependency Inversion Principle.",
+    "options": [
+      "Dependency Inversion Principle",
+      "MVI",
+      "Single Source of Truth",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Use Case"
+    ],
+    "correctAnswers": [
+      "Single Responsibility Principle",
+      "Dependency Inversion Principle",
+      "Open/Closed Principle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Single Responsibility Principle, Dependency Inversion Principle, Open/Closed Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Choose all items related to resilience and fault-tolerance patterns in software architecture; examples include Rate Limiting and Idempotency.",
+    "options": [
+      "Rate Limiting",
+      "Idempotency",
+      "Unidirectional Data Flow",
+      "Retry with Backoff",
+      "Caching",
+      "Circuit Breaker"
+    ],
+    "correctAnswers": [
+      "Rate Limiting",
+      "Idempotency",
+      "Retry with Backoff",
+      "Circuit Breaker"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Rate Limiting, Idempotency, Retry with Backoff, Circuit Breaker because they belong to resilience and fault-tolerance patterns. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Pagination and Caching?",
+    "options": [
+      "Open/Closed Principle",
+      "Caching",
+      "Repository",
+      "Pagination",
+      "CQRS",
+      "Eventual Consistency"
+    ],
+    "correctAnswers": [
+      "Pagination",
+      "Caching",
+      "Eventual Consistency"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Pagination, Caching, Eventual Consistency because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like CQRS and Clean Architecture?",
+    "options": [
+      "Repository",
+      "Clean Architecture",
+      "Circuit Breaker",
+      "MVI",
+      "CQRS",
+      "Pagination"
+    ],
+    "correctAnswers": [
+      "CQRS",
+      "Clean Architecture",
+      "MVI",
+      "Repository"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are CQRS, Clean Architecture, MVI, Repository because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as SOLID and Separation of Concerns.",
+    "options": [
+      "Interface Segregation Principle",
+      "SOLID",
+      "Separation of Concerns",
+      "CQRS",
+      "Dependency Inversion Principle",
+      "Dependency Injection"
+    ],
+    "correctAnswers": [
+      "SOLID",
+      "Separation of Concerns",
+      "Dependency Injection"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are SOLID, Separation of Concerns, Dependency Injection because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Interface Segregation Principle and Open/Closed Principle.",
+    "options": [
+      "Repository",
+      "Unidirectional Data Flow",
+      "Open/Closed Principle",
+      "Interface Segregation Principle",
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle"
+    ],
+    "correctAnswers": [
+      "Interface Segregation Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Interface Segregation Principle, Open/Closed Principle, Single Responsibility Principle, Liskov Substitution Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Choose all items related to resilience and fault-tolerance patterns in software architecture; examples include Rate Limiting and Retry with Backoff.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Retry with Backoff",
+      "Rate Limiting",
+      "Single Source of Truth",
+      "Interface Segregation Principle",
+      "Idempotency"
+    ],
+    "correctAnswers": [
+      "Rate Limiting",
+      "Retry with Backoff",
+      "Idempotency"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Rate Limiting, Retry with Backoff, Idempotency because they belong to resilience and fault-tolerance patterns. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Observability and Message Queue?",
+    "options": [
+      "Open/Closed Principle",
+      "Observability",
+      "Message Queue",
+      "Pagination",
+      "Eventual Consistency",
+      "Dependency Injection"
+    ],
+    "correctAnswers": [
+      "Observability",
+      "Message Queue",
+      "Eventual Consistency",
+      "Pagination"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Observability, Message Queue, Eventual Consistency, Pagination because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like Use Case and MVVM?",
+    "options": [
+      "MVVM",
+      "Repository",
+      "Observability",
+      "Use Case",
+      "Caching",
+      "Single Responsibility Principle"
+    ],
+    "correctAnswers": [
+      "Use Case",
+      "MVVM",
+      "Repository"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Use Case, MVVM, Repository because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as Dependency Injection and SOLID.",
+    "options": [
+      "Unidirectional Data Flow",
+      "Use Case",
+      "Dependency Injection",
+      "Separation of Concerns",
+      "Liskov Substitution Principle",
+      "SOLID"
+    ],
+    "correctAnswers": [
+      "Dependency Injection",
+      "SOLID",
+      "Separation of Concerns",
+      "Unidirectional Data Flow"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Dependency Injection, SOLID, Separation of Concerns, Unidirectional Data Flow because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Liskov Substitution Principle and Single Responsibility Principle.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Pagination",
+      "Message Queue",
+      "Single Responsibility Principle",
+      "CQRS",
+      "Dependency Inversion Principle"
+    ],
+    "correctAnswers": [
+      "Liskov Substitution Principle",
+      "Single Responsibility Principle",
+      "Dependency Inversion Principle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Liskov Substitution Principle, Single Responsibility Principle, Dependency Inversion Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Choose all items related to resilience and fault-tolerance patterns in software architecture; examples include Idempotency and Circuit Breaker.",
+    "options": [
+      "Retry with Backoff",
+      "Circuit Breaker",
+      "MVI",
+      "Idempotency",
+      "MVVM",
+      "Rate Limiting"
+    ],
+    "correctAnswers": [
+      "Idempotency",
+      "Circuit Breaker",
+      "Rate Limiting",
+      "Retry with Backoff"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Idempotency, Circuit Breaker, Rate Limiting, Retry with Backoff because they belong to resilience and fault-tolerance patterns. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Pagination and Observability?",
+    "options": [
+      "Dependency Injection",
+      "Observability",
+      "Dependency Inversion Principle",
+      "Eventual Consistency",
+      "Repository",
+      "Pagination"
+    ],
+    "correctAnswers": [
+      "Pagination",
+      "Observability",
+      "Eventual Consistency"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Pagination, Observability, Eventual Consistency because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as Separation of Concerns and Single Source of Truth.",
+    "options": [
+      "Single Responsibility Principle",
+      "Unidirectional Data Flow",
+      "Single Source of Truth",
+      "Separation of Concerns",
+      "MVI",
+      "Pagination"
+    ],
+    "correctAnswers": [
+      "Separation of Concerns",
+      "Single Source of Truth",
+      "Unidirectional Data Flow"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Separation of Concerns, Single Source of Truth, Unidirectional Data Flow because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Liskov Substitution Principle and Open/Closed Principle.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Single Responsibility Principle",
+      "Dependency Inversion Principle",
+      "Clean Architecture",
+      "MVVM",
+      "Open/Closed Principle"
+    ],
+    "correctAnswers": [
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Dependency Inversion Principle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Liskov Substitution Principle, Open/Closed Principle, Single Responsibility Principle, Dependency Inversion Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Choose all items related to resilience and fault-tolerance patterns in software architecture; examples include Idempotency and Rate Limiting.",
+    "options": [
+      "Idempotency",
+      "Single Source of Truth",
+      "Rate Limiting",
+      "MVVM",
+      "Retry with Backoff",
+      "Interface Segregation Principle"
+    ],
+    "correctAnswers": [
+      "Idempotency",
+      "Rate Limiting",
+      "Retry with Backoff"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Idempotency, Rate Limiting, Retry with Backoff because they belong to resilience and fault-tolerance patterns. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as Unidirectional Data Flow and Single Source of Truth.",
+    "options": [
+      "Use Case",
+      "Separation of Concerns",
+      "Single Source of Truth",
+      "Eventual Consistency",
+      "Unidirectional Data Flow",
+      "Dependency Injection"
+    ],
+    "correctAnswers": [
+      "Unidirectional Data Flow",
+      "Single Source of Truth",
+      "Separation of Concerns",
+      "Dependency Injection"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Unidirectional Data Flow, Single Source of Truth, Separation of Concerns, Dependency Injection because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Message Queue and Observability?",
+    "options": [
+      "SOLID",
+      "CQRS",
+      "Caching",
+      "Message Queue",
+      "Observability",
+      "Unidirectional Data Flow"
+    ],
+    "correctAnswers": [
+      "Message Queue",
+      "Observability",
+      "Caching"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Message Queue, Observability, Caching because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like MVI and MVVM?",
+    "options": [
+      "Repository",
+      "Open/Closed Principle",
+      "Single Source of Truth",
+      "MVVM",
+      "Use Case",
+      "MVI"
+    ],
+    "correctAnswers": [
+      "MVI",
+      "MVVM",
+      "Use Case",
+      "Repository"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are MVI, MVVM, Use Case, Repository because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as Unidirectional Data Flow and Separation of Concerns.",
+    "options": [
+      "Single Source of Truth",
+      "Unidirectional Data Flow",
+      "Separation of Concerns",
+      "Liskov Substitution Principle",
+      "Observability",
+      "Eventual Consistency"
+    ],
+    "correctAnswers": [
+      "Unidirectional Data Flow",
+      "Separation of Concerns",
+      "Single Source of Truth"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Unidirectional Data Flow, Separation of Concerns, Single Source of Truth because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Single Responsibility Principle and Interface Segregation Principle.",
+    "options": [
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle",
+      "Dependency Inversion Principle",
+      "Interface Segregation Principle",
+      "Rate Limiting",
+      "Observability"
+    ],
+    "correctAnswers": [
+      "Single Responsibility Principle",
+      "Interface Segregation Principle",
+      "Liskov Substitution Principle",
+      "Dependency Inversion Principle"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Single Responsibility Principle, Interface Segregation Principle, Liskov Substitution Principle, Dependency Inversion Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Eventual Consistency and Caching?",
+    "options": [
+      "Clean Architecture",
+      "Observability",
+      "Pagination",
+      "Dependency Inversion Principle",
+      "Eventual Consistency",
+      "Caching"
+    ],
+    "correctAnswers": [
+      "Eventual Consistency",
+      "Caching",
+      "Pagination",
+      "Observability"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Eventual Consistency, Caching, Pagination, Observability because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Choose all items related to resilience and fault-tolerance patterns in software architecture; examples include Rate Limiting and Circuit Breaker.",
+    "options": [
+      "Idempotency",
+      "Circuit Breaker",
+      "Retry with Backoff",
+      "Dependency Injection",
+      "Rate Limiting",
+      "Unidirectional Data Flow"
+    ],
+    "correctAnswers": [
+      "Rate Limiting",
+      "Circuit Breaker",
+      "Retry with Backoff",
+      "Idempotency"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Rate Limiting, Circuit Breaker, Retry with Backoff, Idempotency because they belong to resilience and fault-tolerance patterns. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like Clean Architecture and Use Case?",
+    "options": [
+      "Unidirectional Data Flow",
+      "Observability",
+      "Clean Architecture",
+      "Use Case",
+      "MVI",
+      "MVVM"
+    ],
+    "correctAnswers": [
+      "Clean Architecture",
+      "Use Case",
+      "MVI",
+      "MVVM"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Clean Architecture, Use Case, MVI, MVVM because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Open/Closed Principle and Liskov Substitution Principle.",
+    "options": [
+      "Liskov Substitution Principle",
+      "Interface Segregation Principle",
+      "Dependency Injection",
+      "Use Case",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle"
+    ],
+    "correctAnswers": [
+      "Open/Closed Principle",
+      "Liskov Substitution Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Open/Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, Dependency Inversion Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which software architecture concepts are part of scalability and throughput techniques, including Pagination and Message Queue?",
+    "options": [
+      "Rate Limiting",
+      "Observability",
+      "Pagination",
+      "Circuit Breaker",
+      "Eventual Consistency",
+      "Message Queue"
+    ],
+    "correctAnswers": [
+      "Pagination",
+      "Message Queue",
+      "Eventual Consistency",
+      "Observability"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Pagination, Message Queue, Eventual Consistency, Observability because they belong to scalability and throughput techniques. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which of the following belong to architecture patterns and structural building blocks in software architecture, including concepts like MVI and Clean Architecture?",
+    "options": [
+      "Clean Architecture",
+      "MVVM",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle",
+      "MVI",
+      "Single Source of Truth"
+    ],
+    "correctAnswers": [
+      "MVI",
+      "Clean Architecture",
+      "MVVM"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are MVI, Clean Architecture, MVVM because they belong to architecture patterns and structural building blocks. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Select all software architecture terms tied to core design principles, such as Single Source of Truth and Dependency Injection.",
+    "options": [
+      "Single Source of Truth",
+      "Dependency Injection",
+      "MVVM",
+      "MVI",
+      "Message Queue",
+      "SOLID"
+    ],
+    "correctAnswers": [
+      "Single Source of Truth",
+      "Dependency Injection",
+      "SOLID"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Single Source of Truth, Dependency Injection, SOLID because they belong to core design principles. The remaining options come from other areas of software architecture."
+  },
+  {
+    "question": "Which options fit under the SOLID principles in software architecture? Think about items like Single Responsibility Principle and Liskov Substitution Principle.",
+    "options": [
+      "Interface Segregation Principle",
+      "Single Responsibility Principle",
+      "Separation of Concerns",
+      "Liskov Substitution Principle",
+      "Repository",
+      "Open/Closed Principle"
+    ],
+    "correctAnswers": [
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Single Responsibility Principle, Liskov Substitution Principle, Open/Closed Principle, Interface Segregation Principle because they belong to the SOLID principles. The remaining options come from other areas of software architecture."
   }
 ]

@@ -340,5 +340,305 @@
     "correctAnswer": true,
     "explanation": "Opaque types (declared with 'some') hide the concrete return type from the caller while preserving type information for the compiler, enabling protocol return types.",
     "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, struct is primarily used to define a value type with copied semantics by default.",
+    "correctAnswer": true,
+    "explanation": "True. struct is used to define a value type with copied semantics by default.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, class is primarily used to define a reference type that supports inheritance.",
+    "correctAnswer": true,
+    "explanation": "True. class is used to define a reference type that supports inheritance.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, enum is primarily used to model a finite set of related cases and associated values.",
+    "correctAnswer": true,
+    "explanation": "True. enum is used to model a finite set of related cases and associated values.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, protocol is primarily used to declare a contract of required properties and methods.",
+    "correctAnswer": true,
+    "explanation": "True. protocol is used to declare a contract of required properties and methods.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, extension is primarily used to add functionality to an existing type.",
+    "correctAnswer": true,
+    "explanation": "True. extension is used to add functionality to an existing type.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, Optional is primarily used to represent either a wrapped value or the absence of one.",
+    "correctAnswer": true,
+    "explanation": "True. Optional is used to represent either a wrapped value or the absence of one.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, guard is primarily used to exit early when required conditions are not satisfied.",
+    "correctAnswer": true,
+    "explanation": "True. guard is used to exit early when required conditions are not satisfied.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, defer is primarily used to schedule cleanup code to run when the current scope exits.",
+    "correctAnswer": true,
+    "explanation": "True. defer is used to schedule cleanup code to run when the current scope exits.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, actor is primarily used to protect mutable state through isolated concurrency access.",
+    "correctAnswer": true,
+    "explanation": "True. actor is used to protect mutable state through isolated concurrency access.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, async/await is primarily used to write asynchronous code in a sequential style.",
+    "correctAnswer": true,
+    "explanation": "True. async/await is used to write asynchronous code in a sequential style.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, Task is primarily used to start a unit of asynchronous work in structured concurrency.",
+    "correctAnswer": true,
+    "explanation": "True. Task is used to start a unit of asynchronous work in structured concurrency.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, Result is primarily used to model success or failure as a typed value.",
+    "correctAnswer": true,
+    "explanation": "True. Result is used to model success or failure as a typed value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, throws is primarily used to mark a function that can propagate errors to its caller.",
+    "correctAnswer": true,
+    "explanation": "True. throws is used to mark a function that can propagate errors to its caller.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, generic is primarily used to write reusable code that works with multiple concrete types.",
+    "correctAnswer": true,
+    "explanation": "True. generic is used to write reusable code that works with multiple concrete types.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, associatedtype is primarily used to declare a placeholder type inside a protocol.",
+    "correctAnswer": true,
+    "explanation": "True. associatedtype is used to declare a placeholder type inside a protocol.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, protocol extension is primarily used to provide shared default behavior for conforming types.",
+    "correctAnswer": true,
+    "explanation": "True. protocol extension is used to provide shared default behavior for conforming types.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, weak reference is primarily used to avoid increasing a referenced object's retain count.",
+    "correctAnswer": true,
+    "explanation": "True. weak reference is used to avoid increasing a referenced object's retain count.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, capture list is primarily used to control how values are captured inside a closure.",
+    "correctAnswer": true,
+    "explanation": "True. capture list is used to control how values are captured inside a closure.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, mutating is primarily used to allow a struct or enum method to modify self.",
+    "correctAnswer": true,
+    "explanation": "True. mutating is used to allow a struct or enum method to modify self.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, Codable is primarily used to support encoding and decoding structured data.",
+    "correctAnswer": true,
+    "explanation": "True. Codable is used to support encoding and decoding structured data.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Swift, Equatable is primarily used to compare two values for equality.",
+    "correctAnswer": true,
+    "explanation": "True. Equatable is used to compare two values for equality.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, Hashable is primarily used to generate a stable hash representation for set and dictionary keys.",
+    "correctAnswer": true,
+    "explanation": "True. Hashable is used to generate a stable hash representation for set and dictionary keys.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, opaque type is primarily used to hide a concrete return type behind the some keyword.",
+    "correctAnswer": true,
+    "explanation": "True. opaque type is used to hide a concrete return type behind the some keyword.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, property wrapper is primarily used to encapsulate reusable getter and setter behavior around a property.",
+    "correctAnswer": true,
+    "explanation": "True. property wrapper is used to encapsulate reusable getter and setter behavior around a property.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, value semantics is primarily used to ensure copies are independent so changes to one do not affect another.",
+    "correctAnswer": true,
+    "explanation": "True. value semantics is used to ensure copies are independent so changes to one do not affect another.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, struct is primarily used to declare a contract of required properties and methods.",
+    "correctAnswer": false,
+    "explanation": "False. struct is actually used to define a value type with copied semantics by default, not to declare a contract of required properties and methods.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, class is primarily used to start a unit of asynchronous work in structured concurrency.",
+    "correctAnswer": false,
+    "explanation": "False. class is actually used to define a reference type that supports inheritance, not to start a unit of asynchronous work in structured concurrency.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, enum is primarily used to control how values are captured inside a closure.",
+    "correctAnswer": false,
+    "explanation": "False. enum is actually used to model a finite set of related cases and associated values, not to control how values are captured inside a closure.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, protocol is primarily used to ensure copies are independent so changes to one do not affect another.",
+    "correctAnswer": false,
+    "explanation": "False. protocol is actually used to declare a contract of required properties and methods, not to ensure copies are independent so changes to one do not affect another.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, extension is primarily used to exit early when required conditions are not satisfied.",
+    "correctAnswer": false,
+    "explanation": "False. extension is actually used to add functionality to an existing type, not to exit early when required conditions are not satisfied.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, Optional is primarily used to write reusable code that works with multiple concrete types.",
+    "correctAnswer": false,
+    "explanation": "False. Optional is actually used to represent either a wrapped value or the absence of one, not to write reusable code that works with multiple concrete types.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, guard is primarily used to compare two values for equality.",
+    "correctAnswer": false,
+    "explanation": "False. guard is actually used to exit early when required conditions are not satisfied, not to compare two values for equality.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, defer is primarily used to model a finite set of related cases and associated values.",
+    "correctAnswer": false,
+    "explanation": "False. defer is actually used to schedule cleanup code to run when the current scope exits, not to model a finite set of related cases and associated values.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, actor is primarily used to write asynchronous code in a sequential style.",
+    "correctAnswer": false,
+    "explanation": "False. actor is actually used to protect mutable state through isolated concurrency access, not to write asynchronous code in a sequential style.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, async/await is primarily used to avoid increasing a referenced object's retain count.",
+    "correctAnswer": false,
+    "explanation": "False. async/await is actually used to write asynchronous code in a sequential style, not to avoid increasing a referenced object's retain count.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, Task is primarily used to encapsulate reusable getter and setter behavior around a property.",
+    "correctAnswer": false,
+    "explanation": "False. Task is actually used to start a unit of asynchronous work in structured concurrency, not to encapsulate reusable getter and setter behavior around a property.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, Result is primarily used to represent either a wrapped value or the absence of one.",
+    "correctAnswer": false,
+    "explanation": "False. Result is actually used to model success or failure as a typed value, not to represent either a wrapped value or the absence of one.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, throws is primarily used to write reusable code that works with multiple concrete types.",
+    "correctAnswer": false,
+    "explanation": "False. throws is actually used to mark a function that can propagate errors to its caller, not to write reusable code that works with multiple concrete types.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, generic is primarily used to support encoding and decoding structured data.",
+    "correctAnswer": false,
+    "explanation": "False. generic is actually used to write reusable code that works with multiple concrete types, not to support encoding and decoding structured data.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, associatedtype is primarily used to define a reference type that supports inheritance.",
+    "correctAnswer": false,
+    "explanation": "False. associatedtype is actually used to declare a placeholder type inside a protocol, not to define a reference type that supports inheritance.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Swift, protocol extension is primarily used to protect mutable state through isolated concurrency access.",
+    "correctAnswer": false,
+    "explanation": "False. protocol extension is actually used to provide shared default behavior for conforming types, not to protect mutable state through isolated concurrency access.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, weak reference is primarily used to provide shared default behavior for conforming types.",
+    "correctAnswer": false,
+    "explanation": "False. weak reference is actually used to avoid increasing a referenced object's retain count, not to provide shared default behavior for conforming types.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, capture list is primarily used to hide a concrete return type behind the some keyword.",
+    "correctAnswer": false,
+    "explanation": "False. capture list is actually used to control how values are captured inside a closure, not to hide a concrete return type behind the some keyword.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, mutating is primarily used to add functionality to an existing type.",
+    "correctAnswer": false,
+    "explanation": "False. mutating is actually used to allow a struct or enum method to modify self, not to add functionality to an existing type.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, Codable is primarily used to model success or failure as a typed value.",
+    "correctAnswer": false,
+    "explanation": "False. Codable is actually used to support encoding and decoding structured data, not to model success or failure as a typed value.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, Equatable is primarily used to allow a struct or enum method to modify self.",
+    "correctAnswer": false,
+    "explanation": "False. Equatable is actually used to compare two values for equality, not to allow a struct or enum method to modify self.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, Hashable is primarily used to define a value type with copied semantics by default.",
+    "correctAnswer": false,
+    "explanation": "False. Hashable is actually used to generate a stable hash representation for set and dictionary keys, not to define a value type with copied semantics by default.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, opaque type is primarily used to schedule cleanup code to run when the current scope exits.",
+    "correctAnswer": false,
+    "explanation": "False. opaque type is actually used to hide a concrete return type behind the some keyword, not to schedule cleanup code to run when the current scope exits.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, property wrapper is primarily used to declare a placeholder type inside a protocol.",
+    "correctAnswer": false,
+    "explanation": "False. property wrapper is actually used to encapsulate reusable getter and setter behavior around a property, not to declare a placeholder type inside a protocol.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Swift, value semantics is primarily used to generate a stable hash representation for set and dictionary keys.",
+    "correctAnswer": false,
+    "explanation": "False. value semantics is actually used to ensure copies are independent so changes to one do not affect another, not to generate a stable hash representation for set and dictionary keys.",
+    "difficulty": "Hard"
   }
 ]

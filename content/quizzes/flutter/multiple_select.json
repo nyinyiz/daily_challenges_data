@@ -9,7 +9,12 @@
       "onPause()",
       "deactivate()"
     ],
-    "correctAnswers": ["initState()", "didUpdateWidget()", "dispose()", "deactivate()"],
+    "correctAnswers": [
+      "initState()",
+      "didUpdateWidget()",
+      "dispose()",
+      "deactivate()"
+    ],
     "difficulty": "Medium",
     "explanation": "State lifecycle methods include initState(), didChangeDependencies(), build(), didUpdateWidget(), deactivate(), and dispose(). onDestroy() and onPause() are Android Activity lifecycle callbacks, not Flutter State methods."
   },
@@ -61,7 +66,12 @@
       "Expanded",
       "Text"
     ],
-    "correctAnswers": ["Row", "Column", "Stack", "Expanded"],
+    "correctAnswers": [
+      "Row",
+      "Column",
+      "Stack",
+      "Expanded"
+    ],
     "difficulty": "Easy",
     "explanation": "Row, Column, Stack, and Expanded are layout widgets that arrange or size their children. GestureDetector handles input detection, and Text renders text content — they are not primarily layout widgets."
   },
@@ -75,7 +85,12 @@
       "StaticKey",
       "PageKey"
     ],
-    "correctAnswers": ["GlobalKey", "ValueKey", "UniqueKey", "ObjectKey"],
+    "correctAnswers": [
+      "GlobalKey",
+      "ValueKey",
+      "UniqueKey",
+      "ObjectKey"
+    ],
     "difficulty": "Medium",
     "explanation": "Flutter's key types include GlobalKey, LocalKey subtypes (ValueKey, UniqueKey, ObjectKey, and PageStorageKey). StaticKey and PageKey do not exist in the Flutter framework."
   },
@@ -122,7 +137,11 @@
       "Staging",
       "Test"
     ],
-    "correctAnswers": ["Debug", "Profile", "Release"],
+    "correctAnswers": [
+      "Debug",
+      "Profile",
+      "Release"
+    ],
     "difficulty": "Easy",
     "explanation": "Flutter has three build modes: Debug (JIT, hot reload, assertions enabled), Profile (AOT-like, profiling hooks enabled), and Release (AOT, fully optimized). Staging and Test are not Flutter build modes."
   },
@@ -359,5 +378,930 @@
     ],
     "difficulty": "Easy",
     "explanation": "Scaffold provides slots for appBar, body, floatingActionButton, drawer, endDrawer, bottomNavigationBar, bottomSheet, and snackBars. It is NOT required for all screens — you can build screens without it, though it is the conventional Material Design container."
+  },
+  {
+    "question": "Which of the following are associated with core widget and state-management building blocks in Flutter?",
+    "options": [
+      "const widget",
+      "FutureBuilder",
+      "StatelessWidget",
+      "BuildContext",
+      "StatefulWidget",
+      "async/await"
+    ],
+    "correctAnswers": [
+      "BuildContext",
+      "StatefulWidget",
+      "StatelessWidget",
+      "const widget"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are BuildContext, StatefulWidget, StatelessWidget, const widget because they belong to core widget and state-management building blocks. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter concepts that belong to application structure, routing, and configuration.",
+    "options": [
+      "Hot reload",
+      "StatefulWidget",
+      "Widget",
+      "StreamBuilder",
+      "Navigator",
+      "pubspec.yaml"
+    ],
+    "correctAnswers": [
+      "Navigator",
+      "Hot reload",
+      "pubspec.yaml"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Navigator, Hot reload, pubspec.yaml because they belong to application structure, routing, and configuration. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which options are commonly used for layout and scrolling widgets in Flutter?",
+    "options": [
+      "Scaffold",
+      "MediaQuery",
+      "async/await",
+      "CustomScrollView",
+      "BoxConstraints",
+      "const widget"
+    ],
+    "correctAnswers": [
+      "Scaffold",
+      "CustomScrollView",
+      "BoxConstraints",
+      "MediaQuery"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Scaffold, CustomScrollView, BoxConstraints, MediaQuery because they belong to layout and scrolling widgets. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to asynchronous UI and concurrent work patterns in Flutter.",
+    "options": [
+      "ListView.builder",
+      "Isolate",
+      "FutureBuilder",
+      "StatefulWidget",
+      "CustomScrollView",
+      "StreamBuilder"
+    ],
+    "correctAnswers": [
+      "FutureBuilder",
+      "StreamBuilder",
+      "Isolate"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are FutureBuilder, StreamBuilder, Isolate because they belong to asynchronous UI and concurrent work patterns. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which Flutter terms fit under core widget and state-management building blocks?",
+    "options": [
+      "StatefulWidget",
+      "BuildContext",
+      "Key",
+      "MediaQuery",
+      "ListView.builder",
+      "Widget"
+    ],
+    "correctAnswers": [
+      "Widget",
+      "Key",
+      "BuildContext",
+      "StatefulWidget"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Widget, Key, BuildContext, StatefulWidget because they belong to core widget and state-management building blocks. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which of the following are associated with application structure, routing, and configuration in Flutter?",
+    "options": [
+      "ListView.builder",
+      "Hot reload",
+      "Widget",
+      "MaterialApp",
+      "StatefulWidget",
+      "Navigator"
+    ],
+    "correctAnswers": [
+      "Navigator",
+      "Hot reload",
+      "MaterialApp"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Navigator, Hot reload, MaterialApp because they belong to application structure, routing, and configuration. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter concepts that belong to layout and scrolling widgets.",
+    "options": [
+      "GridView.builder",
+      "MediaQuery",
+      "SliverAppBar",
+      "Hot reload",
+      "CustomScrollView",
+      "ThemeData"
+    ],
+    "correctAnswers": [
+      "GridView.builder",
+      "MediaQuery",
+      "CustomScrollView",
+      "SliverAppBar"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are GridView.builder, MediaQuery, CustomScrollView, SliverAppBar because they belong to layout and scrolling widgets. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which options are commonly used for asynchronous UI and concurrent work patterns in Flutter?",
+    "options": [
+      "CustomScrollView",
+      "Isolate",
+      "pubspec.yaml",
+      "StreamBuilder",
+      "setState",
+      "FutureBuilder"
+    ],
+    "correctAnswers": [
+      "FutureBuilder",
+      "StreamBuilder",
+      "Isolate"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are FutureBuilder, StreamBuilder, Isolate because they belong to asynchronous UI and concurrent work patterns. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to core widget and state-management building blocks in Flutter.",
+    "options": [
+      "Widget",
+      "StatelessWidget",
+      "BuildContext",
+      "FutureBuilder",
+      "BoxConstraints",
+      "Key"
+    ],
+    "correctAnswers": [
+      "Key",
+      "BuildContext",
+      "StatelessWidget",
+      "Widget"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Key, BuildContext, StatelessWidget, Widget because they belong to core widget and state-management building blocks. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which Flutter terms fit under application structure, routing, and configuration?",
+    "options": [
+      "GridView.builder",
+      "Hot reload",
+      "async/await",
+      "ThemeData",
+      "Isolate",
+      "Navigator"
+    ],
+    "correctAnswers": [
+      "Hot reload",
+      "Navigator",
+      "ThemeData"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Hot reload, Navigator, ThemeData because they belong to application structure, routing, and configuration. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which of the following are associated with layout and scrolling widgets in Flutter?",
+    "options": [
+      "ListView.builder",
+      "SliverAppBar",
+      "LayoutBuilder",
+      "CustomScrollView",
+      "StatefulWidget",
+      "StatelessWidget"
+    ],
+    "correctAnswers": [
+      "CustomScrollView",
+      "LayoutBuilder",
+      "SliverAppBar",
+      "ListView.builder"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are CustomScrollView, LayoutBuilder, SliverAppBar, ListView.builder because they belong to layout and scrolling widgets. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter concepts that belong to asynchronous UI and concurrent work patterns.",
+    "options": [
+      "Isolate",
+      "BoxConstraints",
+      "SliverAppBar",
+      "const widget",
+      "StreamBuilder",
+      "async/await"
+    ],
+    "correctAnswers": [
+      "StreamBuilder",
+      "Isolate",
+      "async/await"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are StreamBuilder, Isolate, async/await because they belong to asynchronous UI and concurrent work patterns. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which options are commonly used for core widget and state-management building blocks in Flutter?",
+    "options": [
+      "FutureBuilder",
+      "StatelessWidget",
+      "Key",
+      "pubspec.yaml",
+      "Widget",
+      "setState"
+    ],
+    "correctAnswers": [
+      "StatelessWidget",
+      "Key",
+      "setState",
+      "Widget"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are StatelessWidget, Key, setState, Widget because they belong to core widget and state-management building blocks. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to application structure, routing, and configuration in Flutter.",
+    "options": [
+      "Navigator",
+      "pubspec.yaml",
+      "Hot reload",
+      "CustomScrollView",
+      "ListView.builder",
+      "MediaQuery"
+    ],
+    "correctAnswers": [
+      "Hot reload",
+      "pubspec.yaml",
+      "Navigator"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Hot reload, pubspec.yaml, Navigator because they belong to application structure, routing, and configuration. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which Flutter terms fit under layout and scrolling widgets?",
+    "options": [
+      "Key",
+      "LayoutBuilder",
+      "BoxConstraints",
+      "ListView.builder",
+      "SliverAppBar",
+      "pubspec.yaml"
+    ],
+    "correctAnswers": [
+      "ListView.builder",
+      "LayoutBuilder",
+      "SliverAppBar",
+      "BoxConstraints"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are ListView.builder, LayoutBuilder, SliverAppBar, BoxConstraints because they belong to layout and scrolling widgets. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which of the following are associated with asynchronous UI and concurrent work patterns in Flutter?",
+    "options": [
+      "BuildContext",
+      "StreamBuilder",
+      "async/await",
+      "MediaQuery",
+      "FutureBuilder",
+      "BoxConstraints"
+    ],
+    "correctAnswers": [
+      "async/await",
+      "StreamBuilder",
+      "FutureBuilder"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are async/await, StreamBuilder, FutureBuilder because they belong to asynchronous UI and concurrent work patterns. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter concepts that belong to core widget and state-management building blocks.",
+    "options": [
+      "MaterialApp",
+      "pubspec.yaml",
+      "BuildContext",
+      "Key",
+      "setState",
+      "Widget"
+    ],
+    "correctAnswers": [
+      "setState",
+      "Key",
+      "Widget",
+      "BuildContext"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are setState, Key, Widget, BuildContext because they belong to core widget and state-management building blocks. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which options are commonly used for application structure, routing, and configuration in Flutter?",
+    "options": [
+      "Hot reload",
+      "pubspec.yaml",
+      "Navigator",
+      "BuildContext",
+      "FutureBuilder",
+      "Widget"
+    ],
+    "correctAnswers": [
+      "Hot reload",
+      "Navigator",
+      "pubspec.yaml"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Hot reload, Navigator, pubspec.yaml because they belong to application structure, routing, and configuration. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to layout and scrolling widgets in Flutter.",
+    "options": [
+      "Hot reload",
+      "LayoutBuilder",
+      "async/await",
+      "ListView.builder",
+      "SliverAppBar",
+      "Scaffold"
+    ],
+    "correctAnswers": [
+      "SliverAppBar",
+      "ListView.builder",
+      "LayoutBuilder",
+      "Scaffold"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are SliverAppBar, ListView.builder, LayoutBuilder, Scaffold because they belong to layout and scrolling widgets. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which Flutter terms fit under asynchronous UI and concurrent work patterns?",
+    "options": [
+      "BuildContext",
+      "Isolate",
+      "InheritedWidget",
+      "StreamBuilder",
+      "FutureBuilder",
+      "Scaffold"
+    ],
+    "correctAnswers": [
+      "FutureBuilder",
+      "Isolate",
+      "StreamBuilder"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are FutureBuilder, Isolate, StreamBuilder because they belong to asynchronous UI and concurrent work patterns. The remaining options come from different areas of Flutter."
+  },
+  {
+    "question": "Which of the following belong to core widget and state-management building blocks in Flutter, including concepts like StatefulWidget and setState?",
+    "options": [
+      "StatefulWidget",
+      "const widget",
+      "setState",
+      "MaterialApp",
+      "Widget",
+      "FutureBuilder"
+    ],
+    "correctAnswers": [
+      "StatefulWidget",
+      "setState",
+      "const widget",
+      "Widget"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are StatefulWidget, setState, const widget, Widget because they belong to core widget and state-management building blocks. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter terms tied to application structure, routing, and configuration, such as pubspec.yaml and ThemeData.",
+    "options": [
+      "pubspec.yaml",
+      "LayoutBuilder",
+      "Isolate",
+      "async/await",
+      "ThemeData",
+      "Hot reload"
+    ],
+    "correctAnswers": [
+      "pubspec.yaml",
+      "ThemeData",
+      "Hot reload"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are pubspec.yaml, ThemeData, Hot reload because they belong to application structure, routing, and configuration. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which options fit under layout and scrolling widgets in Flutter? Think about items like LayoutBuilder and CustomScrollView.",
+    "options": [
+      "LayoutBuilder",
+      "StatefulWidget",
+      "GridView.builder",
+      "CustomScrollView",
+      "MaterialApp",
+      "ListView.builder"
+    ],
+    "correctAnswers": [
+      "LayoutBuilder",
+      "CustomScrollView",
+      "ListView.builder",
+      "GridView.builder"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are LayoutBuilder, CustomScrollView, ListView.builder, GridView.builder because they belong to layout and scrolling widgets. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to asynchronous UI and concurrent work patterns in Flutter; examples include FutureBuilder and Isolate.",
+    "options": [
+      "Isolate",
+      "MaterialApp",
+      "FutureBuilder",
+      "BuildContext",
+      "Widget",
+      "StreamBuilder"
+    ],
+    "correctAnswers": [
+      "FutureBuilder",
+      "Isolate",
+      "StreamBuilder"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are FutureBuilder, Isolate, StreamBuilder because they belong to asynchronous UI and concurrent work patterns. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which Flutter concepts are part of core widget and state-management building blocks, including BuildContext and const widget?",
+    "options": [
+      "BuildContext",
+      "MediaQuery",
+      "const widget",
+      "Widget",
+      "MaterialApp",
+      "StatelessWidget"
+    ],
+    "correctAnswers": [
+      "BuildContext",
+      "const widget",
+      "StatelessWidget",
+      "Widget"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are BuildContext, const widget, StatelessWidget, Widget because they belong to core widget and state-management building blocks. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which of the following belong to application structure, routing, and configuration in Flutter, including concepts like Hot reload and Navigator?",
+    "options": [
+      "ListView.builder",
+      "GridView.builder",
+      "pubspec.yaml",
+      "Navigator",
+      "Key",
+      "Hot reload"
+    ],
+    "correctAnswers": [
+      "Hot reload",
+      "Navigator",
+      "pubspec.yaml"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Hot reload, Navigator, pubspec.yaml because they belong to application structure, routing, and configuration. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter terms tied to layout and scrolling widgets, such as MediaQuery and ListView.builder.",
+    "options": [
+      "ListView.builder",
+      "MediaQuery",
+      "Isolate",
+      "BoxConstraints",
+      "ThemeData",
+      "SliverAppBar"
+    ],
+    "correctAnswers": [
+      "MediaQuery",
+      "ListView.builder",
+      "BoxConstraints",
+      "SliverAppBar"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are MediaQuery, ListView.builder, BoxConstraints, SliverAppBar because they belong to layout and scrolling widgets. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which options fit under asynchronous UI and concurrent work patterns in Flutter? Think about items like async/await and Isolate.",
+    "options": [
+      "const widget",
+      "BuildContext",
+      "Isolate",
+      "GridView.builder",
+      "FutureBuilder",
+      "async/await"
+    ],
+    "correctAnswers": [
+      "async/await",
+      "Isolate",
+      "FutureBuilder"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are async/await, Isolate, FutureBuilder because they belong to asynchronous UI and concurrent work patterns. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to core widget and state-management building blocks in Flutter; examples include setState and StatefulWidget.",
+    "options": [
+      "BoxConstraints",
+      "StatefulWidget",
+      "CustomScrollView",
+      "setState",
+      "Widget",
+      "BuildContext"
+    ],
+    "correctAnswers": [
+      "setState",
+      "StatefulWidget",
+      "Widget",
+      "BuildContext"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are setState, StatefulWidget, Widget, BuildContext because they belong to core widget and state-management building blocks. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which Flutter concepts are part of application structure, routing, and configuration, including pubspec.yaml and Navigator?",
+    "options": [
+      "ThemeData",
+      "Navigator",
+      "ListView.builder",
+      "pubspec.yaml",
+      "GridView.builder",
+      "StreamBuilder"
+    ],
+    "correctAnswers": [
+      "pubspec.yaml",
+      "Navigator",
+      "ThemeData"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are pubspec.yaml, Navigator, ThemeData because they belong to application structure, routing, and configuration. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which of the following belong to layout and scrolling widgets in Flutter, including concepts like LayoutBuilder and Scaffold?",
+    "options": [
+      "pubspec.yaml",
+      "StatelessWidget",
+      "Scaffold",
+      "MediaQuery",
+      "LayoutBuilder",
+      "GridView.builder"
+    ],
+    "correctAnswers": [
+      "LayoutBuilder",
+      "Scaffold",
+      "GridView.builder",
+      "MediaQuery"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are LayoutBuilder, Scaffold, GridView.builder, MediaQuery because they belong to layout and scrolling widgets. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter terms tied to asynchronous UI and concurrent work patterns, such as Isolate and StreamBuilder.",
+    "options": [
+      "async/await",
+      "BuildContext",
+      "Isolate",
+      "StreamBuilder",
+      "setState",
+      "MaterialApp"
+    ],
+    "correctAnswers": [
+      "Isolate",
+      "StreamBuilder",
+      "async/await"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Isolate, StreamBuilder, async/await because they belong to asynchronous UI and concurrent work patterns. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which options fit under core widget and state-management building blocks in Flutter? Think about items like Widget and setState.",
+    "options": [
+      "Widget",
+      "Scaffold",
+      "setState",
+      "StatefulWidget",
+      "Key",
+      "MediaQuery"
+    ],
+    "correctAnswers": [
+      "Widget",
+      "setState",
+      "StatefulWidget",
+      "Key"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Widget, setState, StatefulWidget, Key because they belong to core widget and state-management building blocks. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to application structure, routing, and configuration in Flutter; examples include pubspec.yaml and Navigator.",
+    "options": [
+      "ThemeData",
+      "Navigator",
+      "Isolate",
+      "Widget",
+      "Scaffold",
+      "pubspec.yaml"
+    ],
+    "correctAnswers": [
+      "pubspec.yaml",
+      "Navigator",
+      "ThemeData"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are pubspec.yaml, Navigator, ThemeData because they belong to application structure, routing, and configuration. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which Flutter concepts are part of layout and scrolling widgets, including Scaffold and LayoutBuilder?",
+    "options": [
+      "Key",
+      "StatelessWidget",
+      "GridView.builder",
+      "Scaffold",
+      "LayoutBuilder",
+      "ListView.builder"
+    ],
+    "correctAnswers": [
+      "Scaffold",
+      "LayoutBuilder",
+      "GridView.builder",
+      "ListView.builder"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Scaffold, LayoutBuilder, GridView.builder, ListView.builder because they belong to layout and scrolling widgets. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which of the following belong to asynchronous UI and concurrent work patterns in Flutter, including concepts like FutureBuilder and Isolate?",
+    "options": [
+      "Navigator",
+      "BuildContext",
+      "StreamBuilder",
+      "Isolate",
+      "setState",
+      "FutureBuilder"
+    ],
+    "correctAnswers": [
+      "FutureBuilder",
+      "Isolate",
+      "StreamBuilder"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are FutureBuilder, Isolate, StreamBuilder because they belong to asynchronous UI and concurrent work patterns. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter terms tied to core widget and state-management building blocks, such as StatefulWidget and Key.",
+    "options": [
+      "const widget",
+      "StatelessWidget",
+      "StreamBuilder",
+      "StatefulWidget",
+      "Key",
+      "async/await"
+    ],
+    "correctAnswers": [
+      "StatefulWidget",
+      "Key",
+      "const widget",
+      "StatelessWidget"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are StatefulWidget, Key, const widget, StatelessWidget because they belong to core widget and state-management building blocks. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which options fit under application structure, routing, and configuration in Flutter? Think about items like Hot reload and pubspec.yaml.",
+    "options": [
+      "pubspec.yaml",
+      "ThemeData",
+      "Hot reload",
+      "BuildContext",
+      "StatefulWidget",
+      "GridView.builder"
+    ],
+    "correctAnswers": [
+      "Hot reload",
+      "pubspec.yaml",
+      "ThemeData"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Hot reload, pubspec.yaml, ThemeData because they belong to application structure, routing, and configuration. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to layout and scrolling widgets in Flutter; examples include GridView.builder and CustomScrollView.",
+    "options": [
+      "BuildContext",
+      "CustomScrollView",
+      "LayoutBuilder",
+      "GridView.builder",
+      "ListView.builder",
+      "async/await"
+    ],
+    "correctAnswers": [
+      "GridView.builder",
+      "CustomScrollView",
+      "ListView.builder",
+      "LayoutBuilder"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are GridView.builder, CustomScrollView, ListView.builder, LayoutBuilder because they belong to layout and scrolling widgets. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which Flutter concepts are part of asynchronous UI and concurrent work patterns, including Isolate and StreamBuilder?",
+    "options": [
+      "StreamBuilder",
+      "const widget",
+      "StatefulWidget",
+      "Isolate",
+      "Widget",
+      "FutureBuilder"
+    ],
+    "correctAnswers": [
+      "Isolate",
+      "StreamBuilder",
+      "FutureBuilder"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Isolate, StreamBuilder, FutureBuilder because they belong to asynchronous UI and concurrent work patterns. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which of the following belong to core widget and state-management building blocks in Flutter, including concepts like setState and Key?",
+    "options": [
+      "BuildContext",
+      "CustomScrollView",
+      "StatelessWidget",
+      "FutureBuilder",
+      "setState",
+      "Key"
+    ],
+    "correctAnswers": [
+      "setState",
+      "Key",
+      "StatelessWidget",
+      "BuildContext"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are setState, Key, StatelessWidget, BuildContext because they belong to core widget and state-management building blocks. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter terms tied to application structure, routing, and configuration, such as MaterialApp and Hot reload.",
+    "options": [
+      "Hot reload",
+      "BoxConstraints",
+      "StatelessWidget",
+      "Navigator",
+      "MaterialApp",
+      "StatefulWidget"
+    ],
+    "correctAnswers": [
+      "MaterialApp",
+      "Hot reload",
+      "Navigator"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are MaterialApp, Hot reload, Navigator because they belong to application structure, routing, and configuration. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which options fit under layout and scrolling widgets in Flutter? Think about items like CustomScrollView and ListView.builder.",
+    "options": [
+      "GridView.builder",
+      "async/await",
+      "CustomScrollView",
+      "FutureBuilder",
+      "ListView.builder",
+      "LayoutBuilder"
+    ],
+    "correctAnswers": [
+      "CustomScrollView",
+      "ListView.builder",
+      "GridView.builder",
+      "LayoutBuilder"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are CustomScrollView, ListView.builder, GridView.builder, LayoutBuilder because they belong to layout and scrolling widgets. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to asynchronous UI and concurrent work patterns in Flutter; examples include async/await and FutureBuilder.",
+    "options": [
+      "FutureBuilder",
+      "async/await",
+      "Navigator",
+      "SliverAppBar",
+      "StreamBuilder",
+      "LayoutBuilder"
+    ],
+    "correctAnswers": [
+      "async/await",
+      "FutureBuilder",
+      "StreamBuilder"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are async/await, FutureBuilder, StreamBuilder because they belong to asynchronous UI and concurrent work patterns. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which Flutter concepts are part of core widget and state-management building blocks, including StatefulWidget and setState?",
+    "options": [
+      "Key",
+      "BoxConstraints",
+      "StatefulWidget",
+      "const widget",
+      "ListView.builder",
+      "setState"
+    ],
+    "correctAnswers": [
+      "StatefulWidget",
+      "setState",
+      "Key",
+      "const widget"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are StatefulWidget, setState, Key, const widget because they belong to core widget and state-management building blocks. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which of the following belong to application structure, routing, and configuration in Flutter, including concepts like MaterialApp and ThemeData?",
+    "options": [
+      "CustomScrollView",
+      "Navigator",
+      "MaterialApp",
+      "ThemeData",
+      "BuildContext",
+      "SliverAppBar"
+    ],
+    "correctAnswers": [
+      "MaterialApp",
+      "ThemeData",
+      "Navigator"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are MaterialApp, ThemeData, Navigator because they belong to application structure, routing, and configuration. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Select all Flutter terms tied to layout and scrolling widgets, such as Scaffold and SliverAppBar.",
+    "options": [
+      "Scaffold",
+      "StatelessWidget",
+      "async/await",
+      "GridView.builder",
+      "BoxConstraints",
+      "SliverAppBar"
+    ],
+    "correctAnswers": [
+      "Scaffold",
+      "SliverAppBar",
+      "GridView.builder",
+      "BoxConstraints"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Scaffold, SliverAppBar, GridView.builder, BoxConstraints because they belong to layout and scrolling widgets. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which options fit under asynchronous UI and concurrent work patterns in Flutter? Think about items like Isolate and FutureBuilder.",
+    "options": [
+      "MediaQuery",
+      "Key",
+      "BoxConstraints",
+      "FutureBuilder",
+      "Isolate",
+      "StreamBuilder"
+    ],
+    "correctAnswers": [
+      "Isolate",
+      "FutureBuilder",
+      "StreamBuilder"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Isolate, FutureBuilder, StreamBuilder because they belong to asynchronous UI and concurrent work patterns. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Choose all items related to core widget and state-management building blocks in Flutter; examples include StatefulWidget and StatelessWidget.",
+    "options": [
+      "StatefulWidget",
+      "BuildContext",
+      "Key",
+      "Isolate",
+      "StatelessWidget",
+      "BoxConstraints"
+    ],
+    "correctAnswers": [
+      "StatefulWidget",
+      "StatelessWidget",
+      "BuildContext",
+      "Key"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are StatefulWidget, StatelessWidget, BuildContext, Key because they belong to core widget and state-management building blocks. The remaining options come from other areas of Flutter."
+  },
+  {
+    "question": "Which Flutter concepts are part of application structure, routing, and configuration, including pubspec.yaml and MaterialApp?",
+    "options": [
+      "LayoutBuilder",
+      "ListView.builder",
+      "pubspec.yaml",
+      "ThemeData",
+      "CustomScrollView",
+      "MaterialApp"
+    ],
+    "correctAnswers": [
+      "pubspec.yaml",
+      "MaterialApp",
+      "ThemeData"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are pubspec.yaml, MaterialApp, ThemeData because they belong to application structure, routing, and configuration. The remaining options come from other areas of Flutter."
   }
 ]

@@ -573,5 +573,1155 @@
     ],
     "difficulty": "Hard",
     "explanation": "Xcode build phases define the steps taken to build an iOS application."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles",
+    "pairs": [
+      {
+        "left": "NotificationCenter",
+        "right": "Broadcast in-process events to observers."
+      },
+      {
+        "left": "UNUserNotificationCenter",
+        "right": "Manage local and remote notification requests and permissions."
+      },
+      {
+        "left": "Core Data",
+        "right": "Manage object graphs and local persistence."
+      },
+      {
+        "left": "Keychain",
+        "right": "Store sensitive credentials securely on the device."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do",
+    "pairs": [
+      {
+        "left": "UserDefaults",
+        "right": "Persist lightweight user settings and preferences."
+      },
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "Keychain",
+        "right": "Store sensitive credentials securely on the device."
+      },
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each iOS development concept with the correct description",
+    "pairs": [
+      {
+        "left": "Keychain",
+        "right": "Store sensitive credentials securely on the device."
+      },
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      },
+      {
+        "left": "NotificationCenter",
+        "right": "Broadcast in-process events to observers."
+      },
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these core iOS development ideas with their responsibilities",
+    "pairs": [
+      {
+        "left": "UINavigationController",
+        "right": "Manage a stack of view controllers for hierarchical navigation."
+      },
+      {
+        "left": "Keychain",
+        "right": "Store sensitive credentials securely on the device."
+      },
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      },
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose",
+    "pairs": [
+      {
+        "left": "UICollectionView",
+        "right": "Display customizable grids or lists of reusable items."
+      },
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      },
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: Core Location, reuseIdentifier, Auto Layout, and BackgroundTasks",
+    "pairs": [
+      {
+        "left": "Core Location",
+        "right": "Access device location and heading services."
+      },
+      {
+        "left": "reuseIdentifier",
+        "right": "Enable cells and reusable views to be recycled efficiently."
+      },
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      },
+      {
+        "left": "BackgroundTasks",
+        "right": "Schedule eligible work for execution when the system allows it."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: Main thread, UserDefaults, UNUserNotificationCenter, and UIAccessibility",
+    "pairs": [
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "UserDefaults",
+        "right": "Persist lightweight user settings and preferences."
+      },
+      {
+        "left": "UNUserNotificationCenter",
+        "right": "Manage local and remote notification requests and permissions."
+      },
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: UIApplication, UNUserNotificationCenter, UIView, and Bundle",
+    "pairs": [
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      },
+      {
+        "left": "UNUserNotificationCenter",
+        "right": "Manage local and remote notification requests and permissions."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: UserDefaults, reuseIdentifier, UIView, and BackgroundTasks",
+    "pairs": [
+      {
+        "left": "UserDefaults",
+        "right": "Persist lightweight user settings and preferences."
+      },
+      {
+        "left": "reuseIdentifier",
+        "right": "Enable cells and reusable views to be recycled efficiently."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "BackgroundTasks",
+        "right": "Schedule eligible work for execution when the system allows it."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: UINavigationController, UIAccessibility, UIViewController, and URLSession",
+    "pairs": [
+      {
+        "left": "UINavigationController",
+        "right": "Manage a stack of view controllers for hierarchical navigation."
+      },
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      },
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: AppDelegate, Bundle, UserDefaults, and WKWebView",
+    "pairs": [
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      },
+      {
+        "left": "UserDefaults",
+        "right": "Persist lightweight user settings and preferences."
+      },
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: Bundle, BackgroundTasks, UIView, and UNUserNotificationCenter",
+    "pairs": [
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      },
+      {
+        "left": "BackgroundTasks",
+        "right": "Schedule eligible work for execution when the system allows it."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "UNUserNotificationCenter",
+        "right": "Manage local and remote notification requests and permissions."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: Bundle, Core Data, UIAccessibility, and URLSession",
+    "pairs": [
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      },
+      {
+        "left": "Core Data",
+        "right": "Manage object graphs and local persistence."
+      },
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      },
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: reuseIdentifier, URLSession, UITableView, and Bundle",
+    "pairs": [
+      {
+        "left": "reuseIdentifier",
+        "right": "Enable cells and reusable views to be recycled efficiently."
+      },
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      },
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      },
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: URLSession, SceneDelegate, CALayer, and Bundle",
+    "pairs": [
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      },
+      {
+        "left": "SceneDelegate",
+        "right": "Manage the lifecycle of a UI scene in multi-window apps."
+      },
+      {
+        "left": "CALayer",
+        "right": "Back a view's rendering, animations, and compositing properties."
+      },
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: Main thread, NotificationCenter, AVFoundation, and Auto Layout",
+    "pairs": [
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "NotificationCenter",
+        "right": "Broadcast in-process events to observers."
+      },
+      {
+        "left": "AVFoundation",
+        "right": "Work with audio, video, and camera capabilities."
+      },
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: UITableView, Main thread, UNUserNotificationCenter, and SceneDelegate",
+    "pairs": [
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      },
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "UNUserNotificationCenter",
+        "right": "Manage local and remote notification requests and permissions."
+      },
+      {
+        "left": "SceneDelegate",
+        "right": "Manage the lifecycle of a UI scene in multi-window apps."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: UIApplication, URLSession, AVFoundation, and UIViewController",
+    "pairs": [
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      },
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      },
+      {
+        "left": "AVFoundation",
+        "right": "Work with audio, video, and camera capabilities."
+      },
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: CALayer, Auto Layout, UserDefaults, and UNUserNotificationCenter",
+    "pairs": [
+      {
+        "left": "CALayer",
+        "right": "Back a view's rendering, animations, and compositing properties."
+      },
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      },
+      {
+        "left": "UserDefaults",
+        "right": "Persist lightweight user settings and preferences."
+      },
+      {
+        "left": "UNUserNotificationCenter",
+        "right": "Manage local and remote notification requests and permissions."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: AppDelegate, WKWebView, Info.plist, and Auto Layout",
+    "pairs": [
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      },
+      {
+        "left": "Info.plist",
+        "right": "Declare configuration values and usage descriptions for the app."
+      },
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: Main thread, WKWebView, BackgroundTasks, and Info.plist",
+    "pairs": [
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      },
+      {
+        "left": "BackgroundTasks",
+        "right": "Schedule eligible work for execution when the system allows it."
+      },
+      {
+        "left": "Info.plist",
+        "right": "Declare configuration values and usage descriptions for the app."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: Main thread, UIViewController, AppDelegate, and UIApplication",
+    "pairs": [
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: UIAccessibility, UINavigationController, UIViewController, and reuseIdentifier",
+    "pairs": [
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      },
+      {
+        "left": "UINavigationController",
+        "right": "Manage a stack of view controllers for hierarchical navigation."
+      },
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "reuseIdentifier",
+        "right": "Enable cells and reusable views to be recycled efficiently."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: UIViewController, AVFoundation, Main thread, and BackgroundTasks",
+    "pairs": [
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "AVFoundation",
+        "right": "Work with audio, video, and camera capabilities."
+      },
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "BackgroundTasks",
+        "right": "Schedule eligible work for execution when the system allows it."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: UIView, SceneDelegate, WKWebView, and Auto Layout",
+    "pairs": [
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "SceneDelegate",
+        "right": "Manage the lifecycle of a UI scene in multi-window apps."
+      },
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      },
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: AVFoundation, Main thread, UIApplication, and UITableView",
+    "pairs": [
+      {
+        "left": "AVFoundation",
+        "right": "Work with audio, video, and camera capabilities."
+      },
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      },
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: Auto Layout, WKWebView, Core Data, and CALayer",
+    "pairs": [
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      },
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      },
+      {
+        "left": "Core Data",
+        "right": "Manage object graphs and local persistence."
+      },
+      {
+        "left": "CALayer",
+        "right": "Back a view's rendering, animations, and compositing properties."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: WKWebView, Core Data, UITableView, and SceneDelegate",
+    "pairs": [
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      },
+      {
+        "left": "Core Data",
+        "right": "Manage object graphs and local persistence."
+      },
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      },
+      {
+        "left": "SceneDelegate",
+        "right": "Manage the lifecycle of a UI scene in multi-window apps."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: UINavigationController, Auto Layout, AppDelegate, and Keychain",
+    "pairs": [
+      {
+        "left": "UINavigationController",
+        "right": "Manage a stack of view controllers for hierarchical navigation."
+      },
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      },
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "Keychain",
+        "right": "Store sensitive credentials securely on the device."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: Core Location, CALayer, Core Data, and WKWebView",
+    "pairs": [
+      {
+        "left": "Core Location",
+        "right": "Access device location and heading services."
+      },
+      {
+        "left": "CALayer",
+        "right": "Back a view's rendering, animations, and compositing properties."
+      },
+      {
+        "left": "Core Data",
+        "right": "Manage object graphs and local persistence."
+      },
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: WKWebView, UIView, Core Data, and Core Location",
+    "pairs": [
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "Core Data",
+        "right": "Manage object graphs and local persistence."
+      },
+      {
+        "left": "Core Location",
+        "right": "Access device location and heading services."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: Keychain, UICollectionView, UIAccessibility, and SceneDelegate",
+    "pairs": [
+      {
+        "left": "Keychain",
+        "right": "Store sensitive credentials securely on the device."
+      },
+      {
+        "left": "UICollectionView",
+        "right": "Display customizable grids or lists of reusable items."
+      },
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      },
+      {
+        "left": "SceneDelegate",
+        "right": "Manage the lifecycle of a UI scene in multi-window apps."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: URLSession, Bundle, UIApplication, and UINavigationController",
+    "pairs": [
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      },
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      },
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      },
+      {
+        "left": "UINavigationController",
+        "right": "Manage a stack of view controllers for hierarchical navigation."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: CALayer, URLSession, UICollectionView, and Keychain",
+    "pairs": [
+      {
+        "left": "CALayer",
+        "right": "Back a view's rendering, animations, and compositing properties."
+      },
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      },
+      {
+        "left": "UICollectionView",
+        "right": "Display customizable grids or lists of reusable items."
+      },
+      {
+        "left": "Keychain",
+        "right": "Store sensitive credentials securely on the device."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: Main thread, UITableView, AppDelegate, and BackgroundTasks",
+    "pairs": [
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      },
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "BackgroundTasks",
+        "right": "Schedule eligible work for execution when the system allows it."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: Bundle, AppDelegate, UIView, and NotificationCenter",
+    "pairs": [
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      },
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "NotificationCenter",
+        "right": "Broadcast in-process events to observers."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: AVFoundation, Main thread, UIApplication, and Auto Layout",
+    "pairs": [
+      {
+        "left": "AVFoundation",
+        "right": "Work with audio, video, and camera capabilities."
+      },
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      },
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: Info.plist, UITableView, UIAccessibility, and reuseIdentifier",
+    "pairs": [
+      {
+        "left": "Info.plist",
+        "right": "Declare configuration values and usage descriptions for the app."
+      },
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      },
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      },
+      {
+        "left": "reuseIdentifier",
+        "right": "Enable cells and reusable views to be recycled efficiently."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: UINavigationController, URLSession, UIViewController, and UIApplication",
+    "pairs": [
+      {
+        "left": "UINavigationController",
+        "right": "Manage a stack of view controllers for hierarchical navigation."
+      },
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      },
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: UITableView, WKWebView, UIView, and Core Location",
+    "pairs": [
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      },
+      {
+        "left": "WKWebView",
+        "right": "Embed and control web content inside an app."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "Core Location",
+        "right": "Access device location and heading services."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: AppDelegate, SceneDelegate, UIView, and UIApplication",
+    "pairs": [
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "SceneDelegate",
+        "right": "Manage the lifecycle of a UI scene in multi-window apps."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "UIApplication",
+        "right": "Represent the running app and coordinate high-level app behavior."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: UIViewController, UIView, Main thread, and UITableView",
+    "pairs": [
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: Bundle, Core Data, UITableView, and URLSession",
+    "pairs": [
+      {
+        "left": "Bundle",
+        "right": "Locate app resources and metadata packaged with the app."
+      },
+      {
+        "left": "Core Data",
+        "right": "Manage object graphs and local persistence."
+      },
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      },
+      {
+        "left": "URLSession",
+        "right": "Perform HTTP networking and data transfer tasks."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: UNUserNotificationCenter, Info.plist, AVFoundation, and Main thread",
+    "pairs": [
+      {
+        "left": "UNUserNotificationCenter",
+        "right": "Manage local and remote notification requests and permissions."
+      },
+      {
+        "left": "Info.plist",
+        "right": "Declare configuration values and usage descriptions for the app."
+      },
+      {
+        "left": "AVFoundation",
+        "right": "Work with audio, video, and camera capabilities."
+      },
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: UITableView, Main thread, Core Location, and UIAccessibility",
+    "pairs": [
+      {
+        "left": "UITableView",
+        "right": "Display vertically scrolling rows of reusable cells."
+      },
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "Core Location",
+        "right": "Access device location and heading services."
+      },
+      {
+        "left": "UIAccessibility",
+        "right": "Expose UI information to assistive technologies."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development concepts with their primary roles: reuseIdentifier, AppDelegate, UINavigationController, and UICollectionView",
+    "pairs": [
+      {
+        "left": "reuseIdentifier",
+        "right": "Enable cells and reusable views to be recycled efficiently."
+      },
+      {
+        "left": "AppDelegate",
+        "right": "Respond to app-level lifecycle events and configuration."
+      },
+      {
+        "left": "UINavigationController",
+        "right": "Manage a stack of view controllers for hierarchical navigation."
+      },
+      {
+        "left": "UICollectionView",
+        "right": "Display customizable grids or lists of reusable items."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match the following iOS development terms to what they do: Auto Layout, Core Location, UNUserNotificationCenter, and Info.plist",
+    "pairs": [
+      {
+        "left": "Auto Layout",
+        "right": "Position and size UI elements using constraints."
+      },
+      {
+        "left": "Core Location",
+        "right": "Access device location and heading services."
+      },
+      {
+        "left": "UNUserNotificationCenter",
+        "right": "Manage local and remote notification requests and permissions."
+      },
+      {
+        "left": "Info.plist",
+        "right": "Declare configuration values and usage descriptions for the app."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these iOS development concepts with the correct description: Main thread, SceneDelegate, UIView, and AVFoundation",
+    "pairs": [
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "SceneDelegate",
+        "right": "Manage the lifecycle of a UI scene in multi-window apps."
+      },
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "AVFoundation",
+        "right": "Work with audio, video, and camera capabilities."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development ideas with their responsibilities: Main thread, UICollectionView, UIViewController, and BackgroundTasks",
+    "pairs": [
+      {
+        "left": "Main thread",
+        "right": "Run UI updates and user-interaction work safely."
+      },
+      {
+        "left": "UICollectionView",
+        "right": "Display customizable grids or lists of reusable items."
+      },
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "BackgroundTasks",
+        "right": "Schedule eligible work for execution when the system allows it."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
+  },
+  {
+    "question": "Match these iOS development building blocks with their purpose: UIView, UIViewController, BackgroundTasks, and Info.plist",
+    "pairs": [
+      {
+        "left": "UIView",
+        "right": "Render visible UI elements and handle layout and events."
+      },
+      {
+        "left": "UIViewController",
+        "right": "Manage a screen's lifecycle and coordinate its view hierarchy."
+      },
+      {
+        "left": "BackgroundTasks",
+        "right": "Schedule eligible work for execution when the system allows it."
+      },
+      {
+        "left": "Info.plist",
+        "right": "Declare configuration values and usage descriptions for the app."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect iOS development concepts with their primary roles."
   }
 ]

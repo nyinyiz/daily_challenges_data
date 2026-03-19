@@ -564,5 +564,930 @@
     ],
     "difficulty": "Medium",
     "explanation": "URLSession supports three configuration types: .default (uses disk-based caching and credentials), .ephemeral (no persistent storage — caches and cookies are in-memory only), and .background(withIdentifier:) (allows transfers to continue when the app is suspended). URLSessionConfiguration.shared, .cached, and .temporary do not exist — note that URLSession.shared is a singleton, not a configuration type."
+  },
+  {
+    "question": "Which of the following are associated with UIKit views, controllers, layout, and reusable presentation components in iOS development?",
+    "options": [
+      "reuseIdentifier",
+      "CALayer",
+      "UITableView",
+      "Keychain",
+      "UIView",
+      "AVFoundation"
+    ],
+    "correctAnswers": [
+      "UITableView",
+      "UIView",
+      "CALayer",
+      "reuseIdentifier"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are UITableView, UIView, CALayer, reuseIdentifier because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development concepts that belong to networking, persistence, and embedded content.",
+    "options": [
+      "UserDefaults",
+      "UIApplication",
+      "UICollectionView",
+      "Keychain",
+      "AppDelegate",
+      "Core Data"
+    ],
+    "correctAnswers": [
+      "UserDefaults",
+      "Keychain",
+      "Core Data"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are UserDefaults, Keychain, Core Data because they belong to networking, persistence, and embedded content. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which options are commonly used for system frameworks and platform services in iOS development?",
+    "options": [
+      "BackgroundTasks",
+      "UNUserNotificationCenter",
+      "UIViewController",
+      "NotificationCenter",
+      "Core Location",
+      "UIView"
+    ],
+    "correctAnswers": [
+      "Core Location",
+      "BackgroundTasks",
+      "UNUserNotificationCenter",
+      "NotificationCenter"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Core Location, BackgroundTasks, UNUserNotificationCenter, NotificationCenter because they belong to system frameworks and platform services. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to application and scene lifecycle concepts in iOS development.",
+    "options": [
+      "Core Data",
+      "UIViewController",
+      "Info.plist",
+      "SceneDelegate",
+      "Main thread",
+      "AVFoundation"
+    ],
+    "correctAnswers": [
+      "SceneDelegate",
+      "Info.plist",
+      "Main thread"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are SceneDelegate, Info.plist, Main thread because they belong to application and scene lifecycle concepts. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which iOS development terms fit under UIKit views, controllers, layout, and reusable presentation components?",
+    "options": [
+      "reuseIdentifier",
+      "UINavigationController",
+      "Keychain",
+      "Auto Layout",
+      "WKWebView",
+      "CALayer"
+    ],
+    "correctAnswers": [
+      "UINavigationController",
+      "CALayer",
+      "Auto Layout",
+      "reuseIdentifier"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are UINavigationController, CALayer, Auto Layout, reuseIdentifier because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which of the following are associated with networking, persistence, and embedded content in iOS development?",
+    "options": [
+      "Core Location",
+      "UIAccessibility",
+      "reuseIdentifier",
+      "URLSession",
+      "UserDefaults",
+      "Keychain"
+    ],
+    "correctAnswers": [
+      "URLSession",
+      "Keychain",
+      "UserDefaults"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are URLSession, Keychain, UserDefaults because they belong to networking, persistence, and embedded content. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development concepts that belong to system frameworks and platform services.",
+    "options": [
+      "AVFoundation",
+      "BackgroundTasks",
+      "UserDefaults",
+      "Core Location",
+      "NotificationCenter",
+      "Main thread"
+    ],
+    "correctAnswers": [
+      "NotificationCenter",
+      "BackgroundTasks",
+      "Core Location",
+      "AVFoundation"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are NotificationCenter, BackgroundTasks, Core Location, AVFoundation because they belong to system frameworks and platform services. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which options are commonly used for application and scene lifecycle concepts in iOS development?",
+    "options": [
+      "UIApplication",
+      "NotificationCenter",
+      "Info.plist",
+      "Core Data",
+      "UINavigationController",
+      "Main thread"
+    ],
+    "correctAnswers": [
+      "Main thread",
+      "UIApplication",
+      "Info.plist"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Main thread, UIApplication, Info.plist because they belong to application and scene lifecycle concepts. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to UIKit views, controllers, layout, and reusable presentation components in iOS development.",
+    "options": [
+      "UIView",
+      "UIAccessibility",
+      "Auto Layout",
+      "reuseIdentifier",
+      "UINavigationController",
+      "Bundle"
+    ],
+    "correctAnswers": [
+      "UINavigationController",
+      "Auto Layout",
+      "reuseIdentifier",
+      "UIView"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are UINavigationController, Auto Layout, reuseIdentifier, UIView because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which iOS development terms fit under networking, persistence, and embedded content?",
+    "options": [
+      "URLSession",
+      "UserDefaults",
+      "UICollectionView",
+      "Core Data",
+      "Info.plist",
+      "CALayer"
+    ],
+    "correctAnswers": [
+      "Core Data",
+      "URLSession",
+      "UserDefaults"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Core Data, URLSession, UserDefaults because they belong to networking, persistence, and embedded content. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which of the following are associated with system frameworks and platform services in iOS development?",
+    "options": [
+      "UNUserNotificationCenter",
+      "UICollectionView",
+      "AVFoundation",
+      "UIAccessibility",
+      "UINavigationController",
+      "NotificationCenter"
+    ],
+    "correctAnswers": [
+      "UIAccessibility",
+      "NotificationCenter",
+      "UNUserNotificationCenter",
+      "AVFoundation"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are UIAccessibility, NotificationCenter, UNUserNotificationCenter, AVFoundation because they belong to system frameworks and platform services. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development concepts that belong to application and scene lifecycle concepts.",
+    "options": [
+      "AppDelegate",
+      "Auto Layout",
+      "UIApplication",
+      "Core Data",
+      "reuseIdentifier",
+      "Bundle"
+    ],
+    "correctAnswers": [
+      "Bundle",
+      "AppDelegate",
+      "UIApplication"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Bundle, AppDelegate, UIApplication because they belong to application and scene lifecycle concepts. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which options are commonly used for UIKit views, controllers, layout, and reusable presentation components in iOS development?",
+    "options": [
+      "CALayer",
+      "UIView",
+      "UNUserNotificationCenter",
+      "Core Data",
+      "Auto Layout",
+      "UINavigationController"
+    ],
+    "correctAnswers": [
+      "Auto Layout",
+      "CALayer",
+      "UINavigationController",
+      "UIView"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Auto Layout, CALayer, UINavigationController, UIView because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to networking, persistence, and embedded content in iOS development.",
+    "options": [
+      "Keychain",
+      "Core Data",
+      "Info.plist",
+      "AVFoundation",
+      "UIAccessibility",
+      "URLSession"
+    ],
+    "correctAnswers": [
+      "Keychain",
+      "URLSession",
+      "Core Data"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Keychain, URLSession, Core Data because they belong to networking, persistence, and embedded content. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which iOS development terms fit under system frameworks and platform services?",
+    "options": [
+      "UICollectionView",
+      "CALayer",
+      "UNUserNotificationCenter",
+      "NotificationCenter",
+      "UIAccessibility",
+      "BackgroundTasks"
+    ],
+    "correctAnswers": [
+      "NotificationCenter",
+      "UIAccessibility",
+      "UNUserNotificationCenter",
+      "BackgroundTasks"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are NotificationCenter, UIAccessibility, UNUserNotificationCenter, BackgroundTasks because they belong to system frameworks and platform services. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which of the following are associated with application and scene lifecycle concepts in iOS development?",
+    "options": [
+      "UserDefaults",
+      "UICollectionView",
+      "Bundle",
+      "UIApplication",
+      "Info.plist",
+      "UITableView"
+    ],
+    "correctAnswers": [
+      "UIApplication",
+      "Info.plist",
+      "Bundle"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are UIApplication, Info.plist, Bundle because they belong to application and scene lifecycle concepts. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development concepts that belong to UIKit views, controllers, layout, and reusable presentation components.",
+    "options": [
+      "CALayer",
+      "Keychain",
+      "reuseIdentifier",
+      "UINavigationController",
+      "Core Location",
+      "Auto Layout"
+    ],
+    "correctAnswers": [
+      "Auto Layout",
+      "UINavigationController",
+      "reuseIdentifier",
+      "CALayer"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Auto Layout, UINavigationController, reuseIdentifier, CALayer because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which options are commonly used for networking, persistence, and embedded content in iOS development?",
+    "options": [
+      "CALayer",
+      "URLSession",
+      "UserDefaults",
+      "Core Data",
+      "Main thread",
+      "AVFoundation"
+    ],
+    "correctAnswers": [
+      "Core Data",
+      "UserDefaults",
+      "URLSession"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Core Data, UserDefaults, URLSession because they belong to networking, persistence, and embedded content. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to system frameworks and platform services in iOS development.",
+    "options": [
+      "UNUserNotificationCenter",
+      "NotificationCenter",
+      "BackgroundTasks",
+      "WKWebView",
+      "UIAccessibility",
+      "UINavigationController"
+    ],
+    "correctAnswers": [
+      "UIAccessibility",
+      "UNUserNotificationCenter",
+      "BackgroundTasks",
+      "NotificationCenter"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are UIAccessibility, UNUserNotificationCenter, BackgroundTasks, NotificationCenter because they belong to system frameworks and platform services. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which iOS development terms fit under application and scene lifecycle concepts?",
+    "options": [
+      "Core Location",
+      "Bundle",
+      "UIViewController",
+      "UIApplication",
+      "URLSession",
+      "SceneDelegate"
+    ],
+    "correctAnswers": [
+      "Bundle",
+      "SceneDelegate",
+      "UIApplication"
+    ],
+    "difficulty": "Easy",
+    "explanation": "The correct answers are Bundle, SceneDelegate, UIApplication because they belong to application and scene lifecycle concepts. The remaining options come from different areas of iOS development."
+  },
+  {
+    "question": "Which of the following belong to UIKit views, controllers, layout, and reusable presentation components in iOS development, including concepts like UIViewController and UICollectionView?",
+    "options": [
+      "UIViewController",
+      "UICollectionView",
+      "reuseIdentifier",
+      "UITableView",
+      "AppDelegate",
+      "NotificationCenter"
+    ],
+    "correctAnswers": [
+      "UIViewController",
+      "UICollectionView",
+      "UITableView",
+      "reuseIdentifier"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are UIViewController, UICollectionView, UITableView, reuseIdentifier because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development terms tied to networking, persistence, and embedded content, such as URLSession and Core Data.",
+    "options": [
+      "UICollectionView",
+      "UIViewController",
+      "CALayer",
+      "Core Data",
+      "Keychain",
+      "URLSession"
+    ],
+    "correctAnswers": [
+      "URLSession",
+      "Core Data",
+      "Keychain"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are URLSession, Core Data, Keychain because they belong to networking, persistence, and embedded content. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which options fit under system frameworks and platform services in iOS development? Think about items like UNUserNotificationCenter and AVFoundation.",
+    "options": [
+      "BackgroundTasks",
+      "AVFoundation",
+      "CALayer",
+      "UIAccessibility",
+      "UIViewController",
+      "UNUserNotificationCenter"
+    ],
+    "correctAnswers": [
+      "UNUserNotificationCenter",
+      "AVFoundation",
+      "UIAccessibility",
+      "BackgroundTasks"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are UNUserNotificationCenter, AVFoundation, UIAccessibility, BackgroundTasks because they belong to system frameworks and platform services. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to application and scene lifecycle concepts in iOS development; examples include Main thread and UIApplication.",
+    "options": [
+      "Info.plist",
+      "Main thread",
+      "Auto Layout",
+      "UICollectionView",
+      "BackgroundTasks",
+      "UIApplication"
+    ],
+    "correctAnswers": [
+      "Main thread",
+      "UIApplication",
+      "Info.plist"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Main thread, UIApplication, Info.plist because they belong to application and scene lifecycle concepts. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which iOS development concepts are part of UIKit views, controllers, layout, and reusable presentation components, including UIView and reuseIdentifier?",
+    "options": [
+      "Info.plist",
+      "reuseIdentifier",
+      "UINavigationController",
+      "WKWebView",
+      "UIViewController",
+      "UIView"
+    ],
+    "correctAnswers": [
+      "UIView",
+      "reuseIdentifier",
+      "UINavigationController",
+      "UIViewController"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are UIView, reuseIdentifier, UINavigationController, UIViewController because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which of the following belong to networking, persistence, and embedded content in iOS development, including concepts like Keychain and UserDefaults?",
+    "options": [
+      "NotificationCenter",
+      "UserDefaults",
+      "BackgroundTasks",
+      "Core Location",
+      "Keychain",
+      "URLSession"
+    ],
+    "correctAnswers": [
+      "Keychain",
+      "UserDefaults",
+      "URLSession"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Keychain, UserDefaults, URLSession because they belong to networking, persistence, and embedded content. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development terms tied to system frameworks and platform services, such as UNUserNotificationCenter and AVFoundation.",
+    "options": [
+      "reuseIdentifier",
+      "UIAccessibility",
+      "BackgroundTasks",
+      "URLSession",
+      "UNUserNotificationCenter",
+      "AVFoundation"
+    ],
+    "correctAnswers": [
+      "UNUserNotificationCenter",
+      "AVFoundation",
+      "BackgroundTasks",
+      "UIAccessibility"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are UNUserNotificationCenter, AVFoundation, BackgroundTasks, UIAccessibility because they belong to system frameworks and platform services. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which options fit under application and scene lifecycle concepts in iOS development? Think about items like AppDelegate and Info.plist.",
+    "options": [
+      "Bundle",
+      "AppDelegate",
+      "UITableView",
+      "UICollectionView",
+      "NotificationCenter",
+      "Info.plist"
+    ],
+    "correctAnswers": [
+      "AppDelegate",
+      "Info.plist",
+      "Bundle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are AppDelegate, Info.plist, Bundle because they belong to application and scene lifecycle concepts. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to UIKit views, controllers, layout, and reusable presentation components in iOS development; examples include CALayer and UITableView.",
+    "options": [
+      "AppDelegate",
+      "UICollectionView",
+      "CALayer",
+      "UITableView",
+      "UIView",
+      "Main thread"
+    ],
+    "correctAnswers": [
+      "CALayer",
+      "UITableView",
+      "UIView",
+      "UICollectionView"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are CALayer, UITableView, UIView, UICollectionView because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which iOS development concepts are part of networking, persistence, and embedded content, including URLSession and Keychain?",
+    "options": [
+      "Keychain",
+      "Core Data",
+      "Info.plist",
+      "URLSession",
+      "UIAccessibility",
+      "UIView"
+    ],
+    "correctAnswers": [
+      "URLSession",
+      "Keychain",
+      "Core Data"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are URLSession, Keychain, Core Data because they belong to networking, persistence, and embedded content. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which of the following belong to system frameworks and platform services in iOS development, including concepts like UNUserNotificationCenter and BackgroundTasks?",
+    "options": [
+      "NotificationCenter",
+      "URLSession",
+      "UNUserNotificationCenter",
+      "AVFoundation",
+      "BackgroundTasks",
+      "Info.plist"
+    ],
+    "correctAnswers": [
+      "UNUserNotificationCenter",
+      "BackgroundTasks",
+      "NotificationCenter",
+      "AVFoundation"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are UNUserNotificationCenter, BackgroundTasks, NotificationCenter, AVFoundation because they belong to system frameworks and platform services. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development terms tied to application and scene lifecycle concepts, such as Main thread and SceneDelegate.",
+    "options": [
+      "AVFoundation",
+      "Main thread",
+      "UICollectionView",
+      "UIView",
+      "Bundle",
+      "SceneDelegate"
+    ],
+    "correctAnswers": [
+      "Main thread",
+      "SceneDelegate",
+      "Bundle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Main thread, SceneDelegate, Bundle because they belong to application and scene lifecycle concepts. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which options fit under UIKit views, controllers, layout, and reusable presentation components in iOS development? Think about items like UIView and UINavigationController.",
+    "options": [
+      "UITableView",
+      "UIView",
+      "UINavigationController",
+      "UIAccessibility",
+      "CALayer",
+      "AppDelegate"
+    ],
+    "correctAnswers": [
+      "UIView",
+      "UINavigationController",
+      "UITableView",
+      "CALayer"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are UIView, UINavigationController, UITableView, CALayer because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to networking, persistence, and embedded content in iOS development; examples include WKWebView and URLSession.",
+    "options": [
+      "UserDefaults",
+      "WKWebView",
+      "URLSession",
+      "Info.plist",
+      "AppDelegate",
+      "NotificationCenter"
+    ],
+    "correctAnswers": [
+      "WKWebView",
+      "URLSession",
+      "UserDefaults"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are WKWebView, URLSession, UserDefaults because they belong to networking, persistence, and embedded content. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which iOS development concepts are part of system frameworks and platform services, including UNUserNotificationCenter and AVFoundation?",
+    "options": [
+      "Auto Layout",
+      "UNUserNotificationCenter",
+      "Core Location",
+      "UIAccessibility",
+      "URLSession",
+      "AVFoundation"
+    ],
+    "correctAnswers": [
+      "UNUserNotificationCenter",
+      "AVFoundation",
+      "Core Location",
+      "UIAccessibility"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are UNUserNotificationCenter, AVFoundation, Core Location, UIAccessibility because they belong to system frameworks and platform services. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which of the following belong to application and scene lifecycle concepts in iOS development, including concepts like AppDelegate and Info.plist?",
+    "options": [
+      "Auto Layout",
+      "Bundle",
+      "AppDelegate",
+      "Info.plist",
+      "UserDefaults",
+      "Core Location"
+    ],
+    "correctAnswers": [
+      "AppDelegate",
+      "Info.plist",
+      "Bundle"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are AppDelegate, Info.plist, Bundle because they belong to application and scene lifecycle concepts. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development terms tied to UIKit views, controllers, layout, and reusable presentation components, such as reuseIdentifier and UITableView.",
+    "options": [
+      "UINavigationController",
+      "UIApplication",
+      "Auto Layout",
+      "Main thread",
+      "reuseIdentifier",
+      "UITableView"
+    ],
+    "correctAnswers": [
+      "reuseIdentifier",
+      "UITableView",
+      "Auto Layout",
+      "UINavigationController"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are reuseIdentifier, UITableView, Auto Layout, UINavigationController because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which options fit under networking, persistence, and embedded content in iOS development? Think about items like UserDefaults and Keychain.",
+    "options": [
+      "UserDefaults",
+      "WKWebView",
+      "CALayer",
+      "reuseIdentifier",
+      "Keychain",
+      "UIView"
+    ],
+    "correctAnswers": [
+      "UserDefaults",
+      "Keychain",
+      "WKWebView"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are UserDefaults, Keychain, WKWebView because they belong to networking, persistence, and embedded content. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to system frameworks and platform services in iOS development; examples include Core Location and UNUserNotificationCenter.",
+    "options": [
+      "UNUserNotificationCenter",
+      "Auto Layout",
+      "Core Location",
+      "NotificationCenter",
+      "UIAccessibility",
+      "CALayer"
+    ],
+    "correctAnswers": [
+      "Core Location",
+      "UNUserNotificationCenter",
+      "UIAccessibility",
+      "NotificationCenter"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Core Location, UNUserNotificationCenter, UIAccessibility, NotificationCenter because they belong to system frameworks and platform services. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which iOS development concepts are part of application and scene lifecycle concepts, including Main thread and Info.plist?",
+    "options": [
+      "Info.plist",
+      "Auto Layout",
+      "Main thread",
+      "UIApplication",
+      "Keychain",
+      "UITableView"
+    ],
+    "correctAnswers": [
+      "Main thread",
+      "Info.plist",
+      "UIApplication"
+    ],
+    "difficulty": "Medium",
+    "explanation": "The correct answers are Main thread, Info.plist, UIApplication because they belong to application and scene lifecycle concepts. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which of the following belong to UIKit views, controllers, layout, and reusable presentation components in iOS development, including concepts like UITableView and reuseIdentifier?",
+    "options": [
+      "UITableView",
+      "UNUserNotificationCenter",
+      "UIView",
+      "reuseIdentifier",
+      "Auto Layout",
+      "UserDefaults"
+    ],
+    "correctAnswers": [
+      "UITableView",
+      "reuseIdentifier",
+      "Auto Layout",
+      "UIView"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are UITableView, reuseIdentifier, Auto Layout, UIView because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development terms tied to networking, persistence, and embedded content, such as Core Data and URLSession.",
+    "options": [
+      "UIViewController",
+      "AppDelegate",
+      "Keychain",
+      "Core Data",
+      "URLSession",
+      "AVFoundation"
+    ],
+    "correctAnswers": [
+      "Core Data",
+      "URLSession",
+      "Keychain"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Core Data, URLSession, Keychain because they belong to networking, persistence, and embedded content. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which options fit under system frameworks and platform services in iOS development? Think about items like BackgroundTasks and UIAccessibility.",
+    "options": [
+      "AVFoundation",
+      "UserDefaults",
+      "BackgroundTasks",
+      "Core Data",
+      "UIAccessibility",
+      "UNUserNotificationCenter"
+    ],
+    "correctAnswers": [
+      "BackgroundTasks",
+      "UIAccessibility",
+      "UNUserNotificationCenter",
+      "AVFoundation"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are BackgroundTasks, UIAccessibility, UNUserNotificationCenter, AVFoundation because they belong to system frameworks and platform services. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to application and scene lifecycle concepts in iOS development; examples include AppDelegate and Info.plist.",
+    "options": [
+      "Info.plist",
+      "CALayer",
+      "AppDelegate",
+      "Main thread",
+      "BackgroundTasks",
+      "Core Data"
+    ],
+    "correctAnswers": [
+      "AppDelegate",
+      "Info.plist",
+      "Main thread"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are AppDelegate, Info.plist, Main thread because they belong to application and scene lifecycle concepts. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which iOS development concepts are part of UIKit views, controllers, layout, and reusable presentation components, including UINavigationController and UIViewController?",
+    "options": [
+      "UINavigationController",
+      "UITableView",
+      "CALayer",
+      "UIViewController",
+      "Info.plist",
+      "UserDefaults"
+    ],
+    "correctAnswers": [
+      "UINavigationController",
+      "UIViewController",
+      "UITableView",
+      "CALayer"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are UINavigationController, UIViewController, UITableView, CALayer because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which of the following belong to networking, persistence, and embedded content in iOS development, including concepts like Core Data and UserDefaults?",
+    "options": [
+      "Keychain",
+      "NotificationCenter",
+      "BackgroundTasks",
+      "Core Data",
+      "UserDefaults",
+      "Info.plist"
+    ],
+    "correctAnswers": [
+      "Core Data",
+      "UserDefaults",
+      "Keychain"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Core Data, UserDefaults, Keychain because they belong to networking, persistence, and embedded content. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Select all iOS development terms tied to system frameworks and platform services, such as AVFoundation and Core Location.",
+    "options": [
+      "Info.plist",
+      "Core Location",
+      "BackgroundTasks",
+      "UIAccessibility",
+      "AVFoundation",
+      "UIView"
+    ],
+    "correctAnswers": [
+      "AVFoundation",
+      "Core Location",
+      "UIAccessibility",
+      "BackgroundTasks"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are AVFoundation, Core Location, UIAccessibility, BackgroundTasks because they belong to system frameworks and platform services. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which options fit under application and scene lifecycle concepts in iOS development? Think about items like SceneDelegate and Info.plist.",
+    "options": [
+      "UNUserNotificationCenter",
+      "SceneDelegate",
+      "Info.plist",
+      "AVFoundation",
+      "Main thread",
+      "WKWebView"
+    ],
+    "correctAnswers": [
+      "SceneDelegate",
+      "Info.plist",
+      "Main thread"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are SceneDelegate, Info.plist, Main thread because they belong to application and scene lifecycle concepts. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Choose all items related to UIKit views, controllers, layout, and reusable presentation components in iOS development; examples include UINavigationController and CALayer.",
+    "options": [
+      "AppDelegate",
+      "UITableView",
+      "Main thread",
+      "CALayer",
+      "UIViewController",
+      "UINavigationController"
+    ],
+    "correctAnswers": [
+      "UINavigationController",
+      "CALayer",
+      "UIViewController",
+      "UITableView"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are UINavigationController, CALayer, UIViewController, UITableView because they belong to UIKit views, controllers, layout, and reusable presentation components. The remaining options come from other areas of iOS development."
+  },
+  {
+    "question": "Which iOS development concepts are part of networking, persistence, and embedded content, including Core Data and Keychain?",
+    "options": [
+      "UITableView",
+      "Core Location",
+      "URLSession",
+      "Core Data",
+      "Keychain",
+      "AVFoundation"
+    ],
+    "correctAnswers": [
+      "Core Data",
+      "Keychain",
+      "URLSession"
+    ],
+    "difficulty": "Hard",
+    "explanation": "The correct answers are Core Data, Keychain, URLSession because they belong to networking, persistence, and embedded content. The remaining options come from other areas of iOS development."
   }
 ]

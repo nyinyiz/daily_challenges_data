@@ -244,5 +244,305 @@
     "correctAnswer": false,
     "explanation": "The Repository pattern does not prevent local caching — in fact, managing caching is one of its primary responsibilities. A Repository typically coordinates between a remote data source and a local cache, deciding when to serve cached data and when to fetch fresh data, all transparently to the domain layer.",
     "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Repository is primarily used to abstract data access behind a collection-like interface.",
+    "correctAnswer": true,
+    "explanation": "True. Repository is used to abstract data access behind a collection-like interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Use Case is primarily used to encapsulate a single unit of business logic or user intent.",
+    "correctAnswer": true,
+    "explanation": "True. Use Case is used to encapsulate a single unit of business logic or user intent.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Dependency Injection is primarily used to provide dependencies from the outside instead of creating them internally.",
+    "correctAnswer": true,
+    "explanation": "True. Dependency Injection is used to provide dependencies from the outside instead of creating them internally.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Single Source of Truth is primarily used to centralize authoritative data in one owned location.",
+    "correctAnswer": true,
+    "explanation": "True. Single Source of Truth is used to centralize authoritative data in one owned location.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Unidirectional Data Flow is primarily used to move state down and events up through a predictable data path.",
+    "correctAnswer": true,
+    "explanation": "True. Unidirectional Data Flow is used to move state down and events up through a predictable data path.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Separation of Concerns is primarily used to split a system into parts with focused responsibilities.",
+    "correctAnswer": true,
+    "explanation": "True. Separation of Concerns is used to split a system into parts with focused responsibilities.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, SOLID is primarily used to group five object-oriented design principles for maintainable software.",
+    "correctAnswer": true,
+    "explanation": "True. SOLID is used to group five object-oriented design principles for maintainable software.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Single Responsibility Principle is primarily used to give a module one reason to change.",
+    "correctAnswer": true,
+    "explanation": "True. Single Responsibility Principle is used to give a module one reason to change.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Open/Closed Principle is primarily used to allow behavior to be extended without modifying stable code.",
+    "correctAnswer": true,
+    "explanation": "True. Open/Closed Principle is used to allow behavior to be extended without modifying stable code.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Liskov Substitution Principle is primarily used to ensure subtypes can replace their base types without breaking behavior.",
+    "correctAnswer": true,
+    "explanation": "True. Liskov Substitution Principle is used to ensure subtypes can replace their base types without breaking behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Interface Segregation Principle is primarily used to prefer small client-specific interfaces over one large interface.",
+    "correctAnswer": true,
+    "explanation": "True. Interface Segregation Principle is used to prefer small client-specific interfaces over one large interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Dependency Inversion Principle is primarily used to make high-level policy depend on abstractions rather than concrete details.",
+    "correctAnswer": true,
+    "explanation": "True. Dependency Inversion Principle is used to make high-level policy depend on abstractions rather than concrete details.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Clean Architecture is primarily used to organize code in layers with dependencies pointing inward.",
+    "correctAnswer": true,
+    "explanation": "True. Clean Architecture is used to organize code in layers with dependencies pointing inward.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, MVVM is primarily used to separate UI rendering from state and presentation logic using a ViewModel.",
+    "correctAnswer": true,
+    "explanation": "True. MVVM is used to separate UI rendering from state and presentation logic using a ViewModel.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, MVI is primarily used to model UI as state transitions driven by intents or events.",
+    "correctAnswer": true,
+    "explanation": "True. MVI is used to model UI as state transitions driven by intents or events.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, CQRS is primarily used to separate read operations from write operations when their models differ.",
+    "correctAnswer": true,
+    "explanation": "True. CQRS is used to separate read operations from write operations when their models differ.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Idempotency is primarily used to make repeated requests produce the same effect as one request.",
+    "correctAnswer": true,
+    "explanation": "True. Idempotency is used to make repeated requests produce the same effect as one request.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Circuit Breaker is primarily used to stop calling an unhealthy dependency until it recovers.",
+    "correctAnswer": true,
+    "explanation": "True. Circuit Breaker is used to stop calling an unhealthy dependency until it recovers.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Retry with Backoff is primarily used to retry transient failures with increasing delays between attempts.",
+    "correctAnswer": true,
+    "explanation": "True. Retry with Backoff is used to retry transient failures with increasing delays between attempts.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Caching is primarily used to reuse previously computed or fetched data to reduce latency and load.",
+    "correctAnswer": true,
+    "explanation": "True. Caching is used to reuse previously computed or fetched data to reduce latency and load.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In software architecture, Pagination is primarily used to split large result sets into smaller pages for delivery and rendering.",
+    "correctAnswer": true,
+    "explanation": "True. Pagination is used to split large result sets into smaller pages for delivery and rendering.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Rate Limiting is primarily used to control how many requests a client can make over time.",
+    "correctAnswer": true,
+    "explanation": "True. Rate Limiting is used to control how many requests a client can make over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Eventual Consistency is primarily used to accept temporary divergence between replicas while they converge later.",
+    "correctAnswer": true,
+    "explanation": "True. Eventual Consistency is used to accept temporary divergence between replicas while they converge later.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Observability is primarily used to understand system behavior through logs, metrics, and traces.",
+    "correctAnswer": true,
+    "explanation": "True. Observability is used to understand system behavior through logs, metrics, and traces.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Message Queue is primarily used to buffer and deliver asynchronous work between decoupled producers and consumers.",
+    "correctAnswer": true,
+    "explanation": "True. Message Queue is used to buffer and deliver asynchronous work between decoupled producers and consumers.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Repository is primarily used to centralize authoritative data in one owned location.",
+    "correctAnswer": false,
+    "explanation": "False. Repository is actually used to abstract data access behind a collection-like interface, not to centralize authoritative data in one owned location.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Use Case is primarily used to prefer small client-specific interfaces over one large interface.",
+    "correctAnswer": false,
+    "explanation": "False. Use Case is actually used to encapsulate a single unit of business logic or user intent, not to prefer small client-specific interfaces over one large interface.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Dependency Injection is primarily used to stop calling an unhealthy dependency until it recovers.",
+    "correctAnswer": false,
+    "explanation": "False. Dependency Injection is actually used to provide dependencies from the outside instead of creating them internally, not to stop calling an unhealthy dependency until it recovers.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Single Source of Truth is primarily used to buffer and deliver asynchronous work between decoupled producers and consumers.",
+    "correctAnswer": false,
+    "explanation": "False. Single Source of Truth is actually used to centralize authoritative data in one owned location, not to buffer and deliver asynchronous work between decoupled producers and consumers.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Unidirectional Data Flow is primarily used to group five object-oriented design principles for maintainable software.",
+    "correctAnswer": false,
+    "explanation": "False. Unidirectional Data Flow is actually used to move state down and events up through a predictable data path, not to group five object-oriented design principles for maintainable software.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Separation of Concerns is primarily used to separate UI rendering from state and presentation logic using a ViewModel.",
+    "correctAnswer": false,
+    "explanation": "False. Separation of Concerns is actually used to split a system into parts with focused responsibilities, not to separate UI rendering from state and presentation logic using a ViewModel.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, SOLID is primarily used to split large result sets into smaller pages for delivery and rendering.",
+    "correctAnswer": false,
+    "explanation": "False. SOLID is actually used to group five object-oriented design principles for maintainable software, not to split large result sets into smaller pages for delivery and rendering.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Single Responsibility Principle is primarily used to provide dependencies from the outside instead of creating them internally.",
+    "correctAnswer": false,
+    "explanation": "False. Single Responsibility Principle is actually used to give a module one reason to change, not to provide dependencies from the outside instead of creating them internally.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Open/Closed Principle is primarily used to ensure subtypes can replace their base types without breaking behavior.",
+    "correctAnswer": false,
+    "explanation": "False. Open/Closed Principle is actually used to allow behavior to be extended without modifying stable code, not to ensure subtypes can replace their base types without breaking behavior.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Liskov Substitution Principle is primarily used to make repeated requests produce the same effect as one request.",
+    "correctAnswer": false,
+    "explanation": "False. Liskov Substitution Principle is actually used to ensure subtypes can replace their base types without breaking behavior, not to make repeated requests produce the same effect as one request.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Interface Segregation Principle is primarily used to understand system behavior through logs, metrics, and traces.",
+    "correctAnswer": false,
+    "explanation": "False. Interface Segregation Principle is actually used to prefer small client-specific interfaces over one large interface, not to understand system behavior through logs, metrics, and traces.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Dependency Inversion Principle is primarily used to split a system into parts with focused responsibilities.",
+    "correctAnswer": false,
+    "explanation": "False. Dependency Inversion Principle is actually used to make high-level policy depend on abstractions rather than concrete details, not to split a system into parts with focused responsibilities.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, Clean Architecture is primarily used to separate UI rendering from state and presentation logic using a ViewModel.",
+    "correctAnswer": false,
+    "explanation": "False. Clean Architecture is actually used to organize code in layers with dependencies pointing inward, not to separate UI rendering from state and presentation logic using a ViewModel.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, MVVM is primarily used to reuse previously computed or fetched data to reduce latency and load.",
+    "correctAnswer": false,
+    "explanation": "False. MVVM is actually used to separate UI rendering from state and presentation logic using a ViewModel, not to reuse previously computed or fetched data to reduce latency and load.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, MVI is primarily used to encapsulate a single unit of business logic or user intent.",
+    "correctAnswer": false,
+    "explanation": "False. MVI is actually used to model UI as state transitions driven by intents or events, not to encapsulate a single unit of business logic or user intent.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In software architecture, CQRS is primarily used to allow behavior to be extended without modifying stable code.",
+    "correctAnswer": false,
+    "explanation": "False. CQRS is actually used to separate read operations from write operations when their models differ, not to allow behavior to be extended without modifying stable code.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Idempotency is primarily used to separate read operations from write operations when their models differ.",
+    "correctAnswer": false,
+    "explanation": "False. Idempotency is actually used to make repeated requests produce the same effect as one request, not to separate read operations from write operations when their models differ.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Circuit Breaker is primarily used to accept temporary divergence between replicas while they converge later.",
+    "correctAnswer": false,
+    "explanation": "False. Circuit Breaker is actually used to stop calling an unhealthy dependency until it recovers, not to accept temporary divergence between replicas while they converge later.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Retry with Backoff is primarily used to move state down and events up through a predictable data path.",
+    "correctAnswer": false,
+    "explanation": "False. Retry with Backoff is actually used to retry transient failures with increasing delays between attempts, not to move state down and events up through a predictable data path.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Caching is primarily used to make high-level policy depend on abstractions rather than concrete details.",
+    "correctAnswer": false,
+    "explanation": "False. Caching is actually used to reuse previously computed or fetched data to reduce latency and load, not to make high-level policy depend on abstractions rather than concrete details.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Pagination is primarily used to retry transient failures with increasing delays between attempts.",
+    "correctAnswer": false,
+    "explanation": "False. Pagination is actually used to split large result sets into smaller pages for delivery and rendering, not to retry transient failures with increasing delays between attempts.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Rate Limiting is primarily used to abstract data access behind a collection-like interface.",
+    "correctAnswer": false,
+    "explanation": "False. Rate Limiting is actually used to control how many requests a client can make over time, not to abstract data access behind a collection-like interface.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Eventual Consistency is primarily used to give a module one reason to change.",
+    "correctAnswer": false,
+    "explanation": "False. Eventual Consistency is actually used to accept temporary divergence between replicas while they converge later, not to give a module one reason to change.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Observability is primarily used to model UI as state transitions driven by intents or events.",
+    "correctAnswer": false,
+    "explanation": "False. Observability is actually used to understand system behavior through logs, metrics, and traces, not to model UI as state transitions driven by intents or events.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In software architecture, Message Queue is primarily used to control how many requests a client can make over time.",
+    "correctAnswer": false,
+    "explanation": "False. Message Queue is actually used to buffer and deliver asynchronous work between decoupled producers and consumers, not to control how many requests a client can make over time.",
+    "difficulty": "Hard"
   }
 ]

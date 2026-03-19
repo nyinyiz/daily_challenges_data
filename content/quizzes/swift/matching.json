@@ -573,5 +573,1155 @@
     ],
     "difficulty": "Medium",
     "explanation": "Apple provides multiple distribution channels for different stages of app development."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles",
+    "pairs": [
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      },
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "capture list",
+        "right": "Control how values are captured inside a closure."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do",
+    "pairs": [
+      {
+        "left": "Codable",
+        "right": "Support encoding and decoding structured data."
+      },
+      {
+        "left": "defer",
+        "right": "Schedule cleanup code to run when the current scope exits."
+      },
+      {
+        "left": "extension",
+        "right": "Add functionality to an existing type."
+      },
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each Swift concept with the correct description",
+    "pairs": [
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      },
+      {
+        "left": "Optional",
+        "right": "Represent either a wrapped value or the absence of one."
+      },
+      {
+        "left": "actor",
+        "right": "Protect mutable state through isolated concurrency access."
+      },
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these core Swift ideas with their responsibilities",
+    "pairs": [
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      },
+      {
+        "left": "Result",
+        "right": "Model success or failure as a typed value."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose",
+    "pairs": [
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      },
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      },
+      {
+        "left": "capture list",
+        "right": "Control how values are captured inside a closure."
+      },
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: class, throws, mutating, and async/await",
+    "pairs": [
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      },
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      },
+      {
+        "left": "mutating",
+        "right": "Allow a struct or enum method to modify self."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous code in a sequential style."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: defer, class, guard, and opaque type",
+    "pairs": [
+      {
+        "left": "defer",
+        "right": "Schedule cleanup code to run when the current scope exits."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      },
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: Result, opaque type, enum, and value semantics",
+    "pairs": [
+      {
+        "left": "Result",
+        "right": "Model success or failure as a typed value."
+      },
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      },
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      },
+      {
+        "left": "value semantics",
+        "right": "Ensure copies are independent so changes to one do not affect another."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: property wrapper, Task, actor, and extension",
+    "pairs": [
+      {
+        "left": "property wrapper",
+        "right": "Encapsulate reusable getter and setter behavior around a property."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      },
+      {
+        "left": "actor",
+        "right": "Protect mutable state through isolated concurrency access."
+      },
+      {
+        "left": "extension",
+        "right": "Add functionality to an existing type."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: actor, enum, Equatable, and Task",
+    "pairs": [
+      {
+        "left": "actor",
+        "right": "Protect mutable state through isolated concurrency access."
+      },
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      },
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: guard, throws, class, and async/await",
+    "pairs": [
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous code in a sequential style."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: Hashable, Task, struct, and actor",
+    "pairs": [
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      },
+      {
+        "left": "actor",
+        "right": "Protect mutable state through isolated concurrency access."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: enum, protocol extension, capture list, and Codable",
+    "pairs": [
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      },
+      {
+        "left": "capture list",
+        "right": "Control how values are captured inside a closure."
+      },
+      {
+        "left": "Codable",
+        "right": "Support encoding and decoding structured data."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: enum, struct, Result, and protocol extension",
+    "pairs": [
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      },
+      {
+        "left": "Result",
+        "right": "Model success or failure as a typed value."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: opaque type, capture list, Equatable, and async/await",
+    "pairs": [
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      },
+      {
+        "left": "capture list",
+        "right": "Control how values are captured inside a closure."
+      },
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous code in a sequential style."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: value semantics, protocol, associatedtype, and property wrapper",
+    "pairs": [
+      {
+        "left": "value semantics",
+        "right": "Ensure copies are independent so changes to one do not affect another."
+      },
+      {
+        "left": "protocol",
+        "right": "Declare a contract of required properties and methods."
+      },
+      {
+        "left": "associatedtype",
+        "right": "Declare a placeholder type inside a protocol."
+      },
+      {
+        "left": "property wrapper",
+        "right": "Encapsulate reusable getter and setter behavior around a property."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: Equatable, extension, class, and mutating",
+    "pairs": [
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "extension",
+        "right": "Add functionality to an existing type."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      },
+      {
+        "left": "mutating",
+        "right": "Allow a struct or enum method to modify self."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: Optional, guard, weak reference, and mutating",
+    "pairs": [
+      {
+        "left": "Optional",
+        "right": "Represent either a wrapped value or the absence of one."
+      },
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "weak reference",
+        "right": "Avoid increasing a referenced object's retain count."
+      },
+      {
+        "left": "mutating",
+        "right": "Allow a struct or enum method to modify self."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: property wrapper, value semantics, defer, and generic",
+    "pairs": [
+      {
+        "left": "property wrapper",
+        "right": "Encapsulate reusable getter and setter behavior around a property."
+      },
+      {
+        "left": "value semantics",
+        "right": "Ensure copies are independent so changes to one do not affect another."
+      },
+      {
+        "left": "defer",
+        "right": "Schedule cleanup code to run when the current scope exits."
+      },
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: enum, Optional, opaque type, and defer",
+    "pairs": [
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      },
+      {
+        "left": "Optional",
+        "right": "Represent either a wrapped value or the absence of one."
+      },
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      },
+      {
+        "left": "defer",
+        "right": "Schedule cleanup code to run when the current scope exits."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: defer, associatedtype, async/await, and class",
+    "pairs": [
+      {
+        "left": "defer",
+        "right": "Schedule cleanup code to run when the current scope exits."
+      },
+      {
+        "left": "associatedtype",
+        "right": "Declare a placeholder type inside a protocol."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous code in a sequential style."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: throws, defer, protocol, and protocol extension",
+    "pairs": [
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      },
+      {
+        "left": "defer",
+        "right": "Schedule cleanup code to run when the current scope exits."
+      },
+      {
+        "left": "protocol",
+        "right": "Declare a contract of required properties and methods."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: throws, struct, Equatable, and actor",
+    "pairs": [
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      },
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "actor",
+        "right": "Protect mutable state through isolated concurrency access."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: Optional, throws, Task, and Codable",
+    "pairs": [
+      {
+        "left": "Optional",
+        "right": "Represent either a wrapped value or the absence of one."
+      },
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      },
+      {
+        "left": "Codable",
+        "right": "Support encoding and decoding structured data."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: throws, Hashable, Optional, and mutating",
+    "pairs": [
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      },
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      },
+      {
+        "left": "Optional",
+        "right": "Represent either a wrapped value or the absence of one."
+      },
+      {
+        "left": "mutating",
+        "right": "Allow a struct or enum method to modify self."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: async/await, guard, opaque type, and struct",
+    "pairs": [
+      {
+        "left": "async/await",
+        "right": "Write asynchronous code in a sequential style."
+      },
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: value semantics, actor, Codable, and generic",
+    "pairs": [
+      {
+        "left": "value semantics",
+        "right": "Ensure copies are independent so changes to one do not affect another."
+      },
+      {
+        "left": "actor",
+        "right": "Protect mutable state through isolated concurrency access."
+      },
+      {
+        "left": "Codable",
+        "right": "Support encoding and decoding structured data."
+      },
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: mutating, guard, value semantics, and Task",
+    "pairs": [
+      {
+        "left": "mutating",
+        "right": "Allow a struct or enum method to modify self."
+      },
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "value semantics",
+        "right": "Ensure copies are independent so changes to one do not affect another."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: weak reference, opaque type, Hashable, and property wrapper",
+    "pairs": [
+      {
+        "left": "weak reference",
+        "right": "Avoid increasing a referenced object's retain count."
+      },
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      },
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      },
+      {
+        "left": "property wrapper",
+        "right": "Encapsulate reusable getter and setter behavior around a property."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: throws, capture list, struct, and Equatable",
+    "pairs": [
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      },
+      {
+        "left": "capture list",
+        "right": "Control how values are captured inside a closure."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      },
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: actor, opaque type, class, and associatedtype",
+    "pairs": [
+      {
+        "left": "actor",
+        "right": "Protect mutable state through isolated concurrency access."
+      },
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      },
+      {
+        "left": "associatedtype",
+        "right": "Declare a placeholder type inside a protocol."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: protocol extension, struct, generic, and Hashable",
+    "pairs": [
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      },
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      },
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: extension, class, async/await, and Codable",
+    "pairs": [
+      {
+        "left": "extension",
+        "right": "Add functionality to an existing type."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous code in a sequential style."
+      },
+      {
+        "left": "Codable",
+        "right": "Support encoding and decoding structured data."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: capture list, Equatable, throws, and struct",
+    "pairs": [
+      {
+        "left": "capture list",
+        "right": "Control how values are captured inside a closure."
+      },
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "throws",
+        "right": "Mark a function that can propagate errors to its caller."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: opaque type, protocol, Hashable, and protocol extension",
+    "pairs": [
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      },
+      {
+        "left": "protocol",
+        "right": "Declare a contract of required properties and methods."
+      },
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: protocol extension, Codable, Hashable, and extension",
+    "pairs": [
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      },
+      {
+        "left": "Codable",
+        "right": "Support encoding and decoding structured data."
+      },
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      },
+      {
+        "left": "extension",
+        "right": "Add functionality to an existing type."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: class, struct, Result, and protocol extension",
+    "pairs": [
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      },
+      {
+        "left": "Result",
+        "right": "Model success or failure as a typed value."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: property wrapper, enum, Equatable, and actor",
+    "pairs": [
+      {
+        "left": "property wrapper",
+        "right": "Encapsulate reusable getter and setter behavior around a property."
+      },
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      },
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "actor",
+        "right": "Protect mutable state through isolated concurrency access."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: generic, protocol, struct, and Task",
+    "pairs": [
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      },
+      {
+        "left": "protocol",
+        "right": "Declare a contract of required properties and methods."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: generic, protocol extension, Optional, and enum",
+    "pairs": [
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      },
+      {
+        "left": "Optional",
+        "right": "Represent either a wrapped value or the absence of one."
+      },
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: mutating, generic, Task, and class",
+    "pairs": [
+      {
+        "left": "mutating",
+        "right": "Allow a struct or enum method to modify self."
+      },
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: mutating, property wrapper, Task, and weak reference",
+    "pairs": [
+      {
+        "left": "mutating",
+        "right": "Allow a struct or enum method to modify self."
+      },
+      {
+        "left": "property wrapper",
+        "right": "Encapsulate reusable getter and setter behavior around a property."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      },
+      {
+        "left": "weak reference",
+        "right": "Avoid increasing a referenced object's retain count."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: enum, Equatable, struct, and generic",
+    "pairs": [
+      {
+        "left": "enum",
+        "right": "Model a finite set of related cases and associated values."
+      },
+      {
+        "left": "Equatable",
+        "right": "Compare two values for equality."
+      },
+      {
+        "left": "struct",
+        "right": "Define a value type with copied semantics by default."
+      },
+      {
+        "left": "generic",
+        "right": "Write reusable code that works with multiple concrete types."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: async/await, protocol extension, Hashable, and capture list",
+    "pairs": [
+      {
+        "left": "async/await",
+        "right": "Write asynchronous code in a sequential style."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      },
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      },
+      {
+        "left": "capture list",
+        "right": "Control how values are captured inside a closure."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: guard, capture list, async/await, and class",
+    "pairs": [
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "capture list",
+        "right": "Control how values are captured inside a closure."
+      },
+      {
+        "left": "async/await",
+        "right": "Write asynchronous code in a sequential style."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift concepts with their primary roles: protocol, guard, Codable, and Result",
+    "pairs": [
+      {
+        "left": "protocol",
+        "right": "Declare a contract of required properties and methods."
+      },
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "Codable",
+        "right": "Support encoding and decoding structured data."
+      },
+      {
+        "left": "Result",
+        "right": "Model success or failure as a typed value."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Swift terms to what they do: Hashable, defer, Result, and class",
+    "pairs": [
+      {
+        "left": "Hashable",
+        "right": "Generate a stable hash representation for set and dictionary keys."
+      },
+      {
+        "left": "defer",
+        "right": "Schedule cleanup code to run when the current scope exits."
+      },
+      {
+        "left": "Result",
+        "right": "Model success or failure as a typed value."
+      },
+      {
+        "left": "class",
+        "right": "Define a reference type that supports inheritance."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Swift concepts with the correct description: associatedtype, weak reference, guard, and defer",
+    "pairs": [
+      {
+        "left": "associatedtype",
+        "right": "Declare a placeholder type inside a protocol."
+      },
+      {
+        "left": "weak reference",
+        "right": "Avoid increasing a referenced object's retain count."
+      },
+      {
+        "left": "guard",
+        "right": "Exit early when required conditions are not satisfied."
+      },
+      {
+        "left": "defer",
+        "right": "Schedule cleanup code to run when the current scope exits."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift ideas with their responsibilities: Task, protocol extension, property wrapper, and opaque type",
+    "pairs": [
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      },
+      {
+        "left": "protocol extension",
+        "right": "Provide shared default behavior for conforming types."
+      },
+      {
+        "left": "property wrapper",
+        "right": "Encapsulate reusable getter and setter behavior around a property."
+      },
+      {
+        "left": "opaque type",
+        "right": "Hide a concrete return type behind the some keyword."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
+  },
+  {
+    "question": "Match these Swift building blocks with their purpose: associatedtype, Codable, Task, and Result",
+    "pairs": [
+      {
+        "left": "associatedtype",
+        "right": "Declare a placeholder type inside a protocol."
+      },
+      {
+        "left": "Codable",
+        "right": "Support encoding and decoding structured data."
+      },
+      {
+        "left": "Task",
+        "right": "Start a unit of asynchronous work in structured concurrency."
+      },
+      {
+        "left": "Result",
+        "right": "Model success or failure as a typed value."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Swift concepts with their primary roles."
   }
 ]

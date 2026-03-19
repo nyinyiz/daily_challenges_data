@@ -742,5 +742,605 @@
     "correctAnswer": "It designates the type that provides the application's entry point, replacing UIApplicationMain()",
     "explanation": "@main designates a type as the top-level entry point of a Swift program. For iOS apps it replaces the @UIApplicationMain attribute and the call to UIApplicationMain() in main.swift.",
     "difficulty": "Hard"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Manage a screen's lifecycle and coordinate its view hierarchy.",
+    "options": [
+      "UIViewController",
+      "NotificationCenter",
+      "UINavigationController",
+      "UIAccessibility"
+    ],
+    "correctAnswer": "UIViewController",
+    "explanation": "UIViewController is used to manage a screen's lifecycle and coordinate its view hierarchy.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Manage a stack of view controllers for hierarchical navigation.",
+    "options": [
+      "UIAccessibility",
+      "UITableView",
+      "UIViewController",
+      "UINavigationController"
+    ],
+    "correctAnswer": "UINavigationController",
+    "explanation": "UINavigationController is used to manage a stack of view controllers for hierarchical navigation.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Display vertically scrolling rows of reusable cells.",
+    "options": [
+      "UITableView",
+      "UICollectionView",
+      "Main thread",
+      "Core Location"
+    ],
+    "correctAnswer": "UITableView",
+    "explanation": "UITableView is used to display vertically scrolling rows of reusable cells.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Display customizable grids or lists of reusable items.",
+    "options": [
+      "UICollectionView",
+      "UIView",
+      "UIApplication",
+      "Auto Layout"
+    ],
+    "correctAnswer": "UICollectionView",
+    "explanation": "UICollectionView is used to display customizable grids or lists of reusable items.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Position and size UI elements using constraints.",
+    "options": [
+      "Auto Layout",
+      "UserDefaults",
+      "AppDelegate",
+      "UITableView"
+    ],
+    "correctAnswer": "Auto Layout",
+    "explanation": "Auto Layout is used to position and size UI elements using constraints.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Perform HTTP networking and data transfer tasks.",
+    "options": [
+      "URLSession",
+      "BackgroundTasks",
+      "UNUserNotificationCenter",
+      "UITableView"
+    ],
+    "correctAnswer": "URLSession",
+    "explanation": "URLSession is used to perform HTTP networking and data transfer tasks.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Persist lightweight user settings and preferences.",
+    "options": [
+      "Bundle",
+      "UserDefaults",
+      "Core Data",
+      "UIViewController"
+    ],
+    "correctAnswer": "UserDefaults",
+    "explanation": "UserDefaults is used to persist lightweight user settings and preferences.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Store sensitive credentials securely on the device.",
+    "options": [
+      "Keychain",
+      "Bundle",
+      "UIAccessibility",
+      "Core Data"
+    ],
+    "correctAnswer": "Keychain",
+    "explanation": "Keychain is used to store sensitive credentials securely on the device.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Manage object graphs and local persistence.",
+    "options": [
+      "SceneDelegate",
+      "Auto Layout",
+      "Main thread",
+      "Core Data"
+    ],
+    "correctAnswer": "Core Data",
+    "explanation": "Core Data is used to manage object graphs and local persistence.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Broadcast in-process events to observers.",
+    "options": [
+      "NotificationCenter",
+      "Keychain",
+      "UIView",
+      "Auto Layout"
+    ],
+    "correctAnswer": "NotificationCenter",
+    "explanation": "NotificationCenter is used to broadcast in-process events to observers.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Schedule eligible work for execution when the system allows it.",
+    "options": [
+      "URLSession",
+      "BackgroundTasks",
+      "AVFoundation",
+      "UICollectionView"
+    ],
+    "correctAnswer": "BackgroundTasks",
+    "explanation": "BackgroundTasks is used to schedule eligible work for execution when the system allows it.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Respond to app-level lifecycle events and configuration.",
+    "options": [
+      "AppDelegate",
+      "UINavigationController",
+      "AVFoundation",
+      "SceneDelegate"
+    ],
+    "correctAnswer": "AppDelegate",
+    "explanation": "AppDelegate is used to respond to app-level lifecycle events and configuration.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Manage the lifecycle of a UI scene in multi-window apps.",
+    "options": [
+      "UNUserNotificationCenter",
+      "SceneDelegate",
+      "UITableView",
+      "Auto Layout"
+    ],
+    "correctAnswer": "SceneDelegate",
+    "explanation": "SceneDelegate is used to manage the lifecycle of a UI scene in multi-window apps.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Render visible UI elements and handle layout and events.",
+    "options": [
+      "AppDelegate",
+      "UIView",
+      "WKWebView",
+      "UserDefaults"
+    ],
+    "correctAnswer": "UIView",
+    "explanation": "UIView is used to render visible UI elements and handle layout and events.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Back a view's rendering, animations, and compositing properties.",
+    "options": [
+      "UserDefaults",
+      "CALayer",
+      "AppDelegate",
+      "Keychain"
+    ],
+    "correctAnswer": "CALayer",
+    "explanation": "CALayer is used to back a view's rendering, animations, and compositing properties.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Represent the running app and coordinate high-level app behavior.",
+    "options": [
+      "WKWebView",
+      "UIApplication",
+      "Core Location",
+      "Auto Layout"
+    ],
+    "correctAnswer": "UIApplication",
+    "explanation": "UIApplication is used to represent the running app and coordinate high-level app behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Manage local and remote notification requests and permissions.",
+    "options": [
+      "BackgroundTasks",
+      "AppDelegate",
+      "UNUserNotificationCenter",
+      "Core Data"
+    ],
+    "correctAnswer": "UNUserNotificationCenter",
+    "explanation": "UNUserNotificationCenter is used to manage local and remote notification requests and permissions.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Access device location and heading services.",
+    "options": [
+      "WKWebView",
+      "Main thread",
+      "SceneDelegate",
+      "Core Location"
+    ],
+    "correctAnswer": "Core Location",
+    "explanation": "Core Location is used to access device location and heading services.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Work with audio, video, and camera capabilities.",
+    "options": [
+      "AVFoundation",
+      "UIView",
+      "Bundle",
+      "WKWebView"
+    ],
+    "correctAnswer": "AVFoundation",
+    "explanation": "AVFoundation is used to work with audio, video, and camera capabilities.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Embed and control web content inside an app.",
+    "options": [
+      "WKWebView",
+      "Info.plist",
+      "Core Location",
+      "UITableView"
+    ],
+    "correctAnswer": "WKWebView",
+    "explanation": "WKWebView is used to embed and control web content inside an app.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Locate app resources and metadata packaged with the app.",
+    "options": [
+      "reuseIdentifier",
+      "UIAccessibility",
+      "UIViewController",
+      "Bundle"
+    ],
+    "correctAnswer": "Bundle",
+    "explanation": "Bundle is used to locate app resources and metadata packaged with the app.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Declare configuration values and usage descriptions for the app.",
+    "options": [
+      "AppDelegate",
+      "UIView",
+      "URLSession",
+      "Info.plist"
+    ],
+    "correctAnswer": "Info.plist",
+    "explanation": "Info.plist is used to declare configuration values and usage descriptions for the app.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Expose UI information to assistive technologies.",
+    "options": [
+      "NotificationCenter",
+      "BackgroundTasks",
+      "UIAccessibility",
+      "Core Data"
+    ],
+    "correctAnswer": "UIAccessibility",
+    "explanation": "UIAccessibility is used to expose UI information to assistive technologies.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Run UI updates and user-interaction work safely.",
+    "options": [
+      "URLSession",
+      "BackgroundTasks",
+      "Main thread",
+      "Keychain"
+    ],
+    "correctAnswer": "Main thread",
+    "explanation": "Main thread is used to run UI updates and user-interaction work safely.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which iOS development concept is best described as: Enable cells and reusable views to be recycled efficiently.",
+    "options": [
+      "BackgroundTasks",
+      "reuseIdentifier",
+      "Info.plist",
+      "URLSession"
+    ],
+    "correctAnswer": "reuseIdentifier",
+    "explanation": "reuseIdentifier is used to enable cells and reusable views to be recycled efficiently.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UIViewController?",
+    "options": [
+      "Manage a screen's lifecycle and coordinate its view hierarchy.",
+      "Back a view's rendering, animations, and compositing properties.",
+      "Locate app resources and metadata packaged with the app.",
+      "Perform HTTP networking and data transfer tasks."
+    ],
+    "correctAnswer": "Manage a screen's lifecycle and coordinate its view hierarchy.",
+    "explanation": "The correct answer is UIViewController because it is used to manage a screen's lifecycle and coordinate its view hierarchy.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UINavigationController?",
+    "options": [
+      "Manage a screen's lifecycle and coordinate its view hierarchy.",
+      "Manage a stack of view controllers for hierarchical navigation.",
+      "Schedule eligible work for execution when the system allows it.",
+      "Access device location and heading services."
+    ],
+    "correctAnswer": "Manage a stack of view controllers for hierarchical navigation.",
+    "explanation": "The correct answer is UINavigationController because it is used to manage a stack of view controllers for hierarchical navigation.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UITableView?",
+    "options": [
+      "Display vertically scrolling rows of reusable cells.",
+      "Manage a screen's lifecycle and coordinate its view hierarchy.",
+      "Position and size UI elements using constraints.",
+      "Render visible UI elements and handle layout and events."
+    ],
+    "correctAnswer": "Display vertically scrolling rows of reusable cells.",
+    "explanation": "The correct answer is UITableView because it is used to display vertically scrolling rows of reusable cells.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UICollectionView?",
+    "options": [
+      "Manage local and remote notification requests and permissions.",
+      "Schedule eligible work for execution when the system allows it.",
+      "Embed and control web content inside an app.",
+      "Display customizable grids or lists of reusable items."
+    ],
+    "correctAnswer": "Display customizable grids or lists of reusable items.",
+    "explanation": "The correct answer is UICollectionView because it is used to display customizable grids or lists of reusable items.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of Auto Layout?",
+    "options": [
+      "Enable cells and reusable views to be recycled efficiently.",
+      "Locate app resources and metadata packaged with the app.",
+      "Position and size UI elements using constraints.",
+      "Declare configuration values and usage descriptions for the app."
+    ],
+    "correctAnswer": "Position and size UI elements using constraints.",
+    "explanation": "The correct answer is Auto Layout because it is used to position and size UI elements using constraints.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of URLSession?",
+    "options": [
+      "Display customizable grids or lists of reusable items.",
+      "Run UI updates and user-interaction work safely.",
+      "Perform HTTP networking and data transfer tasks.",
+      "Manage local and remote notification requests and permissions."
+    ],
+    "correctAnswer": "Perform HTTP networking and data transfer tasks.",
+    "explanation": "The correct answer is URLSession because it is used to perform HTTP networking and data transfer tasks.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UserDefaults?",
+    "options": [
+      "Persist lightweight user settings and preferences.",
+      "Locate app resources and metadata packaged with the app.",
+      "Enable cells and reusable views to be recycled efficiently.",
+      "Display customizable grids or lists of reusable items."
+    ],
+    "correctAnswer": "Persist lightweight user settings and preferences.",
+    "explanation": "The correct answer is UserDefaults because it is used to persist lightweight user settings and preferences.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of Keychain?",
+    "options": [
+      "Manage a screen's lifecycle and coordinate its view hierarchy.",
+      "Store sensitive credentials securely on the device.",
+      "Manage a stack of view controllers for hierarchical navigation.",
+      "Position and size UI elements using constraints."
+    ],
+    "correctAnswer": "Store sensitive credentials securely on the device.",
+    "explanation": "The correct answer is Keychain because it is used to store sensitive credentials securely on the device.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of Core Data?",
+    "options": [
+      "Expose UI information to assistive technologies.",
+      "Store sensitive credentials securely on the device.",
+      "Position and size UI elements using constraints.",
+      "Manage object graphs and local persistence."
+    ],
+    "correctAnswer": "Manage object graphs and local persistence.",
+    "explanation": "The correct answer is Core Data because it is used to manage object graphs and local persistence.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of NotificationCenter?",
+    "options": [
+      "Represent the running app and coordinate high-level app behavior.",
+      "Manage the lifecycle of a UI scene in multi-window apps.",
+      "Broadcast in-process events to observers.",
+      "Manage a stack of view controllers for hierarchical navigation."
+    ],
+    "correctAnswer": "Broadcast in-process events to observers.",
+    "explanation": "The correct answer is NotificationCenter because it is used to broadcast in-process events to observers.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of BackgroundTasks?",
+    "options": [
+      "Perform HTTP networking and data transfer tasks.",
+      "Schedule eligible work for execution when the system allows it.",
+      "Persist lightweight user settings and preferences.",
+      "Expose UI information to assistive technologies."
+    ],
+    "correctAnswer": "Schedule eligible work for execution when the system allows it.",
+    "explanation": "The correct answer is BackgroundTasks because it is used to schedule eligible work for execution when the system allows it.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of AppDelegate?",
+    "options": [
+      "Persist lightweight user settings and preferences.",
+      "Manage the lifecycle of a UI scene in multi-window apps.",
+      "Work with audio, video, and camera capabilities.",
+      "Respond to app-level lifecycle events and configuration."
+    ],
+    "correctAnswer": "Respond to app-level lifecycle events and configuration.",
+    "explanation": "The correct answer is AppDelegate because it is used to respond to app-level lifecycle events and configuration.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of SceneDelegate?",
+    "options": [
+      "Manage local and remote notification requests and permissions.",
+      "Store sensitive credentials securely on the device.",
+      "Manage the lifecycle of a UI scene in multi-window apps.",
+      "Broadcast in-process events to observers."
+    ],
+    "correctAnswer": "Manage the lifecycle of a UI scene in multi-window apps.",
+    "explanation": "The correct answer is SceneDelegate because it is used to manage the lifecycle of a UI scene in multi-window apps.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UIView?",
+    "options": [
+      "Run UI updates and user-interaction work safely.",
+      "Render visible UI elements and handle layout and events.",
+      "Display customizable grids or lists of reusable items.",
+      "Declare configuration values and usage descriptions for the app."
+    ],
+    "correctAnswer": "Render visible UI elements and handle layout and events.",
+    "explanation": "The correct answer is UIView because it is used to render visible UI elements and handle layout and events.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of CALayer?",
+    "options": [
+      "Back a view's rendering, animations, and compositing properties.",
+      "Represent the running app and coordinate high-level app behavior.",
+      "Work with audio, video, and camera capabilities.",
+      "Access device location and heading services."
+    ],
+    "correctAnswer": "Back a view's rendering, animations, and compositing properties.",
+    "explanation": "The correct answer is CALayer because it is used to back a view's rendering, animations, and compositing properties.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UIApplication?",
+    "options": [
+      "Manage object graphs and local persistence.",
+      "Manage local and remote notification requests and permissions.",
+      "Back a view's rendering, animations, and compositing properties.",
+      "Represent the running app and coordinate high-level app behavior."
+    ],
+    "correctAnswer": "Represent the running app and coordinate high-level app behavior.",
+    "explanation": "The correct answer is UIApplication because it is used to represent the running app and coordinate high-level app behavior.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UNUserNotificationCenter?",
+    "options": [
+      "Expose UI information to assistive technologies.",
+      "Embed and control web content inside an app.",
+      "Broadcast in-process events to observers.",
+      "Manage local and remote notification requests and permissions."
+    ],
+    "correctAnswer": "Manage local and remote notification requests and permissions.",
+    "explanation": "The correct answer is UNUserNotificationCenter because it is used to manage local and remote notification requests and permissions.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of Core Location?",
+    "options": [
+      "Access device location and heading services.",
+      "Display customizable grids or lists of reusable items.",
+      "Schedule eligible work for execution when the system allows it.",
+      "Position and size UI elements using constraints."
+    ],
+    "correctAnswer": "Access device location and heading services.",
+    "explanation": "The correct answer is Core Location because it is used to access device location and heading services.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of AVFoundation?",
+    "options": [
+      "Display vertically scrolling rows of reusable cells.",
+      "Locate app resources and metadata packaged with the app.",
+      "Persist lightweight user settings and preferences.",
+      "Work with audio, video, and camera capabilities."
+    ],
+    "correctAnswer": "Work with audio, video, and camera capabilities.",
+    "explanation": "The correct answer is AVFoundation because it is used to work with audio, video, and camera capabilities.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of WKWebView?",
+    "options": [
+      "Work with audio, video, and camera capabilities.",
+      "Embed and control web content inside an app.",
+      "Locate app resources and metadata packaged with the app.",
+      "Enable cells and reusable views to be recycled efficiently."
+    ],
+    "correctAnswer": "Embed and control web content inside an app.",
+    "explanation": "The correct answer is WKWebView because it is used to embed and control web content inside an app.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of Bundle?",
+    "options": [
+      "Locate app resources and metadata packaged with the app.",
+      "Manage object graphs and local persistence.",
+      "Broadcast in-process events to observers.",
+      "Schedule eligible work for execution when the system allows it."
+    ],
+    "correctAnswer": "Locate app resources and metadata packaged with the app.",
+    "explanation": "The correct answer is Bundle because it is used to locate app resources and metadata packaged with the app.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of Info.plist?",
+    "options": [
+      "Work with audio, video, and camera capabilities.",
+      "Embed and control web content inside an app.",
+      "Declare configuration values and usage descriptions for the app.",
+      "Position and size UI elements using constraints."
+    ],
+    "correctAnswer": "Declare configuration values and usage descriptions for the app.",
+    "explanation": "The correct answer is Info.plist because it is used to declare configuration values and usage descriptions for the app.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of UIAccessibility?",
+    "options": [
+      "Expose UI information to assistive technologies.",
+      "Display vertically scrolling rows of reusable cells.",
+      "Manage the lifecycle of a UI scene in multi-window apps.",
+      "Represent the running app and coordinate high-level app behavior."
+    ],
+    "correctAnswer": "Expose UI information to assistive technologies.",
+    "explanation": "The correct answer is UIAccessibility because it is used to expose UI information to assistive technologies.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of Main thread?",
+    "options": [
+      "Render visible UI elements and handle layout and events.",
+      "Declare configuration values and usage descriptions for the app.",
+      "Manage local and remote notification requests and permissions.",
+      "Run UI updates and user-interaction work safely."
+    ],
+    "correctAnswer": "Run UI updates and user-interaction work safely.",
+    "explanation": "The correct answer is Main thread because it is used to run UI updates and user-interaction work safely.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In iOS development, what is the primary role of reuseIdentifier?",
+    "options": [
+      "Store sensitive credentials securely on the device.",
+      "Access device location and heading services.",
+      "Enable cells and reusable views to be recycled efficiently.",
+      "Manage local and remote notification requests and permissions."
+    ],
+    "correctAnswer": "Enable cells and reusable views to be recycled efficiently.",
+    "explanation": "The correct answer is reuseIdentifier because it is used to enable cells and reusable views to be recycled efficiently.",
+    "difficulty": "Hard"
   }
 ]

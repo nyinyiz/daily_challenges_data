@@ -658,5 +658,305 @@
     "correctAnswer": true,
     "explanation": "`@JvmInline value class` creates a wrapper around a single value that can be optimized away at runtime.",
     "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, val is primarily used to declare a read-only reference.",
+    "correctAnswer": true,
+    "explanation": "True. val is used to declare a read-only reference.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, var is primarily used to declare a mutable reference.",
+    "correctAnswer": true,
+    "explanation": "True. var is used to declare a mutable reference.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, Nullable type is primarily used to allow a reference to hold null using a question-mark type suffix.",
+    "correctAnswer": true,
+    "explanation": "True. Nullable type is used to allow a reference to hold null using a question-mark type suffix.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, Safe call operator is primarily used to invoke a member only when the receiver is not null.",
+    "correctAnswer": true,
+    "explanation": "True. Safe call operator is used to invoke a member only when the receiver is not null.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, Elvis operator is primarily used to provide a fallback value when an expression is null.",
+    "correctAnswer": true,
+    "explanation": "True. Elvis operator is used to provide a fallback value when an expression is null.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, data class is primarily used to generate value-oriented methods such as equals, hashCode, and copy.",
+    "correctAnswer": true,
+    "explanation": "True. data class is used to generate value-oriented methods such as equals, hashCode, and copy.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, sealed class is primarily used to restrict a type hierarchy to a known set of subclasses.",
+    "correctAnswer": true,
+    "explanation": "True. sealed class is used to restrict a type hierarchy to a known set of subclasses.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, object declaration is primarily used to define a singleton instance and its members.",
+    "correctAnswer": true,
+    "explanation": "True. object declaration is used to define a singleton instance and its members.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, companion object is primarily used to hold members tied to a class rather than its instances.",
+    "correctAnswer": true,
+    "explanation": "True. companion object is used to hold members tied to a class rather than its instances.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, extension function is primarily used to add callable behavior to a type without modifying its source.",
+    "correctAnswer": true,
+    "explanation": "True. extension function is used to add callable behavior to a type without modifying its source.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, lambda is primarily used to represent an anonymous function value.",
+    "correctAnswer": true,
+    "explanation": "True. lambda is used to represent an anonymous function value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, when expression is primarily used to branch on values or types and return a result.",
+    "correctAnswer": true,
+    "explanation": "True. when expression is used to branch on values or types and return a result.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, smart cast is primarily used to let the compiler refine a variable type after a successful check.",
+    "correctAnswer": true,
+    "explanation": "True. smart cast is used to let the compiler refine a variable type after a successful check.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, suspend function is primarily used to mark a function that can suspend without blocking a thread.",
+    "correctAnswer": true,
+    "explanation": "True. suspend function is used to mark a function that can suspend without blocking a thread.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, coroutineScope is primarily used to create a scope that waits for all child coroutines to complete.",
+    "correctAnswer": true,
+    "explanation": "True. coroutineScope is used to create a scope that waits for all child coroutines to complete.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, launch is primarily used to start a coroutine that does not return a result value.",
+    "correctAnswer": true,
+    "explanation": "True. launch is used to start a coroutine that does not return a result value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, async is primarily used to start a coroutine that produces a deferred result.",
+    "correctAnswer": true,
+    "explanation": "True. async is used to start a coroutine that produces a deferred result.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, Flow is primarily used to emit multiple asynchronously produced values over time.",
+    "correctAnswer": true,
+    "explanation": "True. Flow is used to emit multiple asynchronously produced values over time.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, StateFlow is primarily used to represent observable state as a hot flow with a current value.",
+    "correctAnswer": true,
+    "explanation": "True. StateFlow is used to represent observable state as a hot flow with a current value.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, inline function is primarily used to copy function bodies to call sites to reduce overhead or enable special behavior.",
+    "correctAnswer": true,
+    "explanation": "True. inline function is used to copy function bodies to call sites to reduce overhead or enable special behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "In Kotlin, reified type parameter is primarily used to keep a generic type available at runtime inside an inline function.",
+    "correctAnswer": true,
+    "explanation": "True. reified type parameter is used to keep a generic type available at runtime inside an inline function.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, by lazy is primarily used to delay property initialization until the first access.",
+    "correctAnswer": true,
+    "explanation": "True. by lazy is used to delay property initialization until the first access.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, let is primarily used to execute a block with an object as an argument and return the block result.",
+    "correctAnswer": true,
+    "explanation": "True. let is used to execute a block with an object as an argument and return the block result.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, apply is primarily used to configure an object inside a block and then return the receiver.",
+    "correctAnswer": true,
+    "explanation": "True. apply is used to configure an object inside a block and then return the receiver.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, typealias is primarily used to create an alternate name for an existing type.",
+    "correctAnswer": true,
+    "explanation": "True. typealias is used to create an alternate name for an existing type.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, val is primarily used to invoke a member only when the receiver is not null.",
+    "correctAnswer": false,
+    "explanation": "False. val is actually used to declare a read-only reference, not to invoke a member only when the receiver is not null.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, var is primarily used to represent an anonymous function value.",
+    "correctAnswer": false,
+    "explanation": "False. var is actually used to declare a mutable reference, not to represent an anonymous function value.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, Nullable type is primarily used to emit multiple asynchronously produced values over time.",
+    "correctAnswer": false,
+    "explanation": "False. Nullable type is actually used to allow a reference to hold null using a question-mark type suffix, not to emit multiple asynchronously produced values over time.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, Safe call operator is primarily used to create an alternate name for an existing type.",
+    "correctAnswer": false,
+    "explanation": "False. Safe call operator is actually used to invoke a member only when the receiver is not null, not to create an alternate name for an existing type.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, Elvis operator is primarily used to restrict a type hierarchy to a known set of subclasses.",
+    "correctAnswer": false,
+    "explanation": "False. Elvis operator is actually used to provide a fallback value when an expression is null, not to restrict a type hierarchy to a known set of subclasses.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, data class is primarily used to mark a function that can suspend without blocking a thread.",
+    "correctAnswer": false,
+    "explanation": "False. data class is actually used to generate value-oriented methods such as equals, hashCode, and copy, not to mark a function that can suspend without blocking a thread.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, sealed class is primarily used to keep a generic type available at runtime inside an inline function.",
+    "correctAnswer": false,
+    "explanation": "False. sealed class is actually used to restrict a type hierarchy to a known set of subclasses, not to keep a generic type available at runtime inside an inline function.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, object declaration is primarily used to allow a reference to hold null using a question-mark type suffix.",
+    "correctAnswer": false,
+    "explanation": "False. object declaration is actually used to define a singleton instance and its members, not to allow a reference to hold null using a question-mark type suffix.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, companion object is primarily used to add callable behavior to a type without modifying its source.",
+    "correctAnswer": false,
+    "explanation": "False. companion object is actually used to hold members tied to a class rather than its instances, not to add callable behavior to a type without modifying its source.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, extension function is primarily used to start a coroutine that produces a deferred result.",
+    "correctAnswer": false,
+    "explanation": "False. extension function is actually used to add callable behavior to a type without modifying its source, not to start a coroutine that produces a deferred result.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, lambda is primarily used to configure an object inside a block and then return the receiver.",
+    "correctAnswer": false,
+    "explanation": "False. lambda is actually used to represent an anonymous function value, not to configure an object inside a block and then return the receiver.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, when expression is primarily used to generate value-oriented methods such as equals, hashCode, and copy.",
+    "correctAnswer": false,
+    "explanation": "False. when expression is actually used to branch on values or types and return a result, not to generate value-oriented methods such as equals, hashCode, and copy.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, smart cast is primarily used to mark a function that can suspend without blocking a thread.",
+    "correctAnswer": false,
+    "explanation": "False. smart cast is actually used to let the compiler refine a variable type after a successful check, not to mark a function that can suspend without blocking a thread.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, suspend function is primarily used to copy function bodies to call sites to reduce overhead or enable special behavior.",
+    "correctAnswer": false,
+    "explanation": "False. suspend function is actually used to mark a function that can suspend without blocking a thread, not to copy function bodies to call sites to reduce overhead or enable special behavior.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, coroutineScope is primarily used to declare a mutable reference.",
+    "correctAnswer": false,
+    "explanation": "False. coroutineScope is actually used to create a scope that waits for all child coroutines to complete, not to declare a mutable reference.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Kotlin, launch is primarily used to hold members tied to a class rather than its instances.",
+    "correctAnswer": false,
+    "explanation": "False. launch is actually used to start a coroutine that does not return a result value, not to hold members tied to a class rather than its instances.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, async is primarily used to start a coroutine that does not return a result value.",
+    "correctAnswer": false,
+    "explanation": "False. async is actually used to start a coroutine that produces a deferred result, not to start a coroutine that does not return a result value.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, Flow is primarily used to execute a block with an object as an argument and return the block result.",
+    "correctAnswer": false,
+    "explanation": "False. Flow is actually used to emit multiple asynchronously produced values over time, not to execute a block with an object as an argument and return the block result.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, StateFlow is primarily used to provide a fallback value when an expression is null.",
+    "correctAnswer": false,
+    "explanation": "False. StateFlow is actually used to represent observable state as a hot flow with a current value, not to provide a fallback value when an expression is null.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, inline function is primarily used to branch on values or types and return a result.",
+    "correctAnswer": false,
+    "explanation": "False. inline function is actually used to copy function bodies to call sites to reduce overhead or enable special behavior, not to branch on values or types and return a result.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, reified type parameter is primarily used to represent observable state as a hot flow with a current value.",
+    "correctAnswer": false,
+    "explanation": "False. reified type parameter is actually used to keep a generic type available at runtime inside an inline function, not to represent observable state as a hot flow with a current value.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, by lazy is primarily used to declare a read-only reference.",
+    "correctAnswer": false,
+    "explanation": "False. by lazy is actually used to delay property initialization until the first access, not to declare a read-only reference.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, let is primarily used to define a singleton instance and its members.",
+    "correctAnswer": false,
+    "explanation": "False. let is actually used to execute a block with an object as an argument and return the block result, not to define a singleton instance and its members.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, apply is primarily used to create a scope that waits for all child coroutines to complete.",
+    "correctAnswer": false,
+    "explanation": "False. apply is actually used to configure an object inside a block and then return the receiver, not to create a scope that waits for all child coroutines to complete.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Kotlin, typealias is primarily used to delay property initialization until the first access.",
+    "correctAnswer": false,
+    "explanation": "False. typealias is actually used to create an alternate name for an existing type, not to delay property initialization until the first access.",
+    "difficulty": "Hard"
   }
 ]

@@ -573,5 +573,1155 @@
     ],
     "difficulty": "Medium",
     "explanation": "Jetpack Navigation for Compose provides a type-safe navigation framework with back stack management."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles",
+    "pairs": [
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      },
+      {
+        "left": "BroadcastReceiver",
+        "right": "Respond to broadcasted system or app events."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do",
+    "pairs": [
+      {
+        "left": "StateFlow",
+        "right": "Hold and emit the latest UI state from coroutines."
+      },
+      {
+        "left": "LazyColumn",
+        "right": "Render a vertically scrolling lazy list in Jetpack Compose."
+      },
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      },
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each Android concept with the correct description",
+    "pairs": [
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "Modifier",
+        "right": "Decorate Compose UI with layout, styling, and interaction behavior."
+      },
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "ContentProvider",
+        "right": "Share structured app data with other apps through a standard interface."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these core Android ideas with their responsibilities",
+    "pairs": [
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      },
+      {
+        "left": "RecyclerView",
+        "right": "Display large scrollable collections efficiently in the View system."
+      },
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "Fragment",
+        "right": "Host reusable portions of UI and behavior inside an activity."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose",
+    "pairs": [
+      {
+        "left": "Modifier",
+        "right": "Decorate Compose UI with layout, styling, and interaction behavior."
+      },
+      {
+        "left": "LaunchedEffect",
+        "right": "Launch suspend side effects that are scoped to the composition."
+      },
+      {
+        "left": "Navigation Component",
+        "right": "Manage in-app destinations, arguments, and the back stack."
+      },
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      }
+    ],
+    "difficulty": "Easy",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: Room, ContentProvider, LiveData, and StateFlow",
+    "pairs": [
+      {
+        "left": "Room",
+        "right": "Provide an abstraction layer over SQLite for local persistence."
+      },
+      {
+        "left": "ContentProvider",
+        "right": "Share structured app data with other apps through a standard interface."
+      },
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "StateFlow",
+        "right": "Hold and emit the latest UI state from coroutines."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: LaunchedEffect, LiveData, derivedStateOf, and LazyColumn",
+    "pairs": [
+      {
+        "left": "LaunchedEffect",
+        "right": "Launch suspend side effects that are scoped to the composition."
+      },
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      },
+      {
+        "left": "LazyColumn",
+        "right": "Render a vertically scrolling lazy list in Jetpack Compose."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: WorkManager, LiveData, Modifier, and SharedPreferences",
+    "pairs": [
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "Modifier",
+        "right": "Decorate Compose UI with layout, styling, and interaction behavior."
+      },
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: DAO, WorkManager, Service, and BroadcastReceiver",
+    "pairs": [
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      },
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      },
+      {
+        "left": "BroadcastReceiver",
+        "right": "Respond to broadcasted system or app events."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: LiveData, DataStore, BroadcastReceiver, and Intent",
+    "pairs": [
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "BroadcastReceiver",
+        "right": "Respond to broadcasted system or app events."
+      },
+      {
+        "left": "Intent",
+        "right": "Request an action from another Android component."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: PendingIntent, BroadcastReceiver, Fragment, and remember",
+    "pairs": [
+      {
+        "left": "PendingIntent",
+        "right": "Grant another app or the system permission to execute an intent later."
+      },
+      {
+        "left": "BroadcastReceiver",
+        "right": "Respond to broadcasted system or app events."
+      },
+      {
+        "left": "Fragment",
+        "right": "Host reusable portions of UI and behavior inside an activity."
+      },
+      {
+        "left": "remember",
+        "right": "Retain a value across recompositions in Compose."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: derivedStateOf, Navigation Component, DataStore, and DAO",
+    "pairs": [
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      },
+      {
+        "left": "Navigation Component",
+        "right": "Manage in-app destinations, arguments, and the back stack."
+      },
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: DAO, Parcelable, Room, and Intent",
+    "pairs": [
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      },
+      {
+        "left": "Parcelable",
+        "right": "Serialize structured data efficiently for Android component boundaries."
+      },
+      {
+        "left": "Room",
+        "right": "Provide an abstraction layer over SQLite for local persistence."
+      },
+      {
+        "left": "Intent",
+        "right": "Request an action from another Android component."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: SharedPreferences, RecyclerView, Hilt, and Room",
+    "pairs": [
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      },
+      {
+        "left": "RecyclerView",
+        "right": "Display large scrollable collections efficiently in the View system."
+      },
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "Room",
+        "right": "Provide an abstraction layer over SQLite for local persistence."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: Activity, Service, LaunchedEffect, and DataStore",
+    "pairs": [
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      },
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      },
+      {
+        "left": "LaunchedEffect",
+        "right": "Launch suspend side effects that are scoped to the composition."
+      },
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: Modifier, DAO, Room, and Activity",
+    "pairs": [
+      {
+        "left": "Modifier",
+        "right": "Decorate Compose UI with layout, styling, and interaction behavior."
+      },
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      },
+      {
+        "left": "Room",
+        "right": "Provide an abstraction layer over SQLite for local persistence."
+      },
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: Activity, Parcelable, DAO, and ViewModel",
+    "pairs": [
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      },
+      {
+        "left": "Parcelable",
+        "right": "Serialize structured data efficiently for Android component boundaries."
+      },
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      },
+      {
+        "left": "ViewModel",
+        "right": "Store UI-related state and logic across configuration changes."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: BroadcastReceiver, Fragment, WorkManager, and Navigation Component",
+    "pairs": [
+      {
+        "left": "BroadcastReceiver",
+        "right": "Respond to broadcasted system or app events."
+      },
+      {
+        "left": "Fragment",
+        "right": "Host reusable portions of UI and behavior inside an activity."
+      },
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "Navigation Component",
+        "right": "Manage in-app destinations, arguments, and the back stack."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: WorkManager, Activity, SharedPreferences, and PendingIntent",
+    "pairs": [
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      },
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      },
+      {
+        "left": "PendingIntent",
+        "right": "Grant another app or the system permission to execute an intent later."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: StateFlow, LiveData, Navigation Component, and remember",
+    "pairs": [
+      {
+        "left": "StateFlow",
+        "right": "Hold and emit the latest UI state from coroutines."
+      },
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "Navigation Component",
+        "right": "Manage in-app destinations, arguments, and the back stack."
+      },
+      {
+        "left": "remember",
+        "right": "Retain a value across recompositions in Compose."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: StateFlow, WorkManager, derivedStateOf, and DAO",
+    "pairs": [
+      {
+        "left": "StateFlow",
+        "right": "Hold and emit the latest UI state from coroutines."
+      },
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      },
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: remember, Hilt, rememberSaveable, and derivedStateOf",
+    "pairs": [
+      {
+        "left": "remember",
+        "right": "Retain a value across recompositions in Compose."
+      },
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "rememberSaveable",
+        "right": "Retain UI state across recomposition and process recreation when possible."
+      },
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: PendingIntent, ViewModel, Navigation Component, and StateFlow",
+    "pairs": [
+      {
+        "left": "PendingIntent",
+        "right": "Grant another app or the system permission to execute an intent later."
+      },
+      {
+        "left": "ViewModel",
+        "right": "Store UI-related state and logic across configuration changes."
+      },
+      {
+        "left": "Navigation Component",
+        "right": "Manage in-app destinations, arguments, and the back stack."
+      },
+      {
+        "left": "StateFlow",
+        "right": "Hold and emit the latest UI state from coroutines."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: WorkManager, remember, Intent, and SharedPreferences",
+    "pairs": [
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "remember",
+        "right": "Retain a value across recompositions in Compose."
+      },
+      {
+        "left": "Intent",
+        "right": "Request an action from another Android component."
+      },
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: rememberSaveable, Parcelable, Service, and derivedStateOf",
+    "pairs": [
+      {
+        "left": "rememberSaveable",
+        "right": "Retain UI state across recomposition and process recreation when possible."
+      },
+      {
+        "left": "Parcelable",
+        "right": "Serialize structured data efficiently for Android component boundaries."
+      },
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      },
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: BroadcastReceiver, Activity, SharedPreferences, and Service",
+    "pairs": [
+      {
+        "left": "BroadcastReceiver",
+        "right": "Respond to broadcasted system or app events."
+      },
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      },
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      },
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: DataStore, remember, Intent, and LiveData",
+    "pairs": [
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "remember",
+        "right": "Retain a value across recompositions in Compose."
+      },
+      {
+        "left": "Intent",
+        "right": "Request an action from another Android component."
+      },
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: Hilt, Modifier, remember, and LaunchedEffect",
+    "pairs": [
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "Modifier",
+        "right": "Decorate Compose UI with layout, styling, and interaction behavior."
+      },
+      {
+        "left": "remember",
+        "right": "Retain a value across recompositions in Compose."
+      },
+      {
+        "left": "LaunchedEffect",
+        "right": "Launch suspend side effects that are scoped to the composition."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: Hilt, rememberSaveable, LiveData, and WorkManager",
+    "pairs": [
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "rememberSaveable",
+        "right": "Retain UI state across recomposition and process recreation when possible."
+      },
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: Hilt, Modifier, Parcelable, and Service",
+    "pairs": [
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "Modifier",
+        "right": "Decorate Compose UI with layout, styling, and interaction behavior."
+      },
+      {
+        "left": "Parcelable",
+        "right": "Serialize structured data efficiently for Android component boundaries."
+      },
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: DAO, PendingIntent, WorkManager, and Room",
+    "pairs": [
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      },
+      {
+        "left": "PendingIntent",
+        "right": "Grant another app or the system permission to execute an intent later."
+      },
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "Room",
+        "right": "Provide an abstraction layer over SQLite for local persistence."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: LaunchedEffect, StateFlow, ViewModel, and RecyclerView",
+    "pairs": [
+      {
+        "left": "LaunchedEffect",
+        "right": "Launch suspend side effects that are scoped to the composition."
+      },
+      {
+        "left": "StateFlow",
+        "right": "Hold and emit the latest UI state from coroutines."
+      },
+      {
+        "left": "ViewModel",
+        "right": "Store UI-related state and logic across configuration changes."
+      },
+      {
+        "left": "RecyclerView",
+        "right": "Display large scrollable collections efficiently in the View system."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: PendingIntent, Hilt, Fragment, and Activity",
+    "pairs": [
+      {
+        "left": "PendingIntent",
+        "right": "Grant another app or the system permission to execute an intent later."
+      },
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "Fragment",
+        "right": "Host reusable portions of UI and behavior inside an activity."
+      },
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: ViewModel, Parcelable, Service, and derivedStateOf",
+    "pairs": [
+      {
+        "left": "ViewModel",
+        "right": "Store UI-related state and logic across configuration changes."
+      },
+      {
+        "left": "Parcelable",
+        "right": "Serialize structured data efficiently for Android component boundaries."
+      },
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      },
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: remember, Intent, ContentProvider, and ViewModel",
+    "pairs": [
+      {
+        "left": "remember",
+        "right": "Retain a value across recompositions in Compose."
+      },
+      {
+        "left": "Intent",
+        "right": "Request an action from another Android component."
+      },
+      {
+        "left": "ContentProvider",
+        "right": "Share structured app data with other apps through a standard interface."
+      },
+      {
+        "left": "ViewModel",
+        "right": "Store UI-related state and logic across configuration changes."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: derivedStateOf, Modifier, SharedPreferences, and Hilt",
+    "pairs": [
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      },
+      {
+        "left": "Modifier",
+        "right": "Decorate Compose UI with layout, styling, and interaction behavior."
+      },
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      },
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: BroadcastReceiver, Intent, derivedStateOf, and SharedPreferences",
+    "pairs": [
+      {
+        "left": "BroadcastReceiver",
+        "right": "Respond to broadcasted system or app events."
+      },
+      {
+        "left": "Intent",
+        "right": "Request an action from another Android component."
+      },
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      },
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: ContentProvider, LiveData, Modifier, and rememberSaveable",
+    "pairs": [
+      {
+        "left": "ContentProvider",
+        "right": "Share structured app data with other apps through a standard interface."
+      },
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "Modifier",
+        "right": "Decorate Compose UI with layout, styling, and interaction behavior."
+      },
+      {
+        "left": "rememberSaveable",
+        "right": "Retain UI state across recomposition and process recreation when possible."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: DataStore, WorkManager, LazyColumn, and BroadcastReceiver",
+    "pairs": [
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "LazyColumn",
+        "right": "Render a vertically scrolling lazy list in Jetpack Compose."
+      },
+      {
+        "left": "BroadcastReceiver",
+        "right": "Respond to broadcasted system or app events."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: derivedStateOf, LiveData, Navigation Component, and Parcelable",
+    "pairs": [
+      {
+        "left": "derivedStateOf",
+        "right": "Compute derived Compose state efficiently from other state objects."
+      },
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "Navigation Component",
+        "right": "Manage in-app destinations, arguments, and the back stack."
+      },
+      {
+        "left": "Parcelable",
+        "right": "Serialize structured data efficiently for Android component boundaries."
+      }
+    ],
+    "difficulty": "Medium",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: LiveData, LaunchedEffect, rememberSaveable, and DAO",
+    "pairs": [
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "LaunchedEffect",
+        "right": "Launch suspend side effects that are scoped to the composition."
+      },
+      {
+        "left": "rememberSaveable",
+        "right": "Retain UI state across recomposition and process recreation when possible."
+      },
+      {
+        "left": "DAO",
+        "right": "Define database access operations for Room entities."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: Service, PendingIntent, ContentProvider, and StateFlow",
+    "pairs": [
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      },
+      {
+        "left": "PendingIntent",
+        "right": "Grant another app or the system permission to execute an intent later."
+      },
+      {
+        "left": "ContentProvider",
+        "right": "Share structured app data with other apps through a standard interface."
+      },
+      {
+        "left": "StateFlow",
+        "right": "Hold and emit the latest UI state from coroutines."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: PendingIntent, Intent, LaunchedEffect, and Fragment",
+    "pairs": [
+      {
+        "left": "PendingIntent",
+        "right": "Grant another app or the system permission to execute an intent later."
+      },
+      {
+        "left": "Intent",
+        "right": "Request an action from another Android component."
+      },
+      {
+        "left": "LaunchedEffect",
+        "right": "Launch suspend side effects that are scoped to the composition."
+      },
+      {
+        "left": "Fragment",
+        "right": "Host reusable portions of UI and behavior inside an activity."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: LazyColumn, WorkManager, Activity, and rememberSaveable",
+    "pairs": [
+      {
+        "left": "LazyColumn",
+        "right": "Render a vertically scrolling lazy list in Jetpack Compose."
+      },
+      {
+        "left": "WorkManager",
+        "right": "Schedule deferrable and guaranteed background work."
+      },
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      },
+      {
+        "left": "rememberSaveable",
+        "right": "Retain UI state across recomposition and process recreation when possible."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: ViewModel, DataStore, Fragment, and PendingIntent",
+    "pairs": [
+      {
+        "left": "ViewModel",
+        "right": "Store UI-related state and logic across configuration changes."
+      },
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "Fragment",
+        "right": "Host reusable portions of UI and behavior inside an activity."
+      },
+      {
+        "left": "PendingIntent",
+        "right": "Grant another app or the system permission to execute an intent later."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android concepts with their primary roles: ContentProvider, ViewModel, Hilt, and DataStore",
+    "pairs": [
+      {
+        "left": "ContentProvider",
+        "right": "Share structured app data with other apps through a standard interface."
+      },
+      {
+        "left": "ViewModel",
+        "right": "Store UI-related state and logic across configuration changes."
+      },
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match the following Android terms to what they do: SharedPreferences, Navigation Component, DataStore, and RecyclerView",
+    "pairs": [
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      },
+      {
+        "left": "Navigation Component",
+        "right": "Manage in-app destinations, arguments, and the back stack."
+      },
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "RecyclerView",
+        "right": "Display large scrollable collections efficiently in the View system."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match each of these Android concepts with the correct description: LiveData, Hilt, DataStore, and remember",
+    "pairs": [
+      {
+        "left": "LiveData",
+        "right": "Expose lifecycle-aware observable data to the UI layer."
+      },
+      {
+        "left": "Hilt",
+        "right": "Provide dependency injection for Android components with generated bindings."
+      },
+      {
+        "left": "DataStore",
+        "right": "Store key-value or typed data asynchronously using coroutines."
+      },
+      {
+        "left": "remember",
+        "right": "Retain a value across recompositions in Compose."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android ideas with their responsibilities: Parcelable, ViewModel, Service, and Activity",
+    "pairs": [
+      {
+        "left": "Parcelable",
+        "right": "Serialize structured data efficiently for Android component boundaries."
+      },
+      {
+        "left": "ViewModel",
+        "right": "Store UI-related state and logic across configuration changes."
+      },
+      {
+        "left": "Service",
+        "right": "Run long-lived work that does not require a visible UI."
+      },
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
+  },
+  {
+    "question": "Match these Android building blocks with their purpose: Intent, SharedPreferences, Activity, and StateFlow",
+    "pairs": [
+      {
+        "left": "Intent",
+        "right": "Request an action from another Android component."
+      },
+      {
+        "left": "SharedPreferences",
+        "right": "Persist small key-value settings on the device."
+      },
+      {
+        "left": "Activity",
+        "right": "Represent a single screen and entry point for user interaction."
+      },
+      {
+        "left": "StateFlow",
+        "right": "Hold and emit the latest UI state from coroutines."
+      }
+    ],
+    "difficulty": "Hard",
+    "explanation": "These matches connect Android concepts with their primary roles."
   }
 ]

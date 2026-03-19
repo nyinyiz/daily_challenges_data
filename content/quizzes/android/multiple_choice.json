@@ -862,5 +862,605 @@
     "correctAnswer": "android:contentDescription",
     "explanation": "android:contentDescription provides a textual description of a view for accessibility services like TalkBack to read aloud to users.",
     "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Represent a single screen and entry point for user interaction.",
+    "options": [
+      "Navigation Component",
+      "ContentProvider",
+      "Activity",
+      "Fragment"
+    ],
+    "correctAnswer": "Activity",
+    "explanation": "Activity is used to represent a single screen and entry point for user interaction.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Host reusable portions of UI and behavior inside an activity.",
+    "options": [
+      "Fragment",
+      "DataStore",
+      "remember",
+      "Modifier"
+    ],
+    "correctAnswer": "Fragment",
+    "explanation": "Fragment is used to host reusable portions of UI and behavior inside an activity.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Store UI-related state and logic across configuration changes.",
+    "options": [
+      "Service",
+      "ViewModel",
+      "BroadcastReceiver",
+      "remember"
+    ],
+    "correctAnswer": "ViewModel",
+    "explanation": "ViewModel is used to store UI-related state and logic across configuration changes.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Expose lifecycle-aware observable data to the UI layer.",
+    "options": [
+      "ContentProvider",
+      "LiveData",
+      "Room",
+      "Intent"
+    ],
+    "correctAnswer": "LiveData",
+    "explanation": "LiveData is used to expose lifecycle-aware observable data to the UI layer.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Hold and emit the latest UI state from coroutines.",
+    "options": [
+      "Service",
+      "LaunchedEffect",
+      "LiveData",
+      "StateFlow"
+    ],
+    "correctAnswer": "StateFlow",
+    "explanation": "StateFlow is used to hold and emit the latest UI state from coroutines.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Provide an abstraction layer over SQLite for local persistence.",
+    "options": [
+      "Room",
+      "WorkManager",
+      "DataStore",
+      "RecyclerView"
+    ],
+    "correctAnswer": "Room",
+    "explanation": "Room is used to provide an abstraction layer over SQLite for local persistence.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Define database access operations for Room entities.",
+    "options": [
+      "Service",
+      "DAO",
+      "Intent",
+      "Parcelable"
+    ],
+    "correctAnswer": "DAO",
+    "explanation": "DAO is used to define database access operations for Room entities.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Schedule deferrable and guaranteed background work.",
+    "options": [
+      "LiveData",
+      "WorkManager",
+      "Intent",
+      "Parcelable"
+    ],
+    "correctAnswer": "WorkManager",
+    "explanation": "WorkManager is used to schedule deferrable and guaranteed background work.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Run long-lived work that does not require a visible UI.",
+    "options": [
+      "Service",
+      "SharedPreferences",
+      "BroadcastReceiver",
+      "PendingIntent"
+    ],
+    "correctAnswer": "Service",
+    "explanation": "Service is used to run long-lived work that does not require a visible UI.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Respond to broadcasted system or app events.",
+    "options": [
+      "ContentProvider",
+      "BroadcastReceiver",
+      "PendingIntent",
+      "Fragment"
+    ],
+    "correctAnswer": "BroadcastReceiver",
+    "explanation": "BroadcastReceiver is used to respond to broadcasted system or app events.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Request an action from another Android component.",
+    "options": [
+      "derivedStateOf",
+      "Intent",
+      "ContentProvider",
+      "rememberSaveable"
+    ],
+    "correctAnswer": "Intent",
+    "explanation": "Intent is used to request an action from another Android component.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Grant another app or the system permission to execute an intent later.",
+    "options": [
+      "Service",
+      "Fragment",
+      "Hilt",
+      "PendingIntent"
+    ],
+    "correctAnswer": "PendingIntent",
+    "explanation": "PendingIntent is used to grant another app or the system permission to execute an intent later.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Share structured app data with other apps through a standard interface.",
+    "options": [
+      "ViewModel",
+      "ContentProvider",
+      "Navigation Component",
+      "Modifier"
+    ],
+    "correctAnswer": "ContentProvider",
+    "explanation": "ContentProvider is used to share structured app data with other apps through a standard interface.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Store key-value or typed data asynchronously using coroutines.",
+    "options": [
+      "PendingIntent",
+      "DataStore",
+      "ContentProvider",
+      "Modifier"
+    ],
+    "correctAnswer": "DataStore",
+    "explanation": "DataStore is used to store key-value or typed data asynchronously using coroutines.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Persist small key-value settings on the device.",
+    "options": [
+      "BroadcastReceiver",
+      "Modifier",
+      "SharedPreferences",
+      "LaunchedEffect"
+    ],
+    "correctAnswer": "SharedPreferences",
+    "explanation": "SharedPreferences is used to persist small key-value settings on the device.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Manage in-app destinations, arguments, and the back stack.",
+    "options": [
+      "Intent",
+      "Navigation Component",
+      "WorkManager",
+      "SharedPreferences"
+    ],
+    "correctAnswer": "Navigation Component",
+    "explanation": "Navigation Component is used to manage in-app destinations, arguments, and the back stack.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Display large scrollable collections efficiently in the View system.",
+    "options": [
+      "RecyclerView",
+      "Room",
+      "DAO",
+      "LaunchedEffect"
+    ],
+    "correctAnswer": "RecyclerView",
+    "explanation": "RecyclerView is used to display large scrollable collections efficiently in the View system.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Render a vertically scrolling lazy list in Jetpack Compose.",
+    "options": [
+      "ViewModel",
+      "derivedStateOf",
+      "LazyColumn",
+      "Service"
+    ],
+    "correctAnswer": "LazyColumn",
+    "explanation": "LazyColumn is used to render a vertically scrolling lazy list in Jetpack Compose.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Decorate Compose UI with layout, styling, and interaction behavior.",
+    "options": [
+      "Activity",
+      "Modifier",
+      "SharedPreferences",
+      "remember"
+    ],
+    "correctAnswer": "Modifier",
+    "explanation": "Modifier is used to decorate Compose UI with layout, styling, and interaction behavior.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Retain a value across recompositions in Compose.",
+    "options": [
+      "Intent",
+      "remember",
+      "StateFlow",
+      "Navigation Component"
+    ],
+    "correctAnswer": "remember",
+    "explanation": "remember is used to retain a value across recompositions in Compose.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Android concept is best described as: Retain UI state across recomposition and process recreation when possible.",
+    "options": [
+      "rememberSaveable",
+      "Modifier",
+      "WorkManager",
+      "ContentProvider"
+    ],
+    "correctAnswer": "rememberSaveable",
+    "explanation": "rememberSaveable is used to retain UI state across recomposition and process recreation when possible.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Android concept is best described as: Launch suspend side effects that are scoped to the composition.",
+    "options": [
+      "LaunchedEffect",
+      "ContentProvider",
+      "derivedStateOf",
+      "Modifier"
+    ],
+    "correctAnswer": "LaunchedEffect",
+    "explanation": "LaunchedEffect is used to launch suspend side effects that are scoped to the composition.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Android concept is best described as: Compute derived Compose state efficiently from other state objects.",
+    "options": [
+      "Hilt",
+      "derivedStateOf",
+      "Modifier",
+      "remember"
+    ],
+    "correctAnswer": "derivedStateOf",
+    "explanation": "derivedStateOf is used to compute derived Compose state efficiently from other state objects.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Android concept is best described as: Provide dependency injection for Android components with generated bindings.",
+    "options": [
+      "rememberSaveable",
+      "SharedPreferences",
+      "Hilt",
+      "ContentProvider"
+    ],
+    "correctAnswer": "Hilt",
+    "explanation": "Hilt is used to provide dependency injection for Android components with generated bindings.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Android concept is best described as: Serialize structured data efficiently for Android component boundaries.",
+    "options": [
+      "Navigation Component",
+      "Hilt",
+      "Service",
+      "Parcelable"
+    ],
+    "correctAnswer": "Parcelable",
+    "explanation": "Parcelable is used to serialize structured data efficiently for Android component boundaries.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of Activity?",
+    "options": [
+      "Compute derived Compose state efficiently from other state objects.",
+      "Represent a single screen and entry point for user interaction.",
+      "Retain UI state across recomposition and process recreation when possible.",
+      "Provide dependency injection for Android components with generated bindings."
+    ],
+    "correctAnswer": "Represent a single screen and entry point for user interaction.",
+    "explanation": "The correct answer is Activity because it is used to represent a single screen and entry point for user interaction.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of Fragment?",
+    "options": [
+      "Run long-lived work that does not require a visible UI.",
+      "Host reusable portions of UI and behavior inside an activity.",
+      "Request an action from another Android component.",
+      "Persist small key-value settings on the device."
+    ],
+    "correctAnswer": "Host reusable portions of UI and behavior inside an activity.",
+    "explanation": "The correct answer is Fragment because it is used to host reusable portions of UI and behavior inside an activity.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of ViewModel?",
+    "options": [
+      "Expose lifecycle-aware observable data to the UI layer.",
+      "Render a vertically scrolling lazy list in Jetpack Compose.",
+      "Store UI-related state and logic across configuration changes.",
+      "Launch suspend side effects that are scoped to the composition."
+    ],
+    "correctAnswer": "Store UI-related state and logic across configuration changes.",
+    "explanation": "The correct answer is ViewModel because it is used to store UI-related state and logic across configuration changes.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of LiveData?",
+    "options": [
+      "Request an action from another Android component.",
+      "Respond to broadcasted system or app events.",
+      "Expose lifecycle-aware observable data to the UI layer.",
+      "Schedule deferrable and guaranteed background work."
+    ],
+    "correctAnswer": "Expose lifecycle-aware observable data to the UI layer.",
+    "explanation": "The correct answer is LiveData because it is used to expose lifecycle-aware observable data to the UI layer.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of StateFlow?",
+    "options": [
+      "Persist small key-value settings on the device.",
+      "Hold and emit the latest UI state from coroutines.",
+      "Run long-lived work that does not require a visible UI.",
+      "Launch suspend side effects that are scoped to the composition."
+    ],
+    "correctAnswer": "Hold and emit the latest UI state from coroutines.",
+    "explanation": "The correct answer is StateFlow because it is used to hold and emit the latest UI state from coroutines.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of Room?",
+    "options": [
+      "Share structured app data with other apps through a standard interface.",
+      "Provide dependency injection for Android components with generated bindings.",
+      "Provide an abstraction layer over SQLite for local persistence.",
+      "Compute derived Compose state efficiently from other state objects."
+    ],
+    "correctAnswer": "Provide an abstraction layer over SQLite for local persistence.",
+    "explanation": "The correct answer is Room because it is used to provide an abstraction layer over SQLite for local persistence.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of DAO?",
+    "options": [
+      "Schedule deferrable and guaranteed background work.",
+      "Define database access operations for Room entities.",
+      "Respond to broadcasted system or app events.",
+      "Decorate Compose UI with layout, styling, and interaction behavior."
+    ],
+    "correctAnswer": "Define database access operations for Room entities.",
+    "explanation": "The correct answer is DAO because it is used to define database access operations for Room entities.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of WorkManager?",
+    "options": [
+      "Schedule deferrable and guaranteed background work.",
+      "Represent a single screen and entry point for user interaction.",
+      "Share structured app data with other apps through a standard interface.",
+      "Respond to broadcasted system or app events."
+    ],
+    "correctAnswer": "Schedule deferrable and guaranteed background work.",
+    "explanation": "The correct answer is WorkManager because it is used to schedule deferrable and guaranteed background work.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of Service?",
+    "options": [
+      "Retain UI state across recomposition and process recreation when possible.",
+      "Grant another app or the system permission to execute an intent later.",
+      "Represent a single screen and entry point for user interaction.",
+      "Run long-lived work that does not require a visible UI."
+    ],
+    "correctAnswer": "Run long-lived work that does not require a visible UI.",
+    "explanation": "The correct answer is Service because it is used to run long-lived work that does not require a visible UI.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of BroadcastReceiver?",
+    "options": [
+      "Respond to broadcasted system or app events.",
+      "Manage in-app destinations, arguments, and the back stack.",
+      "Store UI-related state and logic across configuration changes.",
+      "Launch suspend side effects that are scoped to the composition."
+    ],
+    "correctAnswer": "Respond to broadcasted system or app events.",
+    "explanation": "The correct answer is BroadcastReceiver because it is used to respond to broadcasted system or app events.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of Intent?",
+    "options": [
+      "Run long-lived work that does not require a visible UI.",
+      "Persist small key-value settings on the device.",
+      "Retain a value across recompositions in Compose.",
+      "Request an action from another Android component."
+    ],
+    "correctAnswer": "Request an action from another Android component.",
+    "explanation": "The correct answer is Intent because it is used to request an action from another Android component.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of PendingIntent?",
+    "options": [
+      "Host reusable portions of UI and behavior inside an activity.",
+      "Grant another app or the system permission to execute an intent later.",
+      "Retain a value across recompositions in Compose.",
+      "Respond to broadcasted system or app events."
+    ],
+    "correctAnswer": "Grant another app or the system permission to execute an intent later.",
+    "explanation": "The correct answer is PendingIntent because it is used to grant another app or the system permission to execute an intent later.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of ContentProvider?",
+    "options": [
+      "Store UI-related state and logic across configuration changes.",
+      "Represent a single screen and entry point for user interaction.",
+      "Request an action from another Android component.",
+      "Share structured app data with other apps through a standard interface."
+    ],
+    "correctAnswer": "Share structured app data with other apps through a standard interface.",
+    "explanation": "The correct answer is ContentProvider because it is used to share structured app data with other apps through a standard interface.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of DataStore?",
+    "options": [
+      "Hold and emit the latest UI state from coroutines.",
+      "Store key-value or typed data asynchronously using coroutines.",
+      "Request an action from another Android component.",
+      "Provide dependency injection for Android components with generated bindings."
+    ],
+    "correctAnswer": "Store key-value or typed data asynchronously using coroutines.",
+    "explanation": "The correct answer is DataStore because it is used to store key-value or typed data asynchronously using coroutines.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of SharedPreferences?",
+    "options": [
+      "Grant another app or the system permission to execute an intent later.",
+      "Request an action from another Android component.",
+      "Persist small key-value settings on the device.",
+      "Hold and emit the latest UI state from coroutines."
+    ],
+    "correctAnswer": "Persist small key-value settings on the device.",
+    "explanation": "The correct answer is SharedPreferences because it is used to persist small key-value settings on the device.",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "In Android, what is the primary role of Navigation Component?",
+    "options": [
+      "Run long-lived work that does not require a visible UI.",
+      "Manage in-app destinations, arguments, and the back stack.",
+      "Store key-value or typed data asynchronously using coroutines.",
+      "Compute derived Compose state efficiently from other state objects."
+    ],
+    "correctAnswer": "Manage in-app destinations, arguments, and the back stack.",
+    "explanation": "The correct answer is Navigation Component because it is used to manage in-app destinations, arguments, and the back stack.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of RecyclerView?",
+    "options": [
+      "Hold and emit the latest UI state from coroutines.",
+      "Display large scrollable collections efficiently in the View system.",
+      "Retain UI state across recomposition and process recreation when possible.",
+      "Decorate Compose UI with layout, styling, and interaction behavior."
+    ],
+    "correctAnswer": "Display large scrollable collections efficiently in the View system.",
+    "explanation": "The correct answer is RecyclerView because it is used to display large scrollable collections efficiently in the View system.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of LazyColumn?",
+    "options": [
+      "Respond to broadcasted system or app events.",
+      "Retain a value across recompositions in Compose.",
+      "Serialize structured data efficiently for Android component boundaries.",
+      "Render a vertically scrolling lazy list in Jetpack Compose."
+    ],
+    "correctAnswer": "Render a vertically scrolling lazy list in Jetpack Compose.",
+    "explanation": "The correct answer is LazyColumn because it is used to render a vertically scrolling lazy list in Jetpack Compose.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of Modifier?",
+    "options": [
+      "Launch suspend side effects that are scoped to the composition.",
+      "Persist small key-value settings on the device.",
+      "Manage in-app destinations, arguments, and the back stack.",
+      "Decorate Compose UI with layout, styling, and interaction behavior."
+    ],
+    "correctAnswer": "Decorate Compose UI with layout, styling, and interaction behavior.",
+    "explanation": "The correct answer is Modifier because it is used to decorate Compose UI with layout, styling, and interaction behavior.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of remember?",
+    "options": [
+      "Display large scrollable collections efficiently in the View system.",
+      "Expose lifecycle-aware observable data to the UI layer.",
+      "Provide an abstraction layer over SQLite for local persistence.",
+      "Retain a value across recompositions in Compose."
+    ],
+    "correctAnswer": "Retain a value across recompositions in Compose.",
+    "explanation": "The correct answer is remember because it is used to retain a value across recompositions in Compose.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of rememberSaveable?",
+    "options": [
+      "Retain UI state across recomposition and process recreation when possible.",
+      "Compute derived Compose state efficiently from other state objects.",
+      "Store key-value or typed data asynchronously using coroutines.",
+      "Host reusable portions of UI and behavior inside an activity."
+    ],
+    "correctAnswer": "Retain UI state across recomposition and process recreation when possible.",
+    "explanation": "The correct answer is rememberSaveable because it is used to retain UI state across recomposition and process recreation when possible.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of LaunchedEffect?",
+    "options": [
+      "Decorate Compose UI with layout, styling, and interaction behavior.",
+      "Hold and emit the latest UI state from coroutines.",
+      "Compute derived Compose state efficiently from other state objects.",
+      "Launch suspend side effects that are scoped to the composition."
+    ],
+    "correctAnswer": "Launch suspend side effects that are scoped to the composition.",
+    "explanation": "The correct answer is LaunchedEffect because it is used to launch suspend side effects that are scoped to the composition.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of derivedStateOf?",
+    "options": [
+      "Compute derived Compose state efficiently from other state objects.",
+      "Schedule deferrable and guaranteed background work.",
+      "Render a vertically scrolling lazy list in Jetpack Compose.",
+      "Host reusable portions of UI and behavior inside an activity."
+    ],
+    "correctAnswer": "Compute derived Compose state efficiently from other state objects.",
+    "explanation": "The correct answer is derivedStateOf because it is used to compute derived Compose state efficiently from other state objects.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of Hilt?",
+    "options": [
+      "Provide dependency injection for Android components with generated bindings.",
+      "Define database access operations for Room entities.",
+      "Serialize structured data efficiently for Android component boundaries.",
+      "Respond to broadcasted system or app events."
+    ],
+    "correctAnswer": "Provide dependency injection for Android components with generated bindings.",
+    "explanation": "The correct answer is Hilt because it is used to provide dependency injection for Android components with generated bindings.",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "In Android, what is the primary role of Parcelable?",
+    "options": [
+      "Request an action from another Android component.",
+      "Serialize structured data efficiently for Android component boundaries.",
+      "Share structured app data with other apps through a standard interface.",
+      "Schedule deferrable and guaranteed background work."
+    ],
+    "correctAnswer": "Serialize structured data efficiently for Android component boundaries.",
+    "explanation": "The correct answer is Parcelable because it is used to serialize structured data efficiently for Android component boundaries.",
+    "difficulty": "Hard"
   }
 ]
