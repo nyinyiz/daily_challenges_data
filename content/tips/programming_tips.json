@@ -248,5 +248,10 @@
     "id": "50",
     "category": "Flutter",
     "tip": "Use `const` constructors wherever possible in Flutter. Const widgets are never rebuilt unnecessarily, which is one of the simplest performance wins available."
+  },
+  {
+    "id": "51",
+    "category": "Foundations",
+    "tip": "Write the simplest correct version first, then improve it with evidence. Clear, working code is easier to test, profile, and safely optimize than clever code you do not fully understand."
   }
 ]
