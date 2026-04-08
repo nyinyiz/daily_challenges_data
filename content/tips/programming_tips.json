@@ -82,7 +82,7 @@
   {
     "id": "17",
     "category": "Clean Code",
-    "tip": "Use meaningful variable names. Code is read more often than written—make it readable."
+    "tip": "Use meaningful variable names. Code is read more often than written\u2014make it readable."
   },
   {
     "id": "18",
@@ -97,7 +97,7 @@
   {
     "id": "20",
     "category": "Concurrency",
-    "tip": "Use Kotlin Coroutines for asynchronous programming—simpler and more readable than callbacks."
+    "tip": "Use Kotlin Coroutines for asynchronous programming\u2014simpler and more readable than callbacks."
   },
   {
     "id": "21",
@@ -112,7 +112,7 @@
   {
     "id": "23",
     "category": "Flutter",
-    "tip": "Prefer `ListView.builder` over `ListView` with a `children` list for any dynamic or large list — it builds items lazily and is far more memory-efficient."
+    "tip": "Prefer `ListView.builder` over `ListView` with a `children` list for any dynamic or large list \u2014 it builds items lazily and is far more memory-efficient."
   },
   {
     "id": "24",
@@ -137,7 +137,7 @@
   {
     "id": "28",
     "category": "Kotlin",
-    "tip": "Use `Dispatchers.Default` for CPU-intensive coroutines and `Dispatchers.IO` for blocking I/O. Never run heavy computation on `Dispatchers.Main` — it blocks the UI thread."
+    "tip": "Use `Dispatchers.Default` for CPU-intensive coroutines and `Dispatchers.IO` for blocking I/O. Never run heavy computation on `Dispatchers.Main` \u2014 it blocks the UI thread."
   },
   {
     "id": "29",
@@ -167,7 +167,7 @@
   {
     "id": "34",
     "category": "Testing",
-    "tip": "Unit test ViewModels without Android dependencies by injecting fake or mock repositories. Keep business logic in plain Kotlin/Swift classes — not tied to UI frameworks."
+    "tip": "Unit test ViewModels without Android dependencies by injecting fake or mock repositories. Keep business logic in plain Kotlin/Swift classes \u2014 not tied to UI frameworks."
   },
   {
     "id": "35",
@@ -177,7 +177,7 @@
   {
     "id": "36",
     "category": "DevOps/CI",
-    "tip": "Use signed, versioned release builds in CI/CD pipelines. Store signing credentials in environment secrets — never commit keystore files or certificates to version control."
+    "tip": "Use signed, versioned release builds in CI/CD pipelines. Store signing credentials in environment secrets \u2014 never commit keystore files or certificates to version control."
   },
   {
     "id": "37",
@@ -197,7 +197,7 @@
   {
     "id": "40",
     "category": "Debugging",
-    "tip": "Add structured logging with log levels (DEBUG, INFO, WARN, ERROR). Verbose logs in production consume battery and storage — use release build flags to strip debug logs."
+    "tip": "Add structured logging with log levels (DEBUG, INFO, WARN, ERROR). Verbose logs in production consume battery and storage \u2014 use release build flags to strip debug logs."
   },
   {
     "id": "41",
@@ -207,12 +207,12 @@
   {
     "id": "42",
     "category": "Swift",
-    "tip": "Use `actor` types to protect mutable state shared across concurrent tasks. Actors serialize access automatically — no manual locking required."
+    "tip": "Use `actor` types to protect mutable state shared across concurrent tasks. Actors serialize access automatically \u2014 no manual locking required."
   },
   {
     "id": "43",
     "category": "Flutter",
-    "tip": "`InheritedWidget` is Flutter's built-in mechanism for propagating data down the tree. `Provider` wraps it with a simpler API and reactive updates — prefer Provider for app state."
+    "tip": "`InheritedWidget` is Flutter's built-in mechanism for propagating data down the tree. `Provider` wraps it with a simpler API and reactive updates \u2014 prefer Provider for app state."
   },
   {
     "id": "44",
@@ -227,7 +227,7 @@
   {
     "id": "46",
     "category": "Testing",
-    "tip": "Write integration tests that cover the data layer — real database queries, real serialization. Unit tests with mocks can miss schema mismatches and codec bugs."
+    "tip": "Write integration tests that cover the data layer \u2014 real database queries, real serialization. Unit tests with mocks can miss schema mismatches and codec bugs."
   },
   {
     "id": "47",
@@ -253,5 +253,10 @@
     "id": "51",
     "category": "Foundations",
     "tip": "Write the simplest correct version first, then improve it with evidence. Clear, working code is easier to test, profile, and safely optimize than clever code you do not fully understand."
+  },
+  {
+    "id": "52",
+    "category": "Architecture",
+    "tip": "Keep business rules independent of frameworks. UI, database, and network code should depend on the domain, not the other way around."
   }
 ]
