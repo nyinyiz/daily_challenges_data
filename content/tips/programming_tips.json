@@ -258,5 +258,10 @@
     "id": "52",
     "category": "Architecture",
     "tip": "Keep business rules independent of frameworks. UI, database, and network code should depend on the domain, not the other way around."
+  },
+  {
+    "id": "53",
+    "category": "Foundations",
+    "tip": "Make invalid states hard to represent. Clear types, explicit function parameters, and narrow data shapes prevent whole classes of bugs before runtime."
   }
 ]
