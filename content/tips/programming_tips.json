@@ -268,5 +268,10 @@
     "id": "54",
     "category": "Foundations",
     "tip": "Choose data structures for the operations you need most. A simple change like using a set for repeated membership checks can turn slow code into predictable code."
+  },
+  {
+    "id": "55",
+    "category": "Foundations",
+    "tip": "Break problems into small, testable steps with clear inputs and outputs. Smaller pieces are easier to reason about, debug, and change safely."
   }
 ]
