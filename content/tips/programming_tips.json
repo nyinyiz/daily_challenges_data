@@ -273,5 +273,10 @@
     "id": "55",
     "category": "Foundations",
     "tip": "Break problems into small, testable steps with clear inputs and outputs. Smaller pieces are easier to reason about, debug, and change safely."
+  },
+  {
+    "id": "56",
+    "category": "Foundations",
+    "tip": "Name concepts at the right level of abstraction. Precise names for data, functions, and modules reduce misread assumptions and make design problems visible earlier."
   }
 ]
