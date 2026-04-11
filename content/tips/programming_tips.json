@@ -278,5 +278,10 @@
     "id": "56",
     "category": "Foundations",
     "tip": "Name concepts at the right level of abstraction. Precise names for data, functions, and modules reduce misread assumptions and make design problems visible earlier."
+  },
+  {
+    "id": "57",
+    "category": "Foundations",
+    "tip": "Validate external input at the edges of the system. Once data crosses a boundary, convert it into trusted internal types so the rest of the code can stay simple."
   }
 ]
