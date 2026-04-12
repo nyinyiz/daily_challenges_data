@@ -283,5 +283,10 @@
     "id": "57",
     "category": "Foundations",
     "tip": "Validate external input at the edges of the system. Once data crosses a boundary, convert it into trusted internal types so the rest of the code can stay simple."
+  },
+  {
+    "id": "58",
+    "category": "Foundations",
+    "tip": "Estimate time and space complexity before you optimize. Big-O does not replace measurement, but it helps you rule out designs that will fall over as input size grows."
   }
 ]
