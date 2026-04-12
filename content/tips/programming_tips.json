@@ -288,5 +288,10 @@
     "id": "58",
     "category": "Foundations",
     "tip": "Estimate time and space complexity before you optimize. Big-O does not replace measurement, but it helps you rule out designs that will fall over as input size grows."
+  },
+  {
+    "id": "59",
+    "category": "Foundations",
+    "tip": "Before changing code, reproduce the problem and state what you expect to happen. Clear observations turn debugging from guesswork into a sequence of testable assumptions."
   }
 ]
