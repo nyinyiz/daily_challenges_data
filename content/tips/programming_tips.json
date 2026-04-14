@@ -308,5 +308,10 @@
     "id": "62",
     "category": "Modularity",
     "tip": "High cohesion means code that changes for the same reason lives together. Split modules when unrelated changes pull the same file in different directions."
+  },
+  {
+    "id": "63",
+    "category": "Architecture",
+    "tip": "Low coupling matters because every dependency is a change path. Fewer dependencies make code easier to test and safer to evolve."
   }
 ]
