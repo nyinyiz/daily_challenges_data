@@ -323,5 +323,10 @@
     "id": "65",
     "category": "Refactoring",
     "tip": "Refactor in small, behavior-preserving steps. Run tests after each step so design improvements do not turn into hidden rewrites."
+  },
+  {
+    "id": "66",
+    "category": "Testing",
+    "tip": "A good test checks observable behavior, not private implementation details. Tests tied to internals break during refactors that keep behavior correct."
   }
 ]
