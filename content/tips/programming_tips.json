@@ -328,5 +328,10 @@
     "id": "66",
     "category": "Testing",
     "tip": "A good test checks observable behavior, not private implementation details. Tests tied to internals break during refactors that keep behavior correct."
+  },
+  {
+    "id": "67",
+    "category": "Debugging",
+    "tip": "Reproduce the bug reliably before fixing it. A repeatable failure turns guessing into investigation."
   }
 ]
