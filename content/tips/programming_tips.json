@@ -333,5 +333,10 @@
     "id": "67",
     "category": "Debugging",
     "tip": "Reproduce the bug reliably before fixing it. A repeatable failure turns guessing into investigation."
+  },
+  {
+    "id": "68",
+    "category": "Algorithms",
+    "tip": "Choose the simplest algorithm that meets the required scale. A theoretically faster algorithm is the wrong trade-off if it adds complexity without practical benefit."
   }
 ]
