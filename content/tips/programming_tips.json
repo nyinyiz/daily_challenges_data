@@ -338,5 +338,10 @@
     "id": "68",
     "category": "Algorithms",
     "tip": "Choose the simplest algorithm that meets the required scale. A theoretically faster algorithm is the wrong trade-off if it adds complexity without practical benefit."
+  },
+  {
+    "id": "69",
+    "category": "Data Structures",
+    "tip": "Pick data structures by access pattern: lookup, insertion, ordering, and memory costs matter more than habit."
   }
 ]
