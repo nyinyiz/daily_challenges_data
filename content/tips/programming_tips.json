@@ -353,5 +353,10 @@
     "id": "71",
     "category": "Concurrency",
     "tip": "Shared mutable state is a primary source of concurrency bugs. Reduce sharing first; add locks or coordination only when necessary."
+  },
+  {
+    "id": "72",
+    "category": "Immutability",
+    "tip": "Immutable values are easier to reason about because they cannot change behind your back."
   }
 ]
