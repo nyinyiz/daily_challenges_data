@@ -348,5 +348,10 @@
     "id": "70",
     "category": "Complexity",
     "tip": "Time and space trade off against each other. Faster code often uses more memory, and memory-efficient code may do more work."
+  },
+  {
+    "id": "71",
+    "category": "Concurrency",
+    "tip": "Shared mutable state is a primary source of concurrency bugs. Reduce sharing first; add locks or coordination only when necessary."
   }
 ]
