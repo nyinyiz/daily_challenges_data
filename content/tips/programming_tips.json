@@ -358,5 +358,10 @@
     "id": "72",
     "category": "Immutability",
     "tip": "Immutable values are easier to reason about because they cannot change behind your back."
+  },
+  {
+    "id": "73",
+    "category": "Networking",
+    "tip": "Treat every network call as fallible: timeouts, retries, and partial failure are normal conditions, not edge cases."
   }
 ]
