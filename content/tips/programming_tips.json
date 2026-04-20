@@ -363,5 +363,10 @@
     "id": "73",
     "category": "Networking",
     "tip": "Treat every network call as fallible: timeouts, retries, and partial failure are normal conditions, not edge cases."
+  },
+  {
+    "id": "74",
+    "category": "API Design",
+    "tip": "Interfaces should be explicit about required data, allowed states, and failure modes. Hidden assumptions become production bugs."
   }
 ]
