@@ -378,5 +378,10 @@
     "id": "76",
     "category": "Database",
     "tip": "Transactions should protect a complete unit of work. Updating related records separately invites inconsistent state when failures happen midway."
+  },
+  {
+    "id": "77",
+    "category": "Security",
+    "tip": "Validate and sanitize untrusted input at system boundaries. Every external input is data first, not trusted intent."
   }
 ]
