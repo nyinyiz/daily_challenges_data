@@ -398,5 +398,10 @@
     "id": "80",
     "category": "Version Control",
     "tip": "Do not rewrite shared history casually. Once others may have based work on a commit, changing that history creates avoidable coordination problems."
+  },
+  {
+    "id": "81",
+    "category": "Domain Design",
+    "tip": "Model the business language in code. When names in code match the domain, design discussions and implementation reinforce each other."
   }
 ]
