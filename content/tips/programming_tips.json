@@ -388,5 +388,10 @@
     "id": "78",
     "category": "Security",
     "tip": "Store passwords with a dedicated password-hashing algorithm, not with general-purpose hashes. Password storage needs salt and work factor."
+  },
+  {
+    "id": "79",
+    "category": "Version Control",
+    "tip": "Commit logically related changes together. Small focused commits make review, rollback, and debugging much easier."
   }
 ]
