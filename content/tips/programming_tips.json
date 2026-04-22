@@ -393,5 +393,10 @@
     "id": "79",
     "category": "Version Control",
     "tip": "Commit logically related changes together. Small focused commits make review, rollback, and debugging much easier."
+  },
+  {
+    "id": "80",
+    "category": "Version Control",
+    "tip": "Do not rewrite shared history casually. Once others may have based work on a commit, changing that history creates avoidable coordination problems."
   }
 ]
