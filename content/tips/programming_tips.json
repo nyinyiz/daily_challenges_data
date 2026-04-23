@@ -413,5 +413,10 @@
     "id": "83",
     "category": "Error Handling",
     "tip": "Fail fast on invalid assumptions close to the source. The longer bad state survives, the more expensive it becomes to diagnose."
+  },
+  {
+    "id": "84",
+    "category": "AI Engineering",
+    "tip": "Define a schema for LLM outputs and validate every response against it. Parsing free-form text downstream turns prompt drift into production bugs."
   }
 ]
