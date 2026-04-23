@@ -403,5 +403,10 @@
     "id": "81",
     "category": "Domain Design",
     "tip": "Model the business language in code. When names in code match the domain, design discussions and implementation reinforce each other."
+  },
+  {
+    "id": "82",
+    "category": "Domain Design",
+    "tip": "Boundaries between contexts matter. Terms that mean different things in different parts of the business should not share one overloaded model."
   }
 ]
