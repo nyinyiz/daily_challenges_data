@@ -408,5 +408,10 @@
     "id": "82",
     "category": "Domain Design",
     "tip": "Boundaries between contexts matter. Terms that mean different things in different parts of the business should not share one overloaded model."
+  },
+  {
+    "id": "83",
+    "category": "Error Handling",
+    "tip": "Fail fast on invalid assumptions close to the source. The longer bad state survives, the more expensive it becomes to diagnose."
   }
 ]
