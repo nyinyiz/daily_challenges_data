@@ -428,5 +428,10 @@
     "id": "86",
     "category": "Clean Code",
     "tip": "Duplicate knowledge is more dangerous than duplicate text. If two places must change together, extract the shared rule."
+  },
+  {
+    "id": "87",
+    "category": "Clean Code",
+    "tip": "Comments should explain why a decision exists or what constraint matters. If a comment repeats the code, the code or the name probably needs improvement."
   }
 ]
