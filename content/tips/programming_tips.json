@@ -438,5 +438,10 @@
     "id": "88",
     "category": "AI Engineering",
     "tip": "Version your eval set with your prompts, tools, and retrieval logic. Run representative cases on every change so regressions are caught before users find them."
+  },
+  {
+    "id": "89",
+    "category": "Architecture",
+    "tip": "Keep side effects at the edges. Pure calculations in the middle of the system are easier to test and reuse."
   }
 ]
