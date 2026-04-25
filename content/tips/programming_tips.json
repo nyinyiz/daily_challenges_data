@@ -458,5 +458,10 @@
     "id": "92",
     "category": "AI Engineering",
     "tip": "Store prompt, model, tool outputs, and final answer for failed AI runs. Without a replayable trace, production bugs are hard to reproduce or fix."
+  },
+  {
+    "id": "93",
+    "category": "API Design",
+    "tip": "Design for clear failure modes. Returning the same ambiguous value for every error hides what actually happened."
   }
 ]
