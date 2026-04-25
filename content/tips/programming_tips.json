@@ -443,5 +443,10 @@
     "id": "89",
     "category": "Architecture",
     "tip": "Keep side effects at the edges. Pure calculations in the middle of the system are easier to test and reuse."
+  },
+  {
+    "id": "90",
+    "category": "Debugging",
+    "tip": "Inspect the simplest evidence first: inputs, outputs, logs, and invariants. Many bugs are found before a debugger is needed."
   }
 ]
