@@ -463,5 +463,10 @@
     "id": "93",
     "category": "API Design",
     "tip": "Design for clear failure modes. Returning the same ambiguous value for every error hides what actually happened."
+  },
+  {
+    "id": "94",
+    "category": "Performance",
+    "tip": "Measure the workload that matters. Benchmarks that do not resemble real use can optimize the wrong thing."
   }
 ]
