@@ -473,5 +473,10 @@
     "id": "95",
     "category": "Abstraction",
     "tip": "Prefer composition when behavior needs to vary independently. Deep inheritance trees spread assumptions across many classes."
+  },
+  {
+    "id": "96",
+    "category": "AI Engineering",
+    "tip": "Treat retrieved context as untrusted input: rank it, deduplicate it, and cap it to the evidence the model actually needs. More chunks often make answers worse, not better."
   }
 ]
