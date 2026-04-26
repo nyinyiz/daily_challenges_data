@@ -468,5 +468,10 @@
     "id": "94",
     "category": "Performance",
     "tip": "Measure the workload that matters. Benchmarks that do not resemble real use can optimize the wrong thing."
+  },
+  {
+    "id": "95",
+    "category": "Abstraction",
+    "tip": "Prefer composition when behavior needs to vary independently. Deep inheritance trees spread assumptions across many classes."
   }
 ]
