@@ -488,5 +488,10 @@
     "id": "98",
     "category": "AI Engineering",
     "tip": "Route easy AI requests to smaller models and reserve larger ones for ambiguity or multi-step synthesis. Measure quality, latency, and cost per route before shipping."
+  },
+  {
+    "id": "99",
+    "category": "AI Engineering",
+    "tip": "Design agent tools to be deterministic and idempotent. Clear inputs, structured outputs, and safe retries reduce failures when the model repeats or revises a step."
   }
 ]
