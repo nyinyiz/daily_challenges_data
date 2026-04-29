@@ -30,3 +30,13 @@ Run:
 ```bash
 python3 scripts/validate_content.py
 ```
+
+## Tip Automation
+
+Foundational programming tips can be appended automatically with:
+
+```bash
+scripts/add_new_tips_now.sh
+```
+
+Automation details live in `docs/tip_automation.md`.

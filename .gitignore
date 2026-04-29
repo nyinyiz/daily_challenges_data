@@ -1,0 +1,14 @@
+# Public repo policy:
+# keep versioned content under content/
+# keep internal automation, docs, and test assets out of git
+
+*
+!/.gitignore
+!/content/
+!/content/**
+
+# Explicitly keep internal repo material private
+README.md
+docs/
+scripts/
+tests/
