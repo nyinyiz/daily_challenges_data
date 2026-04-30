@@ -503,5 +503,10 @@
     "id": "101",
     "category": "Legacy Code",
     "tip": "Before changing legacy code, find a seam where you can observe behavior or introduce a test harness. Safer change starts with a controllable entry point."
+  },
+  {
+    "id": "102",
+    "category": "Refactoring",
+    "tip": "When code is hard to change, improve its feedback loops before improving its structure. Tests and diagnostics reduce the cost of each small refactor."
   }
 ]
