@@ -508,5 +508,10 @@
     "id": "102",
     "category": "Refactoring",
     "tip": "When code is hard to change, improve its feedback loops before improving its structure. Tests and diagnostics reduce the cost of each small refactor."
+  },
+  {
+    "id": "103",
+    "category": "Architecture",
+    "tip": "Separate policy from mechanism. Decisions about business rules should survive even when transport, storage, or frameworks change."
   }
 ]
