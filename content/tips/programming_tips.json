@@ -518,5 +518,10 @@
     "id": "104",
     "category": "AI Engineering",
     "tip": "Chunk source documents so each retrieved passage carries its own scope: include the local date, actor, and units with the claim. Fragments that depend on neighboring text are easy for LLMs to misapply."
+  },
+  {
+    "id": "105",
+    "category": "Design Patterns",
+    "tip": "Use patterns to name a proven trade-off, not to decorate simple code. A pattern earns its place only when it removes real design pressure."
   }
 ]
