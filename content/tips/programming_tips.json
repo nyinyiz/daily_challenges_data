@@ -523,5 +523,10 @@
     "id": "105",
     "category": "Design Patterns",
     "tip": "Use patterns to name a proven trade-off, not to decorate simple code. A pattern earns its place only when it removes real design pressure."
+  },
+  {
+    "id": "106",
+    "category": "Maintainability",
+    "tip": "The best module hides complexity behind a small interface. If callers must understand internals to use it safely, the abstraction is leaking."
   }
 ]
