@@ -528,5 +528,10 @@
     "id": "106",
     "category": "Maintainability",
     "tip": "The best module hides complexity behind a small interface. If callers must understand internals to use it safely, the abstraction is leaking."
+  },
+  {
+    "id": "107",
+    "category": "AI Engineering",
+    "tip": "When required tool inputs are missing, make the agent ask instead of guessing defaults. One clarification turn is cheaper than executing the wrong action confidently."
   }
 ]
