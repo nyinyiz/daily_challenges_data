@@ -553,5 +553,10 @@
     "id": "111",
     "category": "AI Engineering",
     "tip": "Write tool descriptions like API docs for the model: when to use the tool, required inputs, and unsafe cases. Ambiguous tool guidance causes avoidable agent mistakes."
+  },
+  {
+    "id": "112",
+    "category": "Distributed Systems",
+    "tip": "Design messages and handlers so retries are safe. Networks duplicate, delay, and reorder work more often than application code expects."
   }
 ]
