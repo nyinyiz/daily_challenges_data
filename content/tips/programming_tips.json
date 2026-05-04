@@ -543,5 +543,10 @@
     "id": "109",
     "category": "Code Review",
     "tip": "Review for change risk before style. The highest-value comments catch incorrect assumptions, missing tests, and brittle behavior under edge conditions."
+  },
+  {
+    "id": "110",
+    "category": "Testing",
+    "tip": "A failing test should point to one reason, not five possibilities. Narrow setup and clear assertions make debugging test failures much faster."
   }
 ]
