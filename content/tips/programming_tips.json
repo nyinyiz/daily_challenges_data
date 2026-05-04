@@ -548,5 +548,10 @@
     "id": "110",
     "category": "Testing",
     "tip": "A failing test should point to one reason, not five possibilities. Narrow setup and clear assertions make debugging test failures much faster."
+  },
+  {
+    "id": "111",
+    "category": "AI Engineering",
+    "tip": "Write tool descriptions like API docs for the model: when to use the tool, required inputs, and unsafe cases. Ambiguous tool guidance causes avoidable agent mistakes."
   }
 ]
