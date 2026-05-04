@@ -538,5 +538,10 @@
     "id": "108",
     "category": "AI Engineering",
     "tip": "Track token budget per step in multi-turn AI flows. Silent truncation changes model behavior, so log what context was kept, dropped, and summarized."
+  },
+  {
+    "id": "109",
+    "category": "Code Review",
+    "tip": "Review for change risk before style. The highest-value comments catch incorrect assumptions, missing tests, and brittle behavior under edge conditions."
   }
 ]
