@@ -568,5 +568,10 @@
     "id": "114",
     "category": "Observability",
     "tip": "Logs should answer a future question, not narrate every line of execution. Record identifiers, state transitions, and failure context that help reconstruct what happened."
+  },
+  {
+    "id": "115",
+    "category": "AI Engineering",
+    "tip": "Keep system instructions, user input, and retrieved or tool-generated content in separate prompt sections. Clear boundaries reduce prompt injection risk and make failures easier to debug."
   }
 ]
