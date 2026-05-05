@@ -558,5 +558,10 @@
     "id": "112",
     "category": "Distributed Systems",
     "tip": "Design messages and handlers so retries are safe. Networks duplicate, delay, and reorder work more often than application code expects."
+  },
+  {
+    "id": "113",
+    "category": "Reliability",
+    "tip": "Assume dependency failures will happen at the worst time. Timeouts, backpressure, and circuit breakers protect your system from turning one outage into many."
   }
 ]
