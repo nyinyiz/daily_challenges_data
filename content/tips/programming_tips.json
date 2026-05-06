@@ -588,5 +588,10 @@
     "id": "118",
     "category": "Microservices",
     "tip": "Split services at stable business boundaries, not just by technical layers. A distributed monolith is harder to debug than a well-structured monolith."
+  },
+  {
+    "id": "119",
+    "category": "AI Engineering",
+    "tip": "Pass absolute dates and times to models instead of relative terms like `today` or `latest`. Temporal ambiguity causes silent errors in retrieval, planning, and tool calls."
   }
 ]
