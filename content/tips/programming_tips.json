@@ -583,5 +583,10 @@
     "id": "117",
     "category": "Release Engineering",
     "tip": "A releasable main branch is a product discipline, not just a tooling choice. Broken default branches slow every developer who depends on them."
+  },
+  {
+    "id": "118",
+    "category": "Microservices",
+    "tip": "Split services at stable business boundaries, not just by technical layers. A distributed monolith is harder to debug than a well-structured monolith."
   }
 ]
