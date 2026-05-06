@@ -578,5 +578,10 @@
     "id": "116",
     "category": "Continuous Delivery",
     "tip": "Keep deployments boring by making them small and frequent. Large batches hide cause and effect, which makes rollback and diagnosis slower."
+  },
+  {
+    "id": "117",
+    "category": "Release Engineering",
+    "tip": "A releasable main branch is a product discipline, not just a tooling choice. Broken default branches slow every developer who depends on them."
   }
 ]
