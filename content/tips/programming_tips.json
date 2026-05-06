@@ -593,5 +593,10 @@
     "id": "119",
     "category": "AI Engineering",
     "tip": "Pass absolute dates and times to models instead of relative terms like `today` or `latest`. Temporal ambiguity causes silent errors in retrieval, planning, and tool calls."
+  },
+  {
+    "id": "120",
+    "category": "Team Practices",
+    "tip": "If a task depends on tribal knowledge, the system is under-documented. Repeat questions from teammates are signals to improve the workflow, not the teammate."
   }
 ]
