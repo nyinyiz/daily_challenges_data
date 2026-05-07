@@ -598,5 +598,10 @@
     "id": "120",
     "category": "Team Practices",
     "tip": "If a task depends on tribal knowledge, the system is under-documented. Repeat questions from teammates are signals to improve the workflow, not the teammate."
+  },
+  {
+    "id": "121",
+    "category": "Project Management",
+    "tip": "Adding people to a late project usually increases coordination before it increases delivery. Break down dependencies before scaling headcount."
   }
 ]
