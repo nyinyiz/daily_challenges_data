@@ -608,5 +608,10 @@
     "id": "122",
     "category": "AI Engineering",
     "tip": "For tools with side effects, give the model a dry-run path that shows the exact target and parameters before execution. Previewing the action catches bad assumptions before an agent sends, deletes, or updates real data."
+  },
+  {
+    "id": "123",
+    "category": "User Experience",
+    "tip": "Users do not read interfaces line by line. Clear hierarchy, obvious actions, and forgiving defaults beat clever wording almost every time."
   }
 ]
