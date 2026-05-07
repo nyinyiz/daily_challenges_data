@@ -603,5 +603,10 @@
     "id": "121",
     "category": "Project Management",
     "tip": "Adding people to a late project usually increases coordination before it increases delivery. Break down dependencies before scaling headcount."
+  },
+  {
+    "id": "122",
+    "category": "AI Engineering",
+    "tip": "For tools with side effects, give the model a dry-run path that shows the exact target and parameters before execution. Previewing the action catches bad assumptions before an agent sends, deletes, or updates real data."
   }
 ]
