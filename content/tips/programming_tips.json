@@ -613,5 +613,10 @@
     "id": "123",
     "category": "User Experience",
     "tip": "Users do not read interfaces line by line. Clear hierarchy, obvious actions, and forgiving defaults beat clever wording almost every time."
+  },
+  {
+    "id": "124",
+    "category": "Performance",
+    "tip": "Reduce unnecessary work before trying to make necessary work faster. Eliminating a query or render path beats optimizing it in place."
   }
 ]
