@@ -623,5 +623,10 @@
     "id": "125",
     "category": "Problem Solving",
     "tip": "Write down the problem in a smaller form before chasing a full solution. Compact examples expose structure that large inputs hide."
+  },
+  {
+    "id": "126",
+    "category": "Interviews",
+    "tip": "When solving coding problems, state the brute-force baseline first. It proves correctness direction and makes later optimizations easier to justify."
   }
 ]
