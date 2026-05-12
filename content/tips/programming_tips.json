@@ -633,5 +633,10 @@
     "id": "127",
     "category": "Documentation",
     "tip": "Document decisions where future maintainers will look during change, not only where the original discussion happened. Good documentation reduces rediscovery work."
+  },
+  {
+    "id": "128",
+    "category": "Software Architecture",
+    "tip": "Choose architecture by the kinds of change you expect most. The right structure is the one that makes common changes cheap and dangerous changes obvious."
   }
 ]
