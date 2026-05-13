@@ -643,5 +643,10 @@
     "id": "129",
     "category": "Open Source",
     "tip": "Healthy public codebases make contribution paths explicit. Clear ownership, contribution rules, and review norms lower friction more than enthusiasm alone."
+  },
+  {
+    "id": "130",
+    "category": "AI Engineering",
+    "tip": "Score retrieval separately from answer quality in AI evals. A bad result may come from the wrong chunks, poor context packing, or weak reasoning, and each failure needs a different fix."
   }
 ]
