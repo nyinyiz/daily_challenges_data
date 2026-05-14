@@ -648,5 +648,10 @@
     "id": "130",
     "category": "AI Engineering",
     "tip": "Score retrieval separately from answer quality in AI evals. A bad result may come from the wrong chunks, poor context packing, or weak reasoning, and each failure needs a different fix."
+  },
+  {
+    "id": "131",
+    "category": "AI Engineering",
+    "tip": "Include abstention cases in your AI evals and reward correct `I don't know` behavior. If the system only scores answered questions, it will learn to guess when evidence is weak."
   }
 ]
