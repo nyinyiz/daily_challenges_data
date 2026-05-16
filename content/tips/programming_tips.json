@@ -658,5 +658,10 @@
     "id": "132",
     "category": "AI Engineering",
     "tip": "Store stable source IDs with retrieved chunks and carry them into the final answer or trace. Provenance lets you inspect the exact evidence when a RAG result is wrong or stale."
+  },
+  {
+    "id": "133",
+    "category": "AI Engineering",
+    "tip": "Pin model version and decoding settings in production. Untracked changes to model defaults or sampling can look like prompt regressions when behavior shifts."
   }
 ]
