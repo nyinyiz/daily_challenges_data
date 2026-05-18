@@ -668,5 +668,10 @@
     "id": "134",
     "category": "AI Engineering",
     "tip": "Cap agent retries per tool step and log the failed attempts. Unlimited self-correction loops hide root causes, burn tokens, and can repeat the same bad call."
+  },
+  {
+    "id": "135",
+    "category": "AI Engineering",
+    "tip": "Make agent runs replayable offline by storing the exact prompt inputs, tool results, and model settings for each step. Reproducible traces turn intermittent AI failures into debuggable test cases."
   }
 ]
