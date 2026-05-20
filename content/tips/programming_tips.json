@@ -678,5 +678,10 @@
     "id": "136",
     "category": "AI Engineering",
     "tip": "Write AI eval assertions against structured outputs or task success criteria, not exact wording. Models can vary phrasing without regressing behavior."
+  },
+  {
+    "id": "137",
+    "category": "AI Engineering",
+    "tip": "Log both the original user query and any rewritten retrieval query. Query rewriting can improve recall, but without both you cannot debug why the wrong documents were fetched."
   }
 ]
