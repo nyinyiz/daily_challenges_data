@@ -693,5 +693,10 @@
     "id": "139",
     "category": "AI Engineering",
     "tip": "Version your embedding model and chunking pipeline with the index. Mixing vectors from different retrieval pipelines creates silent recall regressions that look like model failures."
+  },
+  {
+    "id": "140",
+    "category": "AI Engineering",
+    "tip": "Calibrate any model confidence score against real outcomes before using it to gate automation. Self-rated confidence is not a reliability signal until you measure it."
   }
 ]
