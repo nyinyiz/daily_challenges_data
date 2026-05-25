@@ -698,5 +698,10 @@
     "id": "140",
     "category": "AI Engineering",
     "tip": "Calibrate any model confidence score against real outcomes before using it to gate automation. Self-rated confidence is not a reliability signal until you measure it."
+  },
+  {
+    "id": "141",
+    "category": "AI Engineering",
+    "tip": "When you summarize conversation state for an agent, keep references to the source message or tool result for each important fact. Summaries drift, and anchored context is easier to verify before acting."
   }
 ]
