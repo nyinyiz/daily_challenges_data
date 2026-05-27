@@ -708,5 +708,10 @@
     "id": "142",
     "category": "AI Engineering",
     "tip": "Run new AI automations in shadow mode before granting side effects. Comparing recommendations against real operator actions exposes failure modes safely."
+  },
+  {
+    "id": "143",
+    "category": "AI Engineering",
+    "tip": "Cache tool results by stable input and source version in agent workflows. Re-reading unchanged data wastes tokens and latency, while versioned caches stay safe to reuse."
   }
 ]
