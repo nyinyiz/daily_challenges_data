@@ -718,5 +718,10 @@
     "id": "144",
     "category": "AI Engineering",
     "tip": "After an agent edits code, pass the actual diff to review or follow-up steps instead of the agent's summary. Diffs are the source of truth when you need to verify what really changed."
+  },
+  {
+    "id": "145",
+    "category": "AI Engineering",
+    "tip": "Clean documents before embedding them: strip navigation, boilerplate, and duplicate chrome. Retrieval quality drops when your index is full of layout noise instead of content."
   }
 ]
