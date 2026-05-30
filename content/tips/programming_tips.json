@@ -723,5 +723,10 @@
     "id": "145",
     "category": "AI Engineering",
     "tip": "Clean documents before embedding them: strip navigation, boilerplate, and duplicate chrome. Retrieval quality drops when your index is full of layout noise instead of content."
+  },
+  {
+    "id": "146",
+    "category": "AI Engineering",
+    "tip": "Have tools return stable machine IDs alongside display names. Agents may reason with labels, but IDs prevent acting on the wrong record after renames or duplicate titles."
   }
 ]
