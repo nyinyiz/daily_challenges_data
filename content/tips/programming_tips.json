@@ -728,5 +728,10 @@
     "id": "146",
     "category": "AI Engineering",
     "tip": "Have tools return stable machine IDs alongside display names. Agents may reason with labels, but IDs prevent acting on the wrong record after renames or duplicate titles."
+  },
+  {
+    "id": "147",
+    "category": "AI Engineering",
+    "tip": "Design tool outputs as deterministic JSON with explicit enums and units. Free-form text is harder for downstream LLM steps to parse reliably."
   }
 ]
