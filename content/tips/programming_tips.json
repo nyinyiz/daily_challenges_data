@@ -733,5 +733,10 @@
     "id": "147",
     "category": "AI Engineering",
     "tip": "Design tool outputs as deterministic JSON with explicit enums and units. Free-form text is harder for downstream LLM steps to parse reliably."
+  },
+  {
+    "id": "148",
+    "category": "AI Engineering",
+    "tip": "Default agents to read-only tools and require an explicit handoff before enabling write actions. Staged permissions reduce the blast radius of bad retrieval, prompt mistakes, or wrong assumptions."
   }
 ]
