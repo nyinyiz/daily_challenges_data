@@ -738,5 +738,10 @@
     "id": "148",
     "category": "AI Engineering",
     "tip": "Default agents to read-only tools and require an explicit handoff before enabling write actions. Staged permissions reduce the blast radius of bad retrieval, prompt mistakes, or wrong assumptions."
+  },
+  {
+    "id": "149",
+    "category": "AI Engineering",
+    "tip": "Before feeding a tool result back to a model, trim it to the fields the next step can actually use and keep the raw payload outside the prompt. Full responses waste context and hide the signal."
   }
 ]
