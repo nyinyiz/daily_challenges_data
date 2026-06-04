@@ -743,5 +743,10 @@
     "id": "149",
     "category": "AI Engineering",
     "tip": "Before feeding a tool result back to a model, trim it to the fields the next step can actually use and keep the raw payload outside the prompt. Full responses waste context and hide the signal."
+  },
+  {
+    "id": "150",
+    "category": "AI Engineering",
+    "tip": "Have tools return partial results with an explicit completeness flag when some records fail. Agents can often recover from bounded gaps, but not from opaque all-or-nothing errors."
   }
 ]
