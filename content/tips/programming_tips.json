@@ -753,5 +753,10 @@
     "id": "151",
     "category": "AI Engineering",
     "tip": "Measure time-to-first-token separately from total completion latency in AI apps. A model can finish quickly overall and still feel slow if users wait too long for the first visible output."
+  },
+  {
+    "id": "152",
+    "category": "AI Engineering",
+    "tip": "Add canary eval cases that depend on recently changed documents in RAG systems. Static benchmarks can still pass while your index is stale or ingestion is broken."
   }
 ]
