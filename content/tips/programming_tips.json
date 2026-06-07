@@ -758,5 +758,10 @@
     "id": "152",
     "category": "AI Engineering",
     "tip": "Add canary eval cases that depend on recently changed documents in RAG systems. Static benchmarks can still pass while your index is stale or ingestion is broken."
+  },
+  {
+    "id": "153",
+    "category": "AI Engineering",
+    "tip": "Apply document- or row-level permission filters before retrieval in RAG systems. If unauthorized chunks reach the prompt, redacting the final answer is already too late."
   }
 ]
