@@ -763,5 +763,10 @@
     "id": "153",
     "category": "AI Engineering",
     "tip": "Apply document- or row-level permission filters before retrieval in RAG systems. If unauthorized chunks reach the prompt, redacting the final answer is already too late."
+  },
+  {
+    "id": "154",
+    "category": "AI Engineering",
+    "tip": "Roll out prompt or model changes behind a traffic split and compare them against a fixed eval set before full release. Live traffic shows distribution shifts, while evals catch quiet regressions."
   }
 ]
