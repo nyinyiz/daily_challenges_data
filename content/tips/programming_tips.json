@@ -768,5 +768,10 @@
     "id": "154",
     "category": "AI Engineering",
     "tip": "Roll out prompt or model changes behind a traffic split and compare them against a fixed eval set before full release. Live traffic shows distribution shifts, while evals catch quiet regressions."
+  },
+  {
+    "id": "155",
+    "category": "AI Engineering",
+    "tip": "Have write-capable tools return the effective parameters after server-side defaults are applied. Hidden defaults make bad agent actions hard to debug and impossible to replay exactly."
   }
 ]
