@@ -778,5 +778,10 @@
     "id": "156",
     "category": "AI Engineering",
     "tip": "Expose pagination explicitly in agent tools: return next-page tokens and whether more results exist. Hidden truncation makes agents stop early and act on incomplete data."
+  },
+  {
+    "id": "157",
+    "category": "AI Engineering",
+    "tip": "For mutating agent tools, require a version token or last-read timestamp with the write. It prevents agents from overwriting newer state based on stale context."
   }
 ]
