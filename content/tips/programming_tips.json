@@ -783,5 +783,10 @@
     "id": "157",
     "category": "AI Engineering",
     "tip": "For mutating agent tools, require a version token or last-read timestamp with the write. It prevents agents from overwriting newer state based on stale context."
+  },
+  {
+    "id": "158",
+    "category": "AI Engineering",
+    "tip": "Do not stream raw model tokens directly for workflows that may call tools or trigger safety checks. Buffer until you know the response is safe and final, or users will see text the system later revises or suppresses."
   }
 ]
