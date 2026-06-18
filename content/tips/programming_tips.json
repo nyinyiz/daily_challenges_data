@@ -793,5 +793,10 @@
     "id": "159",
     "category": "AI Engineering",
     "tip": "Give each subagent a scoped objective, fixed inputs, and a budget for tools or turns. Broad delegation causes duplicated work, conflicting edits, and unnecessary token spend."
+  },
+  {
+    "id": "160",
+    "category": "AI Engineering",
+    "tip": "Treat few-shot examples like code: keep them versioned, review changes, and cover them with evals. Swapping examples can change model behavior as much as editing the prompt."
   }
 ]
