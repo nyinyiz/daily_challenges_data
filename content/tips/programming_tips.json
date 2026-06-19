@@ -798,5 +798,10 @@
     "id": "160",
     "category": "AI Engineering",
     "tip": "Treat few-shot examples like code: keep them versioned, review changes, and cover them with evals. Swapping examples can change model behavior as much as editing the prompt."
+  },
+  {
+    "id": "161",
+    "category": "AI Engineering",
+    "tip": "Include prompt-injection cases in your AI evals using hostile retrieved documents and tool outputs, not just hostile user prompts. In agent systems, the attack often arrives through context the model was told to trust."
   }
 ]
