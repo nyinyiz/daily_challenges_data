@@ -808,5 +808,10 @@
     "id": "162",
     "category": "AI Engineering",
     "tip": "If you use an LLM as a judge, calibrate it against a human-labeled set first. Uncalibrated graders can hide regressions and reward prompt hacks."
+  },
+  {
+    "id": "163",
+    "category": "AI Engineering",
+    "tip": "Benchmark model choices under realistic concurrency, not just single-request latency. Queueing and rate limits can change which route is actually fastest and cheapest in production."
   }
 ]
