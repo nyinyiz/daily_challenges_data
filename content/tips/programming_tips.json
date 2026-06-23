@@ -818,5 +818,10 @@
     "id": "164",
     "category": "AI Engineering",
     "tip": "Carry exact IDs, dates, and amounts forward in structured state between agent steps. Free-form summaries preserve intent but often lose the details that make later tool calls safe."
+  },
+  {
+    "id": "165",
+    "category": "AI Engineering",
+    "tip": "Apply exact metadata filters before semantic retrieval in RAG systems. Dates, owners, statuses, and IDs are usually better handled as hard constraints than left for embeddings to approximate."
   }
 ]
