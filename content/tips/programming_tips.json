@@ -828,5 +828,10 @@
     "id": "166",
     "category": "AI Engineering",
     "tip": "Include near-match distractor documents in RAG evals. Retrieval that only works when the correct chunk is obviously unique will fail once your corpus contains similar policies, products, or dates."
+  },
+  {
+    "id": "167",
+    "category": "AI Engineering",
+    "tip": "Have read tools return an explicit as-of timestamp with the data. Agents cannot reason about freshness if the payload omits when the source was true."
   }
 ]
