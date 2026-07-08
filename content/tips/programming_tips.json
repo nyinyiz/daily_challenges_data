@@ -833,5 +833,10 @@
     "id": "167",
     "category": "AI Engineering",
     "tip": "Have read tools return an explicit as-of timestamp with the data. Agents cannot reason about freshness if the payload omits when the source was true."
+  },
+  {
+    "id": "168",
+    "category": "AI Engineering",
+    "tip": "For extraction workflows, require each structured field to carry a source quote or span ID. Field-level grounding makes hallucinated values easier to catch before they hit downstream systems."
   }
 ]
