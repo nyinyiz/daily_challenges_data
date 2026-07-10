@@ -838,5 +838,10 @@
     "id": "168",
     "category": "AI Engineering",
     "tip": "For extraction workflows, require each structured field to carry a source quote or span ID. Field-level grounding makes hallucinated values easier to catch before they hit downstream systems."
+  },
+  {
+    "id": "169",
+    "category": "AI Engineering",
+    "tip": "Measure both unsafe misses and false-positive blocks in AI guardrails. A safety layer that stops legitimate work is a production bug, not just extra caution."
   }
 ]
